@@ -80,4 +80,49 @@
 
 ---
 
+## 软件全生命周期流程说明（从 EHS 项目复制）
+
+### 已完成的生命周期文档
+
+本项目已从 EHS 智能安保决策中台项目完整复制软件全生命周期流程和坑点：
+
+| 文档 | 路径 | 说明 | 对应 EHS 文档 |
+|------|------|------|--------------|
+| Design Spec | `docs/plans/2026-04-15-openclaw-design.md` | 技术可行性、边界条件、风险识别 | `ehs-interview/docs/plans/2026-04-13-ehs-design.md` |
+| Implementation Plan | `docs/plans/2026-04-15-openclaw-implementation-plan.md` | 9 阶段实施计划 | `ehs-interview/docs/superpowers/plans/2026-04-13-ehs-implementation-plan.md` |
+| TODOS.md | `TODOS.md` | 安全审计发现 + 功能待办 | `ehs-interview/TODOS.md` |
+| 面试 Q&A | `docs/interview/openclaw-qna.md` | 与 resume.md 对应的面试问答 | `ehs-interview/docs/interview/ehs-qna.md` |
+| 演示脚本 | `docs/interview/demo-script.md` | 15-20 分钟面试演示流程 | `ehs-interview/docs/interview/demo-script.md` |
+| CHANGELOG | `CHANGELOG.md` | v0.1.0.0 交付清单 | `ehs-interview/CHANGELOG.md` |
+
+### Superpowers + gstack 工作流程
+
+本项目采用与 EHS 相同的 6 阶段工作流程：
+
+```
+阶段 0: 需求澄清 → 阶段 1: 计划与审查 → 阶段 2: 隔离环境 → 阶段 3: 编码实现 → 阶段 4: 调试验证 → 阶段 5: 质量门禁 → 阶段 6: 发布
+     ↓                    ↓                     ↓                  ↓                    ↓                   ↓
+  Product Brief      Design Spec          Implementation       Source Code        Test/QA Report    GitHub Release
+  (office-hours)     (brainstorming)      Plan (writing-plans)                     + Security Audit
+```
+
+### 从 EHS 吸取的关键坑点
+
+1. **安全审计必须在前**：EHS 项目 CSO 审计发现 6 个问题（3 CRITICAL + 2 HIGH + 1 MEDIUM），本项目已在 TODOS.md 中标注
+2. **状态机严格单向流转**：EHS 项目遇到状态污染、循环依赖问题，本项目设计时已避免
+3. **工具 Schema 标准化**：EHS 项目工具接入周期 2 周，本项目通过标准化缩短到 2 小时
+4. **Harness 实践核心能力**：AGENTS.md 持久化、Hooks 生命周期、分层上下文、Sub-agent 编排
+5. **面试文档完整性**：Q&A 与 resume.md 严格对应，所有数据可追溯至代码或生产数据
+
+### 下一步建议
+
+按照 Implementation Plan 执行：
+1. Phase 1: LangGraph 状态机（TDD 测试驱动）
+2. Phase 2: 50+ 工具库实现
+3. Phase 3: Harness/Context Engineering
+4. Phase 4: Docker Compose 基础设施
+5. Phase 5-9: 前端、测试、低代码、可观测性
+
+---
+
 *Last updated: 2026-04-15*
