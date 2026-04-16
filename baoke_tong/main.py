@@ -26,6 +26,12 @@ async def root():
     return {"status": "ok", "version": "0.1.0"}
 
 
+@app.get("/health")
+async def health_check():
+    """Docker 健康检查端点"""
+    return {"status": "ok", "version": settings.APP_VERSION}
+
+
 @app.get("/api/v1/skills/content-gen")
 async def content_generation_api():
     """内容生成 API 入口"""

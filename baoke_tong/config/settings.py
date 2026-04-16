@@ -4,7 +4,7 @@
 保客通配置模块
 """
 
-from pydantic import BaseSettings
+from pydantic_settings import BaseSettings
 from typing import Optional
 
 

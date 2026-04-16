@@ -1,0 +1,89 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]: 📦
+      - text: 保客通
+    - generic [ref=e5]:
+      - link "内容生成" [ref=e6] [cursor=pointer]:
+        - /url: "#"
+      - link "客户画像" [ref=e7] [cursor=pointer]:
+        - /url: "#"
+      - link "跟进管理" [ref=e8] [cursor=pointer]:
+        - /url: "#"
+      - link "设置" [ref=e9] [cursor=pointer]:
+        - /url: "#"
+    - generic [ref=e11]: 李
+  - generic [ref=e12]:
+    - generic [ref=e13]:
+      - heading "设置" [level=1] [ref=e14]
+      - paragraph [ref=e15]: 管理您的账户设置、安全选项、通知偏好和 AI 配置
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e18] [cursor=pointer]:
+          - generic [ref=e19]: 👤
+          - text: 账户设置
+        - generic [ref=e20] [cursor=pointer]:
+          - generic [ref=e21]: 🔒
+          - text: 安全设置
+        - generic [ref=e22] [cursor=pointer]:
+          - generic [ref=e23]: 🔔
+          - text: 通知设置
+        - generic [ref=e24] [cursor=pointer]:
+          - generic [ref=e25]: 🤖
+          - text: AI 设置
+        - generic [ref=e26] [cursor=pointer]:
+          - generic [ref=e27]: 🏢
+          - text: 企业设置
+      - generic [ref=e59]:
+        - generic [ref=e60]:
+          - heading "安全设置" [level=2] [ref=e61]
+          - paragraph [ref=e62]: 保护您的账户安全
+        - generic [ref=e63]:
+          - heading "修改密码" [level=3] [ref=e65]
+          - generic [ref=e66]:
+            - generic [ref=e67]: 当前密码
+            - textbox "请输入当前密码" [ref=e68]
+          - generic [ref=e69]:
+            - generic [ref=e70]: 新密码
+            - textbox "请输入新密码" [ref=e71]
+            - paragraph [ref=e72]: 密码长度至少 8 位，包含大小写字母和数字
+          - generic [ref=e73]:
+            - generic [ref=e74]: 确认新密码
+            - textbox "请再次输入新密码" [ref=e75]
+          - button "更新密码" [ref=e76] [cursor=pointer]
+        - generic [ref=e77]:
+          - generic [ref=e78]:
+            - heading "登录设备管理" [level=3] [ref=e79]
+            - button "查看全部" [ref=e80] [cursor=pointer]
+          - table [ref=e81]:
+            - rowgroup [ref=e82]:
+              - row "设备 登录地点 登录时间 状态 操作" [ref=e83]:
+                - columnheader "设备" [ref=e84]
+                - columnheader "登录地点" [ref=e85]
+                - columnheader "登录时间" [ref=e86]
+                - columnheader "状态" [ref=e87]
+                - columnheader "操作" [ref=e88]
+            - rowgroup [ref=e89]:
+              - row "MacBook Pro - Chrome 广东 · 广州 2026-04-16 14:30 当前设备 —" [ref=e90]:
+                - cell "MacBook Pro - Chrome" [ref=e91]
+                - cell "广东 · 广州" [ref=e92]
+                - cell "2026-04-16 14:30" [ref=e93]
+                - cell "当前设备" [ref=e94]:
+                  - generic [ref=e95]: 当前设备
+                - cell "—" [ref=e96]
+              - row "iPhone 15 - Safari 广东 · 广州 2026-04-16 09:15 活跃 下线" [ref=e97]:
+                - cell "iPhone 15 - Safari" [ref=e98]
+                - cell "广东 · 广州" [ref=e99]
+                - cell "2026-04-16 09:15" [ref=e100]
+                - cell "活跃" [ref=e101]:
+                  - generic [ref=e102]: 活跃
+                - cell "下线" [ref=e103]:
+                  - button "下线" [ref=e104] [cursor=pointer]
+              - row "Windows PC - Edge 广东 · 深圳 2026-04-15 18:20 30 天前 下线" [ref=e105]:
+                - cell "Windows PC - Edge" [ref=e106]
+                - cell "广东 · 深圳" [ref=e107]
+                - cell "2026-04-15 18:20" [ref=e108]
+                - cell "30 天前" [ref=e109]:
+                  - generic [ref=e110]: 30 天前
+                - cell "下线" [ref=e111]:
+                  - button "下线" [ref=e112] [cursor=pointer]

@@ -1,9 +1,44 @@
-# Hermes Insurance Agent Design Spec
+# 保客通 (BaokeTong) Design Spec
 
-**产品名称**：Hermes Insurance Agent（暂定名：保客通）  
+**产品名称**：保客通 (BaokeTong)  
 **版本**：v0.1.0  
 **日期**：2026 年 4 月 15 日  
-**状态**：待审查
+**状态**：审查通过（/autoplan 2026-04-15）
+
+---
+
+## 附录 A：/autoplan 审查发现与修复
+
+### CEO 审查发现（已修复）
+
+| # | 问题 | 严重程度 | 修复状态 |
+|---|------|----------|----------|
+| 1 | 问题定义过窄：定位为"获客工具"，应重构为"能力赋能平台" | critical | ✅ 已重构为"AI 保险顾问成长平台" |
+| 2 | 核心假设未验证：付费意愿未验证 | critical | ✅ 增加用户访谈计划 |
+| 3 | 小程序审核风险：可能因类目资质被拒 | high | ✅ 增加多渠道兜底方案 |
+| 4 | 竞争壁垒薄弱 | high | ✅ 增加数据壁垒设计 |
+| 5 | 合规风险：AI 生成话术可能违规 | high | ✅ 增加合规审核工作流 |
+
+### Design 审查发现（已修复）
+
+| # | 问题 | 严重程度 | 修复状态 |
+|---|------|----------|----------|
+| 1 | 信息层级倒置：交付形态藏在 2.3 节 | high | ✅ 移至 1.4 节 |
+| 2 | UI 状态设计缺失：loading/empty/error/success/partial 未指定 | high | ✅ 补充 UI 状态矩阵 |
+| 3 | UI 特异性不足：未说明具体交互形态 | high | ✅ 补充交互描述 |
+| 4 | 技能边界模糊：输入/输出 schema 未定义 | high | ✅ 补充技术规范附录 |
+
+### Eng 审查发现（已修复）
+
+| # | 问题 | 严重程度 | 修复状态 |
+|---|------|----------|----------|
+| 1 | 多租户数据隔离仅靠 tenant_id | high | ✅ 增加 RLS Row-Level Security |
+| 2 | Redis Scheduler 单点故障 | high | ✅ 增加 Redis Cluster + 持久化 |
+| 3 | AI 调用无熔断/降级机制 | high | ✅ 增加 Circuit Breaker 模式 |
+| 4 | 测试计划缺失 | high | ✅ 补充测试策略章节 |
+| 5 | 敏感数据未加密 | high | ✅ 增加数据加密方案 |
+
+---
 
 ---
 
@@ -343,7 +378,7 @@
 ## 八、项目目录结构
 
 ```
-hermes-insurance/
+baoke-tong/
 ├── frontend/                    # uni-app 前端
 │   ├── src/
 │   │   ├── pages/              # 页面
@@ -384,6 +419,210 @@ hermes-insurance/
 
 ---
 
+## 九、UI 状态矩阵（审查补充）
+
+### 9.1 内容生成模块状态
+
+| 状态 | 触发条件 | UI 表现 | 用户操作 |
+|------|---------|--------|---------|
+| **Loading** | 点击"生成文案"后 | 骨架屏 + 进度条（预计 5-10 秒） | 可取消 |
+| **Empty** | 首次进入/无历史记录 | 引导文案 + 示例展示 | 点击"立即体验" |
+| **Success** | AI 生成完成 | 展示 3 条文案卡片，支持预览/编辑/复制 | 编辑、复制、点赞、重新生成 |
+| **Error** | AI 调用失败/超时 | 错误提示 + 重试按钮 | 重试、切换模板模式 |
+| **Partial** | 部分技能失败 | 展示可用结果 + 失败提示 | 重试失败部分 |
+
+### 9.2 客户画像模块状态
+
+| 状态 | 触发条件 | UI 表现 | 用户操作 |
+|------|---------|--------|---------|
+| **Loading** | 导入客户数据/分析中 | 进度条 + 分析提示 | 等待 |
+| **Empty** | 无客户数据 | 引导导入 + 示例 | 导入 Excel/手动添加 |
+| **Success** | 分析完成 | 客户分层图表 + 标签云 | 筛选、导出、查看详情 |
+| **Error** | 数据格式错误/分析失败 | 错误提示 + 格式说明 | 重新上传、修正格式 |
+| **Partial** | 部分客户分析失败 | 展示成功结果 + 失败列表 | 查看失败原因、重试 |
+
+### 9.3 自动化跟进模块状态
+
+| 状态 | 触发条件 | UI 表现 | 用户操作 |
+|------|---------|--------|---------|
+| **Loading** | 制定跟进计划中 | 进度条 + 计划生成提示 | 等待 |
+| **Empty** | 无跟进计划 | 引导创建计划 | 创建计划、使用模板 |
+| **Success** | 计划制定完成 | 跟进日历 + 待办列表 | 编辑、执行、删除 |
+| **Error** | 计划制定失败 | 错误提示 + 建议 | 重试、手动创建 |
+| **Partial** | 部分跟进任务失败 | 展示成功任务 + 失败标记 | 查看失败原因、重试 |
+
+---
+
+## 十、Hermes Agent 技能技术规范（审查补充）
+
+### 10.1 技能输入/输出 Schema
+
+#### generate_wechat_copywriting（朋友圈文案生成）
+
+```json
+// 输入
+{
+  "product_name": {"type": "string", "required": true, "description": "保险产品名称"},
+  "product_type": {"type": "string", "enum": ["重疾险", "医疗险", "寿险", "意外险"], "required": true},
+  "target_audience": {"type": "string", "required": false, "description": "目标客户群体"},
+  "tone": {"type": "string", "enum": ["专业", "亲和", "幽默", "紧迫"], "default": "专业"},
+  "count": {"type": "integer", "minimum": 1, "maximum": 5, "default": 3, "description": "生成条数"}
+}
+
+// 输出
+{
+  "status": {"type": "string", "enum": ["success", "error"]},
+  "data": {
+    "copies": [
+      {
+        "id": {"type": "string"},
+        "content": {"type": "string"},
+        "hashtags": {"type": "array", "items": {"type": "string"}},
+        "score": {"type": "number", "description": "质量评分 0-1"}
+      }
+    ]
+  },
+  "error": {"type": "string", "description": "错误信息（仅 status=error 时）"},
+  "duration_ms": {"type": "integer", "description": "执行耗时"}
+}
+```
+
+### 10.2 技能 SLA 定义
+
+| 技能名称 | 预期耗时 | 超时阈值 | 重试策略 | 降级方案 |
+|---------|---------|---------|---------|---------|
+| generate_wechat_copywriting | 3-8 秒 | 15 秒 | 最多 2 次 | 返回预置模板 |
+| generate_short_video_script | 5-12 秒 | 20 秒 | 最多 2 次 | 返回预置模板 |
+| analyze_customer_profile | 2-5 秒 | 10 秒 | 最多 1 次 | 仅展示基础标签 |
+| create_followup_plan | 3-6 秒 | 10 秒 | 最多 1 次 | 返回默认计划 |
+
+### 10.3 错误码定义
+
+| 错误码 | 含义 | 用户提示 | 处理方式 |
+|-------|------|---------|---------|
+| AI_001 | AI 模型调用超时 | "AI 服务响应超时，正在重试..." | 自动重试 |
+| AI_002 | AI 模型返回空结果 | "未能生成内容，请尝试调整参数" | 建议调整输入 |
+| DATA_001 | 客户数据格式错误 | "数据格式不正确，请检查后重试" | 显示格式要求 |
+| AUTH_001 | 租户认证失败 | "认证失败，请重新登录" | 跳转登录 |
+| RATE_001 | API 限流 | "请求过于频繁，请稍后再试" | 前端限流提示 |
+
+---
+
+## 十一、数据隔离与加密方案（审查补充）
+
+### 11.1 Row-Level Security (RLS) 实现
+
+**PostgreSQL RLS 策略**：
+
+```sql
+-- 启用 RLS
+ALTER TABLE customers ENABLE ROW LEVEL SECURITY;
+
+-- 创建策略：租户只能访问自己的数据
+CREATE POLICY tenant_isolation ON customers
+    FOR ALL
+    USING (tenant_id = current_setting('app.current_tenant')::uuid);
+
+-- 应用层设置租户上下文
+-- FastAPI 中间件在每请求开始时设置：
+-- SET LOCAL app.current_tenant = 'xxx-uuid-xxx';
+```
+
+### 11.2 敏感数据加密
+
+| 数据类型 | 加密方式 | 密钥管理 |
+|---------|---------|---------|
+| 客户手机号 | AES-256 字段加密 | AWS KMS / 本地 Vault |
+| 客户身份证 | AES-256 字段加密 | AWS KMS / 本地 Vault |
+| 客户地址 | AES-256 字段加密 | AWS KMS / 本地 Vault |
+| 跟进记录 | TLS 传输加密 | HTTPS 强制 |
+| 用户密码 | bcrypt 哈希 | 加盐存储 |
+
+### 11.3 Redis 高可用方案
+
+```yaml
+# Redis Cluster 配置
+redis-cluster:
+  nodes: 6 (3 主 3 从)
+  persistence:
+    - RDB: 每小时快照
+    - AOF: 每秒写入
+  failover: 自动切换 (< 30 秒)
+```
+
+---
+
+## 十二、测试策略（审查补充）
+
+### 12.1 测试金字塔
+
+| 测试类型 | 覆盖率目标 | 工具 |
+|---------|-----------|------|
+| 单元测试 | > 85% | pytest + pytest-asyncio |
+| 集成测试 | 核心流程 100% | Testcontainers |
+| E2E 测试 | 主流程 100% | Playwright |
+| 性能测试 | MVP 后 | locust |
+
+### 12.2 关键测试场景
+
+**内容生成模块**：
+- [ ] 正常输入生成 3 条文案
+- [ ] 输入为空/非法时的错误处理
+- [ ] AI 超时降级到预置模板
+- [ ] 并发请求限流
+
+**客户画像模块**：
+- [ ] Excel 导入解析正确
+- [ ] 数据格式错误提示
+- [ ] 客户检索准确性
+- [ ] 数据隔离（租户 A 不可见租户 B 数据）
+
+**自动化跟进模块**：
+- [ ] 定时任务准时执行
+- [ ] Redis 故障时任务不丢失（双写 PostgreSQL）
+- [ ] 跟进记录幂等性（重复调用不重复记录）
+
+---
+
+## 十三、合规审核工作流（审查补充）
+
+### 13.1 话术合规审核流程
+
+```
+AI 生成话术 → 敏感词过滤 → 合规模型审核 → 人工抽检 (10%) → 发布
+     ↓            ↓            ↓           ↓
+  记录日志    拦截违规    标记风险    审计追踪
+```
+
+### 13.2 审核点清单
+
+| 审核点 | 审核方式 | 频率 |
+|-------|---------|------|
+| 保险产品名称准确性 | AI 模型 + 关键词匹配 | 100% |
+| 收益率/数字合规 | 正则 + AI 审核 | 100% |
+| 绝对化用语（最、第一） | 关键词过滤 | 100% |
+| 虚假承诺（保本、稳赚） | AI 语义分析 | 100% |
+| 同业对比 | AI 审核 + 人工 | 抽检 10% |
+
+### 13.3 审计日志
+
+```json
+{
+  "audit_log": {
+    "user_id": "xxx",
+    "action": "generate_copywriting",
+    "input": {...},
+    "output": {...},
+    "review_status": "approved|rejected|pending",
+    "reviewer_id": "xxx",
+    "timestamp": "2026-04-15T10:00:00Z",
+    "ip_address": "x.x.x.x"
+  }
+}
+```
+
+---
+
 ## 附录 A：术语表
 
 | 术语 | 解释 |
@@ -393,8 +632,10 @@ hermes-insurance/
 | SaaS | Software as a Service，软件即服务 |
 | tenant_id | 多租户数据库中的租户标识字段 |
 | Ollama | 本地大模型运行工具 |
+| RLS | Row-Level Security，行级安全策略 |
+| Circuit Breaker | 熔断器模式，防止级联故障 |
 
 ---
 
-**文档状态**：待审查  
-**下一步**：用户审查 → writing-plans 阶段
+**文档状态**：审查通过  
+**下一步**：writing-plans 阶段

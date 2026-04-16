@@ -1,0 +1,74 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: 🛡️
+      - generic [ref=e7]: 保客通
+    - heading "AI 驱动的保险获客专家" [level=1] [ref=e8]
+    - paragraph [ref=e9]:
+      - text: 智能体 + 培训 + 课程 + 企业深度服务
+      - text: 四位一体的保险科技解决方案
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - generic [ref=e12]: 📝
+        - generic [ref=e13]:
+          - text: 智能内容生成
+          - text: AI 自动生成朋友圈文案、产品对比、保险方案，提升获客转化率 300%
+      - generic [ref=e14]:
+        - generic [ref=e15]: 👤
+        - generic [ref=e16]:
+          - text: 客户画像分析
+          - text: 深度分析客户特征、需求偏好，精准推荐保险产品，成交率提升 50%
+      - generic [ref=e17]:
+        - generic [ref=e18]: 📈
+        - generic [ref=e19]:
+          - text: 数据驱动优化
+          - text: 实时追踪获客效果，智能调整策略，持续优化 ROI
+  - generic [ref=e21]:
+    - generic [ref=e22]:
+      - heading "欢迎回来" [level=2] [ref=e23]
+      - paragraph [ref=e24]: 登录保客通，开启智能获客之旅
+    - generic [ref=e25]:
+      - button "登录" [ref=e26] [cursor=pointer]
+      - button "注册" [ref=e27] [cursor=pointer]
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - generic [ref=e30]:
+          - generic [ref=e31]: 账号
+          - generic [ref=e32]:
+            - generic: 👤
+            - textbox "账号" [ref=e33]:
+              - /placeholder: 请输入手机号/邮箱
+        - generic [ref=e34]:
+          - generic [ref=e35]: 密码
+          - generic [ref=e36]:
+            - generic: 🔒
+            - textbox "密码" [ref=e37]:
+              - /placeholder: 请输入密码
+        - generic [ref=e38]:
+          - generic [ref=e39] [cursor=pointer]:
+            - checkbox "记住我" [ref=e40]
+            - generic [ref=e41]: 记住我
+          - link "忘记密码？" [ref=e42] [cursor=pointer]:
+            - /url: "#"
+        - button "登 录" [ref=e43] [cursor=pointer]
+      - generic [ref=e45]: 其他登录方式
+      - generic [ref=e46]:
+        - button "💬 微信" [ref=e47] [cursor=pointer]:
+          - generic [ref=e48]: 💬
+          - text: 微信
+        - button "💼 企业微信" [ref=e49] [cursor=pointer]:
+          - generic [ref=e50]: 💼
+          - text: 企业微信
+        - button "🍎 Apple" [ref=e51] [cursor=pointer]:
+          - generic [ref=e52]: 🍎
+          - text: Apple
+    - generic [ref=e53]:
+      - generic [ref=e54]:
+        - link "关于我们" [ref=e55] [cursor=pointer]:
+          - /url: "#"
+        - link "联系客服" [ref=e56] [cursor=pointer]:
+          - /url: "#"
+        - link "帮助中心" [ref=e57] [cursor=pointer]:
+          - /url: "#"
+      - paragraph [ref=e58]: © 2026 保客通 BaokeTong. All rights reserved.
+      - paragraph [ref=e59]: 由 One Person Company 荣誉出品

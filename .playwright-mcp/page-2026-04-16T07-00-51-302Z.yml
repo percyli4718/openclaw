@@ -1,0 +1,66 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]: 📦
+      - text: 保客通
+    - generic [ref=e5]:
+      - link "内容生成" [ref=e6] [cursor=pointer]:
+        - /url: "#"
+      - link "客户画像" [ref=e7] [cursor=pointer]:
+        - /url: "#"
+      - link "跟进管理" [ref=e8] [cursor=pointer]:
+        - /url: "#"
+      - link "设置" [ref=e9] [cursor=pointer]:
+        - /url: "#"
+    - generic [ref=e11]: 李
+  - generic [ref=e12]:
+    - generic [ref=e13]:
+      - heading "设置" [level=1] [ref=e14]
+      - paragraph [ref=e15]: 管理您的账户设置、安全选项、通知偏好和 AI 配置
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e18] [cursor=pointer]:
+          - generic [ref=e19]: 👤
+          - text: 账户设置
+        - generic [ref=e20] [cursor=pointer]:
+          - generic [ref=e21]: 🔒
+          - text: 安全设置
+        - generic [ref=e22] [cursor=pointer]:
+          - generic [ref=e23]: 🔔
+          - text: 通知设置
+        - generic [ref=e24] [cursor=pointer]:
+          - generic [ref=e25]: 🤖
+          - text: AI 设置
+        - generic [ref=e26] [cursor=pointer]:
+          - generic [ref=e27]: 🏢
+          - text: 企业设置
+      - generic [ref=e29]:
+        - generic [ref=e30]:
+          - heading "账户设置" [level=2] [ref=e31]
+          - paragraph [ref=e32]: 管理您的个人信息和账户资料
+        - generic [ref=e33]:
+          - generic [ref=e34]: 头像
+          - generic [ref=e35]:
+            - generic [ref=e36]: 李
+            - generic [ref=e37]:
+              - button "上传新头像" [ref=e38] [cursor=pointer]
+              - button "移除头像" [ref=e39] [cursor=pointer]
+              - paragraph [ref=e40]: 支持 JPG、PNG 格式，最大 2MB
+        - generic [ref=e41]:
+          - generic [ref=e42]: 昵称
+          - textbox "请输入昵称" [ref=e43]: 李双全
+        - generic [ref=e44]:
+          - generic [ref=e45]: 手机号码
+          - generic [ref=e46]:
+            - textbox [disabled] [ref=e47]: 138****1234
+            - button "更换手机" [ref=e48] [cursor=pointer]
+          - paragraph [ref=e49]: 绑定的手机号码用于登录和安全验证
+        - generic [ref=e50]:
+          - generic [ref=e51]: 邮箱地址
+          - generic [ref=e52]:
+            - textbox "请输入邮箱" [ref=e53]: percy.li@example.com
+            - button "保存" [ref=e54] [cursor=pointer]
+          - paragraph [ref=e55]: 绑定的邮箱用于接收通知和密码找回
+        - generic [ref=e56]:
+          - button "保存修改" [ref=e57] [cursor=pointer]
+          - button "取消" [ref=e58] [cursor=pointer]

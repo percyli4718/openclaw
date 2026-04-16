@@ -6,3 +6,7 @@
 - 多租户配置
 - AI 模型配置 (云端/本地)
 """
+
+from .settings import Settings, settings
+
+__all__ = ["Settings", "settings"]
