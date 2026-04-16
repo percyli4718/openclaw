@@ -1,0 +1,43 @@
+{
+  "name": "baoke-tong-frontend",
+  "version": "0.1.0",
+  "description": "保客通 AI+ 保险获客系统 - uni-app 前端",
+  "main": "main.js",
+  "scripts": {
+    "dev:h5": "uni -p h5",
+    "dev:mp-weixin": "uni -p mp-weixin",
+    "build:h5": "uni build -p h5",
+    "build:mp-weixin": "uni build -p mp-weixin",
+    "type-check": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "@dcloudio/uni-app": "3.0.0-4010520250410001",
+    "@dcloudio/uni-app-plus": "3.0.0-4010520250410001",
+    "@dcloudio/uni-components": "3.0.0-4010520250410001",
+    "@dcloudio/uni-h5": "3.0.0-4010520250410001",
+    "@dcloudio/uni-mp-weixin": "3.0.0-4010520250410001",
+    "pinia": "2.3.0",
+    "vue": "3.5.13"
+  },
+  "devDependencies": {
+    "@dcloudio/types": "^3.4.14",
+    "@dcloudio/uni-automator": "3.0.0-4010520250410001",
+    "@dcloudio/uni-cli-shared": "3.0.0-4010520250410001",
+    "@dcloudio/vite-plugin-uni": "3.0.0-4010520250410001",
+    "@vue/runtime-core": "^3.5.13",
+    "@vue/tsconfig": "^0.7.0",
+    "sass": "^1.83.4",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.11",
+    "vue-tsc": "^2.2.0"
+  },
+  "keywords": [
+    "uni-app",
+    "baoke-tong",
+    "insurance",
+    "ai",
+    "hermes-agent"
+  ],
+  "author": "Percy Li",
+  "license": "MIT"
+}

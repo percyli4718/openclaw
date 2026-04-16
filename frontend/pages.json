@@ -1,0 +1,73 @@
+{
+  "pages": [
+    {
+      "path": "src/pages/index/index",
+      "style": {
+        "navigationBarTitleText": "保客通",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "src/pages/content-gen/content-gen",
+      "style": {
+        "navigationBarTitleText": "内容生成",
+        "navigationBarBackgroundColor": "#2563eb",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "src/pages/customer/customer",
+      "style": {
+        "navigationBarTitleText": "客户管理",
+        "navigationBarBackgroundColor": "#2563eb",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "src/pages/followup/followup",
+      "style": {
+        "navigationBarTitleText": "跟进管理",
+        "navigationBarBackgroundColor": "#2563eb",
+        "navigationBarTextStyle": "white"
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#94a3b8",
+    "selectedColor": "#2563eb",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "src/pages/index/index",
+        "text": "首页",
+        "iconPath": "src/static/tabbar/home.png",
+        "selectedIconPath": "src/static/tabbar/home-active.png"
+      },
+      {
+        "pagePath": "src/pages/content-gen/content-gen",
+        "text": "内容生成",
+        "iconPath": "src/static/tabbar/content.png",
+        "selectedIconPath": "src/static/tabbar/content-active.png"
+      },
+      {
+        "pagePath": "src/pages/customer/customer",
+        "text": "客户",
+        "iconPath": "src/static/tabbar/customer.png",
+        "selectedIconPath": "src/static/tabbar/customer-active.png"
+      },
+      {
+        "pagePath": "src/pages/followup/followup",
+        "text": "跟进",
+        "iconPath": "src/static/tabbar/followup.png",
+        "selectedIconPath": "src/static/tabbar/followup-active.png"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "保客通",
+    "navigationBarBackgroundColor": "#2563eb",
+    "backgroundColor": "#f8fafc"
+  }
+}
