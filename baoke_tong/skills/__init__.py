@@ -7,9 +7,9 @@ Hermes Agent 技能模块
 - 跟进管理：跟进计划、定时消息、跟进记录
 """
 
-from .skills.content_gen import ContentGenerator
-from .skills.customer import CustomerAnalyst
-from .skills.followup import FollowupManager
+from .content_gen import ContentGenerator
+from .customer import CustomerAnalyst
+from .followup import FollowupManager
 
 __all__ = [
     "ContentGenerator",
