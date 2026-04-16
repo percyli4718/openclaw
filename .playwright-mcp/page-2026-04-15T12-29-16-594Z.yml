@@ -1,0 +1,290 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - navigation "Main" [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - button "Toggle navigation bar" [ref=e7] [cursor=pointer]:
+          - img [ref=e8]
+        - link "Hermes Agent Hermes Agent" [ref=e10] [cursor=pointer]:
+          - /url: /docs/
+          - img "Hermes Agent" [ref=e12]
+          - generic [ref=e13]: Hermes Agent
+      - textbox "Search" [ref=e16]
+  - main [ref=e20]:
+    - generic [ref=e24]:
+      - article [ref=e25]:
+        - generic [ref=e26]:
+          - heading "Hermes Agent" [level=1] [ref=e28]
+          - paragraph [ref=e29]:
+            - text: The self-improving AI agent built by
+            - link "Nous Research" [ref=e30] [cursor=pointer]:
+              - /url: https://nousresearch.com
+            - text: . The only agent with a built-in learning loop — it creates skills from experience, improves them during use, nudges itself to persist knowledge, and builds a deepening model of who you are across sessions.
+          - generic [ref=e31]:
+            - link "Get Started →" [ref=e32] [cursor=pointer]:
+              - /url: /docs/getting-started/installation
+            - link "View on GitHub" [ref=e33] [cursor=pointer]:
+              - /url: https://github.com/NousResearch/hermes-agent
+          - heading "What is Hermes Agent?Direct link to What is Hermes Agent?" [level=2] [ref=e34]:
+            - text: What is Hermes Agent?
+            - link "Direct link to What is Hermes Agent?" [ref=e35] [cursor=pointer]:
+              - /url: "#what-is-hermes-agent"
+              - text: "#"
+          - paragraph [ref=e36]:
+            - text: It's not a coding copilot tethered to an IDE or a chatbot wrapper around a single API. It's an
+            - strong [ref=e37]: autonomous agent
+            - text: that gets more capable the longer it runs. It lives wherever you put it — a $5 VPS, a GPU cluster, or serverless infrastructure (Daytona, Modal) that costs nearly nothing when idle. Talk to it from Telegram while it works on a cloud VM you never SSH into yourself. It's not tied to your laptop.
+          - heading "Quick LinksDirect link to Quick Links" [level=2] [ref=e38]:
+            - text: Quick Links
+            - link "Direct link to Quick Links" [ref=e39] [cursor=pointer]:
+              - /url: "#quick-links"
+              - text: "#"
+          - table [ref=e40]:
+            - rowgroup [ref=e41]:
+              - row [ref=e42]:
+                - columnheader [ref=e43]
+                - columnheader [ref=e44]
+            - rowgroup [ref=e45]:
+              - row "🚀 Installation Install in 60 seconds on Linux, macOS, or WSL2" [ref=e46]:
+                - cell "🚀 Installation" [ref=e47]:
+                  - text: 🚀
+                  - strong [ref=e48]:
+                    - link "Installation" [ref=e49] [cursor=pointer]:
+                      - /url: /docs/getting-started/installation
+                - cell "Install in 60 seconds on Linux, macOS, or WSL2" [ref=e50]
+              - row "📖 Quickstart Tutorial Your first conversation and key features to try" [ref=e51]:
+                - cell "📖 Quickstart Tutorial" [ref=e52]:
+                  - text: 📖
+                  - strong [ref=e53]:
+                    - link "Quickstart Tutorial" [ref=e54] [cursor=pointer]:
+                      - /url: /docs/getting-started/quickstart
+                - cell "Your first conversation and key features to try" [ref=e55]
+              - row "🗺️ Learning Path Find the right docs for your experience level" [ref=e56]:
+                - cell "🗺️ Learning Path" [ref=e57]:
+                  - text: 🗺️
+                  - strong [ref=e58]:
+                    - link "Learning Path" [ref=e59] [cursor=pointer]:
+                      - /url: /docs/getting-started/learning-path
+                - cell "Find the right docs for your experience level" [ref=e60]
+              - row "⚙️ Configuration Config file, providers, models, and options" [ref=e61]:
+                - cell "⚙️ Configuration" [ref=e62]:
+                  - text: ⚙️
+                  - strong [ref=e63]:
+                    - link "Configuration" [ref=e64] [cursor=pointer]:
+                      - /url: /docs/user-guide/configuration
+                - cell "Config file, providers, models, and options" [ref=e65]
+              - row "💬 Messaging Gateway Set up Telegram, Discord, Slack, or WhatsApp" [ref=e66]:
+                - cell "💬 Messaging Gateway" [ref=e67]:
+                  - text: 💬
+                  - strong [ref=e68]:
+                    - link "Messaging Gateway" [ref=e69] [cursor=pointer]:
+                      - /url: /docs/user-guide/messaging
+                - cell "Set up Telegram, Discord, Slack, or WhatsApp" [ref=e70]
+              - row "🔧 Tools & Toolsets 47 built-in tools and how to configure them" [ref=e71]:
+                - cell "🔧 Tools & Toolsets" [ref=e72]:
+                  - text: 🔧
+                  - strong [ref=e73]:
+                    - link "Tools & Toolsets" [ref=e74] [cursor=pointer]:
+                      - /url: /docs/user-guide/features/tools
+                - cell "47 built-in tools and how to configure them" [ref=e75]
+              - row "🧠 Memory System Persistent memory that grows across sessions" [ref=e76]:
+                - cell "🧠 Memory System" [ref=e77]:
+                  - text: 🧠
+                  - strong [ref=e78]:
+                    - link "Memory System" [ref=e79] [cursor=pointer]:
+                      - /url: /docs/user-guide/features/memory
+                - cell "Persistent memory that grows across sessions" [ref=e80]
+              - row "📚 Skills System Procedural memory the agent creates and reuses" [ref=e81]:
+                - cell "📚 Skills System" [ref=e82]:
+                  - text: 📚
+                  - strong [ref=e83]:
+                    - link "Skills System" [ref=e84] [cursor=pointer]:
+                      - /url: /docs/user-guide/features/skills
+                - cell "Procedural memory the agent creates and reuses" [ref=e85]
+              - row "🔌 MCP Integration Connect to MCP servers, filter their tools, and extend Hermes safely" [ref=e86]:
+                - cell "🔌 MCP Integration" [ref=e87]:
+                  - text: 🔌
+                  - strong [ref=e88]:
+                    - link "MCP Integration" [ref=e89] [cursor=pointer]:
+                      - /url: /docs/user-guide/features/mcp
+                - cell "Connect to MCP servers, filter their tools, and extend Hermes safely" [ref=e90]
+              - row "🧭 Use MCP with Hermes Practical MCP setup patterns, examples, and tutorials" [ref=e91]:
+                - cell "🧭 Use MCP with Hermes" [ref=e92]:
+                  - text: 🧭
+                  - strong [ref=e93]:
+                    - link "Use MCP with Hermes" [ref=e94] [cursor=pointer]:
+                      - /url: /docs/guides/use-mcp-with-hermes
+                - cell "Practical MCP setup patterns, examples, and tutorials" [ref=e95]
+              - row "🎙️ Voice Mode Real-time voice interaction in CLI, Telegram, Discord, and Discord VC" [ref=e96]:
+                - cell "🎙️ Voice Mode" [ref=e97]:
+                  - text: 🎙️
+                  - strong [ref=e98]:
+                    - link "Voice Mode" [ref=e99] [cursor=pointer]:
+                      - /url: /docs/user-guide/features/voice-mode
+                - cell "Real-time voice interaction in CLI, Telegram, Discord, and Discord VC" [ref=e100]
+              - row "🗣️ Use Voice Mode with Hermes Hands-on setup and usage patterns for Hermes voice workflows" [ref=e101]:
+                - cell "🗣️ Use Voice Mode with Hermes" [ref=e102]:
+                  - text: 🗣️
+                  - strong [ref=e103]:
+                    - link "Use Voice Mode with Hermes" [ref=e104] [cursor=pointer]:
+                      - /url: /docs/guides/use-voice-mode-with-hermes
+                - cell "Hands-on setup and usage patterns for Hermes voice workflows" [ref=e105]
+              - row "🎭 Personality & SOUL.md Define Hermes' default voice with a global SOUL.md" [ref=e106]:
+                - cell "🎭 Personality & SOUL.md" [ref=e107]:
+                  - text: 🎭
+                  - strong [ref=e108]:
+                    - link "Personality & SOUL.md" [ref=e109] [cursor=pointer]:
+                      - /url: /docs/user-guide/features/personality
+                - cell "Define Hermes' default voice with a global SOUL.md" [ref=e110]
+              - row "📄 Context Files Project context files that shape every conversation" [ref=e111]:
+                - cell "📄 Context Files" [ref=e112]:
+                  - text: 📄
+                  - strong [ref=e113]:
+                    - link "Context Files" [ref=e114] [cursor=pointer]:
+                      - /url: /docs/user-guide/features/context-files
+                - cell "Project context files that shape every conversation" [ref=e115]
+              - row "🔒 Security Command approval, authorization, container isolation" [ref=e116]:
+                - cell "🔒 Security" [ref=e117]:
+                  - text: 🔒
+                  - strong [ref=e118]:
+                    - link "Security" [ref=e119] [cursor=pointer]:
+                      - /url: /docs/user-guide/security
+                - cell "Command approval, authorization, container isolation" [ref=e120]
+              - row "💡 Tips & Best Practices Quick wins to get the most out of Hermes" [ref=e121]:
+                - cell "💡 Tips & Best Practices" [ref=e122]:
+                  - text: 💡
+                  - strong [ref=e123]:
+                    - link "Tips & Best Practices" [ref=e124] [cursor=pointer]:
+                      - /url: /docs/guides/tips
+                - cell "Quick wins to get the most out of Hermes" [ref=e125]
+              - row "🏗️ Architecture How it works under the hood" [ref=e126]:
+                - cell "🏗️ Architecture" [ref=e127]:
+                  - text: 🏗️
+                  - strong [ref=e128]:
+                    - link "Architecture" [ref=e129] [cursor=pointer]:
+                      - /url: /docs/developer-guide/architecture
+                - cell "How it works under the hood" [ref=e130]
+              - row "❓ FAQ & Troubleshooting Common questions and solutions" [ref=e131]:
+                - cell "❓ FAQ & Troubleshooting" [ref=e132]:
+                  - text: ❓
+                  - strong [ref=e133]:
+                    - link "FAQ & Troubleshooting" [ref=e134] [cursor=pointer]:
+                      - /url: /docs/reference/faq
+                - cell "Common questions and solutions" [ref=e135]
+          - heading "Key FeaturesDirect link to Key Features" [level=2] [ref=e136]:
+            - text: Key Features
+            - link "Direct link to Key Features" [ref=e137] [cursor=pointer]:
+              - /url: "#key-features"
+              - text: "#"
+          - list [ref=e138]:
+            - listitem [ref=e139]:
+              - strong [ref=e140]: A closed learning loop
+              - text: — Agent-curated memory with periodic nudges, autonomous skill creation, skill self-improvement during use, FTS5 cross-session recall with LLM summarization, and
+              - link "Honcho" [ref=e141] [cursor=pointer]:
+                - /url: https://github.com/plastic-labs/honcho
+              - text: dialectic user modeling
+            - listitem [ref=e142]:
+              - strong [ref=e143]: Runs anywhere, not just your laptop
+              - text: "— 6 terminal backends: local, Docker, SSH, Daytona, Singularity, Modal. Daytona and Modal offer serverless persistence — your environment hibernates when idle, costing nearly nothing"
+            - listitem [ref=e144]:
+              - strong [ref=e145]: Lives where you do
+              - text: — CLI, Telegram, Discord, Slack, WhatsApp, Signal, Matrix, Mattermost, Email, SMS, DingTalk, Feishu, WeCom, BlueBubbles, Home Assistant — 15+ platforms from one gateway
+            - listitem [ref=e146]:
+              - strong [ref=e147]: Built by model trainers
+              - text: — Created by
+              - link "Nous Research" [ref=e148] [cursor=pointer]:
+                - /url: https://nousresearch.com
+              - text: ", the lab behind Hermes, Nomos, and Psyche. Works with"
+              - link "Nous Portal" [ref=e149] [cursor=pointer]:
+                - /url: https://portal.nousresearch.com
+              - text: ","
+              - link "OpenRouter" [ref=e150] [cursor=pointer]:
+                - /url: https://openrouter.ai
+              - text: ", OpenAI, or any endpoint"
+            - listitem [ref=e151]:
+              - strong [ref=e152]: Scheduled automations
+              - text: — Built-in cron with delivery to any platform
+            - listitem [ref=e153]:
+              - strong [ref=e154]: Delegates & parallelizes
+              - text: — Spawn isolated subagents for parallel workstreams. Programmatic Tool Calling via
+              - code [ref=e155]: execute_code
+              - text: collapses multi-step pipelines into single inference calls
+            - listitem [ref=e156]:
+              - strong [ref=e157]: Open standard skills
+              - text: — Compatible with
+              - link "agentskills.io" [ref=e158] [cursor=pointer]:
+                - /url: https://agentskills.io
+              - text: . Skills are portable, shareable, and community-contributed via the Skills Hub
+            - listitem [ref=e159]:
+              - strong [ref=e160]: Full web control
+              - text: — Search, extract, browse, vision, image generation, TTS
+            - listitem [ref=e161]:
+              - strong [ref=e162]: MCP support
+              - text: — Connect to any MCP server for extended tool capabilities
+            - listitem [ref=e163]:
+              - strong [ref=e164]: Research-ready
+              - text: — Batch processing, trajectory export, RL training with Atropos. Built by
+              - link "Nous Research" [ref=e165] [cursor=pointer]:
+                - /url: https://nousresearch.com
+              - text: — the lab behind Hermes, Nomos, and Psyche models
+        - link "Edit this page" [ref=e169] [cursor=pointer]:
+          - /url: https://github.com/NousResearch/hermes-agent/edit/main/website/docs/index.md
+          - img [ref=e170]
+          - text: Edit this page
+      - navigation "Docs pages"
+  - contentinfo [ref=e173]:
+    - generic [ref=e174]:
+      - generic [ref=e175]:
+        - generic [ref=e176]:
+          - generic [ref=e177]: Docs
+          - list [ref=e178]:
+            - listitem [ref=e179]:
+              - link "Getting Started" [ref=e180] [cursor=pointer]:
+                - /url: /docs/getting-started/quickstart
+            - listitem [ref=e181]:
+              - link "User Guide" [ref=e182] [cursor=pointer]:
+                - /url: /docs/user-guide/cli
+            - listitem [ref=e183]:
+              - link "Developer Guide" [ref=e184] [cursor=pointer]:
+                - /url: /docs/developer-guide/architecture
+            - listitem [ref=e185]:
+              - link "Reference" [ref=e186] [cursor=pointer]:
+                - /url: /docs/reference/cli-commands
+        - generic [ref=e187]:
+          - generic [ref=e188]: Community
+          - list [ref=e189]:
+            - listitem [ref=e190]:
+              - link "Discord(opens in new tab)" [ref=e191] [cursor=pointer]:
+                - /url: https://discord.gg/NousResearch
+                - text: Discord
+                - img "(opens in new tab)" [ref=e192]
+            - listitem [ref=e194]:
+              - link "GitHub Discussions(opens in new tab)" [ref=e195] [cursor=pointer]:
+                - /url: https://github.com/NousResearch/hermes-agent/discussions
+                - text: GitHub Discussions
+                - img "(opens in new tab)" [ref=e196]
+            - listitem [ref=e198]:
+              - link "Skills Hub(opens in new tab)" [ref=e199] [cursor=pointer]:
+                - /url: https://agentskills.io
+                - text: Skills Hub
+                - img "(opens in new tab)" [ref=e200]
+        - generic [ref=e202]:
+          - generic [ref=e203]: More
+          - list [ref=e204]:
+            - listitem [ref=e205]:
+              - link "GitHub(opens in new tab)" [ref=e206] [cursor=pointer]:
+                - /url: https://github.com/NousResearch/hermes-agent
+                - text: GitHub
+                - img "(opens in new tab)" [ref=e207]
+            - listitem [ref=e209]:
+              - link "Nous Research(opens in new tab)" [ref=e210] [cursor=pointer]:
+                - /url: https://nousresearch.com
+                - text: Nous Research
+                - img "(opens in new tab)" [ref=e211]
+      - generic [ref=e214]:
+        - text: Built by
+        - link "Nous Research" [ref=e215] [cursor=pointer]:
+          - /url: https://nousresearch.com
+        - text: · MIT License · 2026

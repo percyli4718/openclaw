@@ -1,0 +1,301 @@
+- generic [ref=e2]:
+  - generic:
+    - generic:
+      - heading "To view keyboard shortcuts, press question mark View keyboard shortcuts" [level=2] [ref=e3]:
+        - generic [ref=e4]: To view keyboard shortcuts, press question mark
+        - link "View keyboard shortcuts" [ref=e5] [cursor=pointer]:
+          - /url: /i/keyboard_shortcuts
+      - generic:
+        - generic:
+          - button [ref=e8] [cursor=pointer]:
+            - img [ref=e9]
+          - img [ref=e16] [cursor=pointer]
+      - generic [ref=e18]:
+        - button "Skip to home timeline" [ref=e19] [cursor=pointer]
+        - button "Skip to trending" [ref=e21] [cursor=pointer]
+        - banner [ref=e23]:
+          - generic [ref=e25]:
+            - generic [ref=e26]:
+              - heading "X" [level=1] [ref=e28] [cursor=pointer]:
+                - link "X" [ref=e29]:
+                  - /url: /home
+                  - img [ref=e31]
+              - navigation "Primary" [ref=e35]:
+                - link "Home" [ref=e36] [cursor=pointer]:
+                  - /url: /home
+                  - generic [ref=e37]:
+                    - img [ref=e39]
+                    - generic [ref=e42]: Home
+                - link "Search and explore" [ref=e43] [cursor=pointer]:
+                  - /url: /explore
+                  - generic [ref=e44]:
+                    - img [ref=e46]
+                    - generic [ref=e49]: Explore
+                - link "Notifications (1 unread notification)" [ref=e50] [cursor=pointer]:
+                  - /url: /notifications
+                  - generic [ref=e51]:
+                    - generic [ref=e52]:
+                      - img [ref=e53]
+                      - generic "1 unread items" [ref=e56]:
+                        - generic [ref=e57]: "1"
+                    - generic [ref=e58]: Notifications
+                - link "Follow" [ref=e59] [cursor=pointer]:
+                  - /url: /i/connect_people
+                  - generic [ref=e60]:
+                    - img [ref=e62]
+                    - generic [ref=e65]: Follow
+                - link "Direct Messages" [ref=e66] [cursor=pointer]:
+                  - /url: /i/chat
+                  - generic [ref=e67]:
+                    - img [ref=e69]
+                    - generic [ref=e72]: Chat
+                - link "Grok" [ref=e73] [cursor=pointer]:
+                  - /url: /i/grok
+                  - generic [ref=e74]:
+                    - generic [ref=e75]:
+                      - img [ref=e76]
+                      - generic "undefined unread items" [ref=e79]
+                    - generic [ref=e80]: Grok
+                - link "Bookmarks" [ref=e81] [cursor=pointer]:
+                  - /url: /i/bookmarks
+                  - generic [ref=e82]:
+                    - img [ref=e84]
+                    - generic [ref=e87]: Bookmarks
+                - link "Creator Studio" [ref=e88] [cursor=pointer]:
+                  - /url: /i/jf/creators/studio
+                  - generic [ref=e89]:
+                    - img [ref=e91]
+                    - generic [ref=e94]: Creator Studio
+                - link "Premium" [ref=e95] [cursor=pointer]:
+                  - /url: /i/premium_sign_up
+                  - generic [ref=e96]:
+                    - img [ref=e98]
+                    - generic [ref=e101]: Premium
+                - link "Profile" [ref=e102] [cursor=pointer]:
+                  - /url: /sanding2026
+                  - generic [ref=e103]:
+                    - img [ref=e105]
+                    - generic [ref=e108]: Profile
+                - button "More menu items" [ref=e109] [cursor=pointer]:
+                  - generic [ref=e110]:
+                    - img [ref=e112]
+                    - generic [ref=e115]: More
+              - link "Post" [ref=e117] [cursor=pointer]:
+                - /url: /compose/post
+                - generic [ref=e123]: Post
+            - button "Account menu" [ref=e126] [cursor=pointer]:
+              - generic [ref=e134]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic "percy":
+                        - img "percy"
+              - generic [ref=e138]:
+                - generic [ref=e142]: percy
+                - generic [ref=e146]: "@sanding2026"
+              - img [ref=e148]
+        - main [ref=e151]:
+          - generic [ref=e154]:
+            - generic "Home timeline" [ref=e156]:
+              - generic [ref=e157]:
+                - generic [ref=e158]:
+                  - generic [ref=e163]:
+                    - button "Back" [ref=e165] [cursor=pointer]:
+                      - img [ref=e167]
+                    - search "Search" [ref=e175]:
+                      - generic [ref=e180]:
+                        - img [ref=e182]
+                        - combobox "Search query" [ref=e187]: Hermes Agent vs OpenClaw
+                    - button "More" [ref=e189] [cursor=pointer]:
+                      - img [ref=e191]
+                  - navigation [ref=e195]:
+                    - generic [ref=e196]:
+                      - generic:
+                        - button "Previous" [disabled]:
+                          - generic:
+                            - img
+                      - tablist [ref=e198]:
+                        - tab "Top" [ref=e199] [cursor=pointer]:
+                          - generic [ref=e202]: Top
+                        - tab "Latest" [selected] [ref=e203] [cursor=pointer]:
+                          - generic [ref=e206]: Latest
+                        - tab "People" [ref=e208] [cursor=pointer]:
+                          - generic [ref=e211]: People
+                        - tab "Media" [ref=e212] [cursor=pointer]:
+                          - generic [ref=e215]: Media
+                        - tab "Lists" [ref=e216] [cursor=pointer]:
+                          - generic [ref=e219]: Lists
+                      - generic:
+                        - button "Next" [disabled]:
+                          - generic:
+                            - img
+                - generic:
+                  - generic:
+                    - status:
+                      - button:
+                        - generic:
+                          - img
+                          - generic: See new posts
+              - progressbar "Loading timeline" [ref=e222]:
+                - img [ref=e224]
+            - generic "Trending" [ref=e231]:
+              - generic [ref=e232]:
+                - heading "Search filters" [level=2] [ref=e235]:
+                  - generic [ref=e236]: Search filters
+                - generic [ref=e238]:
+                  - generic [ref=e239]:
+                    - radiogroup "People" [ref=e241]:
+                      - generic [ref=e243]: People
+                      - generic [ref=e245] [cursor=pointer]:
+                        - generic [ref=e246]: From anyone
+                        - generic [ref=e247]:
+                          - img [ref=e250]
+                          - radio "From anyone" [checked] [ref=e253]
+                      - generic [ref=e255] [cursor=pointer]:
+                        - generic [ref=e256]: People you follow
+                        - radio "People you follow" [ref=e260]
+                    - radiogroup "Location" [ref=e262]:
+                      - generic [ref=e264]: Location
+                      - generic [ref=e266] [cursor=pointer]:
+                        - generic [ref=e267]: Anywhere
+                        - generic [ref=e268]:
+                          - img [ref=e271]
+                          - radio "Anywhere" [checked] [ref=e274]
+                      - generic [ref=e276] [cursor=pointer]:
+                        - generic [ref=e277]: Near you
+                        - radio "Near you" [ref=e281]
+                  - link "Advanced search" [ref=e283] [cursor=pointer]:
+                    - /url: /search-advanced?f=live
+                    - generic [ref=e284]: Advanced search
+                - generic [ref=e288]:
+                  - heading "Today’s News Close" [level=2] [ref=e290]:
+                    - generic [ref=e291]: Today’s News
+                    - button "Close" [ref=e294] [cursor=pointer]:
+                      - img [ref=e296]
+                  - generic [ref=e299]:
+                    - link "Tesla's AI5 Chip Tapes Out, Boosting Robot and Autonomy Goals 6 hours ago · News · 23.8K posts" [ref=e300] [cursor=pointer]:
+                      - generic [ref=e303]:
+                        - generic [ref=e304]: Tesla's AI5 Chip Tapes Out, Boosting Robot and Autonomy Goals
+                        - generic [ref=e333]: 6 hours ago · News · 23.8K posts
+                    - link "Pope Leo XIV's Algeria Visit Draws U.S. Conservative Criticism 2 days ago · News · 541.4K posts" [ref=e334] [cursor=pointer]:
+                      - generic [ref=e337]:
+                        - generic [ref=e338]: Pope Leo XIV's Algeria Visit Draws U.S. Conservative Criticism
+                        - generic [ref=e377]: 2 days ago · News · 541.4K posts
+                    - link "Meloni Rebukes Trump Over Criticism of Pope Leo XIV 20 hours ago · News · 149.9K posts" [ref=e378] [cursor=pointer]:
+                      - generic [ref=e381]:
+                        - generic [ref=e382]: Meloni Rebukes Trump Over Criticism of Pope Leo XIV
+                        - generic [ref=e421]: 20 hours ago · News · 149.9K posts
+                - region "Trending now" [ref=e423]:
+                  - heading "Trending now" [level=1] [ref=e424]
+                  - 'generic "Timeline: Trending now" [ref=e425]':
+                    - generic [ref=e426]:
+                      - heading "What’s happening" [level=2] [ref=e430]:
+                        - generic [ref=e431]: What’s happening
+                      - link "Sports · Trending Carrick More" [ref=e434] [cursor=pointer]:
+                        - generic [ref=e435]:
+                          - generic [ref=e437]: Sports · Trending
+                          - generic [ref=e438]: Carrick
+                          - button "More" [ref=e441]:
+                            - img [ref=e445]
+                      - link "Trending in Singapore S'pore More" [ref=e450] [cursor=pointer]:
+                        - generic [ref=e451]:
+                          - generic [ref=e453]: Trending in Singapore
+                          - generic [ref=e454]: S'pore
+                          - button "More" [ref=e457]:
+                            - img [ref=e461]
+                      - link "Trending in Singapore Big Tech More" [ref=e466] [cursor=pointer]:
+                        - generic [ref=e467]:
+                          - generic [ref=e469]: Trending in Singapore
+                          - generic [ref=e470]: Big Tech
+                          - button "More" [ref=e473]:
+                            - img [ref=e477]
+                      - link "Business & finance · Trending Quantum More" [ref=e482] [cursor=pointer]:
+                        - generic [ref=e483]:
+                          - generic [ref=e485]: Business & finance · Trending
+                          - generic [ref=e486]: Quantum
+                          - button "More" [ref=e489]:
+                            - img [ref=e493]
+                      - link "Show more" [ref=e498] [cursor=pointer]:
+                        - /url: /explore/tabs/for-you
+                        - generic [ref=e499]: Show more
+                - complementary "Who to follow" [ref=e502]:
+                  - heading "Who to follow" [level=2] [ref=e504]:
+                    - generic [ref=e505]: Who to follow
+                  - list [ref=e506]:
+                    - listitem [ref=e507] [cursor=pointer]:
+                      - generic [ref=e508]:
+                        - link [ref=e518]:
+                          - /url: /oran_ge
+                        - generic [ref=e522]:
+                          - generic [ref=e524]:
+                            - link "Orange AI Verified account" [ref=e526]:
+                              - /url: /oran_ge
+                              - generic [ref=e527]:
+                                - generic [ref=e529]: Orange AI
+                                - img "Verified account" [ref=e532]
+                            - link "@oran_ge" [ref=e537]:
+                              - /url: /oran_ge
+                              - generic [ref=e539]: "@oran_ge"
+                          - button "Follow @oran_ge" [ref=e541]:
+                            - generic [ref=e544]: Follow
+                    - listitem [ref=e545] [cursor=pointer]:
+                      - generic [ref=e546]:
+                        - link [ref=e556]:
+                          - /url: /waylybaye
+                        - generic [ref=e560]:
+                          - generic [ref=e562]:
+                            - link "Baye Verified account" [ref=e564]:
+                              - /url: /waylybaye
+                              - generic [ref=e565]:
+                                - generic [ref=e567]: Baye
+                                - img "Verified account" [ref=e570]
+                            - link "@waylybaye" [ref=e575]:
+                              - /url: /waylybaye
+                              - generic [ref=e577]: "@waylybaye"
+                          - button "Follow @waylybaye" [ref=e579]:
+                            - generic [ref=e582]: Follow
+                    - listitem [ref=e583] [cursor=pointer]:
+                      - generic [ref=e584]:
+                        - link [ref=e594]:
+                          - /url: /vista8
+                        - generic [ref=e598]:
+                          - generic [ref=e600]:
+                            - link "向阳乔木 Verified account" [ref=e602]:
+                              - /url: /vista8
+                              - generic [ref=e603]:
+                                - generic [ref=e605]: 向阳乔木
+                                - img "Verified account" [ref=e608]
+                            - link "@vista8" [ref=e613]:
+                              - /url: /vista8
+                              - generic [ref=e615]: "@vista8"
+                          - button "Follow @vista8" [ref=e617]:
+                            - generic [ref=e620]: Follow
+                  - link "Show more" [ref=e621] [cursor=pointer]:
+                    - /url: /i/connect_people?user_id=2039187549864755200
+                    - generic [ref=e622]: Show more
+                - navigation "Footer" [ref=e624]:
+                  - generic [ref=e625]:
+                    - link "Terms of Service" [ref=e626] [cursor=pointer]:
+                      - /url: https://x.com/tos
+                    - generic [ref=e627]: "|"
+                  - generic [ref=e628]:
+                    - link "Privacy Policy" [ref=e629] [cursor=pointer]:
+                      - /url: https://x.com/privacy
+                    - generic [ref=e630]: "|"
+                  - generic [ref=e631]:
+                    - link "Cookie Policy" [ref=e632] [cursor=pointer]:
+                      - /url: https://support.x.com/articles/20170514
+                    - generic [ref=e633]: "|"
+                  - generic [ref=e634]:
+                    - link "Accessibility" [ref=e635] [cursor=pointer]:
+                      - /url: https://help.x.com/resources/accessibility
+                    - generic [ref=e636]: "|"
+                  - generic [ref=e637]:
+                    - link "Ads info" [ref=e638] [cursor=pointer]:
+                      - /url: https://business.x.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo
+                    - generic [ref=e639]: "|"
+                  - button "More" [ref=e640] [cursor=pointer]:
+                    - generic [ref=e641]:
+                      - text: More
+                      - img [ref=e642]
+                  - generic [ref=e645]: © 2026 X Corp.

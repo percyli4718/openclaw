@@ -1,0 +1,1967 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+    - generic [ref=e4]: Skip to main content
+  - generic [ref=e6]:
+    - generic:
+      - banner [ref=e9]:
+        - navigation [ref=e10]:
+          - link "Home" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - img [ref=e16]
+          - search [ref=e32]:
+            - generic [ref=e34]:
+              - img [ref=e36]
+              - textbox "Ask" [ref=e56]:
+                - /placeholder: Find anything
+              - separator [ref=e57]
+              - link "Ask" [ref=e61] [cursor=pointer]:
+                - /url: /answers/
+                - generic [ref=e62]:
+                  - img [ref=e64]
+                  - generic [ref=e66]: Ask
+          - generic [ref=e67]:
+            - button "Get App" [ref=e72] [cursor=pointer]:
+              - generic [ref=e73]:
+                - img [ref=e75]
+                - generic [ref=e77]: Get App
+            - link "Log In" [ref=e81] [cursor=pointer]:
+              - /url: https://www.reddit.com/login/
+              - generic [ref=e83]: Log In
+            - button "Expand user menu" [ref=e88] [cursor=pointer]:
+              - img [ref=e91]
+              - generic [ref=e93]:
+                - generic: Expand user menu
+      - generic [ref=e94]:
+        - generic [ref=e95]:
+          - generic [ref=e96]:
+            - generic:
+              - generic:
+                - link "Skip to Navigation" [ref=e97] [cursor=pointer]:
+                  - /url: "#left-sidebar-container"
+                - link "Skip to Right Sidebar" [ref=e98] [cursor=pointer]:
+                  - /url: "#right-sidebar-container"
+          - generic [ref=e99]:
+            - main [ref=e100]:
+              - generic [ref=e103]:
+                - generic [ref=e104]:
+                  - generic "Sort by" [ref=e107]:
+                    - 'button "Sort by: Best" [ref=e109] [cursor=pointer]':
+                      - generic [ref=e111]: Best
+                  - generic "Sort by" [ref=e116]:
+                    - 'button "Sort by: Everywhere" [ref=e118] [cursor=pointer]':
+                      - generic [ref=e120]: Everywhere
+                - generic "View" [ref=e126]:
+                  - 'button "View: Card" [ref=e128] [cursor=pointer]'
+              - separator [ref=e134]
+              - generic [ref=e135]:
+                - heading "Feed" [level=1] [ref=e137]
+                - generic:
+                  - 'article "Johnny Somali: South Korea jails US YouTuber for public nuisance" [ref=e138]':
+                    - generic [ref=e139] [cursor=pointer]:
+                      - 'link "Johnny Somali: South Korea jails US YouTuber for public nuisance" [ref=e140]':
+                        - /url: /r/technology/comments/1sm0f6r/johnny_somali_south_korea_jails_us_youtuber_for/
+                        - generic [ref=e141]:
+                          - generic: "Johnny Somali: South Korea jails US YouTuber for public nuisance"
+                      - generic [ref=e142]:
+                        - generic [ref=e144]:
+                          - generic [ref=e145]:
+                            - link "r/technology" [ref=e147]:
+                              - /url: /r/technology/
+                              - generic [ref=e151]: r/technology
+                            - generic [ref=e152]: •
+                            - time [ref=e154]: 5 hr. ago
+                          - button "Open user actions" [ref=e159]:
+                            - img [ref=e162]
+                        - generic [ref=e164]:
+                          - 'link "Johnny Somali: South Korea jails US YouTuber for public nuisance" [ref=e166]':
+                            - /url: /r/technology/comments/1sm0f6r/johnny_somali_south_korea_jails_us_youtuber_for/
+                            - text: "Johnny Somali: South Korea jails US YouTuber for public nuisance"
+                          - link "https://www.bbc.co.uk/news/articles/cj400lje9vxo?xtor=AL-71-%5Bpartner%5D-%5Bbbc.news.twitter%5D-%5Bheadline%5D-%5Bnews%5D-%5Bbizdev%5D-%5Bisapi%5D&at_link_id=25658758-3883-11F1-8180-C4AC020512E1&at_format=link&at_ptr_name=twitter&at_bbc_team=editorial&at_campaign_type=owned&at_link_origin=BBCWorld&at_campaign=Social_Flow&at_link_type=web_link&at_medium=social" [ref=e169]:
+                            - /url: https://www.bbc.co.uk/news/articles/cj400lje9vxo?xtor=AL-71-%5Bpartner%5D-%5Bbbc.news.twitter%5D-%5Bheadline%5D-%5Bnews%5D-%5Bbizdev%5D-%5Bisapi%5D&at_link_id=25658758-3883-11F1-8180-C4AC020512E1&at_format=link&at_ptr_name=twitter&at_bbc_team=editorial&at_campaign_type=owned&at_link_origin=BBCWorld&at_campaign=Social_Flow&at_link_type=web_link&at_medium=social
+                        - generic [ref=e171]:
+                          - 'link "r/technology - Johnny Somali: South Korea jails US YouTuber for public nuisance" [ref=e172]':
+                            - /url: https://www.bbc.co.uk/news/articles/cj400lje9vxo?xtor=AL-71-%5Bpartner%5D-%5Bbbc.news.twitter%5D-%5Bheadline%5D-%5Bnews%5D-%5Bbizdev%5D-%5Bisapi%5D&at_link_id=25658758-3883-11F1-8180-C4AC020512E1&at_format=link&at_ptr_name=twitter&at_bbc_team=editorial&at_campaign_type=owned&at_link_origin=BBCWorld&at_campaign=Social_Flow&at_link_type=web_link&at_medium=social
+                            - 'img "r/technology - Johnny Somali: South Korea jails US YouTuber for public nuisance" [ref=e173]'
+                          - generic:
+                            - generic:
+                              - img
+                      - generic "Actions available for this post" [ref=e175]:
+                        - generic [ref=e178]:
+                          - button "Upvote" [ref=e179]:
+                            - img [ref=e181]
+                            - generic [ref=e183]:
+                              - generic: Upvote
+                          - generic [ref=e185]: 4.8K
+                          - button "Downvote" [ref=e186]:
+                            - img [ref=e188]
+                            - generic [ref=e190]:
+                              - generic: Downvote
+                        - link "283 Go to comments" [ref=e191]:
+                          - /url: /r/technology/comments/1sm0f6r/johnny_somali_south_korea_jails_us_youtuber_for/
+                          - generic [ref=e192]:
+                            - img [ref=e194]
+                            - generic [ref=e197]: "283"
+                          - generic [ref=e198]:
+                            - generic: Go to comments
+                        - button "Give award, 2 awards given" [ref=e200]:
+                          - generic [ref=e205]: "2"
+                        - button "Share" [ref=e209]:
+                          - generic [ref=e210]:
+                            - img [ref=e212]
+                            - generic [ref=e214]: Share
+                  - separator [ref=e215]
+                  - generic [ref=e216]:
+                    - 'generic "Advertisement: Klaviyo helps Boody build sustainable customer relationships through seamless, data-driven, personalised journeys. Book a demo to boost ROI and retention with Klaviyo." [ref=e217]':
+                      - 'link "Advertisement: Klaviyo helps Boody build sustainable customer relationships through seamless, data-driven, personalised journeys. Book a demo to boost ROI and retention with Klaviyo." [ref=e218] [cursor=pointer]':
+                        - /url: https://alb.reddit.com/cr?za=CYuYUdg4J9_fX7bdmfd3BDwf_SbMDw6vIKBTx35ubKa0lqrc3yz5QE8wBCFSZzIyTlLnLPwvVL62QiH2wD5x97lYlcc1Rw98PfdlwQsC2gG8yagx_c8VuqRmdSwSzRr641PBtEFlaAAOvBFO__GF_Ww9Xu-w6fUn7NnxFayo_vRL7B69SOdzPSsDXji0cXb4pcrpOyA56rcVFEppERyxWCMJHIealf5kq6dJj0qkezASEglTBZO4d0-r61rpLbF2CW_qWvqMfhrI_H63YgMTRp2AgDMpwKTqFddCv2unhhwtN7IYfsCt68vl-ykLDS4q_0R2MN0-bVOWl7Qtns9ue9DjKo9asPb7Rvwx_8_FgWFGod16D3cyJEPMZfOW2y3SuiNA7XAcMP9WmkN8md57rGS4MXEY9wneWfivnaFvO55yllSQSso18eWjOvDxLE6KttaNWlSOiXDS8SyYBYSXnr40QVvsTaqSH6hkasvDnUaQiV4KJ50gagcKolOH2L71A8sHm6Ma3Z_r6HEpyqWp_jxYeN93PGIjn23eHYGW7rtRq3GNktsI9o4LCrF2fECtWWvi4QEybpR5PE_5m2ZpmS2UCA0Izkim5HruRQBJf1H7Y-KuprkwcUQZIEmUEUjo-Wek1xgHexH5ySrcuzABSVBJjTkVBU1CdQug-rjC-5TxDWdBoi35o1CpG6ocMmVIdMKqJvsBf5x5sYBTXMHhg9HceDE8yJxD0wxPFeOC9efnzSAlB2mu82OK6ZciS3YJ8O_6y8pzmeKZJSgccnbwSPY&zp=d66r8Z_YxqGdiojErRvwzGmaWtghXlevWQ8mItEYoXhCZup_k0NSpgYBcIG0EnR2Lvgbg9yc_79_2hRB8QJMPqo4ieSl-ZH_ZvVSiEyDygE3981UaSlAJEPn78gR3ygWQSbX8M6KffqICIhffv-yI_y2JotHD6CFMnP2tORQOs0itbfyS9o-9einDtJJI0EBzHo8BRUuc1SA5okA_rFYImMJyXs6WbpgX53VU2kWBjJer9r43CfikfZ8rRjvrgIqfK6u-YQMmRtTakKViBLbCZJvo54-XzNYE-XmgsoIeA8YSvyvSv-9-uM5gmdMpgj3GumKAXPB8k80__nqijOA5jRIKkyQV5EqGpEayIWgq9MtvJnOGGHfPw9bruGId9o
+                    - generic [ref=e219]:
+                      - generic [ref=e220]:
+                        - link "u/Official_Klaviyo avatar u/Official_Klaviyo" [ref=e222] [cursor=pointer]:
+                          - /url: /user/Official_Klaviyo/
+                          - img "u/Official_Klaviyo avatar" [ref=e227]
+                          - generic [ref=e228]: u/Official_Klaviyo
+                        - generic [ref=e229]: •
+                        - link "Promoted" [ref=e231] [cursor=pointer]:
+                          - /url: /user/Official_Klaviyo/
+                          - generic [ref=e232]: Promoted
+                        - link [ref=e234] [cursor=pointer]:
+                          - /url: https://alb.reddit.com/cr?za=CYuYUdg4J9_fX7bdmfd3BDwf_SbMDw6vIKBTx35ubKa0lqrc3yz5QE8wBCFSZzIyTlLnLPwvVL62QiH2wD5x97lYlcc1Rw98PfdlwQsC2gG8yagx_c8VuqRmdSwSzRr641PBtEFlaAAOvBFO__GF_Ww9Xu-w6fUn7NnxFayo_vRL7B69SOdzPSsDXji0cXb4pcrpOyA56rcVFEppERyxWCMJHIealf5kq6dJj0qkezASEglTBZO4d0-r61rpLbF2CW_qWvqMfhrI_H63YgMTRp2AgDMpwKTqFddCv2unhhwtN7IYfsCt68vl-ykLDS4q_0R2MN0-bVOWl7Qtns9ue9DjKo9asPb7Rvwx_8_FgWFGod16D3cyJEPMZfOW2y3SuiNA7XAcMP9WmkN8md57rGS4MXEY9wneWfivnaFvO55yllSQSso18eWjOvDxLE6KttaNWlSOiXDS8SyYBYSXnr40QVvsTaqSH6hkasvDnUaQiV4KJ50gagcKolOH2L71A8sHm6Ma3Z_r6HEpyqWp_jxYeN93PGIjn23eHYGW7rtRq3GNktsI9o4LCrF2fECtWWvi4QEybpR5PE_5m2ZpmS2UCA0Izkim5HruRQBJf1H7Y-KuprkwcUQZIEmUEUjo-Wek1xgHexH5ySrcuzABSVBJjTkVBU1CdQug-rjC-5TxDWdBoi35o1CpG6ocMmVIdMKqJvsBf5x5sYBTXMHhg9HceDE8yJxD0wxPFeOC9efnzSAlB2mu82OK6ZciS3YJ8O_6y8pzmeKZJSgccnbwSPY&zp=d66r8Z_YxqGdiojErRvwzGmaWtghXlevWQ8mItEYoXhCZup_k0NSpgYBcIG0EnR2Lvgbg9yc_79_2hRB8QJMPqo4ieSl-ZH_ZvVSiEyDygE3981UaSlAJEPn78gR3ygWQSbX8M6KffqICIhffv-yI_y2JotHD6CFMnP2tORQOs0itbfyS9o-9einDtJJI0EBzHo8BRUuc1SA5okA_rFYImMJyXs6WbpgX53VU2kWBjJer9r43CfikfZ8rRjvrgIqfK6u-YQMmRtTakKViBLbCZJvo54-XzNYE-XmgsoIeA8YSvyvSv-9-uM5gmdMpgj3GumKAXPB8k80__nqijOA5jRIKkyQV5EqGpEayIWgq9MtvJnOGGHfPw9bruGId9o
+                      - button "Open user actions" [ref=e239] [cursor=pointer]:
+                        - img [ref=e242]
+                    - heading "Klaviyo helps Boody build sustainable customer relationships through seamless, data-driven, personalised journeys. Book a demo to boost ROI and retention with Klaviyo." [level=2] [ref=e246]:
+                      - link "Klaviyo helps Boody build sustainable customer relationships through seamless, data-driven, personalised journeys. Book a demo to boost ROI and retention with Klaviyo." [ref=e249] [cursor=pointer]:
+                        - /url: https://alb.reddit.com/cr?za=CYuYUdg4J9_fX7bdmfd3BDwf_SbMDw6vIKBTx35ubKa0lqrc3yz5QE8wBCFSZzIyTlLnLPwvVL62QiH2wD5x97lYlcc1Rw98PfdlwQsC2gG8yagx_c8VuqRmdSwSzRr641PBtEFlaAAOvBFO__GF_Ww9Xu-w6fUn7NnxFayo_vRL7B69SOdzPSsDXji0cXb4pcrpOyA56rcVFEppERyxWCMJHIealf5kq6dJj0qkezASEglTBZO4d0-r61rpLbF2CW_qWvqMfhrI_H63YgMTRp2AgDMpwKTqFddCv2unhhwtN7IYfsCt68vl-ykLDS4q_0R2MN0-bVOWl7Qtns9ue9DjKo9asPb7Rvwx_8_FgWFGod16D3cyJEPMZfOW2y3SuiNA7XAcMP9WmkN8md57rGS4MXEY9wneWfivnaFvO55yllSQSso18eWjOvDxLE6KttaNWlSOiXDS8SyYBYSXnr40QVvsTaqSH6hkasvDnUaQiV4KJ50gagcKolOH2L71A8sHm6Ma3Z_r6HEpyqWp_jxYeN93PGIjn23eHYGW7rtRq3GNktsI9o4LCrF2fECtWWvi4QEybpR5PE_5m2ZpmS2UCA0Izkim5HruRQBJf1H7Y-KuprkwcUQZIEmUEUjo-Wek1xgHexH5ySrcuzABSVBJjTkVBU1CdQug-rjC-5TxDWdBoi35o1CpG6ocMmVIdMKqJvsBf5x5sYBTXMHhg9HceDE8yJxD0wxPFeOC9efnzSAlB2mu82OK6ZciS3YJ8O_6y8pzmeKZJSgccnbwSPY&zp=d66r8Z_YxqGdiojErRvwzGmaWtghXlevWQ8mItEYoXhCZup_k0NSpgYBcIG0EnR2Lvgbg9yc_79_2hRB8QJMPqo4ieSl-ZH_ZvVSiEyDygE3981UaSlAJEPn78gR3ygWQSbX8M6KffqICIhffv-yI_y2JotHD6CFMnP2tORQOs0itbfyS9o-9einDtJJI0EBzHo8BRUuc1SA5okA_rFYImMJyXs6WbpgX53VU2kWBjJer9r43CfikfZ8rRjvrgIqfK6u-YQMmRtTakKViBLbCZJvo54-XzNYE-XmgsoIeA8YSvyvSv-9-uM5gmdMpgj3GumKAXPB8k80__nqijOA5jRIKkyQV5EqGpEayIWgq9MtvJnOGGHfPw9bruGId9o
+                        - generic: Klaviyo helps Boody build sustainable customer relationships through seamless, data-driven, personalised journeys. Book a demo to boost ROI and retention with Klaviyo.
+                    - generic [ref=e250]:
+                      - generic [ref=e255]:
+                        - generic "video player" [ref=e256]
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                          - generic [ref=e257]:
+                            - generic:
+                              - button "Toggle playback" [ref=e258] [cursor=pointer]:
+                                - img [ref=e259]
+                              - generic "Media time"
+                              - generic:
+                                - generic:
+                                  - generic: 0:00
+                                  - generic: / 0:00
+                              - button "Toggle captions" [ref=e261] [cursor=pointer]:
+                                - img [ref=e262]
+                              - generic:
+                                - generic:
+                                  - button "Settings" [ref=e264] [cursor=pointer]:
+                                    - img [ref=e265]
+                                  - generic:
+                                    - button:
+                                      - generic:
+                                        - img
+                                      - generic: Auto
+                              - button "Toggle fullscreen" [ref=e267] [cursor=pointer]:
+                                - img [ref=e268]
+                            - button "Toggle volume" [ref=e273] [cursor=pointer]:
+                              - img [ref=e274]
+                      - separator [ref=e277]
+                      - generic [ref=e278]:
+                        - link [ref=e280] [cursor=pointer]:
+                          - /url: https://alb.reddit.com/cr?za=CYuYUdg4J9_fX7bdmfd3BDwf_SbMDw6vIKBTx35ubKa0lqrc3yz5QE8wBCFSZzIyTlLnLPwvVL62QiH2wD5x97lYlcc1Rw98PfdlwQsC2gG8yagx_c8VuqRmdSwSzRr641PBtEFlaAAOvBFO__GF_Ww9Xu-w6fUn7NnxFayo_vRL7B69SOdzPSsDXji0cXb4pcrpOyA56rcVFEppERyxWCMJHIealf5kq6dJj0qkezASEglTBZO4d0-r61rpLbF2CW_qWvqMfhrI_H63YgMTRp2AgDMpwKTqFddCv2unhhwtN7IYfsCt68vl-ykLDS4q_0R2MN0-bVOWl7Qtns9ue9DjKo9asPb7Rvwx_8_FgWFGod16D3cyJEPMZfOW2y3SuiNA7XAcMP9WmkN8md57rGS4MXEY9wneWfivnaFvO55yllSQSso18eWjOvDxLE6KttaNWlSOiXDS8SyYBYSXnr40QVvsTaqSH6hkasvDnUaQiV4KJ50gagcKolOH2L71A8sHm6Ma3Z_r6HEpyqWp_jxYeN93PGIjn23eHYGW7rtRq3GNktsI9o4LCrF2fECtWWvi4QEybpR5PE_5m2ZpmS2UCA0Izkim5HruRQBJf1H7Y-KuprkwcUQZIEmUEUjo-Wek1xgHexH5ySrcuzABSVBJjTkVBU1CdQug-rjC-5TxDWdBoi35o1CpG6ocMmVIdMKqJvsBf5x5sYBTXMHhg9HceDE8yJxD0wxPFeOC9efnzSAlB2mu82OK6ZciS3YJ8O_6y8pzmeKZJSgccnbwSPY&zp=d66r8Z_YxqGdiojErRvwzGmaWtghXlevWQ8mItEYoXhCZup_k0NSpgYBcIG0EnR2Lvgbg9yc_79_2hRB8QJMPqo4ieSl-ZH_ZvVSiEyDygE3981UaSlAJEPn78gR3ygWQSbX8M6KffqICIhffv-yI_y2JotHD6CFMnP2tORQOs0itbfyS9o-9einDtJJI0EBzHo8BRUuc1SA5okA_rFYImMJyXs6WbpgX53VU2kWBjJer9r43CfikfZ8rRjvrgIqfK6u-YQMmRtTakKViBLbCZJvo54-XzNYE-XmgsoIeA8YSvyvSv-9-uM5gmdMpgj3GumKAXPB8k80__nqijOA5jRIKkyQV5EqGpEayIWgq9MtvJnOGGHfPw9bruGId9o
+                        - generic [ref=e281]:
+                          - link "klaviyo.com" [ref=e284] [cursor=pointer]:
+                            - /url: https://alb.reddit.com/cr?za=CYuYUdg4J9_fX7bdmfd3BDwf_SbMDw6vIKBTx35ubKa0lqrc3yz5QE8wBCFSZzIyTlLnLPwvVL62QiH2wD5x97lYlcc1Rw98PfdlwQsC2gG8yagx_c8VuqRmdSwSzRr641PBtEFlaAAOvBFO__GF_Ww9Xu-w6fUn7NnxFayo_vRL7B69SOdzPSsDXji0cXb4pcrpOyA56rcVFEppERyxWCMJHIealf5kq6dJj0qkezASEglTBZO4d0-r61rpLbF2CW_qWvqMfhrI_H63YgMTRp2AgDMpwKTqFddCv2unhhwtN7IYfsCt68vl-ykLDS4q_0R2MN0-bVOWl7Qtns9ue9DjKo9asPb7Rvwx_8_FgWFGod16D3cyJEPMZfOW2y3SuiNA7XAcMP9WmkN8md57rGS4MXEY9wneWfivnaFvO55yllSQSso18eWjOvDxLE6KttaNWlSOiXDS8SyYBYSXnr40QVvsTaqSH6hkasvDnUaQiV4KJ50gagcKolOH2L71A8sHm6Ma3Z_r6HEpyqWp_jxYeN93PGIjn23eHYGW7rtRq3GNktsI9o4LCrF2fECtWWvi4QEybpR5PE_5m2ZpmS2UCA0Izkim5HruRQBJf1H7Y-KuprkwcUQZIEmUEUjo-Wek1xgHexH5ySrcuzABSVBJjTkVBU1CdQug-rjC-5TxDWdBoi35o1CpG6ocMmVIdMKqJvsBf5x5sYBTXMHhg9HceDE8yJxD0wxPFeOC9efnzSAlB2mu82OK6ZciS3YJ8O_6y8pzmeKZJSgccnbwSPY&zp=d66r8Z_YxqGdiojErRvwzGmaWtghXlevWQ8mItEYoXhCZup_k0NSpgYBcIG0EnR2Lvgbg9yc_79_2hRB8QJMPqo4ieSl-ZH_ZvVSiEyDygE3981UaSlAJEPn78gR3ygWQSbX8M6KffqICIhffv-yI_y2JotHD6CFMnP2tORQOs0itbfyS9o-9einDtJJI0EBzHo8BRUuc1SA5okA_rFYImMJyXs6WbpgX53VU2kWBjJer9r43CfikfZ8rRjvrgIqfK6u-YQMmRtTakKViBLbCZJvo54-XzNYE-XmgsoIeA8YSvyvSv-9-uM5gmdMpgj3GumKAXPB8k80__nqijOA5jRIKkyQV5EqGpEayIWgq9MtvJnOGGHfPw9bruGId9o
+                            - generic: klaviyo.com
+                          - link "Sign Up" [ref=e286] [cursor=pointer]:
+                            - /url: https://alb.reddit.com/cr?za=CYuYUdg4J9_fX7bdmfd3BDwf_SbMDw6vIKBTx35ubKa0lqrc3yz5QE8wBCFSZzIyTlLnLPwvVL62QiH2wD5x97lYlcc1Rw98PfdlwQsC2gG8yagx_c8VuqRmdSwSzRr641PBtEFlaAAOvBFO__GF_Ww9Xu-w6fUn7NnxFayo_vRL7B69SOdzPSsDXji0cXb4pcrpOyA56rcVFEppERyxWCMJHIealf5kq6dJj0qkezASEglTBZO4d0-r61rpLbF2CW_qWvqMfhrI_H63YgMTRp2AgDMpwKTqFddCv2unhhwtN7IYfsCt68vl-ykLDS4q_0R2MN0-bVOWl7Qtns9ue9DjKo9asPb7Rvwx_8_FgWFGod16D3cyJEPMZfOW2y3SuiNA7XAcMP9WmkN8md57rGS4MXEY9wneWfivnaFvO55yllSQSso18eWjOvDxLE6KttaNWlSOiXDS8SyYBYSXnr40QVvsTaqSH6hkasvDnUaQiV4KJ50gagcKolOH2L71A8sHm6Ma3Z_r6HEpyqWp_jxYeN93PGIjn23eHYGW7rtRq3GNktsI9o4LCrF2fECtWWvi4QEybpR5PE_5m2ZpmS2UCA0Izkim5HruRQBJf1H7Y-KuprkwcUQZIEmUEUjo-Wek1xgHexH5ySrcuzABSVBJjTkVBU1CdQug-rjC-5TxDWdBoi35o1CpG6ocMmVIdMKqJvsBf5x5sYBTXMHhg9HceDE8yJxD0wxPFeOC9efnzSAlB2mu82OK6ZciS3YJ8O_6y8pzmeKZJSgccnbwSPY&zp=d66r8Z_YxqGdiojErRvwzGmaWtghXlevWQ8mItEYoXhCZup_k0NSpgYBcIG0EnR2Lvgbg9yc_79_2hRB8QJMPqo4ieSl-ZH_ZvVSiEyDygE3981UaSlAJEPn78gR3ygWQSbX8M6KffqICIhffv-yI_y2JotHD6CFMnP2tORQOs0itbfyS9o-9einDtJJI0EBzHo8BRUuc1SA5okA_rFYImMJyXs6WbpgX53VU2kWBjJer9r43CfikfZ8rRjvrgIqfK6u-YQMmRtTakKViBLbCZJvo54-XzNYE-XmgsoIeA8YSvyvSv-9-uM5gmdMpgj3GumKAXPB8k80__nqijOA5jRIKkyQV5EqGpEayIWgq9MtvJnOGGHfPw9bruGId9o
+                            - generic [ref=e288]:
+                              - generic: Sign Up
+                    - generic "Actions available for this post" [ref=e289]:
+                      - generic [ref=e292]:
+                        - button "Upvote" [ref=e293] [cursor=pointer]:
+                          - img [ref=e295]
+                          - generic [ref=e297]:
+                            - generic: Upvote
+                        - text: Vote
+                        - button "Downvote" [ref=e298] [cursor=pointer]:
+                          - img [ref=e300]
+                          - generic [ref=e302]:
+                            - generic: Downvote
+                      - link "0 Go to comments" [ref=e303] [cursor=pointer]:
+                        - /url: /user/Official_Klaviyo/comments/1rkny42/klaviyo_helps_boody_build_sustainable_customer/?p=1&impressionid=5698346725459132980
+                        - generic [ref=e304]:
+                          - img [ref=e306]
+                          - generic [ref=e309]: "0"
+                        - generic [ref=e310]:
+                          - generic: Go to comments
+                      - button "Share" [ref=e314] [cursor=pointer]:
+                        - generic [ref=e315]:
+                          - img [ref=e317]
+                          - generic [ref=e319]: Share
+                      - link [ref=e321] [cursor=pointer]:
+                        - /url: https://alb.reddit.com/cr?za=CYuYUdg4J9_fX7bdmfd3BDwf_SbMDw6vIKBTx35ubKa0lqrc3yz5QE8wBCFSZzIyTlLnLPwvVL62QiH2wD5x97lYlcc1Rw98PfdlwQsC2gG8yagx_c8VuqRmdSwSzRr641PBtEFlaAAOvBFO__GF_Ww9Xu-w6fUn7NnxFayo_vRL7B69SOdzPSsDXji0cXb4pcrpOyA56rcVFEppERyxWCMJHIealf5kq6dJj0qkezASEglTBZO4d0-r61rpLbF2CW_qWvqMfhrI_H63YgMTRp2AgDMpwKTqFddCv2unhhwtN7IYfsCt68vl-ykLDS4q_0R2MN0-bVOWl7Qtns9ue9DjKo9asPb7Rvwx_8_FgWFGod16D3cyJEPMZfOW2y3SuiNA7XAcMP9WmkN8md57rGS4MXEY9wneWfivnaFvO55yllSQSso18eWjOvDxLE6KttaNWlSOiXDS8SyYBYSXnr40QVvsTaqSH6hkasvDnUaQiV4KJ50gagcKolOH2L71A8sHm6Ma3Z_r6HEpyqWp_jxYeN93PGIjn23eHYGW7rtRq3GNktsI9o4LCrF2fECtWWvi4QEybpR5PE_5m2ZpmS2UCA0Izkim5HruRQBJf1H7Y-KuprkwcUQZIEmUEUjo-Wek1xgHexH5ySrcuzABSVBJjTkVBU1CdQug-rjC-5TxDWdBoi35o1CpG6ocMmVIdMKqJvsBf5x5sYBTXMHhg9HceDE8yJxD0wxPFeOC9efnzSAlB2mu82OK6ZciS3YJ8O_6y8pzmeKZJSgccnbwSPY&zp=d66r8Z_YxqGdiojErRvwzGmaWtghXlevWQ8mItEYoXhCZup_k0NSpgYBcIG0EnR2Lvgbg9yc_79_2hRB8QJMPqo4ieSl-ZH_ZvVSiEyDygE3981UaSlAJEPn78gR3ygWQSbX8M6KffqICIhffv-yI_y2JotHD6CFMnP2tORQOs0itbfyS9o-9einDtJJI0EBzHo8BRUuc1SA5okA_rFYImMJyXs6WbpgX53VU2kWBjJer9r43CfikfZ8rRjvrgIqfK6u-YQMmRtTakKViBLbCZJvo54-XzNYE-XmgsoIeA8YSvyvSv-9-uM5gmdMpgj3GumKAXPB8k80__nqijOA5jRIKkyQV5EqGpEayIWgq9MtvJnOGGHfPw9bruGId9o
+                  - separator [ref=e322]
+                  - article "What brand names do you swear by because it's actually better than no-name?" [ref=e323]:
+                    - generic [ref=e324] [cursor=pointer]:
+                      - link "What brand names do you swear by because it's actually better than no-name?" [ref=e325]:
+                        - /url: /r/AskReddit/comments/1sloszr/what_brand_names_do_you_swear_by_because_its/
+                        - generic [ref=e326]:
+                          - generic: What brand names do you swear by because it's actually better than no-name?
+                      - generic [ref=e327]:
+                        - generic [ref=e328]:
+                          - generic [ref=e329]:
+                            - link "r/AskReddit" [ref=e330]:
+                              - /url: /r/AskReddit/
+                              - generic [ref=e334]: r/AskReddit
+                            - 'button "Community status: Credit" [ref=e336]':
+                              - img "donkey_right" [ref=e337]
+                          - generic [ref=e338]: •
+                          - time [ref=e340]: 15 hr. ago
+                        - button "Open user actions" [ref=e345]:
+                          - img [ref=e348]
+                      - heading "What brand names do you swear by because it's actually better than no-name?" [level=2] [ref=e352]:
+                        - link "What brand names do you swear by because it's actually better than no-name?" [ref=e353]:
+                          - /url: /r/AskReddit/comments/1sloszr/what_brand_names_do_you_swear_by_because_its/
+                      - generic "Actions available for this post" [ref=e354]:
+                        - generic [ref=e357]:
+                          - button "Upvote" [ref=e358]:
+                            - img [ref=e360]
+                            - generic [ref=e362]:
+                              - generic: Upvote
+                          - generic [ref=e364]: 2.3K
+                          - button "Downvote" [ref=e365]:
+                            - img [ref=e367]
+                            - generic [ref=e369]:
+                              - generic: Downvote
+                        - link "3.8K Go to comments" [ref=e370]:
+                          - /url: /r/AskReddit/comments/1sloszr/what_brand_names_do_you_swear_by_because_its/
+                          - generic [ref=e371]:
+                            - img [ref=e373]
+                            - generic [ref=e376]: 3.8K
+                          - generic [ref=e377]:
+                            - generic: Go to comments
+                        - button "Give award, 1 award given" [ref=e379]:
+                          - generic [ref=e384]: "1"
+                        - button "Share" [ref=e388]:
+                          - generic [ref=e389]:
+                            - img [ref=e391]
+                            - generic [ref=e393]: Share
+                  - separator [ref=e394]
+                  - article "Scottish ultrarunning champion dies during Highlands record attempt" [ref=e395]:
+                    - generic [ref=e396] [cursor=pointer]:
+                      - link "Scottish ultrarunning champion dies during Highlands record attempt" [ref=e397]:
+                        - /url: /r/news/comments/1sm2nji/scottish_ultrarunning_champion_dies_during/
+                        - generic [ref=e398]:
+                          - generic: Scottish ultrarunning champion dies during Highlands record attempt
+                      - generic [ref=e399]:
+                        - generic [ref=e401]:
+                          - generic [ref=e402]:
+                            - generic [ref=e403]:
+                              - link "r/news" [ref=e404]:
+                                - /url: /r/news/
+                                - generic [ref=e408]: r/news
+                              - 'button "Community status: 📰" [ref=e410]':
+                                - img "News" [ref=e411]
+                            - generic [ref=e412]: •
+                            - time [ref=e414]: 3 hr. ago
+                          - button "Open user actions" [ref=e419]:
+                            - img [ref=e422]
+                        - generic [ref=e424]:
+                          - link "Scottish ultrarunning champion dies during Highlands record attempt" [ref=e426]:
+                            - /url: /r/news/comments/1sm2nji/scottish_ultrarunning_champion_dies_during/
+                          - link "https://www.theguardian.com/uk-news/2026/apr/15/scotland-ultrarunner-david-parrish-dies-highlands-record-attempt-cape-wrath-trail" [ref=e429]:
+                            - /url: https://www.theguardian.com/uk-news/2026/apr/15/scotland-ultrarunner-david-parrish-dies-highlands-record-attempt-cape-wrath-trail
+                        - generic [ref=e431]:
+                          - link "r/news - Scottish ultrarunning champion dies during Highlands record attempt" [ref=e432]:
+                            - /url: https://www.theguardian.com/uk-news/2026/apr/15/scotland-ultrarunner-david-parrish-dies-highlands-record-attempt-cape-wrath-trail
+                            - img "r/news - Scottish ultrarunning champion dies during Highlands record attempt" [ref=e433]
+                          - generic:
+                            - generic:
+                              - img
+                      - generic "Actions available for this post" [ref=e435]:
+                        - generic [ref=e438]:
+                          - button "Upvote" [ref=e439]:
+                            - img [ref=e441]
+                            - generic [ref=e443]:
+                              - generic: Upvote
+                          - generic [ref=e445]: 2.9K
+                          - button "Downvote" [ref=e446]:
+                            - img [ref=e448]
+                            - generic [ref=e450]:
+                              - generic: Downvote
+                        - link "285 Go to comments" [ref=e451]:
+                          - /url: /r/news/comments/1sm2nji/scottish_ultrarunning_champion_dies_during/
+                          - generic [ref=e452]:
+                            - img [ref=e454]
+                            - generic [ref=e457]: "285"
+                          - generic [ref=e458]:
+                            - generic: Go to comments
+                        - button "Give award, 1 award given" [ref=e460]:
+                          - generic [ref=e465]: "1"
+                        - button "Share" [ref=e469]:
+                          - generic [ref=e470]:
+                            - img [ref=e472]
+                            - generic [ref=e474]: Share
+                  - separator [ref=e475]
+                  - article "High school teacher here. Sometimes I don't even know what to say." [ref=e476]:
+                    - generic [ref=e477] [cursor=pointer]:
+                      - link "High school teacher here. Sometimes I don't even know what to say." [ref=e478]:
+                        - /url: /r/mildlyinfuriating/comments/1sm5yzm/high_school_teacher_here_sometimes_i_dont_even/
+                        - generic [ref=e479]:
+                          - generic: High school teacher here. Sometimes I don't even know what to say.
+                      - generic [ref=e480]:
+                        - generic [ref=e481]:
+                          - link "r/mildlyinfuriating" [ref=e483]:
+                            - /url: /r/mildlyinfuriating/
+                            - generic [ref=e487]: r/mildlyinfuriating
+                          - generic [ref=e488]: •
+                          - time [ref=e490]: 51 min. ago
+                        - button "Open user actions" [ref=e495]:
+                          - img [ref=e498]
+                      - heading "High school teacher here. Sometimes I don't even know what to say." [level=2] [ref=e502]:
+                        - link "High school teacher here. Sometimes I don't even know what to say." [ref=e503]:
+                          - /url: /r/mildlyinfuriating/comments/1sm5yzm/high_school_teacher_here_sometimes_i_dont_even/
+                      - img "r/mildlyinfuriating - High school teacher here. Sometimes I don't even know what to say." [ref=e509]
+                      - generic "Actions available for this post" [ref=e510]:
+                        - generic [ref=e513]:
+                          - button "Upvote" [ref=e514]:
+                            - img [ref=e516]
+                            - generic [ref=e518]:
+                              - generic: Upvote
+                          - generic [ref=e520]: 1.9K
+                          - button "Downvote" [ref=e521]:
+                            - img [ref=e523]
+                            - generic [ref=e525]:
+                              - generic: Downvote
+                        - link "150 Go to comments" [ref=e526]:
+                          - /url: /r/mildlyinfuriating/comments/1sm5yzm/high_school_teacher_here_sometimes_i_dont_even/
+                          - generic [ref=e527]:
+                            - img [ref=e529]
+                            - generic [ref=e532]: "150"
+                          - generic [ref=e533]:
+                            - generic: Go to comments
+                        - button "Give award, 1 award given" [ref=e535]:
+                          - generic [ref=e540]: "1"
+                        - button "Share" [ref=e544]:
+                          - generic [ref=e545]:
+                            - img [ref=e547]
+                            - generic [ref=e549]: Share
+                  - separator [ref=e550]
+                  - 'article "Zelenskyy: return of draft-age Ukrainian men from abroad is a matter of fairness" [ref=e551]':
+                    - generic [ref=e552] [cursor=pointer]:
+                      - 'link "Zelenskyy: return of draft-age Ukrainian men from abroad is a matter of fairness" [ref=e553]':
+                        - /url: /r/worldnews/comments/1sm1l4n/zelenskyy_return_of_draftage_ukrainian_men_from/
+                        - generic [ref=e554]:
+                          - generic: "Zelenskyy: return of draft-age Ukrainian men from abroad is a matter of fairness"
+                      - generic [ref=e555]:
+                        - generic [ref=e557]:
+                          - generic [ref=e558]:
+                            - generic [ref=e559]:
+                              - link "r/worldnews" [ref=e560]:
+                                - /url: /r/worldnews/
+                                - generic [ref=e564]: r/worldnews
+                              - 'button "Community status: 🌎🌍🌏" [ref=e566]':
+                                - img "News" [ref=e567]
+                            - generic [ref=e568]: •
+                            - time [ref=e570]: 4 hr. ago
+                          - button "Open user actions" [ref=e575]:
+                            - img [ref=e578]
+                        - generic [ref=e580]:
+                          - 'link "Zelenskyy: return of draft-age Ukrainian men from abroad is a matter of fairness" [ref=e582]':
+                            - /url: /r/worldnews/comments/1sm1l4n/zelenskyy_return_of_draftage_ukrainian_men_from/
+                          - link "https://www.pravda.com.ua/eng/news/2026/04/14/8030112/" [ref=e585]:
+                            - /url: https://www.pravda.com.ua/eng/news/2026/04/14/8030112/
+                        - generic [ref=e587]:
+                          - 'link "r/worldnews - Zelenskyy: return of draft-age Ukrainian men from abroad is a matter of fairness" [ref=e588]':
+                            - /url: https://www.pravda.com.ua/eng/news/2026/04/14/8030112/
+                            - 'img "r/worldnews - Zelenskyy: return of draft-age Ukrainian men from abroad is a matter of fairness" [ref=e589]'
+                          - generic:
+                            - generic:
+                              - img
+                      - generic "Actions available for this post" [ref=e591]:
+                        - generic [ref=e594]:
+                          - button "Upvote" [ref=e595]:
+                            - img [ref=e597]
+                            - generic [ref=e599]:
+                              - generic: Upvote
+                          - generic [ref=e601]: 8.6K
+                          - button "Downvote" [ref=e602]:
+                            - img [ref=e604]
+                            - generic [ref=e606]:
+                              - generic: Downvote
+                        - link "3K Go to comments" [ref=e607]:
+                          - /url: /r/worldnews/comments/1sm1l4n/zelenskyy_return_of_draftage_ukrainian_men_from/
+                          - generic [ref=e608]:
+                            - img [ref=e610]
+                            - generic [ref=e613]: 3K
+                          - generic [ref=e614]:
+                            - generic: Go to comments
+                        - button "Give award" [ref=e616]:
+                          - img [ref=e619]
+                        - button "Share" [ref=e624]:
+                          - generic [ref=e625]:
+                            - img [ref=e627]
+                            - generic [ref=e629]: Share
+                  - separator [ref=e630]
+                  - article "Why did nobody tell her about the tariffs?" [ref=e631]:
+                    - generic [ref=e632] [cursor=pointer]:
+                      - link "Why did nobody tell her about the tariffs?" [ref=e633]:
+                        - /url: /r/SipsTea/comments/1sm42rm/why_did_nobody_tell_her_about_the_tariffs/
+                        - generic [ref=e634]:
+                          - generic: Why did nobody tell her about the tariffs?
+                      - generic [ref=e635]:
+                        - generic [ref=e636]:
+                          - generic [ref=e637]:
+                            - link "r/SipsTea" [ref=e638]:
+                              - /url: /r/SipsTea/
+                              - generic [ref=e642]: r/SipsTea
+                            - 'button "Community status: We have fun here." [ref=e644]':
+                              - img "DumpsterFire_APNG" [ref=e645]
+                          - generic [ref=e646]: •
+                          - time [ref=e648]: 2 hr. ago
+                        - button "Open user actions" [ref=e653]:
+                          - img [ref=e656]
+                      - heading "Why did nobody tell her about the tariffs?" [level=2] [ref=e660]:
+                        - link "Why did nobody tell her about the tariffs?" [ref=e661]:
+                          - /url: /r/SipsTea/comments/1sm42rm/why_did_nobody_tell_her_about_the_tariffs/
+                      - generic [ref=e667]:
+                        - generic "video player" [ref=e668]
+                        - generic [ref=e669]:
+                          - generic [ref=e670]:
+                            - button "Toggle playback" [ref=e671]:
+                              - img [ref=e672]
+                            - generic "Media time" [ref=e674]
+                            - generic [ref=e680]:
+                              - generic [ref=e681]: 0:00
+                              - generic [ref=e682]: / 0:00
+                            - button "Toggle captions" [ref=e683]:
+                              - img [ref=e684]
+                            - generic [ref=e687]:
+                              - button "Settings" [ref=e688]:
+                                - img [ref=e689]
+                              - generic:
+                                - button:
+                                  - generic:
+                                    - img
+                                  - generic: Auto
+                            - button "Toggle fullscreen" [ref=e691]:
+                              - img [ref=e692]
+                          - button "Toggle volume" [ref=e697]:
+                            - img [ref=e698]
+                      - generic "Actions available for this post" [ref=e701]:
+                        - generic [ref=e704]:
+                          - button "Upvote" [ref=e705]:
+                            - img [ref=e707]
+                            - generic [ref=e709]:
+                              - generic: Upvote
+                          - generic [ref=e711]: 3.9K
+                          - button "Downvote" [ref=e712]:
+                            - img [ref=e714]
+                            - generic [ref=e716]:
+                              - generic: Downvote
+                        - link "1.1K Go to comments" [ref=e717]:
+                          - /url: /r/SipsTea/comments/1sm42rm/why_did_nobody_tell_her_about_the_tariffs/
+                          - generic [ref=e718]:
+                            - img [ref=e720]
+                            - generic [ref=e723]: 1.1K
+                          - generic [ref=e724]:
+                            - generic: Go to comments
+                        - button "Give award, 1 award given" [ref=e726]:
+                          - generic [ref=e731]: "1"
+                        - button "Share" [ref=e735]:
+                          - generic [ref=e736]:
+                            - img [ref=e738]
+                            - generic [ref=e740]: Share
+                  - separator [ref=e741]
+                  - article "I can't even see you?" [ref=e742]:
+                    - generic [ref=e743] [cursor=pointer]:
+                      - link "I can't even see you?" [ref=e744]:
+                        - /url: /r/memes/comments/1sm3u1i/i_cant_even_see_you/
+                        - generic [ref=e745]:
+                          - generic: I can't even see you?
+                      - generic [ref=e746]:
+                        - generic [ref=e747]:
+                          - generic [ref=e748]:
+                            - link "r/memes" [ref=e749]:
+                              - /url: /r/memes/
+                              - generic [ref=e753]: r/memes
+                            - 'button "Community status: Verified Community: Original since 2008" [ref=e755]':
+                              - img "Golden_Check" [ref=e756]
+                          - generic [ref=e757]: •
+                          - time [ref=e759]: 2 hr. ago
+                        - button "Open user actions" [ref=e764]:
+                          - img [ref=e767]
+                      - heading "I can't even see you?" [level=2] [ref=e771]:
+                        - link "I can't even see you?" [ref=e772]:
+                          - /url: /r/memes/comments/1sm3u1i/i_cant_even_see_you/
+                      - img "r/memes - I can't even see you?" [ref=e778]
+                      - generic "Actions available for this post" [ref=e779]:
+                        - generic [ref=e782]:
+                          - button "Upvote" [ref=e783]:
+                            - img [ref=e785]
+                            - generic [ref=e787]:
+                              - generic: Upvote
+                          - generic [ref=e789]: 2.4K
+                          - button "Downvote" [ref=e790]:
+                            - img [ref=e792]
+                            - generic [ref=e794]:
+                              - generic: Downvote
+                        - link "168 Go to comments" [ref=e795]:
+                          - /url: /r/memes/comments/1sm3u1i/i_cant_even_see_you/
+                          - generic [ref=e796]:
+                            - img [ref=e798]
+                            - generic [ref=e801]: "168"
+                          - generic [ref=e802]:
+                            - generic: Go to comments
+                        - button "Give award, 2 awards given" [ref=e804]:
+                          - generic [ref=e809]: "2"
+                        - button "Share" [ref=e813]:
+                          - generic [ref=e814]:
+                            - img [ref=e816]
+                            - generic [ref=e818]: Share
+                  - separator [ref=e819]
+                  - generic [ref=e820]:
+                    - 'generic "Advertisement: Prompt your ideas to life with Figma Make. No more explaining your vision in a doc. Pitch your idea with an AI-prompted proof of concept." [ref=e821]':
+                      - 'link "Advertisement: Prompt your ideas to life with Figma Make. No more explaining your vision in a doc. Pitch your idea with an AI-prompted proof of concept." [ref=e822] [cursor=pointer]':
+                        - /url: https://alb.reddit.com/cr?za=kpFBycPPVIDEVhNfq0MTiFVEkd9Jh5lJZ74ZS4yCIyqxd9-F5n-2LrepZ3_3oYeF6qQkHWG5kg4G3gXlrYO3C1l89U_qF3E6jZps60ytlRYfj8l4Zg5G-voRHBPwXXHGmDvvaFtnAWRDs71FfCfVazUU9D3QpIqa_sU9sp48qn35xrUdRN8Fye75eu8ySEvn_1JRLV7Hx5RTe4L_FoKdjcKxU4pXi7UbPSFLf5bSUCuUlzDdqz9_s0MSWxgJmh5MVsPRCNF93TMrOGZCscLzngLIRs960JIQ4JJ74Gyrc6YOxhIEMsVQiaVwpKvVkht7vttSrDTrEJPa4CnrlOA6xsUbCaePS8zAYmLTA-y0H4jA_dk2lQSUNJ6GdQFAKDAFK0Km5-3NtzxWn12d4-IjJlt5f7-bcmLXPGeA5KZVm80LpCWrKxhP-xfzd6umCMMYdOVSOz-R6XtIUKNHe_N1cGq_i9FwocmuM4maxhFHW8DJMXxYI6B0edGRdboNcSVdzawvzLxVXEYSsvd1BuaJzJlqEU5_lrRGNxmVpP4DENJvxmKs4rveEWyEGke4-TgH8AO4e8n0dlIQ4kTMZ7w_o8lWLtxIkrTg9t6jz7tLNyvXLbUezl07E_d4GdDU-N7sXBao6-SK00NnuR7OlQ_W8t95_BwQtvF7B2ENCnhSVYe3hkEq9ceBoHQKJi0Od2ZEe9qfjH4R94chFPcRqdzQKZv4Pb94ZjMnkYUh9XBZjXhvvD81B9M_kWlaopcSUJw38JkQDoLAWsnq9mo9FovWWw1hZahe-w&zp=GNPUdITnnFD69HBLJ6HmVsPof09RDNs4xPdA72XSXSoVNqobAy-gf7bUu89X-1YcPlN8YiJQAOObEpj2qKClO2EMePfrHEjUxjYsKIRXXnZIk57gYW_6VYBoVjed1xBqu9uk22FdM4nHS910GZkky8i9gOAgDgOf_3wKHOoB_eGOEIu1IclJUfmVCWBieT3sgAcK8pcCBIG_F4EhoQSLgdhPUFl-VqAJZP8Lh9__U7LuJm3oZ8SH_kHmq7QJw_fh94DpM3j5iEqeMPNWZCJt66Y1wvQvd68__e5CwI9ux12zNOCKMncsn9P_eyniC6-p4X9pWb8F0XmPWInI_QyoHjzk_gnFGz9xRMaCkWhNQX5rjVIeDe4zQ8IeWYsjQTk2y-vD4U6Oa3WEWbs-FUYEv42hlnA
+                    - generic [ref=e823]:
+                      - generic [ref=e824]:
+                        - link "u/FigmaOfficial avatar u/FigmaOfficial" [ref=e826] [cursor=pointer]:
+                          - /url: /user/FigmaOfficial/
+                          - generic [ref=e830]:
+                            - img "u/FigmaOfficial avatar"
+                          - generic [ref=e831]: u/FigmaOfficial
+                        - generic [ref=e832]: •
+                        - link "Promoted" [ref=e834] [cursor=pointer]:
+                          - /url: /user/FigmaOfficial/
+                          - generic [ref=e835]: Promoted
+                        - link [ref=e837] [cursor=pointer]:
+                          - /url: https://alb.reddit.com/cr?za=kpFBycPPVIDEVhNfq0MTiFVEkd9Jh5lJZ74ZS4yCIyqxd9-F5n-2LrepZ3_3oYeF6qQkHWG5kg4G3gXlrYO3C1l89U_qF3E6jZps60ytlRYfj8l4Zg5G-voRHBPwXXHGmDvvaFtnAWRDs71FfCfVazUU9D3QpIqa_sU9sp48qn35xrUdRN8Fye75eu8ySEvn_1JRLV7Hx5RTe4L_FoKdjcKxU4pXi7UbPSFLf5bSUCuUlzDdqz9_s0MSWxgJmh5MVsPRCNF93TMrOGZCscLzngLIRs960JIQ4JJ74Gyrc6YOxhIEMsVQiaVwpKvVkht7vttSrDTrEJPa4CnrlOA6xsUbCaePS8zAYmLTA-y0H4jA_dk2lQSUNJ6GdQFAKDAFK0Km5-3NtzxWn12d4-IjJlt5f7-bcmLXPGeA5KZVm80LpCWrKxhP-xfzd6umCMMYdOVSOz-R6XtIUKNHe_N1cGq_i9FwocmuM4maxhFHW8DJMXxYI6B0edGRdboNcSVdzawvzLxVXEYSsvd1BuaJzJlqEU5_lrRGNxmVpP4DENJvxmKs4rveEWyEGke4-TgH8AO4e8n0dlIQ4kTMZ7w_o8lWLtxIkrTg9t6jz7tLNyvXLbUezl07E_d4GdDU-N7sXBao6-SK00NnuR7OlQ_W8t95_BwQtvF7B2ENCnhSVYe3hkEq9ceBoHQKJi0Od2ZEe9qfjH4R94chFPcRqdzQKZv4Pb94ZjMnkYUh9XBZjXhvvD81B9M_kWlaopcSUJw38JkQDoLAWsnq9mo9FovWWw1hZahe-w&zp=GNPUdITnnFD69HBLJ6HmVsPof09RDNs4xPdA72XSXSoVNqobAy-gf7bUu89X-1YcPlN8YiJQAOObEpj2qKClO2EMePfrHEjUxjYsKIRXXnZIk57gYW_6VYBoVjed1xBqu9uk22FdM4nHS910GZkky8i9gOAgDgOf_3wKHOoB_eGOEIu1IclJUfmVCWBieT3sgAcK8pcCBIG_F4EhoQSLgdhPUFl-VqAJZP8Lh9__U7LuJm3oZ8SH_kHmq7QJw_fh94DpM3j5iEqeMPNWZCJt66Y1wvQvd68__e5CwI9ux12zNOCKMncsn9P_eyniC6-p4X9pWb8F0XmPWInI_QyoHjzk_gnFGz9xRMaCkWhNQX5rjVIeDe4zQ8IeWYsjQTk2y-vD4U6Oa3WEWbs-FUYEv42hlnA
+                      - button "Open user actions" [ref=e842] [cursor=pointer]:
+                        - img [ref=e845]
+                    - heading "Prompt your ideas to life with Figma Make. No more explaining your vision in a doc. Pitch your idea with an AI-prompted proof of concept." [level=2] [ref=e849]:
+                      - link "Prompt your ideas to life with Figma Make. No more explaining your vision in a doc. Pitch your idea with an AI-prompted proof of concept." [ref=e852] [cursor=pointer]:
+                        - /url: https://alb.reddit.com/cr?za=kpFBycPPVIDEVhNfq0MTiFVEkd9Jh5lJZ74ZS4yCIyqxd9-F5n-2LrepZ3_3oYeF6qQkHWG5kg4G3gXlrYO3C1l89U_qF3E6jZps60ytlRYfj8l4Zg5G-voRHBPwXXHGmDvvaFtnAWRDs71FfCfVazUU9D3QpIqa_sU9sp48qn35xrUdRN8Fye75eu8ySEvn_1JRLV7Hx5RTe4L_FoKdjcKxU4pXi7UbPSFLf5bSUCuUlzDdqz9_s0MSWxgJmh5MVsPRCNF93TMrOGZCscLzngLIRs960JIQ4JJ74Gyrc6YOxhIEMsVQiaVwpKvVkht7vttSrDTrEJPa4CnrlOA6xsUbCaePS8zAYmLTA-y0H4jA_dk2lQSUNJ6GdQFAKDAFK0Km5-3NtzxWn12d4-IjJlt5f7-bcmLXPGeA5KZVm80LpCWrKxhP-xfzd6umCMMYdOVSOz-R6XtIUKNHe_N1cGq_i9FwocmuM4maxhFHW8DJMXxYI6B0edGRdboNcSVdzawvzLxVXEYSsvd1BuaJzJlqEU5_lrRGNxmVpP4DENJvxmKs4rveEWyEGke4-TgH8AO4e8n0dlIQ4kTMZ7w_o8lWLtxIkrTg9t6jz7tLNyvXLbUezl07E_d4GdDU-N7sXBao6-SK00NnuR7OlQ_W8t95_BwQtvF7B2ENCnhSVYe3hkEq9ceBoHQKJi0Od2ZEe9qfjH4R94chFPcRqdzQKZv4Pb94ZjMnkYUh9XBZjXhvvD81B9M_kWlaopcSUJw38JkQDoLAWsnq9mo9FovWWw1hZahe-w&zp=GNPUdITnnFD69HBLJ6HmVsPof09RDNs4xPdA72XSXSoVNqobAy-gf7bUu89X-1YcPlN8YiJQAOObEpj2qKClO2EMePfrHEjUxjYsKIRXXnZIk57gYW_6VYBoVjed1xBqu9uk22FdM4nHS910GZkky8i9gOAgDgOf_3wKHOoB_eGOEIu1IclJUfmVCWBieT3sgAcK8pcCBIG_F4EhoQSLgdhPUFl-VqAJZP8Lh9__U7LuJm3oZ8SH_kHmq7QJw_fh94DpM3j5iEqeMPNWZCJt66Y1wvQvd68__e5CwI9ux12zNOCKMncsn9P_eyniC6-p4X9pWb8F0XmPWInI_QyoHjzk_gnFGz9xRMaCkWhNQX5rjVIeDe4zQ8IeWYsjQTk2y-vD4U6Oa3WEWbs-FUYEv42hlnA
+                        - generic: Prompt your ideas to life with Figma Make. No more explaining your vision in a doc. Pitch your idea with an AI-prompted proof of concept.
+                    - generic [ref=e853]:
+                      - link "Prompt your ideas to life with Figma Make. No more explaining your vision in a doc. Pitch your idea with an AI-prompted proof of concept." [ref=e857] [cursor=pointer]:
+                        - /url: https://alb.reddit.com/cr?za=kpFBycPPVIDEVhNfq0MTiFVEkd9Jh5lJZ74ZS4yCIyqxd9-F5n-2LrepZ3_3oYeF6qQkHWG5kg4G3gXlrYO3C1l89U_qF3E6jZps60ytlRYfj8l4Zg5G-voRHBPwXXHGmDvvaFtnAWRDs71FfCfVazUU9D3QpIqa_sU9sp48qn35xrUdRN8Fye75eu8ySEvn_1JRLV7Hx5RTe4L_FoKdjcKxU4pXi7UbPSFLf5bSUCuUlzDdqz9_s0MSWxgJmh5MVsPRCNF93TMrOGZCscLzngLIRs960JIQ4JJ74Gyrc6YOxhIEMsVQiaVwpKvVkht7vttSrDTrEJPa4CnrlOA6xsUbCaePS8zAYmLTA-y0H4jA_dk2lQSUNJ6GdQFAKDAFK0Km5-3NtzxWn12d4-IjJlt5f7-bcmLXPGeA5KZVm80LpCWrKxhP-xfzd6umCMMYdOVSOz-R6XtIUKNHe_N1cGq_i9FwocmuM4maxhFHW8DJMXxYI6B0edGRdboNcSVdzawvzLxVXEYSsvd1BuaJzJlqEU5_lrRGNxmVpP4DENJvxmKs4rveEWyEGke4-TgH8AO4e8n0dlIQ4kTMZ7w_o8lWLtxIkrTg9t6jz7tLNyvXLbUezl07E_d4GdDU-N7sXBao6-SK00NnuR7OlQ_W8t95_BwQtvF7B2ENCnhSVYe3hkEq9ceBoHQKJi0Od2ZEe9qfjH4R94chFPcRqdzQKZv4Pb94ZjMnkYUh9XBZjXhvvD81B9M_kWlaopcSUJw38JkQDoLAWsnq9mo9FovWWw1hZahe-w&zp=GNPUdITnnFD69HBLJ6HmVsPof09RDNs4xPdA72XSXSoVNqobAy-gf7bUu89X-1YcPlN8YiJQAOObEpj2qKClO2EMePfrHEjUxjYsKIRXXnZIk57gYW_6VYBoVjed1xBqu9uk22FdM4nHS910GZkky8i9gOAgDgOf_3wKHOoB_eGOEIu1IclJUfmVCWBieT3sgAcK8pcCBIG_F4EhoQSLgdhPUFl-VqAJZP8Lh9__U7LuJm3oZ8SH_kHmq7QJw_fh94DpM3j5iEqeMPNWZCJt66Y1wvQvd68__e5CwI9ux12zNOCKMncsn9P_eyniC6-p4X9pWb8F0XmPWInI_QyoHjzk_gnFGz9xRMaCkWhNQX5rjVIeDe4zQ8IeWYsjQTk2y-vD4U6Oa3WEWbs-FUYEv42hlnA
+                        - img "Prompt your ideas to life with Figma Make. No more explaining your vision in a doc. Pitch your idea with an AI-prompted proof of concept." [ref=e859]
+                      - separator [ref=e860]
+                      - generic [ref=e861]:
+                        - link [ref=e863] [cursor=pointer]:
+                          - /url: https://alb.reddit.com/cr?za=kpFBycPPVIDEVhNfq0MTiFVEkd9Jh5lJZ74ZS4yCIyqxd9-F5n-2LrepZ3_3oYeF6qQkHWG5kg4G3gXlrYO3C1l89U_qF3E6jZps60ytlRYfj8l4Zg5G-voRHBPwXXHGmDvvaFtnAWRDs71FfCfVazUU9D3QpIqa_sU9sp48qn35xrUdRN8Fye75eu8ySEvn_1JRLV7Hx5RTe4L_FoKdjcKxU4pXi7UbPSFLf5bSUCuUlzDdqz9_s0MSWxgJmh5MVsPRCNF93TMrOGZCscLzngLIRs960JIQ4JJ74Gyrc6YOxhIEMsVQiaVwpKvVkht7vttSrDTrEJPa4CnrlOA6xsUbCaePS8zAYmLTA-y0H4jA_dk2lQSUNJ6GdQFAKDAFK0Km5-3NtzxWn12d4-IjJlt5f7-bcmLXPGeA5KZVm80LpCWrKxhP-xfzd6umCMMYdOVSOz-R6XtIUKNHe_N1cGq_i9FwocmuM4maxhFHW8DJMXxYI6B0edGRdboNcSVdzawvzLxVXEYSsvd1BuaJzJlqEU5_lrRGNxmVpP4DENJvxmKs4rveEWyEGke4-TgH8AO4e8n0dlIQ4kTMZ7w_o8lWLtxIkrTg9t6jz7tLNyvXLbUezl07E_d4GdDU-N7sXBao6-SK00NnuR7OlQ_W8t95_BwQtvF7B2ENCnhSVYe3hkEq9ceBoHQKJi0Od2ZEe9qfjH4R94chFPcRqdzQKZv4Pb94ZjMnkYUh9XBZjXhvvD81B9M_kWlaopcSUJw38JkQDoLAWsnq9mo9FovWWw1hZahe-w&zp=GNPUdITnnFD69HBLJ6HmVsPof09RDNs4xPdA72XSXSoVNqobAy-gf7bUu89X-1YcPlN8YiJQAOObEpj2qKClO2EMePfrHEjUxjYsKIRXXnZIk57gYW_6VYBoVjed1xBqu9uk22FdM4nHS910GZkky8i9gOAgDgOf_3wKHOoB_eGOEIu1IclJUfmVCWBieT3sgAcK8pcCBIG_F4EhoQSLgdhPUFl-VqAJZP8Lh9__U7LuJm3oZ8SH_kHmq7QJw_fh94DpM3j5iEqeMPNWZCJt66Y1wvQvd68__e5CwI9ux12zNOCKMncsn9P_eyniC6-p4X9pWb8F0XmPWInI_QyoHjzk_gnFGz9xRMaCkWhNQX5rjVIeDe4zQ8IeWYsjQTk2y-vD4U6Oa3WEWbs-FUYEv42hlnA
+                        - generic [ref=e864]:
+                          - link "figma.com" [ref=e867] [cursor=pointer]:
+                            - /url: https://alb.reddit.com/cr?za=kpFBycPPVIDEVhNfq0MTiFVEkd9Jh5lJZ74ZS4yCIyqxd9-F5n-2LrepZ3_3oYeF6qQkHWG5kg4G3gXlrYO3C1l89U_qF3E6jZps60ytlRYfj8l4Zg5G-voRHBPwXXHGmDvvaFtnAWRDs71FfCfVazUU9D3QpIqa_sU9sp48qn35xrUdRN8Fye75eu8ySEvn_1JRLV7Hx5RTe4L_FoKdjcKxU4pXi7UbPSFLf5bSUCuUlzDdqz9_s0MSWxgJmh5MVsPRCNF93TMrOGZCscLzngLIRs960JIQ4JJ74Gyrc6YOxhIEMsVQiaVwpKvVkht7vttSrDTrEJPa4CnrlOA6xsUbCaePS8zAYmLTA-y0H4jA_dk2lQSUNJ6GdQFAKDAFK0Km5-3NtzxWn12d4-IjJlt5f7-bcmLXPGeA5KZVm80LpCWrKxhP-xfzd6umCMMYdOVSOz-R6XtIUKNHe_N1cGq_i9FwocmuM4maxhFHW8DJMXxYI6B0edGRdboNcSVdzawvzLxVXEYSsvd1BuaJzJlqEU5_lrRGNxmVpP4DENJvxmKs4rveEWyEGke4-TgH8AO4e8n0dlIQ4kTMZ7w_o8lWLtxIkrTg9t6jz7tLNyvXLbUezl07E_d4GdDU-N7sXBao6-SK00NnuR7OlQ_W8t95_BwQtvF7B2ENCnhSVYe3hkEq9ceBoHQKJi0Od2ZEe9qfjH4R94chFPcRqdzQKZv4Pb94ZjMnkYUh9XBZjXhvvD81B9M_kWlaopcSUJw38JkQDoLAWsnq9mo9FovWWw1hZahe-w&zp=GNPUdITnnFD69HBLJ6HmVsPof09RDNs4xPdA72XSXSoVNqobAy-gf7bUu89X-1YcPlN8YiJQAOObEpj2qKClO2EMePfrHEjUxjYsKIRXXnZIk57gYW_6VYBoVjed1xBqu9uk22FdM4nHS910GZkky8i9gOAgDgOf_3wKHOoB_eGOEIu1IclJUfmVCWBieT3sgAcK8pcCBIG_F4EhoQSLgdhPUFl-VqAJZP8Lh9__U7LuJm3oZ8SH_kHmq7QJw_fh94DpM3j5iEqeMPNWZCJt66Y1wvQvd68__e5CwI9ux12zNOCKMncsn9P_eyniC6-p4X9pWb8F0XmPWInI_QyoHjzk_gnFGz9xRMaCkWhNQX5rjVIeDe4zQ8IeWYsjQTk2y-vD4U6Oa3WEWbs-FUYEv42hlnA
+                            - generic: figma.com
+                          - link "Learn More" [ref=e869] [cursor=pointer]:
+                            - /url: https://alb.reddit.com/cr?za=kpFBycPPVIDEVhNfq0MTiFVEkd9Jh5lJZ74ZS4yCIyqxd9-F5n-2LrepZ3_3oYeF6qQkHWG5kg4G3gXlrYO3C1l89U_qF3E6jZps60ytlRYfj8l4Zg5G-voRHBPwXXHGmDvvaFtnAWRDs71FfCfVazUU9D3QpIqa_sU9sp48qn35xrUdRN8Fye75eu8ySEvn_1JRLV7Hx5RTe4L_FoKdjcKxU4pXi7UbPSFLf5bSUCuUlzDdqz9_s0MSWxgJmh5MVsPRCNF93TMrOGZCscLzngLIRs960JIQ4JJ74Gyrc6YOxhIEMsVQiaVwpKvVkht7vttSrDTrEJPa4CnrlOA6xsUbCaePS8zAYmLTA-y0H4jA_dk2lQSUNJ6GdQFAKDAFK0Km5-3NtzxWn12d4-IjJlt5f7-bcmLXPGeA5KZVm80LpCWrKxhP-xfzd6umCMMYdOVSOz-R6XtIUKNHe_N1cGq_i9FwocmuM4maxhFHW8DJMXxYI6B0edGRdboNcSVdzawvzLxVXEYSsvd1BuaJzJlqEU5_lrRGNxmVpP4DENJvxmKs4rveEWyEGke4-TgH8AO4e8n0dlIQ4kTMZ7w_o8lWLtxIkrTg9t6jz7tLNyvXLbUezl07E_d4GdDU-N7sXBao6-SK00NnuR7OlQ_W8t95_BwQtvF7B2ENCnhSVYe3hkEq9ceBoHQKJi0Od2ZEe9qfjH4R94chFPcRqdzQKZv4Pb94ZjMnkYUh9XBZjXhvvD81B9M_kWlaopcSUJw38JkQDoLAWsnq9mo9FovWWw1hZahe-w&zp=GNPUdITnnFD69HBLJ6HmVsPof09RDNs4xPdA72XSXSoVNqobAy-gf7bUu89X-1YcPlN8YiJQAOObEpj2qKClO2EMePfrHEjUxjYsKIRXXnZIk57gYW_6VYBoVjed1xBqu9uk22FdM4nHS910GZkky8i9gOAgDgOf_3wKHOoB_eGOEIu1IclJUfmVCWBieT3sgAcK8pcCBIG_F4EhoQSLgdhPUFl-VqAJZP8Lh9__U7LuJm3oZ8SH_kHmq7QJw_fh94DpM3j5iEqeMPNWZCJt66Y1wvQvd68__e5CwI9ux12zNOCKMncsn9P_eyniC6-p4X9pWb8F0XmPWInI_QyoHjzk_gnFGz9xRMaCkWhNQX5rjVIeDe4zQ8IeWYsjQTk2y-vD4U6Oa3WEWbs-FUYEv42hlnA
+                            - generic [ref=e871]:
+                              - generic: Learn More
+                    - generic "Actions available for this post" [ref=e872]:
+                      - generic [ref=e875]:
+                        - button "Upvote" [ref=e876] [cursor=pointer]:
+                          - img [ref=e878]
+                          - generic [ref=e880]:
+                            - generic: Upvote
+                        - text: Vote
+                        - button "Downvote" [ref=e881] [cursor=pointer]:
+                          - img [ref=e883]
+                          - generic [ref=e885]:
+                            - generic: Downvote
+                      - link "0 Go to comments" [ref=e886] [cursor=pointer]:
+                        - /url: /user/FigmaOfficial/comments/1ndlhe8/prompt_your_ideas_to_life_with_figma_make_no_more/?p=1&impressionid=5355950519745569265
+                        - generic [ref=e887]:
+                          - img [ref=e889]
+                          - generic [ref=e892]: "0"
+                        - generic [ref=e893]:
+                          - generic: Go to comments
+                      - button "Share" [ref=e897] [cursor=pointer]:
+                        - generic [ref=e898]:
+                          - img [ref=e900]
+                          - generic [ref=e902]: Share
+                      - link [ref=e904] [cursor=pointer]:
+                        - /url: https://alb.reddit.com/cr?za=kpFBycPPVIDEVhNfq0MTiFVEkd9Jh5lJZ74ZS4yCIyqxd9-F5n-2LrepZ3_3oYeF6qQkHWG5kg4G3gXlrYO3C1l89U_qF3E6jZps60ytlRYfj8l4Zg5G-voRHBPwXXHGmDvvaFtnAWRDs71FfCfVazUU9D3QpIqa_sU9sp48qn35xrUdRN8Fye75eu8ySEvn_1JRLV7Hx5RTe4L_FoKdjcKxU4pXi7UbPSFLf5bSUCuUlzDdqz9_s0MSWxgJmh5MVsPRCNF93TMrOGZCscLzngLIRs960JIQ4JJ74Gyrc6YOxhIEMsVQiaVwpKvVkht7vttSrDTrEJPa4CnrlOA6xsUbCaePS8zAYmLTA-y0H4jA_dk2lQSUNJ6GdQFAKDAFK0Km5-3NtzxWn12d4-IjJlt5f7-bcmLXPGeA5KZVm80LpCWrKxhP-xfzd6umCMMYdOVSOz-R6XtIUKNHe_N1cGq_i9FwocmuM4maxhFHW8DJMXxYI6B0edGRdboNcSVdzawvzLxVXEYSsvd1BuaJzJlqEU5_lrRGNxmVpP4DENJvxmKs4rveEWyEGke4-TgH8AO4e8n0dlIQ4kTMZ7w_o8lWLtxIkrTg9t6jz7tLNyvXLbUezl07E_d4GdDU-N7sXBao6-SK00NnuR7OlQ_W8t95_BwQtvF7B2ENCnhSVYe3hkEq9ceBoHQKJi0Od2ZEe9qfjH4R94chFPcRqdzQKZv4Pb94ZjMnkYUh9XBZjXhvvD81B9M_kWlaopcSUJw38JkQDoLAWsnq9mo9FovWWw1hZahe-w&zp=GNPUdITnnFD69HBLJ6HmVsPof09RDNs4xPdA72XSXSoVNqobAy-gf7bUu89X-1YcPlN8YiJQAOObEpj2qKClO2EMePfrHEjUxjYsKIRXXnZIk57gYW_6VYBoVjed1xBqu9uk22FdM4nHS910GZkky8i9gOAgDgOf_3wKHOoB_eGOEIu1IclJUfmVCWBieT3sgAcK8pcCBIG_F4EhoQSLgdhPUFl-VqAJZP8Lh9__U7LuJm3oZ8SH_kHmq7QJw_fh94DpM3j5iEqeMPNWZCJt66Y1wvQvd68__e5CwI9ux12zNOCKMncsn9P_eyniC6-p4X9pWb8F0XmPWInI_QyoHjzk_gnFGz9xRMaCkWhNQX5rjVIeDe4zQ8IeWYsjQTk2y-vD4U6Oa3WEWbs-FUYEv42hlnA
+                  - separator [ref=e905]
+                  - article "got written up for going to the dentist at 2pm while working from home" [ref=e906]:
+                    - generic [ref=e907] [cursor=pointer]:
+                      - link "got written up for going to the dentist at 2pm while working from home" [ref=e908]:
+                        - /url: /r/remotework/comments/1sldcjt/got_written_up_for_going_to_the_dentist_at_2pm/
+                        - generic [ref=e909]:
+                          - generic: got written up for going to the dentist at 2pm while working from home
+                      - generic [ref=e910]:
+                        - generic [ref=e911]:
+                          - link "r/remotework" [ref=e913]:
+                            - /url: /r/remotework/
+                            - img [ref=e917]
+                            - generic [ref=e919]: r/remotework
+                          - generic [ref=e920]: •
+                          - time [ref=e922]: 22 hr. ago
+                        - button "Open user actions" [ref=e927]:
+                          - img [ref=e930]
+                      - generic [ref=e933]:
+                        - heading "got written up for going to the dentist at 2pm while working from home" [level=2] [ref=e934]:
+                          - link "got written up for going to the dentist at 2pm while working from home" [ref=e935]:
+                            - /url: /r/remotework/comments/1sldcjt/got_written_up_for_going_to_the_dentist_at_2pm/
+                        - generic [ref=e936]:
+                          - generic:
+                            - link:
+                              - /url: /r/remotework/comments/1sldcjt/got_written_up_for_going_to_the_dentist_at_2pm/
+                              - generic:
+                                - generic:
+                                  - paragraph: this one still doesn't feel real.
+                                  - paragraph: i've been remote for almost 3 years. my dentist is 5 minutes from my house. i had a cleaning scheduled for 2pm on a Wednesday. i blocked my calendar, told my team i'd be offline from 1:45 to 3, finished every deliverable that was due that day before noon.
+                                  - paragraph: went to the dentist. came back. answered a few emails. normal day.
+                                  - paragraph: two days later my manager sends me a message saying my "availability gap" was flagged by our workforce management system and he needs to "document it." i explained it was a dentist appointment during a blocked calendar slot. he said he understood but the system flagged it and he has to follow the process.
+                                  - paragraph: so now i have a written note in my file because i went to the dentist during working hours. something that anyone in an office does literally all the time without even telling their manager.
+                                  - paragraph: the crazy part is nobody needed me during that hour. nobody tried to reach me. the flag was automatic. the software noticed i wasn't active for 70 minutes and generated an alert.
+                                  - paragraph: this isn't about the dentist. this is about being monitored by software that treats any break in activity as suspicious. even when you tell everyone in advance. even when nothing is affected.
+                                  - paragraph: i don't know what to do with this. do i push back? do i just eat it and move on? it feels so small and so insane at the same time.
+                      - generic "Actions available for this post" [ref=e937]:
+                        - generic [ref=e940]:
+                          - button "Upvote" [ref=e941]:
+                            - img [ref=e943]
+                            - generic [ref=e945]:
+                              - generic: Upvote
+                          - generic [ref=e947]: 8.1K
+                          - button "Downvote" [ref=e948]:
+                            - img [ref=e950]
+                            - generic [ref=e952]:
+                              - generic: Downvote
+                        - link "1.3K Go to comments" [ref=e953]:
+                          - /url: /r/remotework/comments/1sldcjt/got_written_up_for_going_to_the_dentist_at_2pm/
+                          - generic [ref=e954]:
+                            - img [ref=e956]
+                            - generic [ref=e959]: 1.3K
+                          - generic [ref=e960]:
+                            - generic: Go to comments
+                        - button "Give award" [ref=e962]:
+                          - img [ref=e965]
+                        - button "Share" [ref=e970]:
+                          - generic [ref=e971]:
+                            - img [ref=e973]
+                            - generic [ref=e975]: Share
+                  - separator [ref=e976]
+                  - 'article "The full movie for ‘Avatar: Aang, The Last Airbender’ has been accidentally emailed to Twitter user who released the full movie on his account . The estimated budget is around $80 millions, and was supposed to be released on paramount+ in October this year." [ref=e977]':
+                    - generic [ref=e978] [cursor=pointer]:
+                      - 'link "The full movie for ‘Avatar: Aang, The Last Airbender’ has been accidentally emailed to Twitter user who released the full movie on his account . The estimated budget is around $80 millions, and was supposed to be released on paramount+ in October this year." [ref=e979]':
+                        - /url: /r/Wellthatsucks/comments/1sldt5e/the_full_movie_for_avatar_aang_the_last_airbender/
+                        - generic [ref=e980]:
+                          - generic: "The full movie for ‘Avatar: Aang, The Last Airbender’ has been accidentally emailed to Twitter user who released the full movie on his account . The estimated budget is around $80 millions, and was supposed to be released on paramount+ in October this year."
+                      - generic [ref=e981]:
+                        - generic [ref=e982]:
+                          - generic [ref=e983]:
+                            - link "r/Wellthatsucks" [ref=e984]:
+                              - /url: /r/Wellthatsucks/
+                              - generic [ref=e988]: r/Wellthatsucks
+                            - 'button "Community status: Well.. that sucks.." [ref=e990]':
+                              - img "Well" [ref=e991]
+                          - generic [ref=e992]: •
+                          - time [ref=e994]: 22 hr. ago
+                        - button "Open user actions" [ref=e999]:
+                          - img [ref=e1002]
+                      - 'heading "The full movie for ‘Avatar: Aang, The Last Airbender’ has been accidentally emailed to Twitter user who released the full movie on his account . The estimated budget is around $80 millions, and was supposed to be released on paramount+ in October this year." [level=2] [ref=e1006]':
+                        - 'link "The full movie for ‘Avatar: Aang, The Last Airbender’ has been accidentally emailed to Twitter user who released the full movie on his account . The estimated budget is around $80 millions, and was supposed to be released on paramount+ in October this year." [ref=e1007]':
+                          - /url: /r/Wellthatsucks/comments/1sldt5e/the_full_movie_for_avatar_aang_the_last_airbender/
+                      - 'img "r/Wellthatsucks - The full movie for ‘Avatar: Aang, The Last Airbender’ has been accidentally emailed to Twitter user who released the full movie on his account . The estimated budget is around $80 millions, and was supposed to be released on paramount+ in October this year." [ref=e1013]'
+                      - generic "Actions available for this post" [ref=e1014]:
+                        - generic [ref=e1017]:
+                          - button "Upvote" [ref=e1018]:
+                            - img [ref=e1020]
+                            - generic [ref=e1022]:
+                              - generic: Upvote
+                          - generic [ref=e1024]: 26K
+                          - button "Downvote" [ref=e1025]:
+                            - img [ref=e1027]
+                            - generic [ref=e1029]:
+                              - generic: Downvote
+                        - link "2.2K Go to comments" [ref=e1030]:
+                          - /url: /r/Wellthatsucks/comments/1sldt5e/the_full_movie_for_avatar_aang_the_last_airbender/
+                          - generic [ref=e1031]:
+                            - img [ref=e1033]
+                            - generic [ref=e1036]: 2.2K
+                          - generic [ref=e1037]:
+                            - generic: Go to comments
+                        - button "Give award, 23 awards given" [ref=e1039]:
+                          - generic [ref=e1044]: "23"
+                        - button "Share" [ref=e1048]:
+                          - generic [ref=e1049]:
+                            - img [ref=e1051]
+                            - generic [ref=e1053]: Share
+                  - separator [ref=e1054]
+                  - article "AITA for refusing to subsidize my parents’ $11k/month senior's home in one of the fanciest neighborhoods in the city?" [ref=e1055]:
+                    - generic [ref=e1056] [cursor=pointer]:
+                      - link "AITA for refusing to subsidize my parents’ $11k/month senior's home in one of the fanciest neighborhoods in the city?" [ref=e1057]:
+                        - /url: /r/AmItheAsshole/comments/1slrpbh/aita_for_refusing_to_subsidize_my_parents/
+                        - generic [ref=e1058]:
+                          - generic: AITA for refusing to subsidize my parents’ $11k/month senior's home in one of the fanciest neighborhoods in the city?
+                      - generic [ref=e1059]:
+                        - generic [ref=e1060]:
+                          - link "r/AmItheAsshole" [ref=e1062]:
+                            - /url: /r/AmItheAsshole/
+                            - generic [ref=e1066]: r/AmItheAsshole
+                          - generic [ref=e1067]: •
+                          - time [ref=e1069]: 13 hr. ago
+                        - button "Open user actions" [ref=e1074]:
+                          - img [ref=e1077]
+                      - generic [ref=e1080]:
+                        - heading "AITA for refusing to subsidize my parents’ $11k/month senior's home in one of the fanciest neighborhoods in the city?" [level=2] [ref=e1081]:
+                          - link "AITA for refusing to subsidize my parents’ $11k/month senior's home in one of the fanciest neighborhoods in the city?" [ref=e1082]:
+                            - /url: /r/AmItheAsshole/comments/1slrpbh/aita_for_refusing_to_subsidize_my_parents/
+                        - generic [ref=e1083]:
+                          - generic:
+                            - link:
+                              - /url: /r/AmItheAsshole/comments/1slrpbh/aita_for_refusing_to_subsidize_my_parents/
+                              - generic:
+                                - generic:
+                                  - paragraph: I (34M, physician) am an only child. My parents are in their late 60s with serious health issues. My mom has a slow-growing cancer, and my dad has Alzheimer’s (currently mild, still driving and managing day-to-day). In terms of outlook, we are looking at about 5 years for my mom and 12 years for my dad.
+                                  - paragraph: Right now they are doing okay at home with frozen meals and some cleaning help, but they have said they want to move into a senior residence in about a year.
+                                  - paragraph: They have fixated on a specific home in Kerrisdale, Vancouver which is one of the more affluent neighbourhoods in the city, if not in all of Canada. It is about $11,000 CAD per month for a 1bdrm, and that is just independent living, meaning meals, activities, and light housekeeping. Any actual care like personal support or medication management would be extra. And assisted living or long-term care in the complex would be 2x or 3x as much.
+                                  - paragraph: "Financially, they have about CAD $8,000 per month in pre-tax income (edit: they pay taxes, copays for drugs/dental, life stuff like cable, clothing, haircuts etc out of this money. they also have 2 young dogs. right now they are about breaking even while paying $2800 in rent), and around CAD $800,000 in assets (they don't own a home). So they are not broke and have meaningful resources, but realistically they can't afford this place long term, especially once they need higher levels of care."
+                                  - paragraph: The implied expectation is that I would step in and help cover things after they run out of money. I could technically afford to help. But this is a potentially decade plus commitment with escalating costs over time. And it would affect my ability to make major life decisions such as where I live, career flexibility, and relationships.
+                                  - paragraph: I have suggested more sustainable options that are still good quality, just not ultra premium, but those get dismissed as not good enough. My mom has always been very hard to please. Even when things are objectively good, she tends to focus on what is wrong. So I worry that even if I do help fund this, it will not actually make her happy, and I will still be taking on a major long term financial burden.
+                                  - paragraph: "From my perspective:"
+                                  - list:
+                                    - listitem:
+                                      - paragraph: They are choosing a lifestyle above what their finances comfortably support
+                                    - listitem:
+                                      - paragraph: The current option is not even the level of care they will likely need later on
+                                    - listitem:
+                                      - paragraph: I am being positioned as the future backstop for an open ended, escalating cost
+                                  - paragraph: At the same time, I feel guilty. They are dealing with real health issues, and I can help. Part of me feels like I should want them to have the nicest, easiest environment possible.
+                                  - paragraph: But I also feel it's reasonable to expect them to choose something they can sustain on their own resources, especially when good alternatives exist.
+                                  - paragraph: I am not trying to abandon them; I want them to be safe, comfortable, and cared for. I just don't think I should be responsible for paying for a luxury home in one of the top 2% neighbourhoods in the country, especially when it may not even meet their future needs.
+                                  - paragraph: AITA for drawing a line and refusing to subsidize this plan, even if it means they have to go for something less upscale?
+                      - generic "Actions available for this post" [ref=e1084]:
+                        - generic [ref=e1087]:
+                          - button "Upvote" [ref=e1088]:
+                            - img [ref=e1090]
+                            - generic [ref=e1092]:
+                              - generic: Upvote
+                          - generic [ref=e1094]: 3K
+                          - button "Downvote" [ref=e1095]:
+                            - img [ref=e1097]
+                            - generic [ref=e1099]:
+                              - generic: Downvote
+                        - link "604 Go to comments" [ref=e1100]:
+                          - /url: /r/AmItheAsshole/comments/1slrpbh/aita_for_refusing_to_subsidize_my_parents/
+                          - generic [ref=e1101]:
+                            - img [ref=e1103]
+                            - generic [ref=e1106]: "604"
+                          - generic [ref=e1107]:
+                            - generic: Go to comments
+                        - button "Give award, 2 awards given" [ref=e1109]:
+                          - generic [ref=e1114]: "2"
+                        - button "Share" [ref=e1118]:
+                          - generic [ref=e1119]:
+                            - img [ref=e1121]
+                            - generic [ref=e1123]: Share
+                  - separator [ref=e1124]
+                  - article "Countries That Won't Participate In Eurovision 2026 due to Israel" [ref=e1125]:
+                    - generic [ref=e1126] [cursor=pointer]:
+                      - link "Countries That Won't Participate In Eurovision 2026 due to Israel" [ref=e1127]:
+                        - /url: /r/MapPorn/comments/1sly8yp/countries_that_wont_participate_in_eurovision/
+                        - generic [ref=e1128]:
+                          - generic: Countries That Won't Participate In Eurovision 2026 due to Israel
+                      - generic [ref=e1129]:
+                        - generic [ref=e1130]:
+                          - link "r/MapPorn" [ref=e1132]:
+                            - /url: /r/MapPorn/
+                            - generic [ref=e1136]: r/MapPorn
+                          - generic [ref=e1137]: •
+                          - time [ref=e1139]: 8 hr. ago
+                        - button "Open user actions" [ref=e1144]:
+                          - img [ref=e1147]
+                      - heading "Countries That Won't Participate In Eurovision 2026 due to Israel" [level=2] [ref=e1151]:
+                        - link "Countries That Won't Participate In Eurovision 2026 due to Israel" [ref=e1152]:
+                          - /url: /r/MapPorn/comments/1sly8yp/countries_that_wont_participate_in_eurovision/
+                      - img "r/MapPorn - Countries That Won't Participate In Eurovision 2026 due to Israel" [ref=e1158]
+                      - generic "Actions available for this post" [ref=e1159]:
+                        - generic [ref=e1162]:
+                          - button "Upvote" [ref=e1163]:
+                            - img [ref=e1165]
+                            - generic [ref=e1167]:
+                              - generic: Upvote
+                          - generic [ref=e1169]: 6.4K
+                          - button "Downvote" [ref=e1170]:
+                            - img [ref=e1172]
+                            - generic [ref=e1174]:
+                              - generic: Downvote
+                        - link "1.4K Go to comments" [ref=e1175]:
+                          - /url: /r/MapPorn/comments/1sly8yp/countries_that_wont_participate_in_eurovision/
+                          - generic [ref=e1176]:
+                            - img [ref=e1178]
+                            - generic [ref=e1181]: 1.4K
+                          - generic [ref=e1182]:
+                            - generic: Go to comments
+                        - button "Give award, 6 awards given" [ref=e1184]:
+                          - generic [ref=e1189]: "6"
+                        - button "Share" [ref=e1193]:
+                          - generic [ref=e1194]:
+                            - img [ref=e1196]
+                            - generic [ref=e1198]: Share
+                  - separator [ref=e1199]
+                  - article "Clav goes on a incel rant during 60 minutes interview" [ref=e1200]:
+                    - generic [ref=e1201] [cursor=pointer]:
+                      - link "Clav goes on a incel rant during 60 minutes interview" [ref=e1202]:
+                        - /url: /r/TikTokCringe/comments/1slnqpk/clav_goes_on_a_incel_rant_during_60_minutes/
+                        - generic [ref=e1203]:
+                          - generic: Clav goes on a incel rant during 60 minutes interview
+                      - generic [ref=e1204]:
+                        - generic [ref=e1205]:
+                          - link "r/TikTokCringe" [ref=e1207]:
+                            - /url: /r/TikTokCringe/
+                            - generic [ref=e1211]: r/TikTokCringe
+                          - generic [ref=e1212]: •
+                          - time [ref=e1214]: 16 hr. ago
+                        - button "Open user actions" [ref=e1219]:
+                          - img [ref=e1222]
+                      - heading "Clav goes on a incel rant during 60 minutes interview" [level=2] [ref=e1226]:
+                        - link "Clav goes on a incel rant during 60 minutes interview" [ref=e1227]:
+                          - /url: /r/TikTokCringe/comments/1slnqpk/clav_goes_on_a_incel_rant_during_60_minutes/
+                      - generic [ref=e1235]:
+                        - generic [ref=e1236]:
+                          - button "Toggle playback" [ref=e1237]:
+                            - img [ref=e1238]
+                          - generic "Media time" [ref=e1240]
+                          - generic [ref=e1246]:
+                            - generic [ref=e1247]: 0:00
+                            - generic [ref=e1248]: / 0:00
+                          - button "Toggle captions" [ref=e1249]:
+                            - img [ref=e1250]
+                          - generic [ref=e1253]:
+                            - button "Settings" [ref=e1254]:
+                              - img [ref=e1255]
+                            - generic:
+                              - button:
+                                - generic:
+                                  - img
+                                - generic: Auto
+                          - button "Toggle fullscreen" [ref=e1257]:
+                            - img [ref=e1258]
+                        - button "Toggle volume" [ref=e1263]:
+                          - img [ref=e1264]
+                      - generic "Actions available for this post" [ref=e1267]:
+                        - generic [ref=e1270]:
+                          - button "Upvote" [ref=e1271]:
+                            - img [ref=e1273]
+                            - generic [ref=e1275]:
+                              - generic: Upvote
+                          - generic [ref=e1277]: 5.8K
+                          - button "Downvote" [ref=e1278]:
+                            - img [ref=e1280]
+                            - generic [ref=e1282]:
+                              - generic: Downvote
+                        - link "2.8K Go to comments" [ref=e1283]:
+                          - /url: /r/TikTokCringe/comments/1slnqpk/clav_goes_on_a_incel_rant_during_60_minutes/
+                          - generic [ref=e1284]:
+                            - img [ref=e1286]
+                            - generic [ref=e1289]: 2.8K
+                          - generic [ref=e1290]:
+                            - generic: Go to comments
+                        - button "Give award, 4 awards given" [ref=e1292]:
+                          - generic [ref=e1297]: "4"
+                        - button "Share" [ref=e1301]:
+                          - generic [ref=e1302]:
+                            - img [ref=e1304]
+                            - generic [ref=e1306]: Share
+                  - separator [ref=e1307]
+                  - article "Women with larger chests, what’s one thing that bothers you on a daily basis that men couldn’t understand?" [ref=e1308]:
+                    - generic [ref=e1309] [cursor=pointer]:
+                      - link "Women with larger chests, what’s one thing that bothers you on a daily basis that men couldn’t understand?" [ref=e1310]:
+                        - /url: /r/AskReddit/comments/1slv4mr/women_with_larger_chests_whats_one_thing_that/
+                        - generic [ref=e1311]:
+                          - generic: Women with larger chests, what’s one thing that bothers you on a daily basis that men couldn’t understand?
+                      - generic [ref=e1312]:
+                        - generic [ref=e1313]:
+                          - generic [ref=e1314]:
+                            - link "r/AskReddit" [ref=e1315]:
+                              - /url: /r/AskReddit/
+                              - generic [ref=e1319]: r/AskReddit
+                            - 'button "Community status: Credit" [ref=e1321]':
+                              - img "donkey_right" [ref=e1322]
+                          - generic [ref=e1323]: •
+                          - time [ref=e1325]: 10 hr. ago
+                        - button "Open user actions" [ref=e1330]:
+                          - img [ref=e1333]
+                      - heading "Women with larger chests, what’s one thing that bothers you on a daily basis that men couldn’t understand?" [level=2] [ref=e1337]:
+                        - link "Women with larger chests, what’s one thing that bothers you on a daily basis that men couldn’t understand?" [ref=e1338]:
+                          - /url: /r/AskReddit/comments/1slv4mr/women_with_larger_chests_whats_one_thing_that/
+                      - generic "Actions available for this post" [ref=e1339]:
+                        - generic [ref=e1342]:
+                          - button "Upvote" [ref=e1343]:
+                            - img [ref=e1345]
+                            - generic [ref=e1347]:
+                              - generic: Upvote
+                          - generic [ref=e1349]: 1K
+                          - button "Downvote" [ref=e1350]:
+                            - img [ref=e1352]
+                            - generic [ref=e1354]:
+                              - generic: Downvote
+                        - link "783 Go to comments" [ref=e1355]:
+                          - /url: /r/AskReddit/comments/1slv4mr/women_with_larger_chests_whats_one_thing_that/
+                          - generic [ref=e1356]:
+                            - img [ref=e1358]
+                            - generic [ref=e1361]: "783"
+                          - generic [ref=e1362]:
+                            - generic: Go to comments
+                        - button "Give award" [ref=e1364]:
+                          - img [ref=e1367]
+                        - button "Share" [ref=e1372]:
+                          - generic [ref=e1373]:
+                            - img [ref=e1375]
+                            - generic [ref=e1377]: Share
+                  - separator [ref=e1378]
+                  - article "\"Women have it so easy\" ahh meme" [ref=e1379]:
+                    - generic [ref=e1380] [cursor=pointer]:
+                      - link "\"Women have it so easy\" ahh meme" [ref=e1381]:
+                        - /url: /r/im14andthisisdeep/comments/1sm1nk6/women_have_it_so_easy_ahh_meme/
+                        - generic [ref=e1382]:
+                          - generic: "\"Women have it so easy\" ahh meme"
+                      - generic [ref=e1383]:
+                        - generic [ref=e1384]:
+                          - link "r/im14andthisisdeep" [ref=e1386]:
+                            - /url: /r/im14andthisisdeep/
+                            - generic [ref=e1390]: r/im14andthisisdeep
+                          - generic [ref=e1391]: •
+                          - time [ref=e1393]: 4 hr. ago
+                        - button "Open user actions" [ref=e1398]:
+                          - img [ref=e1401]
+                      - heading "\"Women have it so easy\" ahh meme" [level=2] [ref=e1405]:
+                        - link "\"Women have it so easy\" ahh meme" [ref=e1406]:
+                          - /url: /r/im14andthisisdeep/comments/1sm1nk6/women_have_it_so_easy_ahh_meme/
+                      - img "r/im14andthisisdeep - \"Women have it so easy\" ahh meme" [ref=e1412]
+                      - generic "Actions available for this post" [ref=e1413]:
+                        - generic [ref=e1416]:
+                          - button "Upvote" [ref=e1417]:
+                            - img [ref=e1419]
+                            - generic [ref=e1421]:
+                              - generic: Upvote
+                          - generic [ref=e1423]: 2.9K
+                          - button "Downvote" [ref=e1424]:
+                            - img [ref=e1426]
+                            - generic [ref=e1428]:
+                              - generic: Downvote
+                        - link "604 Go to comments" [ref=e1429]:
+                          - /url: /r/im14andthisisdeep/comments/1sm1nk6/women_have_it_so_easy_ahh_meme/
+                          - generic [ref=e1430]:
+                            - img [ref=e1432]
+                            - generic [ref=e1435]: "604"
+                          - generic [ref=e1436]:
+                            - generic: Go to comments
+                        - button "Give award" [ref=e1438]:
+                          - img [ref=e1441]
+                        - button "Share" [ref=e1446]:
+                          - generic [ref=e1447]:
+                            - img [ref=e1449]
+                            - generic [ref=e1451]: Share
+                  - separator [ref=e1452]
+                  - generic [ref=e1453]:
+                    - 'generic "Advertisement: ⚔️ Full Blown RPG in your browser: No Downloads ❌ Just Click and Go! ✅" [ref=e1454]':
+                      - 'link "Advertisement: ⚔️ Full Blown RPG in your browser: No Downloads ❌ Just Click and Go! ✅" [ref=e1455] [cursor=pointer]':
+                        - /url: https://alb.reddit.com/cr?za=FPC2FWuOQ-dlGZBTrOpYpHsD3n2oV6uTvlgqOu0fA5aQLwVbPP2UHPJDJV4fvpNUhmUy7jscRxbSBH0p5aJfozewOX2KtD4cMgFF5bj9wgbH68mHECZF5aF0WL1t7iD_XXnM-FpTVrctocGOruE47---c4LTVdZfDNjTOy7Q_KGActmeo5lzByAUReKYZWxFSbhanUBrHbrqbfXeUp306xwxnXGRyXKBwCrdbbkta8EY8QCm01HkN0Cz9gmmrdlclB1XOcNAwHbe6coRyzXB42xEieRBsgPRTE4xS7ZgeRnXtAZ6dmJqnw9cV2uAOF31MmhKZeVrlA7bVG8jFpIHJuu-JqNj7JhWQsy3KRsoB3UouH0gfvLLM8Evynmbk85trRQR9tsAdSy3WEX-MIYBxO820rItO3gdCb7iPqWYnRhF7cFp53Bapun3TmOqx-xQTWOTJ8-ih2gpiJKe8GhtLbmzxAZxX7Hcs6wUGLMm2966WrLtAAKK4qQVCRtkX45jJE3AdrXa5uRIU1ntBNdEX1zt2LqwIwGyhdB77wpElf-lu7kFyJgmTFMx57AQcGUlpZ9cVOqpe77D1HBBiHBlRVWhjzg_OJApLGqNoZp3wcHFMnVwpv82xwdJn_PfeOLrFiebfIWZOJ3Uejsmx4Pqd6M9ZhoTsaUZdaips5cmZLjRgeWsQZpuMg4uqShYIL_g76tst5MYZKV6k7B1eutkg9WMlkKq9uV0MgWtYsmYJV85OCc8Xe5TAxNIHfa6BNl7Mbx9xtM3fdTk1bYbNYKBcjFsnYuq81gs&zp=aIBiKJfzXGHKaojEOyytShNfsJ_l48GYi1FFYw3P5IjwaL5-r9V2eKjPhbVVBUUKQ7xx1XCxpoXIwW1IcEd2-VR1trgLibDYI3inCaTGAOhc_Jhy9y6KBR6ocbUa8pR05PUDmVvlsn8LYgXdmx0GOMp0pSEZ7CBaHFXmwX9GUbJ24ca5UHtXQczO2y5GPNlgsR84JeB6CesMlF688_g5j8QURGB_5stlosqvHqOrwbSMlMkS6QXZVP-jCAoJYUqQwjXoK9kmpnwCAqbe_Bcggf0Ndn1BKNv-tRo1cmdiiME3CmN_d6wtl7Mn0vwdUepDsVREJ4G8enDn_ROnAIpHgeYVVA7zUAsYgQmtgdizQHxZrK8uDVYUtaP9pOYBUQtJq3KZi-4xXmwC51m8TlnbP16PbT9HypELRPayAIdDg0okgZrqTCWy6tFQ3GTK8Sir1vPRYHqTqH2_4YribuChYcnUihN7JeUNymbCo3Zl7EbGzkXOsGHmSDuorkoATG3zbsaxdLzWqbweujSzOwdJwvobhroaL-ra4rdCr9rGUniwB8GtUDhitA4AWP-ZPFI7iVvBN1lM8CZn3-77zdVFAVFfkcRvhybf_vtsMIGUakulncq5k-qSn_Wm8hI_XtiKIyxtfaw-5jRsuncy8tzz1tPGvsDuos80p9k_V-ChtG1NG-mkFwQZmn5Cg7c8C8taj2UMz5K3yES4BgZVyxh-kHlurOmS-C1b3hT1hnJjs_2XzvJzWMNeMr8d-2jgDqSwPKBOnq03XAeKtdEaIOrWZqILnqkhrTuNWFzQ5ODrF2WPaL2HTjcV4mQ
+                    - generic [ref=e1456]:
+                      - generic [ref=e1457]:
+                        - link "u/HeroWarsDominionEra avatar u/HeroWarsDominionEra" [ref=e1459] [cursor=pointer]:
+                          - /url: /user/HeroWarsDominionEra/
+                          - generic [ref=e1463]:
+                            - img "u/HeroWarsDominionEra avatar"
+                          - generic [ref=e1464]: u/HeroWarsDominionEra
+                        - generic [ref=e1465]: •
+                        - link "Promoted" [ref=e1467] [cursor=pointer]:
+                          - /url: /user/HeroWarsDominionEra/
+                          - generic [ref=e1468]: Promoted
+                        - link [ref=e1470] [cursor=pointer]:
+                          - /url: https://alb.reddit.com/cr?za=FPC2FWuOQ-dlGZBTrOpYpHsD3n2oV6uTvlgqOu0fA5aQLwVbPP2UHPJDJV4fvpNUhmUy7jscRxbSBH0p5aJfozewOX2KtD4cMgFF5bj9wgbH68mHECZF5aF0WL1t7iD_XXnM-FpTVrctocGOruE47---c4LTVdZfDNjTOy7Q_KGActmeo5lzByAUReKYZWxFSbhanUBrHbrqbfXeUp306xwxnXGRyXKBwCrdbbkta8EY8QCm01HkN0Cz9gmmrdlclB1XOcNAwHbe6coRyzXB42xEieRBsgPRTE4xS7ZgeRnXtAZ6dmJqnw9cV2uAOF31MmhKZeVrlA7bVG8jFpIHJuu-JqNj7JhWQsy3KRsoB3UouH0gfvLLM8Evynmbk85trRQR9tsAdSy3WEX-MIYBxO820rItO3gdCb7iPqWYnRhF7cFp53Bapun3TmOqx-xQTWOTJ8-ih2gpiJKe8GhtLbmzxAZxX7Hcs6wUGLMm2966WrLtAAKK4qQVCRtkX45jJE3AdrXa5uRIU1ntBNdEX1zt2LqwIwGyhdB77wpElf-lu7kFyJgmTFMx57AQcGUlpZ9cVOqpe77D1HBBiHBlRVWhjzg_OJApLGqNoZp3wcHFMnVwpv82xwdJn_PfeOLrFiebfIWZOJ3Uejsmx4Pqd6M9ZhoTsaUZdaips5cmZLjRgeWsQZpuMg4uqShYIL_g76tst5MYZKV6k7B1eutkg9WMlkKq9uV0MgWtYsmYJV85OCc8Xe5TAxNIHfa6BNl7Mbx9xtM3fdTk1bYbNYKBcjFsnYuq81gs&zp=aIBiKJfzXGHKaojEOyytShNfsJ_l48GYi1FFYw3P5IjwaL5-r9V2eKjPhbVVBUUKQ7xx1XCxpoXIwW1IcEd2-VR1trgLibDYI3inCaTGAOhc_Jhy9y6KBR6ocbUa8pR05PUDmVvlsn8LYgXdmx0GOMp0pSEZ7CBaHFXmwX9GUbJ24ca5UHtXQczO2y5GPNlgsR84JeB6CesMlF688_g5j8QURGB_5stlosqvHqOrwbSMlMkS6QXZVP-jCAoJYUqQwjXoK9kmpnwCAqbe_Bcggf0Ndn1BKNv-tRo1cmdiiME3CmN_d6wtl7Mn0vwdUepDsVREJ4G8enDn_ROnAIpHgeYVVA7zUAsYgQmtgdizQHxZrK8uDVYUtaP9pOYBUQtJq3KZi-4xXmwC51m8TlnbP16PbT9HypELRPayAIdDg0okgZrqTCWy6tFQ3GTK8Sir1vPRYHqTqH2_4YribuChYcnUihN7JeUNymbCo3Zl7EbGzkXOsGHmSDuorkoATG3zbsaxdLzWqbweujSzOwdJwvobhroaL-ra4rdCr9rGUniwB8GtUDhitA4AWP-ZPFI7iVvBN1lM8CZn3-77zdVFAVFfkcRvhybf_vtsMIGUakulncq5k-qSn_Wm8hI_XtiKIyxtfaw-5jRsuncy8tzz1tPGvsDuos80p9k_V-ChtG1NG-mkFwQZmn5Cg7c8C8taj2UMz5K3yES4BgZVyxh-kHlurOmS-C1b3hT1hnJjs_2XzvJzWMNeMr8d-2jgDqSwPKBOnq03XAeKtdEaIOrWZqILnqkhrTuNWFzQ5ODrF2WPaL2HTjcV4mQ
+                      - button "Open user actions" [ref=e1475] [cursor=pointer]:
+                        - img [ref=e1478]
+                    - 'heading "⚔️ Full Blown RPG in your browser: No Downloads ❌ Just Click and Go! ✅" [level=2] [ref=e1482]':
+                      - 'link "⚔️ Full Blown RPG in your browser: No Downloads ❌ Just Click and Go! ✅" [ref=e1485] [cursor=pointer]':
+                        - /url: https://alb.reddit.com/cr?za=FPC2FWuOQ-dlGZBTrOpYpHsD3n2oV6uTvlgqOu0fA5aQLwVbPP2UHPJDJV4fvpNUhmUy7jscRxbSBH0p5aJfozewOX2KtD4cMgFF5bj9wgbH68mHECZF5aF0WL1t7iD_XXnM-FpTVrctocGOruE47---c4LTVdZfDNjTOy7Q_KGActmeo5lzByAUReKYZWxFSbhanUBrHbrqbfXeUp306xwxnXGRyXKBwCrdbbkta8EY8QCm01HkN0Cz9gmmrdlclB1XOcNAwHbe6coRyzXB42xEieRBsgPRTE4xS7ZgeRnXtAZ6dmJqnw9cV2uAOF31MmhKZeVrlA7bVG8jFpIHJuu-JqNj7JhWQsy3KRsoB3UouH0gfvLLM8Evynmbk85trRQR9tsAdSy3WEX-MIYBxO820rItO3gdCb7iPqWYnRhF7cFp53Bapun3TmOqx-xQTWOTJ8-ih2gpiJKe8GhtLbmzxAZxX7Hcs6wUGLMm2966WrLtAAKK4qQVCRtkX45jJE3AdrXa5uRIU1ntBNdEX1zt2LqwIwGyhdB77wpElf-lu7kFyJgmTFMx57AQcGUlpZ9cVOqpe77D1HBBiHBlRVWhjzg_OJApLGqNoZp3wcHFMnVwpv82xwdJn_PfeOLrFiebfIWZOJ3Uejsmx4Pqd6M9ZhoTsaUZdaips5cmZLjRgeWsQZpuMg4uqShYIL_g76tst5MYZKV6k7B1eutkg9WMlkKq9uV0MgWtYsmYJV85OCc8Xe5TAxNIHfa6BNl7Mbx9xtM3fdTk1bYbNYKBcjFsnYuq81gs&zp=aIBiKJfzXGHKaojEOyytShNfsJ_l48GYi1FFYw3P5IjwaL5-r9V2eKjPhbVVBUUKQ7xx1XCxpoXIwW1IcEd2-VR1trgLibDYI3inCaTGAOhc_Jhy9y6KBR6ocbUa8pR05PUDmVvlsn8LYgXdmx0GOMp0pSEZ7CBaHFXmwX9GUbJ24ca5UHtXQczO2y5GPNlgsR84JeB6CesMlF688_g5j8QURGB_5stlosqvHqOrwbSMlMkS6QXZVP-jCAoJYUqQwjXoK9kmpnwCAqbe_Bcggf0Ndn1BKNv-tRo1cmdiiME3CmN_d6wtl7Mn0vwdUepDsVREJ4G8enDn_ROnAIpHgeYVVA7zUAsYgQmtgdizQHxZrK8uDVYUtaP9pOYBUQtJq3KZi-4xXmwC51m8TlnbP16PbT9HypELRPayAIdDg0okgZrqTCWy6tFQ3GTK8Sir1vPRYHqTqH2_4YribuChYcnUihN7JeUNymbCo3Zl7EbGzkXOsGHmSDuorkoATG3zbsaxdLzWqbweujSzOwdJwvobhroaL-ra4rdCr9rGUniwB8GtUDhitA4AWP-ZPFI7iVvBN1lM8CZn3-77zdVFAVFfkcRvhybf_vtsMIGUakulncq5k-qSn_Wm8hI_XtiKIyxtfaw-5jRsuncy8tzz1tPGvsDuos80p9k_V-ChtG1NG-mkFwQZmn5Cg7c8C8taj2UMz5K3yES4BgZVyxh-kHlurOmS-C1b3hT1hnJjs_2XzvJzWMNeMr8d-2jgDqSwPKBOnq03XAeKtdEaIOrWZqILnqkhrTuNWFzQ5ODrF2WPaL2HTjcV4mQ
+                        - generic: "⚔️ Full Blown RPG in your browser: No Downloads ❌ Just Click and Go! ✅"
+                    - generic [ref=e1486]:
+                      - 'link "⚔️ Full Blown RPG in your browser: No Downloads ❌ Just Click and Go! ✅" [ref=e1490] [cursor=pointer]':
+                        - /url: https://alb.reddit.com/cr?za=FPC2FWuOQ-dlGZBTrOpYpHsD3n2oV6uTvlgqOu0fA5aQLwVbPP2UHPJDJV4fvpNUhmUy7jscRxbSBH0p5aJfozewOX2KtD4cMgFF5bj9wgbH68mHECZF5aF0WL1t7iD_XXnM-FpTVrctocGOruE47---c4LTVdZfDNjTOy7Q_KGActmeo5lzByAUReKYZWxFSbhanUBrHbrqbfXeUp306xwxnXGRyXKBwCrdbbkta8EY8QCm01HkN0Cz9gmmrdlclB1XOcNAwHbe6coRyzXB42xEieRBsgPRTE4xS7ZgeRnXtAZ6dmJqnw9cV2uAOF31MmhKZeVrlA7bVG8jFpIHJuu-JqNj7JhWQsy3KRsoB3UouH0gfvLLM8Evynmbk85trRQR9tsAdSy3WEX-MIYBxO820rItO3gdCb7iPqWYnRhF7cFp53Bapun3TmOqx-xQTWOTJ8-ih2gpiJKe8GhtLbmzxAZxX7Hcs6wUGLMm2966WrLtAAKK4qQVCRtkX45jJE3AdrXa5uRIU1ntBNdEX1zt2LqwIwGyhdB77wpElf-lu7kFyJgmTFMx57AQcGUlpZ9cVOqpe77D1HBBiHBlRVWhjzg_OJApLGqNoZp3wcHFMnVwpv82xwdJn_PfeOLrFiebfIWZOJ3Uejsmx4Pqd6M9ZhoTsaUZdaips5cmZLjRgeWsQZpuMg4uqShYIL_g76tst5MYZKV6k7B1eutkg9WMlkKq9uV0MgWtYsmYJV85OCc8Xe5TAxNIHfa6BNl7Mbx9xtM3fdTk1bYbNYKBcjFsnYuq81gs&zp=aIBiKJfzXGHKaojEOyytShNfsJ_l48GYi1FFYw3P5IjwaL5-r9V2eKjPhbVVBUUKQ7xx1XCxpoXIwW1IcEd2-VR1trgLibDYI3inCaTGAOhc_Jhy9y6KBR6ocbUa8pR05PUDmVvlsn8LYgXdmx0GOMp0pSEZ7CBaHFXmwX9GUbJ24ca5UHtXQczO2y5GPNlgsR84JeB6CesMlF688_g5j8QURGB_5stlosqvHqOrwbSMlMkS6QXZVP-jCAoJYUqQwjXoK9kmpnwCAqbe_Bcggf0Ndn1BKNv-tRo1cmdiiME3CmN_d6wtl7Mn0vwdUepDsVREJ4G8enDn_ROnAIpHgeYVVA7zUAsYgQmtgdizQHxZrK8uDVYUtaP9pOYBUQtJq3KZi-4xXmwC51m8TlnbP16PbT9HypELRPayAIdDg0okgZrqTCWy6tFQ3GTK8Sir1vPRYHqTqH2_4YribuChYcnUihN7JeUNymbCo3Zl7EbGzkXOsGHmSDuorkoATG3zbsaxdLzWqbweujSzOwdJwvobhroaL-ra4rdCr9rGUniwB8GtUDhitA4AWP-ZPFI7iVvBN1lM8CZn3-77zdVFAVFfkcRvhybf_vtsMIGUakulncq5k-qSn_Wm8hI_XtiKIyxtfaw-5jRsuncy8tzz1tPGvsDuos80p9k_V-ChtG1NG-mkFwQZmn5Cg7c8C8taj2UMz5K3yES4BgZVyxh-kHlurOmS-C1b3hT1hnJjs_2XzvJzWMNeMr8d-2jgDqSwPKBOnq03XAeKtdEaIOrWZqILnqkhrTuNWFzQ5ODrF2WPaL2HTjcV4mQ
+                        - 'img "⚔️ Full Blown RPG in your browser: No Downloads ❌ Just Click and Go! ✅" [ref=e1492]'
+                      - separator [ref=e1493]
+                      - generic [ref=e1494]:
+                        - link [ref=e1496] [cursor=pointer]:
+                          - /url: https://alb.reddit.com/cr?za=FPC2FWuOQ-dlGZBTrOpYpHsD3n2oV6uTvlgqOu0fA5aQLwVbPP2UHPJDJV4fvpNUhmUy7jscRxbSBH0p5aJfozewOX2KtD4cMgFF5bj9wgbH68mHECZF5aF0WL1t7iD_XXnM-FpTVrctocGOruE47---c4LTVdZfDNjTOy7Q_KGActmeo5lzByAUReKYZWxFSbhanUBrHbrqbfXeUp306xwxnXGRyXKBwCrdbbkta8EY8QCm01HkN0Cz9gmmrdlclB1XOcNAwHbe6coRyzXB42xEieRBsgPRTE4xS7ZgeRnXtAZ6dmJqnw9cV2uAOF31MmhKZeVrlA7bVG8jFpIHJuu-JqNj7JhWQsy3KRsoB3UouH0gfvLLM8Evynmbk85trRQR9tsAdSy3WEX-MIYBxO820rItO3gdCb7iPqWYnRhF7cFp53Bapun3TmOqx-xQTWOTJ8-ih2gpiJKe8GhtLbmzxAZxX7Hcs6wUGLMm2966WrLtAAKK4qQVCRtkX45jJE3AdrXa5uRIU1ntBNdEX1zt2LqwIwGyhdB77wpElf-lu7kFyJgmTFMx57AQcGUlpZ9cVOqpe77D1HBBiHBlRVWhjzg_OJApLGqNoZp3wcHFMnVwpv82xwdJn_PfeOLrFiebfIWZOJ3Uejsmx4Pqd6M9ZhoTsaUZdaips5cmZLjRgeWsQZpuMg4uqShYIL_g76tst5MYZKV6k7B1eutkg9WMlkKq9uV0MgWtYsmYJV85OCc8Xe5TAxNIHfa6BNl7Mbx9xtM3fdTk1bYbNYKBcjFsnYuq81gs&zp=aIBiKJfzXGHKaojEOyytShNfsJ_l48GYi1FFYw3P5IjwaL5-r9V2eKjPhbVVBUUKQ7xx1XCxpoXIwW1IcEd2-VR1trgLibDYI3inCaTGAOhc_Jhy9y6KBR6ocbUa8pR05PUDmVvlsn8LYgXdmx0GOMp0pSEZ7CBaHFXmwX9GUbJ24ca5UHtXQczO2y5GPNlgsR84JeB6CesMlF688_g5j8QURGB_5stlosqvHqOrwbSMlMkS6QXZVP-jCAoJYUqQwjXoK9kmpnwCAqbe_Bcggf0Ndn1BKNv-tRo1cmdiiME3CmN_d6wtl7Mn0vwdUepDsVREJ4G8enDn_ROnAIpHgeYVVA7zUAsYgQmtgdizQHxZrK8uDVYUtaP9pOYBUQtJq3KZi-4xXmwC51m8TlnbP16PbT9HypELRPayAIdDg0okgZrqTCWy6tFQ3GTK8Sir1vPRYHqTqH2_4YribuChYcnUihN7JeUNymbCo3Zl7EbGzkXOsGHmSDuorkoATG3zbsaxdLzWqbweujSzOwdJwvobhroaL-ra4rdCr9rGUniwB8GtUDhitA4AWP-ZPFI7iVvBN1lM8CZn3-77zdVFAVFfkcRvhybf_vtsMIGUakulncq5k-qSn_Wm8hI_XtiKIyxtfaw-5jRsuncy8tzz1tPGvsDuos80p9k_V-ChtG1NG-mkFwQZmn5Cg7c8C8taj2UMz5K3yES4BgZVyxh-kHlurOmS-C1b3hT1hnJjs_2XzvJzWMNeMr8d-2jgDqSwPKBOnq03XAeKtdEaIOrWZqILnqkhrTuNWFzQ5ODrF2WPaL2HTjcV4mQ
+                        - generic [ref=e1497]:
+                          - link "hero-wars.com" [ref=e1500] [cursor=pointer]:
+                            - /url: https://alb.reddit.com/cr?za=FPC2FWuOQ-dlGZBTrOpYpHsD3n2oV6uTvlgqOu0fA5aQLwVbPP2UHPJDJV4fvpNUhmUy7jscRxbSBH0p5aJfozewOX2KtD4cMgFF5bj9wgbH68mHECZF5aF0WL1t7iD_XXnM-FpTVrctocGOruE47---c4LTVdZfDNjTOy7Q_KGActmeo5lzByAUReKYZWxFSbhanUBrHbrqbfXeUp306xwxnXGRyXKBwCrdbbkta8EY8QCm01HkN0Cz9gmmrdlclB1XOcNAwHbe6coRyzXB42xEieRBsgPRTE4xS7ZgeRnXtAZ6dmJqnw9cV2uAOF31MmhKZeVrlA7bVG8jFpIHJuu-JqNj7JhWQsy3KRsoB3UouH0gfvLLM8Evynmbk85trRQR9tsAdSy3WEX-MIYBxO820rItO3gdCb7iPqWYnRhF7cFp53Bapun3TmOqx-xQTWOTJ8-ih2gpiJKe8GhtLbmzxAZxX7Hcs6wUGLMm2966WrLtAAKK4qQVCRtkX45jJE3AdrXa5uRIU1ntBNdEX1zt2LqwIwGyhdB77wpElf-lu7kFyJgmTFMx57AQcGUlpZ9cVOqpe77D1HBBiHBlRVWhjzg_OJApLGqNoZp3wcHFMnVwpv82xwdJn_PfeOLrFiebfIWZOJ3Uejsmx4Pqd6M9ZhoTsaUZdaips5cmZLjRgeWsQZpuMg4uqShYIL_g76tst5MYZKV6k7B1eutkg9WMlkKq9uV0MgWtYsmYJV85OCc8Xe5TAxNIHfa6BNl7Mbx9xtM3fdTk1bYbNYKBcjFsnYuq81gs&zp=aIBiKJfzXGHKaojEOyytShNfsJ_l48GYi1FFYw3P5IjwaL5-r9V2eKjPhbVVBUUKQ7xx1XCxpoXIwW1IcEd2-VR1trgLibDYI3inCaTGAOhc_Jhy9y6KBR6ocbUa8pR05PUDmVvlsn8LYgXdmx0GOMp0pSEZ7CBaHFXmwX9GUbJ24ca5UHtXQczO2y5GPNlgsR84JeB6CesMlF688_g5j8QURGB_5stlosqvHqOrwbSMlMkS6QXZVP-jCAoJYUqQwjXoK9kmpnwCAqbe_Bcggf0Ndn1BKNv-tRo1cmdiiME3CmN_d6wtl7Mn0vwdUepDsVREJ4G8enDn_ROnAIpHgeYVVA7zUAsYgQmtgdizQHxZrK8uDVYUtaP9pOYBUQtJq3KZi-4xXmwC51m8TlnbP16PbT9HypELRPayAIdDg0okgZrqTCWy6tFQ3GTK8Sir1vPRYHqTqH2_4YribuChYcnUihN7JeUNymbCo3Zl7EbGzkXOsGHmSDuorkoATG3zbsaxdLzWqbweujSzOwdJwvobhroaL-ra4rdCr9rGUniwB8GtUDhitA4AWP-ZPFI7iVvBN1lM8CZn3-77zdVFAVFfkcRvhybf_vtsMIGUakulncq5k-qSn_Wm8hI_XtiKIyxtfaw-5jRsuncy8tzz1tPGvsDuos80p9k_V-ChtG1NG-mkFwQZmn5Cg7c8C8taj2UMz5K3yES4BgZVyxh-kHlurOmS-C1b3hT1hnJjs_2XzvJzWMNeMr8d-2jgDqSwPKBOnq03XAeKtdEaIOrWZqILnqkhrTuNWFzQ5ODrF2WPaL2HTjcV4mQ
+                            - generic: hero-wars.com
+                          - link "Play Now" [ref=e1502] [cursor=pointer]:
+                            - /url: https://alb.reddit.com/cr?za=FPC2FWuOQ-dlGZBTrOpYpHsD3n2oV6uTvlgqOu0fA5aQLwVbPP2UHPJDJV4fvpNUhmUy7jscRxbSBH0p5aJfozewOX2KtD4cMgFF5bj9wgbH68mHECZF5aF0WL1t7iD_XXnM-FpTVrctocGOruE47---c4LTVdZfDNjTOy7Q_KGActmeo5lzByAUReKYZWxFSbhanUBrHbrqbfXeUp306xwxnXGRyXKBwCrdbbkta8EY8QCm01HkN0Cz9gmmrdlclB1XOcNAwHbe6coRyzXB42xEieRBsgPRTE4xS7ZgeRnXtAZ6dmJqnw9cV2uAOF31MmhKZeVrlA7bVG8jFpIHJuu-JqNj7JhWQsy3KRsoB3UouH0gfvLLM8Evynmbk85trRQR9tsAdSy3WEX-MIYBxO820rItO3gdCb7iPqWYnRhF7cFp53Bapun3TmOqx-xQTWOTJ8-ih2gpiJKe8GhtLbmzxAZxX7Hcs6wUGLMm2966WrLtAAKK4qQVCRtkX45jJE3AdrXa5uRIU1ntBNdEX1zt2LqwIwGyhdB77wpElf-lu7kFyJgmTFMx57AQcGUlpZ9cVOqpe77D1HBBiHBlRVWhjzg_OJApLGqNoZp3wcHFMnVwpv82xwdJn_PfeOLrFiebfIWZOJ3Uejsmx4Pqd6M9ZhoTsaUZdaips5cmZLjRgeWsQZpuMg4uqShYIL_g76tst5MYZKV6k7B1eutkg9WMlkKq9uV0MgWtYsmYJV85OCc8Xe5TAxNIHfa6BNl7Mbx9xtM3fdTk1bYbNYKBcjFsnYuq81gs&zp=aIBiKJfzXGHKaojEOyytShNfsJ_l48GYi1FFYw3P5IjwaL5-r9V2eKjPhbVVBUUKQ7xx1XCxpoXIwW1IcEd2-VR1trgLibDYI3inCaTGAOhc_Jhy9y6KBR6ocbUa8pR05PUDmVvlsn8LYgXdmx0GOMp0pSEZ7CBaHFXmwX9GUbJ24ca5UHtXQczO2y5GPNlgsR84JeB6CesMlF688_g5j8QURGB_5stlosqvHqOrwbSMlMkS6QXZVP-jCAoJYUqQwjXoK9kmpnwCAqbe_Bcggf0Ndn1BKNv-tRo1cmdiiME3CmN_d6wtl7Mn0vwdUepDsVREJ4G8enDn_ROnAIpHgeYVVA7zUAsYgQmtgdizQHxZrK8uDVYUtaP9pOYBUQtJq3KZi-4xXmwC51m8TlnbP16PbT9HypELRPayAIdDg0okgZrqTCWy6tFQ3GTK8Sir1vPRYHqTqH2_4YribuChYcnUihN7JeUNymbCo3Zl7EbGzkXOsGHmSDuorkoATG3zbsaxdLzWqbweujSzOwdJwvobhroaL-ra4rdCr9rGUniwB8GtUDhitA4AWP-ZPFI7iVvBN1lM8CZn3-77zdVFAVFfkcRvhybf_vtsMIGUakulncq5k-qSn_Wm8hI_XtiKIyxtfaw-5jRsuncy8tzz1tPGvsDuos80p9k_V-ChtG1NG-mkFwQZmn5Cg7c8C8taj2UMz5K3yES4BgZVyxh-kHlurOmS-C1b3hT1hnJjs_2XzvJzWMNeMr8d-2jgDqSwPKBOnq03XAeKtdEaIOrWZqILnqkhrTuNWFzQ5ODrF2WPaL2HTjcV4mQ
+                            - generic [ref=e1504]:
+                              - generic: Play Now
+                    - generic "Actions available for this post" [ref=e1505]:
+                      - generic [ref=e1508]:
+                        - button "Upvote" [ref=e1509] [cursor=pointer]:
+                          - img [ref=e1511]
+                          - generic [ref=e1513]:
+                            - generic: Upvote
+                        - generic [ref=e1515]: "217"
+                        - button "Downvote" [ref=e1516] [cursor=pointer]:
+                          - img [ref=e1518]
+                          - generic [ref=e1520]:
+                            - generic: Downvote
+                      - link "0 Go to comments" [ref=e1521] [cursor=pointer]:
+                        - /url: /user/HeroWarsDominionEra/comments/1qq4it9/full_blown_rpg_in_your_browser_no_downloads_just/?p=1&impressionid=5355950519745634801
+                        - generic [ref=e1522]:
+                          - img [ref=e1524]
+                          - generic [ref=e1527]: "0"
+                        - generic [ref=e1528]:
+                          - generic: Go to comments
+                      - button "Share" [ref=e1532] [cursor=pointer]:
+                        - generic [ref=e1533]:
+                          - img [ref=e1535]
+                          - generic [ref=e1537]: Share
+                      - link [ref=e1539] [cursor=pointer]:
+                        - /url: https://alb.reddit.com/cr?za=FPC2FWuOQ-dlGZBTrOpYpHsD3n2oV6uTvlgqOu0fA5aQLwVbPP2UHPJDJV4fvpNUhmUy7jscRxbSBH0p5aJfozewOX2KtD4cMgFF5bj9wgbH68mHECZF5aF0WL1t7iD_XXnM-FpTVrctocGOruE47---c4LTVdZfDNjTOy7Q_KGActmeo5lzByAUReKYZWxFSbhanUBrHbrqbfXeUp306xwxnXGRyXKBwCrdbbkta8EY8QCm01HkN0Cz9gmmrdlclB1XOcNAwHbe6coRyzXB42xEieRBsgPRTE4xS7ZgeRnXtAZ6dmJqnw9cV2uAOF31MmhKZeVrlA7bVG8jFpIHJuu-JqNj7JhWQsy3KRsoB3UouH0gfvLLM8Evynmbk85trRQR9tsAdSy3WEX-MIYBxO820rItO3gdCb7iPqWYnRhF7cFp53Bapun3TmOqx-xQTWOTJ8-ih2gpiJKe8GhtLbmzxAZxX7Hcs6wUGLMm2966WrLtAAKK4qQVCRtkX45jJE3AdrXa5uRIU1ntBNdEX1zt2LqwIwGyhdB77wpElf-lu7kFyJgmTFMx57AQcGUlpZ9cVOqpe77D1HBBiHBlRVWhjzg_OJApLGqNoZp3wcHFMnVwpv82xwdJn_PfeOLrFiebfIWZOJ3Uejsmx4Pqd6M9ZhoTsaUZdaips5cmZLjRgeWsQZpuMg4uqShYIL_g76tst5MYZKV6k7B1eutkg9WMlkKq9uV0MgWtYsmYJV85OCc8Xe5TAxNIHfa6BNl7Mbx9xtM3fdTk1bYbNYKBcjFsnYuq81gs&zp=aIBiKJfzXGHKaojEOyytShNfsJ_l48GYi1FFYw3P5IjwaL5-r9V2eKjPhbVVBUUKQ7xx1XCxpoXIwW1IcEd2-VR1trgLibDYI3inCaTGAOhc_Jhy9y6KBR6ocbUa8pR05PUDmVvlsn8LYgXdmx0GOMp0pSEZ7CBaHFXmwX9GUbJ24ca5UHtXQczO2y5GPNlgsR84JeB6CesMlF688_g5j8QURGB_5stlosqvHqOrwbSMlMkS6QXZVP-jCAoJYUqQwjXoK9kmpnwCAqbe_Bcggf0Ndn1BKNv-tRo1cmdiiME3CmN_d6wtl7Mn0vwdUepDsVREJ4G8enDn_ROnAIpHgeYVVA7zUAsYgQmtgdizQHxZrK8uDVYUtaP9pOYBUQtJq3KZi-4xXmwC51m8TlnbP16PbT9HypELRPayAIdDg0okgZrqTCWy6tFQ3GTK8Sir1vPRYHqTqH2_4YribuChYcnUihN7JeUNymbCo3Zl7EbGzkXOsGHmSDuorkoATG3zbsaxdLzWqbweujSzOwdJwvobhroaL-ra4rdCr9rGUniwB8GtUDhitA4AWP-ZPFI7iVvBN1lM8CZn3-77zdVFAVFfkcRvhybf_vtsMIGUakulncq5k-qSn_Wm8hI_XtiKIyxtfaw-5jRsuncy8tzz1tPGvsDuos80p9k_V-ChtG1NG-mkFwQZmn5Cg7c8C8taj2UMz5K3yES4BgZVyxh-kHlurOmS-C1b3hT1hnJjs_2XzvJzWMNeMr8d-2jgDqSwPKBOnq03XAeKtdEaIOrWZqILnqkhrTuNWFzQ5ODrF2WPaL2HTjcV4mQ
+                  - separator [ref=e1540]
+                  - article "Friend of mine found it in the back seat of their car. They have no idea where it came from or what it is." [ref=e1541]:
+                    - generic [ref=e1542] [cursor=pointer]:
+                      - link "Friend of mine found it in the back seat of their car. They have no idea where it came from or what it is." [ref=e1543]:
+                        - /url: /r/whatisit/comments/1sltuyc/friend_of_mine_found_it_in_the_back_seat_of_their/
+                        - generic [ref=e1544]:
+                          - generic: Friend of mine found it in the back seat of their car. They have no idea where it came from or what it is.
+                      - generic [ref=e1545]:
+                        - generic [ref=e1546]:
+                          - generic [ref=e1547]:
+                            - link "r/whatisit" [ref=e1548]:
+                              - /url: /r/whatisit/
+                              - generic [ref=e1552]: r/whatisit
+                            - 'button "Community status: It''s a Dinglehopper." [ref=e1554]':
+                              - img "Dinglehopper" [ref=e1555]
+                          - generic [ref=e1556]: •
+                          - time [ref=e1558]: 11 hr. ago
+                        - button "Open user actions" [ref=e1563]:
+                          - img [ref=e1566]
+                      - heading "Friend of mine found it in the back seat of their car. They have no idea where it came from or what it is." [level=2] [ref=e1570]:
+                        - link "Friend of mine found it in the back seat of their car. They have no idea where it came from or what it is." [ref=e1571]:
+                          - /url: /r/whatisit/comments/1sltuyc/friend_of_mine_found_it_in_the_back_seat_of_their/
+                      - img "r/whatisit - Friend of mine found it in the back seat of their car. They have no idea where it came from or what it is." [ref=e1577]
+                      - generic "Actions available for this post" [ref=e1578]:
+                        - generic [ref=e1581]:
+                          - button "Upvote" [ref=e1582]:
+                            - img [ref=e1584]
+                            - generic [ref=e1586]:
+                              - generic: Upvote
+                          - generic [ref=e1588]: 4.4K
+                          - button "Downvote" [ref=e1589]:
+                            - img [ref=e1591]
+                            - generic [ref=e1593]:
+                              - generic: Downvote
+                        - link "474 Go to comments" [ref=e1594]:
+                          - /url: /r/whatisit/comments/1sltuyc/friend_of_mine_found_it_in_the_back_seat_of_their/
+                          - generic [ref=e1595]:
+                            - img [ref=e1597]
+                            - generic [ref=e1600]: "474"
+                          - generic [ref=e1601]:
+                            - generic: Go to comments
+                        - button "Give award" [ref=e1603]:
+                          - img [ref=e1606]
+                        - button "Share" [ref=e1611]:
+                          - generic [ref=e1612]:
+                            - img [ref=e1614]
+                            - generic [ref=e1616]: Share
+                  - separator [ref=e1617]
+                  - 'article "''Xi will give me big, fat hug'': Trump says he opened Hormuz for China and the world" [ref=e1618]':
+                    - generic [ref=e1619] [cursor=pointer]:
+                      - 'link "''Xi will give me big, fat hug'': Trump says he opened Hormuz for China and the world" [ref=e1620]':
+                        - /url: /r/worldnews/comments/1sm5bc3/xi_will_give_me_big_fat_hug_trump_says_he_opened/
+                        - generic [ref=e1621]:
+                          - generic: "'Xi will give me big, fat hug': Trump says he opened Hormuz for China and the world"
+                      - generic [ref=e1622]:
+                        - generic [ref=e1624]:
+                          - generic [ref=e1625]:
+                            - generic [ref=e1626]:
+                              - link "r/worldnews" [ref=e1627]:
+                                - /url: /r/worldnews/
+                                - generic [ref=e1631]: r/worldnews
+                              - 'button "Community status: 🌎🌍🌏" [ref=e1633]':
+                                - img "News" [ref=e1634]
+                            - generic [ref=e1635]: •
+                            - time [ref=e1637]: 1 hr. ago
+                          - button "Open user actions" [ref=e1642]:
+                            - img [ref=e1645]
+                        - generic [ref=e1647]:
+                          - 'link "''Xi will give me big, fat hug'': Trump says he opened Hormuz for China and the world" [ref=e1649]':
+                            - /url: /r/worldnews/comments/1sm5bc3/xi_will_give_me_big_fat_hug_trump_says_he_opened/
+                          - link "https://timesofindia.indiatimes.com/world/us/xi-will-give-me-big-fat-hug-trump-says-he-opened-hormuz-for-china-and-the-world/articleshow/130284475.cms" [ref=e1652]:
+                            - /url: https://timesofindia.indiatimes.com/world/us/xi-will-give-me-big-fat-hug-trump-says-he-opened-hormuz-for-china-and-the-world/articleshow/130284475.cms
+                        - generic [ref=e1654]:
+                          - 'link "r/worldnews - ''Xi will give me big, fat hug'': Trump says he opened Hormuz for China and the world" [ref=e1655]':
+                            - /url: https://timesofindia.indiatimes.com/world/us/xi-will-give-me-big-fat-hug-trump-says-he-opened-hormuz-for-china-and-the-world/articleshow/130284475.cms
+                            - 'img "r/worldnews - ''Xi will give me big, fat hug'': Trump says he opened Hormuz for China and the world" [ref=e1656]'
+                          - generic:
+                            - generic:
+                              - img
+                      - generic "Actions available for this post" [ref=e1658]:
+                        - generic [ref=e1661]:
+                          - button "Upvote" [ref=e1662]:
+                            - img [ref=e1664]
+                            - generic [ref=e1666]:
+                              - generic: Upvote
+                          - generic [ref=e1668]: 1.6K
+                          - button "Downvote" [ref=e1669]:
+                            - img [ref=e1671]
+                            - generic [ref=e1673]:
+                              - generic: Downvote
+                        - link "430 Go to comments" [ref=e1674]:
+                          - /url: /r/worldnews/comments/1sm5bc3/xi_will_give_me_big_fat_hug_trump_says_he_opened/
+                          - generic [ref=e1675]:
+                            - img [ref=e1677]
+                            - generic [ref=e1680]: "430"
+                          - generic [ref=e1681]:
+                            - generic: Go to comments
+                        - button "Give award, 1 award given" [ref=e1683]:
+                          - generic [ref=e1688]: "1"
+                        - button "Share" [ref=e1692]:
+                          - generic [ref=e1693]:
+                            - img [ref=e1695]
+                            - generic [ref=e1697]: Share
+                  - separator [ref=e1698]
+                  - article "why does my boyfriend \"dribble\" when he gets into bed?" [ref=e1699]:
+                    - generic [ref=e1700] [cursor=pointer]:
+                      - link "why does my boyfriend \"dribble\" when he gets into bed?" [ref=e1701]:
+                        - /url: /r/NoStupidQuestions/comments/1sldqay/why_does_my_boyfriend_dribble_when_he_gets_into/
+                        - generic [ref=e1702]:
+                          - generic: why does my boyfriend "dribble" when he gets into bed?
+                      - generic [ref=e1703]:
+                        - generic [ref=e1704]:
+                          - link "r/NoStupidQuestions" [ref=e1706]:
+                            - /url: /r/NoStupidQuestions/
+                            - generic [ref=e1710]: r/NoStupidQuestions
+                          - generic [ref=e1711]: •
+                          - time [ref=e1713]: 22 hr. ago
+                        - button "Open user actions" [ref=e1718]:
+                          - img [ref=e1721]
+                      - generic [ref=e1724]:
+                        - heading "why does my boyfriend \"dribble\" when he gets into bed?" [level=2] [ref=e1725]:
+                          - link "why does my boyfriend \"dribble\" when he gets into bed?" [ref=e1726]:
+                            - /url: /r/NoStupidQuestions/comments/1sldqay/why_does_my_boyfriend_dribble_when_he_gets_into/
+                        - generic [ref=e1727]:
+                          - generic:
+                            - link "It's awkward and I don't want to make him feel uncomfortable asking about it, but every night before bed, he goes to the washroom to pee, but when he gets into bed he lets out a bit of pee into his underwear. It's not a big deal, and I don't want to make him feel bad about it... but why does this happen?":
+                              - /url: /r/NoStupidQuestions/comments/1sldqay/why_does_my_boyfriend_dribble_when_he_gets_into/
+                              - generic:
+                                - generic:
+                                  - paragraph: It's awkward and I don't want to make him feel uncomfortable asking about it, but every night before bed, he goes to the washroom to pee, but when he gets into bed he lets out a bit of pee into his underwear. It's not a big deal, and I don't want to make him feel bad about it... but why does this happen?
+                      - generic "Actions available for this post" [ref=e1728]:
+                        - generic [ref=e1731]:
+                          - button "Upvote" [ref=e1732]:
+                            - img [ref=e1734]
+                            - generic [ref=e1736]:
+                              - generic: Upvote
+                          - generic [ref=e1738]: 6.1K
+                          - button "Downvote" [ref=e1739]:
+                            - img [ref=e1741]
+                            - generic [ref=e1743]:
+                              - generic: Downvote
+                        - link "2.2K Go to comments" [ref=e1744]:
+                          - /url: /r/NoStupidQuestions/comments/1sldqay/why_does_my_boyfriend_dribble_when_he_gets_into/
+                          - generic [ref=e1745]:
+                            - img [ref=e1747]
+                            - generic [ref=e1750]: 2.2K
+                          - generic [ref=e1751]:
+                            - generic: Go to comments
+                        - button "Give award" [ref=e1753]:
+                          - img [ref=e1756]
+                        - button "Share" [ref=e1761]:
+                          - generic [ref=e1762]:
+                            - img [ref=e1764]
+                            - generic [ref=e1766]: Share
+                  - separator [ref=e1767]
+                  - article "Airbnb host cancels reservation because it’s a high demand weekend" [ref=e1768]:
+                    - generic [ref=e1769] [cursor=pointer]:
+                      - link "Airbnb host cancels reservation because it’s a high demand weekend" [ref=e1770]:
+                        - /url: /r/mildlyinfuriating/comments/1sm0as4/airbnb_host_cancels_reservation_because_its_a/
+                        - generic [ref=e1771]:
+                          - generic: Airbnb host cancels reservation because it’s a high demand weekend
+                      - generic [ref=e1772]:
+                        - generic [ref=e1773]:
+                          - link "r/mildlyinfuriating" [ref=e1775]:
+                            - /url: /r/mildlyinfuriating/
+                            - generic [ref=e1779]: r/mildlyinfuriating
+                          - generic [ref=e1780]: •
+                          - time [ref=e1782]: 5 hr. ago
+                        - button "Open user actions" [ref=e1787]:
+                          - img [ref=e1790]
+                      - heading "Airbnb host cancels reservation because it’s a high demand weekend" [level=2] [ref=e1794]:
+                        - link "Airbnb host cancels reservation because it’s a high demand weekend" [ref=e1795]:
+                          - /url: /r/mildlyinfuriating/comments/1sm0as4/airbnb_host_cancels_reservation_because_its_a/
+                      - img "r/mildlyinfuriating - Airbnb host cancels reservation because it’s a high demand weekend" [ref=e1801]
+                      - generic "Actions available for this post" [ref=e1802]:
+                        - generic [ref=e1805]:
+                          - button "Upvote" [ref=e1806]:
+                            - img [ref=e1808]
+                            - generic [ref=e1810]:
+                              - generic: Upvote
+                          - generic [ref=e1812]: 25K
+                          - button "Downvote" [ref=e1813]:
+                            - img [ref=e1815]
+                            - generic [ref=e1817]:
+                              - generic: Downvote
+                        - link "1.4K Go to comments" [ref=e1818]:
+                          - /url: /r/mildlyinfuriating/comments/1sm0as4/airbnb_host_cancels_reservation_because_its_a/
+                          - generic [ref=e1819]:
+                            - img [ref=e1821]
+                            - generic [ref=e1824]: 1.4K
+                          - generic [ref=e1825]:
+                            - generic: Go to comments
+                        - button "Give award, 6 awards given" [ref=e1827]:
+                          - generic [ref=e1832]: "6"
+                        - button "Share" [ref=e1836]:
+                          - generic [ref=e1837]:
+                            - img [ref=e1839]
+                            - generic [ref=e1841]: Share
+                  - separator [ref=e1842]
+                  - article "Peter why does gen z leave the desk at 17:00?" [ref=e1843]:
+                    - generic [ref=e1844] [cursor=pointer]:
+                      - link "Peter why does gen z leave the desk at 17:00?" [ref=e1845]:
+                        - /url: /r/PeterExplainsTheJoke/comments/1sm57o3/peter_why_does_gen_z_leave_the_desk_at_1700/
+                        - generic [ref=e1846]:
+                          - generic: Peter why does gen z leave the desk at 17:00?
+                      - generic [ref=e1847]:
+                        - generic [ref=e1848]:
+                          - link "r/PeterExplainsTheJoke" [ref=e1850]:
+                            - /url: /r/PeterExplainsTheJoke/
+                            - generic [ref=e1854]: r/PeterExplainsTheJoke
+                          - generic [ref=e1855]: •
+                          - time [ref=e1857]: 1 hr. ago
+                        - button "Open user actions" [ref=e1862]:
+                          - img [ref=e1865]
+                      - heading "Peter why does gen z leave the desk at 17:00?" [level=2] [ref=e1869]:
+                        - link "Peter why does gen z leave the desk at 17:00?" [ref=e1870]:
+                          - /url: /r/PeterExplainsTheJoke/comments/1sm57o3/peter_why_does_gen_z_leave_the_desk_at_1700/
+                      - img "r/PeterExplainsTheJoke - Peter why does gen z leave the desk at 17:00?" [ref=e1876]
+                      - generic "Actions available for this post" [ref=e1877]:
+                        - generic [ref=e1880]:
+                          - button "Upvote" [ref=e1881]:
+                            - img [ref=e1883]
+                            - generic [ref=e1885]:
+                              - generic: Upvote
+                          - generic [ref=e1887]: 2.7K
+                          - button "Downvote" [ref=e1888]:
+                            - img [ref=e1890]
+                            - generic [ref=e1892]:
+                              - generic: Downvote
+                        - link "515 Go to comments" [ref=e1893]:
+                          - /url: /r/PeterExplainsTheJoke/comments/1sm57o3/peter_why_does_gen_z_leave_the_desk_at_1700/
+                          - generic [ref=e1894]:
+                            - img [ref=e1896]
+                            - generic [ref=e1899]: "515"
+                          - generic [ref=e1900]:
+                            - generic: Go to comments
+                        - button "Give award, 1 award given" [ref=e1902]:
+                          - generic [ref=e1907]: "1"
+                        - button "Share" [ref=e1911]:
+                          - generic [ref=e1912]:
+                            - img [ref=e1914]
+                            - generic [ref=e1916]: Share
+                  - separator [ref=e1917]
+                  - article "Florida doctor indicted and accused of removing patient's liver instead of spleen in fatal surgery" [ref=e1918]:
+                    - generic [ref=e1919] [cursor=pointer]:
+                      - link "Florida doctor indicted and accused of removing patient's liver instead of spleen in fatal surgery" [ref=e1920]:
+                        - /url: /r/news/comments/1slt2hx/florida_doctor_indicted_and_accused_of_removing/
+                        - generic [ref=e1921]:
+                          - generic: Florida doctor indicted and accused of removing patient's liver instead of spleen in fatal surgery
+                      - generic [ref=e1922]:
+                        - generic [ref=e1924]:
+                          - generic [ref=e1925]:
+                            - generic [ref=e1926]:
+                              - link "r/news" [ref=e1927]:
+                                - /url: /r/news/
+                                - generic [ref=e1931]: r/news
+                              - 'button "Community status: 📰" [ref=e1933]':
+                                - img "News" [ref=e1934]
+                            - generic [ref=e1935]: •
+                            - time [ref=e1937]: 12 hr. ago
+                          - button "Open user actions" [ref=e1942]:
+                            - img [ref=e1945]
+                        - generic [ref=e1947]:
+                          - link "Florida doctor indicted and accused of removing patient's liver instead of spleen in fatal surgery" [ref=e1949]:
+                            - /url: /r/news/comments/1slt2hx/florida_doctor_indicted_and_accused_of_removing/
+                          - link "https://www.nbcnews.com/news/us-news/florida-doctor-indicted-allegedly-removing-patients-liver-instead-sple-rcna331696" [ref=e1952]:
+                            - /url: https://www.nbcnews.com/news/us-news/florida-doctor-indicted-allegedly-removing-patients-liver-instead-sple-rcna331696
+                        - generic [ref=e1954]:
+                          - link "r/news - Florida doctor indicted and accused of removing patient's liver instead of spleen in fatal surgery" [ref=e1955]:
+                            - /url: https://www.nbcnews.com/news/us-news/florida-doctor-indicted-allegedly-removing-patients-liver-instead-sple-rcna331696
+                            - img "r/news - Florida doctor indicted and accused of removing patient's liver instead of spleen in fatal surgery" [ref=e1956]
+                          - generic:
+                            - generic:
+                              - img
+                      - generic "Actions available for this post" [ref=e1958]:
+                        - generic [ref=e1961]:
+                          - button "Upvote" [ref=e1962]:
+                            - img [ref=e1964]
+                            - generic [ref=e1966]:
+                              - generic: Upvote
+                          - generic [ref=e1968]: 12K
+                          - button "Downvote" [ref=e1969]:
+                            - img [ref=e1971]
+                            - generic [ref=e1973]:
+                              - generic: Downvote
+                        - link "1K Go to comments" [ref=e1974]:
+                          - /url: /r/news/comments/1slt2hx/florida_doctor_indicted_and_accused_of_removing/
+                          - generic [ref=e1975]:
+                            - img [ref=e1977]
+                            - generic [ref=e1980]: 1K
+                          - generic [ref=e1981]:
+                            - generic: Go to comments
+                        - button "Give award, 4 awards given" [ref=e1983]:
+                          - generic [ref=e1988]: "4"
+                        - button "Share" [ref=e1992]:
+                          - generic [ref=e1993]:
+                            - img [ref=e1995]
+                            - generic [ref=e1997]: Share
+                  - separator [ref=e1998]
+                  - article "JD Vance Heckled as He Says Pope Leo Should ‘Be Careful' Talking About ‘Matters of Theology’ at Turning Point Event" [ref=e1999]:
+                    - generic [ref=e2000] [cursor=pointer]:
+                      - link "JD Vance Heckled as He Says Pope Leo Should ‘Be Careful' Talking About ‘Matters of Theology’ at Turning Point Event" [ref=e2001]:
+                        - /url: /r/politics/comments/1sm3rbc/jd_vance_heckled_as_he_says_pope_leo_should_be/
+                        - generic [ref=e2002]:
+                          - generic: JD Vance Heckled as He Says Pope Leo Should ‘Be Careful' Talking About ‘Matters of Theology’ at Turning Point Event
+                      - generic [ref=e2003]:
+                        - generic [ref=e2005]:
+                          - generic [ref=e2006]:
+                            - link "r/politics" [ref=e2008]:
+                              - /url: /r/politics/
+                              - generic [ref=e2012]: r/politics
+                            - generic [ref=e2013]: •
+                            - time [ref=e2015]: 2 hr. ago
+                          - button "Open user actions" [ref=e2020]:
+                            - img [ref=e2023]
+                        - generic [ref=e2025]:
+                          - link "JD Vance Heckled as He Says Pope Leo Should ‘Be Careful' Talking About ‘Matters of Theology’ at Turning Point Event" [ref=e2027]:
+                            - /url: /r/politics/comments/1sm3rbc/jd_vance_heckled_as_he_says_pope_leo_should_be/
+                          - link "https://people.com/jd-vance-heckled-says-pope-leo-should-be-careful-talking-theology-amid-donald-trump-conflict-11950188?taid=69df7af27d0c9b0001417954&utm_campaign=peoplemagazine&utm_content=new&utm_medium=social&utm_source=twitter.com" [ref=e2030]:
+                            - /url: https://people.com/jd-vance-heckled-says-pope-leo-should-be-careful-talking-theology-amid-donald-trump-conflict-11950188?taid=69df7af27d0c9b0001417954&utm_campaign=peoplemagazine&utm_content=new&utm_medium=social&utm_source=twitter.com
+                        - generic [ref=e2032]:
+                          - link "r/politics - JD Vance Heckled as He Says Pope Leo Should ‘Be Careful' Talking About ‘Matters of Theology’ at Turning Point Event" [ref=e2033]:
+                            - /url: https://people.com/jd-vance-heckled-says-pope-leo-should-be-careful-talking-theology-amid-donald-trump-conflict-11950188?taid=69df7af27d0c9b0001417954&utm_campaign=peoplemagazine&utm_content=new&utm_medium=social&utm_source=twitter.com
+                            - img "r/politics - JD Vance Heckled as He Says Pope Leo Should ‘Be Careful' Talking About ‘Matters of Theology’ at Turning Point Event" [ref=e2034]
+                          - generic:
+                            - generic:
+                              - img
+                      - generic "Actions available for this post" [ref=e2036]:
+                        - generic [ref=e2039]:
+                          - button "Upvote" [ref=e2040]:
+                            - img [ref=e2042]
+                            - generic [ref=e2044]:
+                              - generic: Upvote
+                          - generic [ref=e2046]: 3.3K
+                          - button "Downvote" [ref=e2047]:
+                            - img [ref=e2049]
+                            - generic [ref=e2051]:
+                              - generic: Downvote
+                        - link "275 Go to comments" [ref=e2052]:
+                          - /url: /r/politics/comments/1sm3rbc/jd_vance_heckled_as_he_says_pope_leo_should_be/
+                          - generic [ref=e2053]:
+                            - img [ref=e2055]
+                            - generic [ref=e2058]: "275"
+                          - generic [ref=e2059]:
+                            - generic: Go to comments
+                        - button "Give award" [ref=e2061]:
+                          - img [ref=e2064]
+                        - button "Share" [ref=e2069]:
+                          - generic [ref=e2070]:
+                            - img [ref=e2072]
+                            - generic [ref=e2074]: Share
+                  - separator [ref=e2075]
+                  - article "Flags in Germany of EU and China switched colors" [ref=e2076]:
+                    - generic [ref=e2077] [cursor=pointer]:
+                      - link "Flags in Germany of EU and China switched colors" [ref=e2078]:
+                        - /url: /r/vexillology/comments/1sm3506/flags_in_germany_of_eu_and_china_switched_colors/
+                        - generic [ref=e2079]:
+                          - generic: Flags in Germany of EU and China switched colors
+                      - generic [ref=e2080]:
+                        - generic [ref=e2081]:
+                          - link "r/vexillology" [ref=e2083]:
+                            - /url: /r/vexillology/
+                            - generic [ref=e2087]: r/vexillology
+                          - generic [ref=e2088]: •
+                          - time [ref=e2090]: 3 hr. ago
+                        - button "Open user actions" [ref=e2095]:
+                          - img [ref=e2098]
+                      - heading "Flags in Germany of EU and China switched colors" [level=2] [ref=e2102]:
+                        - link "Flags in Germany of EU and China switched colors" [ref=e2103]:
+                          - /url: /r/vexillology/comments/1sm3506/flags_in_germany_of_eu_and_china_switched_colors/
+                      - img "r/vexillology - Flags in Germany of EU and China switched colors" [ref=e2109]
+                      - generic "Actions available for this post" [ref=e2110]:
+                        - generic [ref=e2113]:
+                          - button "Upvote" [ref=e2114]:
+                            - img [ref=e2116]
+                            - generic [ref=e2118]:
+                              - generic: Upvote
+                          - generic [ref=e2120]: 3.4K
+                          - button "Downvote" [ref=e2121]:
+                            - img [ref=e2123]
+                            - generic [ref=e2125]:
+                              - generic: Downvote
+                        - link "138 Go to comments" [ref=e2126]:
+                          - /url: /r/vexillology/comments/1sm3506/flags_in_germany_of_eu_and_china_switched_colors/
+                          - generic [ref=e2127]:
+                            - img [ref=e2129]
+                            - generic [ref=e2132]: "138"
+                          - generic [ref=e2133]:
+                            - generic: Go to comments
+                        - button "Give award" [ref=e2135]:
+                          - img [ref=e2138]
+                        - button "Share" [ref=e2143]:
+                          - generic [ref=e2144]:
+                            - img [ref=e2146]
+                            - generic [ref=e2148]: Share
+                  - separator [ref=e2149]
+                  - generic [ref=e2150]:
+                    - 'generic "Advertisement: Join the Nikkei Asia webinar to decode Japan''s PM Sanae Takaichi." [ref=e2151]':
+                      - 'link "Advertisement: Join the Nikkei Asia webinar to decode Japan''s PM Sanae Takaichi." [ref=e2152] [cursor=pointer]':
+                        - /url: https://alb.reddit.com/cr?za=MuGfq52iZXFzA_ku7C3jHbat4m5P3oCSXcfyOj6Kt7xVZ0dxjGRn8Pr2aXX8HW-3EXOm5_oErJjUjnr71BZFwdVM_ojJvFARyn4z6n0xAW-vI5SL1ubC1KZjkXl2H3Kdcx1fjYq-m552Y5iPL2Idtfud-7i4teVv-pJihv7dJEVuWYsCXgxlXx12kPjyFmHD1G0Iv1B5u2kQ5h6tbptHU_RalLmqeneBhkJNbKaxpWw2LDJz82Rha9gLR5wCqMAS1UZ9AMjRDuCUbysPlrlW3gXk86f7XeYIDiexc_GX5LMdbIKOw9cUDbGYuab-vv8mNNpBm8TXWsZCZeLCHMIpuN-NcXobbJmgFqAlvzSfk7lQNnL-oJ9cxz12f7pVeAv5hO-n0GEasTQjR3HjD7vaf6_6JbjZFN7ax37vhE1So2ubdEhkUMxLsCZPhTxBaGZOgrsUCbM207zU5s9-8XD7XlV_-kaJxXwtjmrwm7H8vJ3tcinL01uoFe8YOMWr-oWMo-QRvV1H8Mr81xQSP6BpFJFa_tiHxYO8NhC0vPFhP4L3Vqrer93TrFx5qXLRhQLKSlfBouNcfhRx6p0K5SIK-hHBqLUttK8avVq6PGZnSJyYrezuqxCq8kKb-SURXhP7CtmdE5bJHRj8qdki_EF2oYQR9_P_fY0e2svtndzEGe0SRjxN7L0qdPY-iVtqdQlSYxYXvSF45QnINHtGKftL-dHBCWzILWBHwoue4Wfxsxsmutfnz0aKZRy9H5jSOItGGGc1Lil1HFh2WokjSBQQs84&zp=Td8L28hFskCCXeoSUaYNxsAcz1Qv1lw76BM6ug-2gWgTpK8FnYaGBS6dN5B72IIYtNFfPMqqza2JrUtcl3j-ww_NFuRjc9yxJPq8QPBRXdGYv7e9Q-oYNSMqOduOge5DktBYGQwkZZWk8wda2hvqjlFRihcbTKrp6cD5YuShRGu19Vcx37zz4uLZ9ylu2Fk6ctGx8wXxCMEWyqUVMBlkdxmKNhw1atXcD2PpAI5O-049RAPe0xGglXMfR6CdedPwLIzQHDiX4yU8XzFkHORAiptDMhEoC_RqL4bJkd_6lGJ9ewRubSQSYMGIcBkNeivc9fclBkUEnemhjWRtM5tdf6ER7j8zsZWBmCi-QBaiShDmGMJiPsKoQods8pw_3c7gIpd0gwAHzrprz6Qfzpl7y527NgeIaTpEMG8syJW4QNAxwVVvNjLCfnyTJHZIzsmMVruuPnzFlp1Gr1TnhNnbiZNRu4T9aZKSYHmA8nIEhNo
+                    - generic [ref=e2153]:
+                      - generic [ref=e2154]:
+                        - link "u/NikkeiAsia avatar u/NikkeiAsia" [ref=e2156] [cursor=pointer]:
+                          - /url: /user/NikkeiAsia/
+                          - generic [ref=e2160]:
+                            - img "u/NikkeiAsia avatar"
+                          - generic [ref=e2161]: u/NikkeiAsia
+                        - generic [ref=e2162]: •
+                        - link "Promoted" [ref=e2164] [cursor=pointer]:
+                          - /url: /user/NikkeiAsia/
+                          - generic [ref=e2165]: Promoted
+                        - link [ref=e2167] [cursor=pointer]:
+                          - /url: https://alb.reddit.com/cr?za=MuGfq52iZXFzA_ku7C3jHbat4m5P3oCSXcfyOj6Kt7xVZ0dxjGRn8Pr2aXX8HW-3EXOm5_oErJjUjnr71BZFwdVM_ojJvFARyn4z6n0xAW-vI5SL1ubC1KZjkXl2H3Kdcx1fjYq-m552Y5iPL2Idtfud-7i4teVv-pJihv7dJEVuWYsCXgxlXx12kPjyFmHD1G0Iv1B5u2kQ5h6tbptHU_RalLmqeneBhkJNbKaxpWw2LDJz82Rha9gLR5wCqMAS1UZ9AMjRDuCUbysPlrlW3gXk86f7XeYIDiexc_GX5LMdbIKOw9cUDbGYuab-vv8mNNpBm8TXWsZCZeLCHMIpuN-NcXobbJmgFqAlvzSfk7lQNnL-oJ9cxz12f7pVeAv5hO-n0GEasTQjR3HjD7vaf6_6JbjZFN7ax37vhE1So2ubdEhkUMxLsCZPhTxBaGZOgrsUCbM207zU5s9-8XD7XlV_-kaJxXwtjmrwm7H8vJ3tcinL01uoFe8YOMWr-oWMo-QRvV1H8Mr81xQSP6BpFJFa_tiHxYO8NhC0vPFhP4L3Vqrer93TrFx5qXLRhQLKSlfBouNcfhRx6p0K5SIK-hHBqLUttK8avVq6PGZnSJyYrezuqxCq8kKb-SURXhP7CtmdE5bJHRj8qdki_EF2oYQR9_P_fY0e2svtndzEGe0SRjxN7L0qdPY-iVtqdQlSYxYXvSF45QnINHtGKftL-dHBCWzILWBHwoue4Wfxsxsmutfnz0aKZRy9H5jSOItGGGc1Lil1HFh2WokjSBQQs84&zp=Td8L28hFskCCXeoSUaYNxsAcz1Qv1lw76BM6ug-2gWgTpK8FnYaGBS6dN5B72IIYtNFfPMqqza2JrUtcl3j-ww_NFuRjc9yxJPq8QPBRXdGYv7e9Q-oYNSMqOduOge5DktBYGQwkZZWk8wda2hvqjlFRihcbTKrp6cD5YuShRGu19Vcx37zz4uLZ9ylu2Fk6ctGx8wXxCMEWyqUVMBlkdxmKNhw1atXcD2PpAI5O-049RAPe0xGglXMfR6CdedPwLIzQHDiX4yU8XzFkHORAiptDMhEoC_RqL4bJkd_6lGJ9ewRubSQSYMGIcBkNeivc9fclBkUEnemhjWRtM5tdf6ER7j8zsZWBmCi-QBaiShDmGMJiPsKoQods8pw_3c7gIpd0gwAHzrprz6Qfzpl7y527NgeIaTpEMG8syJW4QNAxwVVvNjLCfnyTJHZIzsmMVruuPnzFlp1Gr1TnhNnbiZNRu4T9aZKSYHmA8nIEhNo
+                      - button "Open user actions" [ref=e2172] [cursor=pointer]:
+                        - img [ref=e2175]
+                    - heading "Join the Nikkei Asia webinar to decode Japan's PM Sanae Takaichi." [level=2] [ref=e2179]:
+                      - link "Join the Nikkei Asia webinar to decode Japan's PM Sanae Takaichi." [ref=e2182] [cursor=pointer]:
+                        - /url: https://alb.reddit.com/cr?za=MuGfq52iZXFzA_ku7C3jHbat4m5P3oCSXcfyOj6Kt7xVZ0dxjGRn8Pr2aXX8HW-3EXOm5_oErJjUjnr71BZFwdVM_ojJvFARyn4z6n0xAW-vI5SL1ubC1KZjkXl2H3Kdcx1fjYq-m552Y5iPL2Idtfud-7i4teVv-pJihv7dJEVuWYsCXgxlXx12kPjyFmHD1G0Iv1B5u2kQ5h6tbptHU_RalLmqeneBhkJNbKaxpWw2LDJz82Rha9gLR5wCqMAS1UZ9AMjRDuCUbysPlrlW3gXk86f7XeYIDiexc_GX5LMdbIKOw9cUDbGYuab-vv8mNNpBm8TXWsZCZeLCHMIpuN-NcXobbJmgFqAlvzSfk7lQNnL-oJ9cxz12f7pVeAv5hO-n0GEasTQjR3HjD7vaf6_6JbjZFN7ax37vhE1So2ubdEhkUMxLsCZPhTxBaGZOgrsUCbM207zU5s9-8XD7XlV_-kaJxXwtjmrwm7H8vJ3tcinL01uoFe8YOMWr-oWMo-QRvV1H8Mr81xQSP6BpFJFa_tiHxYO8NhC0vPFhP4L3Vqrer93TrFx5qXLRhQLKSlfBouNcfhRx6p0K5SIK-hHBqLUttK8avVq6PGZnSJyYrezuqxCq8kKb-SURXhP7CtmdE5bJHRj8qdki_EF2oYQR9_P_fY0e2svtndzEGe0SRjxN7L0qdPY-iVtqdQlSYxYXvSF45QnINHtGKftL-dHBCWzILWBHwoue4Wfxsxsmutfnz0aKZRy9H5jSOItGGGc1Lil1HFh2WokjSBQQs84&zp=Td8L28hFskCCXeoSUaYNxsAcz1Qv1lw76BM6ug-2gWgTpK8FnYaGBS6dN5B72IIYtNFfPMqqza2JrUtcl3j-ww_NFuRjc9yxJPq8QPBRXdGYv7e9Q-oYNSMqOduOge5DktBYGQwkZZWk8wda2hvqjlFRihcbTKrp6cD5YuShRGu19Vcx37zz4uLZ9ylu2Fk6ctGx8wXxCMEWyqUVMBlkdxmKNhw1atXcD2PpAI5O-049RAPe0xGglXMfR6CdedPwLIzQHDiX4yU8XzFkHORAiptDMhEoC_RqL4bJkd_6lGJ9ewRubSQSYMGIcBkNeivc9fclBkUEnemhjWRtM5tdf6ER7j8zsZWBmCi-QBaiShDmGMJiPsKoQods8pw_3c7gIpd0gwAHzrprz6Qfzpl7y527NgeIaTpEMG8syJW4QNAxwVVvNjLCfnyTJHZIzsmMVruuPnzFlp1Gr1TnhNnbiZNRu4T9aZKSYHmA8nIEhNo
+                        - generic: Join the Nikkei Asia webinar to decode Japan's PM Sanae Takaichi.
+                    - generic [ref=e2183]:
+                      - link "Join the Nikkei Asia webinar to decode Japan's PM Sanae Takaichi." [ref=e2187] [cursor=pointer]:
+                        - /url: https://alb.reddit.com/cr?za=MuGfq52iZXFzA_ku7C3jHbat4m5P3oCSXcfyOj6Kt7xVZ0dxjGRn8Pr2aXX8HW-3EXOm5_oErJjUjnr71BZFwdVM_ojJvFARyn4z6n0xAW-vI5SL1ubC1KZjkXl2H3Kdcx1fjYq-m552Y5iPL2Idtfud-7i4teVv-pJihv7dJEVuWYsCXgxlXx12kPjyFmHD1G0Iv1B5u2kQ5h6tbptHU_RalLmqeneBhkJNbKaxpWw2LDJz82Rha9gLR5wCqMAS1UZ9AMjRDuCUbysPlrlW3gXk86f7XeYIDiexc_GX5LMdbIKOw9cUDbGYuab-vv8mNNpBm8TXWsZCZeLCHMIpuN-NcXobbJmgFqAlvzSfk7lQNnL-oJ9cxz12f7pVeAv5hO-n0GEasTQjR3HjD7vaf6_6JbjZFN7ax37vhE1So2ubdEhkUMxLsCZPhTxBaGZOgrsUCbM207zU5s9-8XD7XlV_-kaJxXwtjmrwm7H8vJ3tcinL01uoFe8YOMWr-oWMo-QRvV1H8Mr81xQSP6BpFJFa_tiHxYO8NhC0vPFhP4L3Vqrer93TrFx5qXLRhQLKSlfBouNcfhRx6p0K5SIK-hHBqLUttK8avVq6PGZnSJyYrezuqxCq8kKb-SURXhP7CtmdE5bJHRj8qdki_EF2oYQR9_P_fY0e2svtndzEGe0SRjxN7L0qdPY-iVtqdQlSYxYXvSF45QnINHtGKftL-dHBCWzILWBHwoue4Wfxsxsmutfnz0aKZRy9H5jSOItGGGc1Lil1HFh2WokjSBQQs84&zp=Td8L28hFskCCXeoSUaYNxsAcz1Qv1lw76BM6ug-2gWgTpK8FnYaGBS6dN5B72IIYtNFfPMqqza2JrUtcl3j-ww_NFuRjc9yxJPq8QPBRXdGYv7e9Q-oYNSMqOduOge5DktBYGQwkZZWk8wda2hvqjlFRihcbTKrp6cD5YuShRGu19Vcx37zz4uLZ9ylu2Fk6ctGx8wXxCMEWyqUVMBlkdxmKNhw1atXcD2PpAI5O-049RAPe0xGglXMfR6CdedPwLIzQHDiX4yU8XzFkHORAiptDMhEoC_RqL4bJkd_6lGJ9ewRubSQSYMGIcBkNeivc9fclBkUEnemhjWRtM5tdf6ER7j8zsZWBmCi-QBaiShDmGMJiPsKoQods8pw_3c7gIpd0gwAHzrprz6Qfzpl7y527NgeIaTpEMG8syJW4QNAxwVVvNjLCfnyTJHZIzsmMVruuPnzFlp1Gr1TnhNnbiZNRu4T9aZKSYHmA8nIEhNo
+                        - img "Join the Nikkei Asia webinar to decode Japan's PM Sanae Takaichi." [ref=e2189]
+                      - separator [ref=e2190]
+                      - generic [ref=e2191]:
+                        - link [ref=e2193] [cursor=pointer]:
+                          - /url: https://alb.reddit.com/cr?za=MuGfq52iZXFzA_ku7C3jHbat4m5P3oCSXcfyOj6Kt7xVZ0dxjGRn8Pr2aXX8HW-3EXOm5_oErJjUjnr71BZFwdVM_ojJvFARyn4z6n0xAW-vI5SL1ubC1KZjkXl2H3Kdcx1fjYq-m552Y5iPL2Idtfud-7i4teVv-pJihv7dJEVuWYsCXgxlXx12kPjyFmHD1G0Iv1B5u2kQ5h6tbptHU_RalLmqeneBhkJNbKaxpWw2LDJz82Rha9gLR5wCqMAS1UZ9AMjRDuCUbysPlrlW3gXk86f7XeYIDiexc_GX5LMdbIKOw9cUDbGYuab-vv8mNNpBm8TXWsZCZeLCHMIpuN-NcXobbJmgFqAlvzSfk7lQNnL-oJ9cxz12f7pVeAv5hO-n0GEasTQjR3HjD7vaf6_6JbjZFN7ax37vhE1So2ubdEhkUMxLsCZPhTxBaGZOgrsUCbM207zU5s9-8XD7XlV_-kaJxXwtjmrwm7H8vJ3tcinL01uoFe8YOMWr-oWMo-QRvV1H8Mr81xQSP6BpFJFa_tiHxYO8NhC0vPFhP4L3Vqrer93TrFx5qXLRhQLKSlfBouNcfhRx6p0K5SIK-hHBqLUttK8avVq6PGZnSJyYrezuqxCq8kKb-SURXhP7CtmdE5bJHRj8qdki_EF2oYQR9_P_fY0e2svtndzEGe0SRjxN7L0qdPY-iVtqdQlSYxYXvSF45QnINHtGKftL-dHBCWzILWBHwoue4Wfxsxsmutfnz0aKZRy9H5jSOItGGGc1Lil1HFh2WokjSBQQs84&zp=Td8L28hFskCCXeoSUaYNxsAcz1Qv1lw76BM6ug-2gWgTpK8FnYaGBS6dN5B72IIYtNFfPMqqza2JrUtcl3j-ww_NFuRjc9yxJPq8QPBRXdGYv7e9Q-oYNSMqOduOge5DktBYGQwkZZWk8wda2hvqjlFRihcbTKrp6cD5YuShRGu19Vcx37zz4uLZ9ylu2Fk6ctGx8wXxCMEWyqUVMBlkdxmKNhw1atXcD2PpAI5O-049RAPe0xGglXMfR6CdedPwLIzQHDiX4yU8XzFkHORAiptDMhEoC_RqL4bJkd_6lGJ9ewRubSQSYMGIcBkNeivc9fclBkUEnemhjWRtM5tdf6ER7j8zsZWBmCi-QBaiShDmGMJiPsKoQods8pw_3c7gIpd0gwAHzrprz6Qfzpl7y527NgeIaTpEMG8syJW4QNAxwVVvNjLCfnyTJHZIzsmMVruuPnzFlp1Gr1TnhNnbiZNRu4T9aZKSYHmA8nIEhNo
+                        - generic [ref=e2194]:
+                          - link "asia.nikkei.com" [ref=e2197] [cursor=pointer]:
+                            - /url: https://alb.reddit.com/cr?za=MuGfq52iZXFzA_ku7C3jHbat4m5P3oCSXcfyOj6Kt7xVZ0dxjGRn8Pr2aXX8HW-3EXOm5_oErJjUjnr71BZFwdVM_ojJvFARyn4z6n0xAW-vI5SL1ubC1KZjkXl2H3Kdcx1fjYq-m552Y5iPL2Idtfud-7i4teVv-pJihv7dJEVuWYsCXgxlXx12kPjyFmHD1G0Iv1B5u2kQ5h6tbptHU_RalLmqeneBhkJNbKaxpWw2LDJz82Rha9gLR5wCqMAS1UZ9AMjRDuCUbysPlrlW3gXk86f7XeYIDiexc_GX5LMdbIKOw9cUDbGYuab-vv8mNNpBm8TXWsZCZeLCHMIpuN-NcXobbJmgFqAlvzSfk7lQNnL-oJ9cxz12f7pVeAv5hO-n0GEasTQjR3HjD7vaf6_6JbjZFN7ax37vhE1So2ubdEhkUMxLsCZPhTxBaGZOgrsUCbM207zU5s9-8XD7XlV_-kaJxXwtjmrwm7H8vJ3tcinL01uoFe8YOMWr-oWMo-QRvV1H8Mr81xQSP6BpFJFa_tiHxYO8NhC0vPFhP4L3Vqrer93TrFx5qXLRhQLKSlfBouNcfhRx6p0K5SIK-hHBqLUttK8avVq6PGZnSJyYrezuqxCq8kKb-SURXhP7CtmdE5bJHRj8qdki_EF2oYQR9_P_fY0e2svtndzEGe0SRjxN7L0qdPY-iVtqdQlSYxYXvSF45QnINHtGKftL-dHBCWzILWBHwoue4Wfxsxsmutfnz0aKZRy9H5jSOItGGGc1Lil1HFh2WokjSBQQs84&zp=Td8L28hFskCCXeoSUaYNxsAcz1Qv1lw76BM6ug-2gWgTpK8FnYaGBS6dN5B72IIYtNFfPMqqza2JrUtcl3j-ww_NFuRjc9yxJPq8QPBRXdGYv7e9Q-oYNSMqOduOge5DktBYGQwkZZWk8wda2hvqjlFRihcbTKrp6cD5YuShRGu19Vcx37zz4uLZ9ylu2Fk6ctGx8wXxCMEWyqUVMBlkdxmKNhw1atXcD2PpAI5O-049RAPe0xGglXMfR6CdedPwLIzQHDiX4yU8XzFkHORAiptDMhEoC_RqL4bJkd_6lGJ9ewRubSQSYMGIcBkNeivc9fclBkUEnemhjWRtM5tdf6ER7j8zsZWBmCi-QBaiShDmGMJiPsKoQods8pw_3c7gIpd0gwAHzrprz6Qfzpl7y527NgeIaTpEMG8syJW4QNAxwVVvNjLCfnyTJHZIzsmMVruuPnzFlp1Gr1TnhNnbiZNRu4T9aZKSYHmA8nIEhNo
+                            - generic: asia.nikkei.com
+                          - link "Sign Up" [ref=e2199] [cursor=pointer]:
+                            - /url: https://alb.reddit.com/cr?za=MuGfq52iZXFzA_ku7C3jHbat4m5P3oCSXcfyOj6Kt7xVZ0dxjGRn8Pr2aXX8HW-3EXOm5_oErJjUjnr71BZFwdVM_ojJvFARyn4z6n0xAW-vI5SL1ubC1KZjkXl2H3Kdcx1fjYq-m552Y5iPL2Idtfud-7i4teVv-pJihv7dJEVuWYsCXgxlXx12kPjyFmHD1G0Iv1B5u2kQ5h6tbptHU_RalLmqeneBhkJNbKaxpWw2LDJz82Rha9gLR5wCqMAS1UZ9AMjRDuCUbysPlrlW3gXk86f7XeYIDiexc_GX5LMdbIKOw9cUDbGYuab-vv8mNNpBm8TXWsZCZeLCHMIpuN-NcXobbJmgFqAlvzSfk7lQNnL-oJ9cxz12f7pVeAv5hO-n0GEasTQjR3HjD7vaf6_6JbjZFN7ax37vhE1So2ubdEhkUMxLsCZPhTxBaGZOgrsUCbM207zU5s9-8XD7XlV_-kaJxXwtjmrwm7H8vJ3tcinL01uoFe8YOMWr-oWMo-QRvV1H8Mr81xQSP6BpFJFa_tiHxYO8NhC0vPFhP4L3Vqrer93TrFx5qXLRhQLKSlfBouNcfhRx6p0K5SIK-hHBqLUttK8avVq6PGZnSJyYrezuqxCq8kKb-SURXhP7CtmdE5bJHRj8qdki_EF2oYQR9_P_fY0e2svtndzEGe0SRjxN7L0qdPY-iVtqdQlSYxYXvSF45QnINHtGKftL-dHBCWzILWBHwoue4Wfxsxsmutfnz0aKZRy9H5jSOItGGGc1Lil1HFh2WokjSBQQs84&zp=Td8L28hFskCCXeoSUaYNxsAcz1Qv1lw76BM6ug-2gWgTpK8FnYaGBS6dN5B72IIYtNFfPMqqza2JrUtcl3j-ww_NFuRjc9yxJPq8QPBRXdGYv7e9Q-oYNSMqOduOge5DktBYGQwkZZWk8wda2hvqjlFRihcbTKrp6cD5YuShRGu19Vcx37zz4uLZ9ylu2Fk6ctGx8wXxCMEWyqUVMBlkdxmKNhw1atXcD2PpAI5O-049RAPe0xGglXMfR6CdedPwLIzQHDiX4yU8XzFkHORAiptDMhEoC_RqL4bJkd_6lGJ9ewRubSQSYMGIcBkNeivc9fclBkUEnemhjWRtM5tdf6ER7j8zsZWBmCi-QBaiShDmGMJiPsKoQods8pw_3c7gIpd0gwAHzrprz6Qfzpl7y527NgeIaTpEMG8syJW4QNAxwVVvNjLCfnyTJHZIzsmMVruuPnzFlp1Gr1TnhNnbiZNRu4T9aZKSYHmA8nIEhNo
+                            - generic [ref=e2201]:
+                              - generic: Sign Up
+                    - generic "Actions available for this post" [ref=e2202]:
+                      - generic [ref=e2205]:
+                        - button "Upvote" [ref=e2206] [cursor=pointer]:
+                          - img [ref=e2208]
+                          - generic [ref=e2210]:
+                            - generic: Upvote
+                        - text: Vote
+                        - button "Downvote" [ref=e2211] [cursor=pointer]:
+                          - img [ref=e2213]
+                          - generic [ref=e2215]:
+                            - generic: Downvote
+                      - link "0 Go to comments" [ref=e2216] [cursor=pointer]:
+                        - /url: /user/NikkeiAsia/comments/1sccq8k/join_the_nikkei_asia_webinar_to_decode_japans_pm/?p=1&impressionid=5355950519745700337
+                        - generic [ref=e2217]:
+                          - img [ref=e2219]
+                          - generic [ref=e2222]: "0"
+                        - generic [ref=e2223]:
+                          - generic: Go to comments
+                      - button "Share" [ref=e2227] [cursor=pointer]:
+                        - generic [ref=e2228]:
+                          - img [ref=e2230]
+                          - generic [ref=e2232]: Share
+                      - link [ref=e2234] [cursor=pointer]:
+                        - /url: https://alb.reddit.com/cr?za=MuGfq52iZXFzA_ku7C3jHbat4m5P3oCSXcfyOj6Kt7xVZ0dxjGRn8Pr2aXX8HW-3EXOm5_oErJjUjnr71BZFwdVM_ojJvFARyn4z6n0xAW-vI5SL1ubC1KZjkXl2H3Kdcx1fjYq-m552Y5iPL2Idtfud-7i4teVv-pJihv7dJEVuWYsCXgxlXx12kPjyFmHD1G0Iv1B5u2kQ5h6tbptHU_RalLmqeneBhkJNbKaxpWw2LDJz82Rha9gLR5wCqMAS1UZ9AMjRDuCUbysPlrlW3gXk86f7XeYIDiexc_GX5LMdbIKOw9cUDbGYuab-vv8mNNpBm8TXWsZCZeLCHMIpuN-NcXobbJmgFqAlvzSfk7lQNnL-oJ9cxz12f7pVeAv5hO-n0GEasTQjR3HjD7vaf6_6JbjZFN7ax37vhE1So2ubdEhkUMxLsCZPhTxBaGZOgrsUCbM207zU5s9-8XD7XlV_-kaJxXwtjmrwm7H8vJ3tcinL01uoFe8YOMWr-oWMo-QRvV1H8Mr81xQSP6BpFJFa_tiHxYO8NhC0vPFhP4L3Vqrer93TrFx5qXLRhQLKSlfBouNcfhRx6p0K5SIK-hHBqLUttK8avVq6PGZnSJyYrezuqxCq8kKb-SURXhP7CtmdE5bJHRj8qdki_EF2oYQR9_P_fY0e2svtndzEGe0SRjxN7L0qdPY-iVtqdQlSYxYXvSF45QnINHtGKftL-dHBCWzILWBHwoue4Wfxsxsmutfnz0aKZRy9H5jSOItGGGc1Lil1HFh2WokjSBQQs84&zp=Td8L28hFskCCXeoSUaYNxsAcz1Qv1lw76BM6ug-2gWgTpK8FnYaGBS6dN5B72IIYtNFfPMqqza2JrUtcl3j-ww_NFuRjc9yxJPq8QPBRXdGYv7e9Q-oYNSMqOduOge5DktBYGQwkZZWk8wda2hvqjlFRihcbTKrp6cD5YuShRGu19Vcx37zz4uLZ9ylu2Fk6ctGx8wXxCMEWyqUVMBlkdxmKNhw1atXcD2PpAI5O-049RAPe0xGglXMfR6CdedPwLIzQHDiX4yU8XzFkHORAiptDMhEoC_RqL4bJkd_6lGJ9ewRubSQSYMGIcBkNeivc9fclBkUEnemhjWRtM5tdf6ER7j8zsZWBmCi-QBaiShDmGMJiPsKoQods8pw_3c7gIpd0gwAHzrprz6Qfzpl7y527NgeIaTpEMG8syJW4QNAxwVVvNjLCfnyTJHZIzsmMVruuPnzFlp1Gr1TnhNnbiZNRu4T9aZKSYHmA8nIEhNo
+                  - separator [ref=e2235]
+                  - article "Many of them unfortunately" [ref=e2236]:
+                    - generic [ref=e2237] [cursor=pointer]:
+                      - link "Many of them unfortunately" [ref=e2238]:
+                        - /url: /r/memes/comments/1slinz6/many_of_them_unfortunately/
+                        - generic [ref=e2239]:
+                          - generic: Many of them unfortunately
+                      - generic [ref=e2240]:
+                        - generic [ref=e2241]:
+                          - generic [ref=e2242]:
+                            - link "r/memes" [ref=e2243]:
+                              - /url: /r/memes/
+                              - generic [ref=e2247]: r/memes
+                            - 'button "Community status: Verified Community: Original since 2008" [ref=e2249]':
+                              - img "Golden_Check" [ref=e2250]
+                          - generic [ref=e2251]: •
+                          - time [ref=e2253]: 19 hr. ago
+                        - button "Open user actions" [ref=e2258]:
+                          - img [ref=e2261]
+                      - heading "Many of them unfortunately" [level=2] [ref=e2265]:
+                        - link "Many of them unfortunately" [ref=e2266]:
+                          - /url: /r/memes/comments/1slinz6/many_of_them_unfortunately/
+                      - button [disabled] [ref=e2274]:
+                        - img [ref=e2275]
+                      - generic "Actions available for this post" [ref=e2277]:
+                        - generic [ref=e2280]:
+                          - button "Upvote" [ref=e2281]:
+                            - img [ref=e2283]
+                            - generic [ref=e2285]:
+                              - generic: Upvote
+                          - generic [ref=e2287]: 70K
+                          - button "Downvote" [ref=e2288]:
+                            - img [ref=e2290]
+                            - generic [ref=e2292]:
+                              - generic: Downvote
+                        - link "6.2K Go to comments" [ref=e2293]:
+                          - /url: /r/memes/comments/1slinz6/many_of_them_unfortunately/
+                          - generic [ref=e2294]:
+                            - img [ref=e2296]
+                            - generic [ref=e2299]: 6.2K
+                          - generic [ref=e2300]:
+                            - generic: Go to comments
+                        - button "Give award, 50 awards given" [ref=e2302]:
+                          - generic [ref=e2307]: "50"
+                        - button "Share" [ref=e2311]:
+                          - generic [ref=e2312]:
+                            - img [ref=e2314]
+                            - generic [ref=e2316]: Share
+                  - separator [ref=e2317]
+                  - article "AITA for still using the baby name I told my sister I was going to use, despite her using a variation of it first?" [ref=e2318]:
+                    - generic [ref=e2319] [cursor=pointer]:
+                      - link "AITA for still using the baby name I told my sister I was going to use, despite her using a variation of it first?" [ref=e2320]:
+                        - /url: /r/AmItheAsshole/comments/1slkk0v/aita_for_still_using_the_baby_name_i_told_my/
+                        - generic [ref=e2321]:
+                          - generic: AITA for still using the baby name I told my sister I was going to use, despite her using a variation of it first?
+                      - generic [ref=e2322]:
+                        - generic [ref=e2323]:
+                          - link "r/AmItheAsshole" [ref=e2325]:
+                            - /url: /r/AmItheAsshole/
+                            - generic [ref=e2329]: r/AmItheAsshole
+                          - generic [ref=e2330]: •
+                          - time [ref=e2332]: 18 hr. ago
+                        - button "Open user actions" [ref=e2337]:
+                          - img [ref=e2340]
+                      - generic [ref=e2343]:
+                        - heading "AITA for still using the baby name I told my sister I was going to use, despite her using a variation of it first?" [level=2] [ref=e2344]:
+                          - link "AITA for still using the baby name I told my sister I was going to use, despite her using a variation of it first?" [ref=e2345]:
+                            - /url: /r/AmItheAsshole/comments/1slkk0v/aita_for_still_using_the_baby_name_i_told_my/
+                        - generic [ref=e2346]:
+                          - generic:
+                            - link:
+                              - /url: /r/AmItheAsshole/comments/1slkk0v/aita_for_still_using_the_baby_name_i_told_my/
+                              - generic:
+                                - generic:
+                                  - paragraph: I (35F) had my first daughter in September. While I was pregnant my sister (38F) was also pregnant with a boy. In reality she was pregnant with twins, a boy and a girl, but thought it would be fun if it was a surprise for everyone.
+                                  - paragraph: During that time I told her that I planned to name this baby after our mom, Colette, and my husband's mother, Coral, both names start with "Co" and I think "Coco" is an adorable nickname. She told me the name they picked was a surprise and they didn't want to reveal it until the baby was here.
+                                  - paragraph: Lo and behold her twins are born in August, everyone is super surprised that its twins. She names them Cole and Lettie. I didn't think much of it except that it was really cute and sweet that she clearly named them after our mom.
+                                  - paragraph: When my daughter was born, I followed through and named her Colette Coral, we almost exclusively call her Coco.
+                                  - paragraph: My sister is very annoyed that I followed through with the name and brings it up all the time how ridiculous it is that three of them practically share a name. Its also confusing if full names are used, I will admit that. Despite me telling her my entire pregnancy this was the name I planned to use. I even had stuff made with the name! She ensures everyone knows her babies we're born first.
+                                  - paragraph: Honestly, If she had told me months ago that she planned to use Cole and Lettie, I probably would've pivoted, but she never said anything. Heck, even if she told me she was using Cole I would've re-evaluated.
+                                  - paragraph: Currently debating legally swapping Coral and Colette simply to keep the peace, but that feels an awful lot like admitting I'm the asshole in the first place.
+                                  - paragraph: So Am I the Asshole?
+                      - generic "Actions available for this post" [ref=e2347]:
+                        - generic [ref=e2350]:
+                          - button "Upvote" [ref=e2351]:
+                            - img [ref=e2353]
+                            - generic [ref=e2355]:
+                              - generic: Upvote
+                          - generic [ref=e2357]: 8.9K
+                          - button "Downvote" [ref=e2358]:
+                            - img [ref=e2360]
+                            - generic [ref=e2362]:
+                              - generic: Downvote
+                        - link "790 Go to comments" [ref=e2363]:
+                          - /url: /r/AmItheAsshole/comments/1slkk0v/aita_for_still_using_the_baby_name_i_told_my/
+                          - generic [ref=e2364]:
+                            - img [ref=e2366]
+                            - generic [ref=e2369]: "790"
+                          - generic [ref=e2370]:
+                            - generic: Go to comments
+                        - button "Give award, 3 awards given" [ref=e2372]:
+                          - generic [ref=e2377]: "3"
+                        - button "Share" [ref=e2381]:
+                          - generic [ref=e2382]:
+                            - img [ref=e2384]
+                            - generic [ref=e2386]: Share
+                  - separator [ref=e2387]
+                  - article "Blursed_rap episode" [ref=e2388]:
+                    - generic [ref=e2389] [cursor=pointer]:
+                      - link "Blursed_rap episode" [ref=e2390]:
+                        - /url: /r/blursed_videos/comments/1sm1sx4/blursed_rap_episode/
+                        - generic [ref=e2391]:
+                          - generic: Blursed_rap episode
+                      - generic [ref=e2392]:
+                        - generic [ref=e2393]:
+                          - link "r/blursed_videos" [ref=e2395]:
+                            - /url: /r/blursed_videos/
+                            - generic [ref=e2399]: r/blursed_videos
+                          - generic [ref=e2400]: •
+                          - time [ref=e2402]: 4 hr. ago
+                        - button "Open user actions" [ref=e2407]:
+                          - img [ref=e2410]
+                      - heading "Blursed_rap episode" [level=2] [ref=e2414]:
+                        - link "Blursed_rap episode" [ref=e2415]:
+                          - /url: /r/blursed_videos/comments/1sm1sx4/blursed_rap_episode/
+                      - generic [ref=e2423]:
+                        - generic [ref=e2424]:
+                          - button "Toggle playback" [ref=e2425]:
+                            - img [ref=e2426]
+                          - generic "Media time" [ref=e2428]
+                          - generic [ref=e2434]:
+                            - generic [ref=e2435]: 0:00
+                            - generic [ref=e2436]: / 0:00
+                          - button "Toggle captions" [ref=e2437]:
+                            - img [ref=e2438]
+                          - generic [ref=e2441]:
+                            - button "Settings" [ref=e2442]:
+                              - img [ref=e2443]
+                            - generic:
+                              - button:
+                                - generic:
+                                  - img
+                                - generic: Auto
+                          - button "Toggle fullscreen" [ref=e2445]:
+                            - img [ref=e2446]
+                        - button "Toggle volume" [ref=e2451]:
+                          - img [ref=e2452]
+                      - generic "Actions available for this post" [ref=e2455]:
+                        - generic [ref=e2458]:
+                          - button "Upvote" [ref=e2459]:
+                            - img [ref=e2461]
+                            - generic [ref=e2463]:
+                              - generic: Upvote
+                          - generic [ref=e2465]: 5.3K
+                          - button "Downvote" [ref=e2466]:
+                            - img [ref=e2468]
+                            - generic [ref=e2470]:
+                              - generic: Downvote
+                        - link "63 Go to comments" [ref=e2471]:
+                          - /url: /r/blursed_videos/comments/1sm1sx4/blursed_rap_episode/
+                          - generic [ref=e2472]:
+                            - img [ref=e2474]
+                            - generic [ref=e2477]: "63"
+                          - generic [ref=e2478]:
+                            - generic: Go to comments
+                        - button "Give award, 2 awards given" [ref=e2480]:
+                          - generic [ref=e2485]: "2"
+                        - button "Share" [ref=e2489]:
+                          - generic [ref=e2490]:
+                            - img [ref=e2492]
+                            - generic [ref=e2494]: Share
+                  - separator [ref=e2495]
+                  - 'article "All the gossip from Lena Dunham’s “Famesick” (spoiler: Adam Driver looks bad)" [ref=e2496]':
+                    - generic [ref=e2497] [cursor=pointer]:
+                      - 'link "All the gossip from Lena Dunham’s “Famesick” (spoiler: Adam Driver looks bad)" [ref=e2498]':
+                        - /url: /r/popculturechat/comments/1slfeke/all_the_gossip_from_lena_dunhams_famesick_spoiler/
+                        - generic [ref=e2499]:
+                          - generic: "All the gossip from Lena Dunham’s “Famesick” (spoiler: Adam Driver looks bad)"
+                      - generic [ref=e2500]:
+                        - generic [ref=e2502]:
+                          - generic [ref=e2503]:
+                            - generic [ref=e2504]:
+                              - link "r/popculturechat" [ref=e2505]:
+                                - /url: /r/popculturechat/
+                                - generic [ref=e2509]: r/popculturechat
+                              - 'button "Community status: Welcome to r/popculturechat ! Make sure you check out our discord server, we have games, clubs and all kinds of events. Bring your own refreshments and come hang out with us !" [ref=e2511]':
+                                - img "popculturechat" [ref=e2512]
+                            - generic [ref=e2513]: •
+                            - time [ref=e2515]: 21 hr. ago
+                          - button "Open user actions" [ref=e2520]:
+                            - img [ref=e2523]
+                        - generic [ref=e2525]:
+                          - generic [ref=e2530]:
+                            - img [ref=e2532]
+                            - generic [ref=e2534]: SPOILER
+                          - 'link "All the gossip from Lena Dunham’s “Famesick” (spoiler: Adam Driver looks bad)" [ref=e2536]':
+                            - /url: /r/popculturechat/comments/1slfeke/all_the_gossip_from_lena_dunhams_famesick_spoiler/
+                          - link "https://www.vulture.com/article/lena-dunham-famesick-memoir-girls-gossip.html?utm_source=nymag_app_article_share" [ref=e2539]:
+                            - /url: https://www.vulture.com/article/lena-dunham-famesick-memoir-girls-gossip.html?utm_source=nymag_app_article_share
+                        - generic [ref=e2541]:
+                          - 'link "r/popculturechat - All the gossip from Lena Dunham’s “Famesick” (spoiler: Adam Driver looks bad)" [ref=e2542]':
+                            - /url: https://www.vulture.com/article/lena-dunham-famesick-memoir-girls-gossip.html?utm_source=nymag_app_article_share
+                            - 'img "r/popculturechat - All the gossip from Lena Dunham’s “Famesick” (spoiler: Adam Driver looks bad)" [ref=e2543]'
+                          - generic:
+                            - generic:
+                              - img
+                      - generic "Actions available for this post" [ref=e2545]:
+                        - generic [ref=e2548]:
+                          - button "Upvote" [ref=e2549]:
+                            - img [ref=e2551]
+                            - generic [ref=e2553]:
+                              - generic: Upvote
+                          - generic [ref=e2555]: "596"
+                          - button "Downvote" [ref=e2556]:
+                            - img [ref=e2558]
+                            - generic [ref=e2560]:
+                              - generic: Downvote
+                        - link "745 Go to comments" [ref=e2561]:
+                          - /url: /r/popculturechat/comments/1slfeke/all_the_gossip_from_lena_dunhams_famesick_spoiler/
+                          - generic [ref=e2562]:
+                            - img [ref=e2564]
+                            - generic [ref=e2567]: "745"
+                          - generic [ref=e2568]:
+                            - generic: Go to comments
+                        - button "Give award, 1 award given" [ref=e2570]:
+                          - generic [ref=e2575]: "1"
+                        - button "Share" [ref=e2579]:
+                          - generic [ref=e2580]:
+                            - img [ref=e2582]
+                            - generic [ref=e2584]: Share
+                  - separator [ref=e2585]
+                  - article "In India, a woman tricked police and civic teams into cleaning an open drain for 3 hours by falsely claiming someone had fallen into it." [ref=e2586]:
+                    - generic [ref=e2587] [cursor=pointer]:
+                      - link "In India, a woman tricked police and civic teams into cleaning an open drain for 3 hours by falsely claiming someone had fallen into it." [ref=e2588]:
+                        - /url: /r/interestingasfuck/comments/1slxx8h/in_india_a_woman_tricked_police_and_civic_teams/
+                        - generic [ref=e2589]:
+                          - generic: In India, a woman tricked police and civic teams into cleaning an open drain for 3 hours by falsely claiming someone had fallen into it.
+                      - generic [ref=e2590]:
+                        - generic [ref=e2591]:
+                          - link "r/interestingasfuck" [ref=e2593]:
+                            - /url: /r/interestingasfuck/
+                            - generic [ref=e2597]: r/interestingasfuck
+                          - generic [ref=e2598]: •
+                          - time [ref=e2600]: 8 hr. ago
+                        - button "Open user actions" [ref=e2605]:
+                          - img [ref=e2608]
+                      - heading "In India, a woman tricked police and civic teams into cleaning an open drain for 3 hours by falsely claiming someone had fallen into it." [level=2] [ref=e2612]:
+                        - link "In India, a woman tricked police and civic teams into cleaning an open drain for 3 hours by falsely claiming someone had fallen into it." [ref=e2613]:
+                          - /url: /r/interestingasfuck/comments/1slxx8h/in_india_a_woman_tricked_police_and_civic_teams/
+                      - img "r/interestingasfuck - In India, a woman tricked police and civic teams into cleaning an open drain for 3 hours by falsely claiming someone had fallen into it." [ref=e2619]
+                      - generic "Actions available for this post" [ref=e2620]:
+                        - generic [ref=e2623]:
+                          - button "Upvote" [ref=e2624]:
+                            - img [ref=e2626]
+                            - generic [ref=e2628]:
+                              - generic: Upvote
+                          - generic [ref=e2630]: 8.9K
+                          - button "Downvote" [ref=e2631]:
+                            - img [ref=e2633]
+                            - generic [ref=e2635]:
+                              - generic: Downvote
+                        - link "122 Go to comments" [ref=e2636]:
+                          - /url: /r/interestingasfuck/comments/1slxx8h/in_india_a_woman_tricked_police_and_civic_teams/
+                          - generic [ref=e2637]:
+                            - img [ref=e2639]
+                            - generic [ref=e2642]: "122"
+                          - generic [ref=e2643]:
+                            - generic: Go to comments
+                        - button "Give award, 2 awards given" [ref=e2645]:
+                          - generic [ref=e2650]: "2"
+                        - button "Share" [ref=e2654]:
+                          - generic [ref=e2655]:
+                            - img [ref=e2657]
+                            - generic [ref=e2659]: Share
+                  - separator [ref=e2660]
+                  - article "It's not as simple as it seems, after losing 360 pounds, Cole Prochaska asks for help to pay for excess skin surgery" [ref=e2661]:
+                    - generic [ref=e2662] [cursor=pointer]:
+                      - link "It's not as simple as it seems, after losing 360 pounds, Cole Prochaska asks for help to pay for excess skin surgery" [ref=e2663]:
+                        - /url: /r/SipsTea/comments/1sm56sc/its_not_as_simple_as_it_seems_after_losing_360/
+                        - generic [ref=e2664]:
+                          - generic: It's not as simple as it seems, after losing 360 pounds, Cole Prochaska asks for help to pay for excess skin surgery
+                      - generic [ref=e2665]:
+                        - generic [ref=e2666]:
+                          - generic [ref=e2667]:
+                            - link "r/SipsTea" [ref=e2668]:
+                              - /url: /r/SipsTea/
+                              - generic [ref=e2672]: r/SipsTea
+                            - 'button "Community status: We have fun here." [ref=e2674]':
+                              - img "DumpsterFire_APNG" [ref=e2675]
+                          - generic [ref=e2676]: •
+                          - time [ref=e2678]: 1 hr. ago
+                        - button "Open user actions" [ref=e2683]:
+                          - img [ref=e2686]
+                      - heading "It's not as simple as it seems, after losing 360 pounds, Cole Prochaska asks for help to pay for excess skin surgery" [level=2] [ref=e2690]:
+                        - link "It's not as simple as it seems, after losing 360 pounds, Cole Prochaska asks for help to pay for excess skin surgery" [ref=e2691]:
+                          - /url: /r/SipsTea/comments/1sm56sc/its_not_as_simple_as_it_seems_after_losing_360/
+                      - img "r/SipsTea - It's not as simple as it seems, after losing 360 pounds, Cole Prochaska asks for help to pay for excess skin surgery" [ref=e2697]
+                      - generic "Actions available for this post" [ref=e2698]:
+                        - generic [ref=e2701]:
+                          - button "Upvote" [ref=e2702]:
+                            - img [ref=e2704]
+                            - generic [ref=e2706]:
+                              - generic: Upvote
+                          - generic [ref=e2708]: 2.9K
+                          - button "Downvote" [ref=e2709]:
+                            - img [ref=e2711]
+                            - generic [ref=e2713]:
+                              - generic: Downvote
+                        - link "385 Go to comments" [ref=e2714]:
+                          - /url: /r/SipsTea/comments/1sm56sc/its_not_as_simple_as_it_seems_after_losing_360/
+                          - generic [ref=e2715]:
+                            - img [ref=e2717]
+                            - generic [ref=e2720]: "385"
+                          - generic [ref=e2721]:
+                            - generic: Go to comments
+                        - button "Give award" [ref=e2723]:
+                          - img [ref=e2726]
+                        - button "Share" [ref=e2731]:
+                          - generic [ref=e2732]:
+                            - img [ref=e2734]
+                            - generic [ref=e2736]: Share
+                  - separator [ref=e2737]
+                - img [ref=e2743]
+            - generic [ref=e2756]:
+              - complementary [ref=e2758]:
+                - complementary "Popular Communities" [ref=e2759]:
+                  - generic [ref=e2760]:
+                    - heading "Popular Communities" [level=2] [ref=e2762]:
+                      - generic [ref=e2763]: Popular Communities
+                    - listitem [ref=e2764]:
+                      - list [ref=e2765]:
+                        - link "r/DestinyTheGame 3,353,801 members" [ref=e2766] [cursor=pointer]:
+                          - /url: /r/DestinyTheGame
+                          - generic [ref=e2772]:
+                            - generic [ref=e2774]: r/DestinyTheGame
+                            - generic [ref=e2775]: 3,353,801 members
+                        - link "r/anime 14,229,679 members" [ref=e2776] [cursor=pointer]:
+                          - /url: /r/anime
+                          - generic [ref=e2782]:
+                            - generic [ref=e2784]: r/anime
+                            - generic [ref=e2785]: 14,229,679 members
+                        - link "r/destiny2 929,302 members" [ref=e2786] [cursor=pointer]:
+                          - /url: /r/destiny2
+                          - generic [ref=e2792]:
+                            - generic [ref=e2794]: r/destiny2
+                            - generic [ref=e2795]: 929,302 members
+                        - link "r/FortNiteBR 5,649,752 members" [ref=e2796] [cursor=pointer]:
+                          - /url: /r/FortNiteBR
+                          - generic [ref=e2802]:
+                            - generic [ref=e2804]: r/FortNiteBR
+                            - generic [ref=e2805]: 5,649,752 members
+                        - link "r/dndnext 816,454 members" [ref=e2806] [cursor=pointer]:
+                          - /url: /r/dndnext
+                          - generic [ref=e2812]:
+                            - generic [ref=e2814]: r/dndnext
+                            - generic [ref=e2815]: 816,454 members
+                        - button "See more" [ref=e2816] [cursor=pointer]:
+                          - generic [ref=e2818]: See more
+              - generic [ref=e2820]:
+                - link "Reddit Rules" [ref=e2823] [cursor=pointer]:
+                  - /url: https://www.redditinc.com/policies/content-policy
+                - link "Privacy Policy" [ref=e2826] [cursor=pointer]:
+                  - /url: https://www.reddit.com/policies/privacy-policy
+                - link "User Agreement" [ref=e2829] [cursor=pointer]:
+                  - /url: https://www.redditinc.com/policies/user-agreement
+                - link "Accessibility" [ref=e2832] [cursor=pointer]:
+                  - /url: https://support.reddithelp.com/hc/sections/38303584022676-Accessibility
+                - link "Reddit, Inc. © 2026. All rights reserved." [ref=e2834] [cursor=pointer]:
+                  - /url: https://redditinc.com
+        - generic [ref=e2836]:
+          - button "Collapse Navigation" [ref=e2839] [cursor=pointer]:
+            - img [ref=e2842]
+            - generic [ref=e2844]:
+              - generic: Collapse Navigation
+          - navigation "Primary" [ref=e2849]:
+            - generic [ref=e2851]:
+              - link "Home" [ref=e2853] [cursor=pointer]:
+                - /url: /?feed=home
+                - generic [ref=e2854]:
+                  - img [ref=e2856]
+                  - generic [ref=e2859]: Home
+              - link "Popular" [ref=e2861] [cursor=pointer]:
+                - /url: /r/popular/
+                - generic [ref=e2862]:
+                  - img [ref=e2864]
+                  - generic [ref=e2867]: Popular
+              - link "News" [ref=e2868] [cursor=pointer]:
+                - /url: /news/
+                - generic [ref=e2869]:
+                  - img [ref=e2871]
+                  - generic [ref=e2875]: News
+              - link "Explore" [ref=e2877] [cursor=pointer]:
+                - /url: /explore/
+                - generic [ref=e2878]:
+                  - img [ref=e2880]
+                  - generic [ref=e2883]: Explore
+            - separator [ref=e2884]
+            - navigation "Reddit resources" [ref=e2885]:
+              - group [ref=e2887]:
+                - generic "RESOURCES" [ref=e2888] [cursor=pointer]:
+                  - generic [ref=e2890]:
+                    - generic [ref=e2893]: RESOURCES
+                    - img [ref=e2896]
+                - generic [ref=e2899]:
+                  - link "About Reddit" [ref=e2901] [cursor=pointer]:
+                    - /url: https://www.redditinc.com
+                    - generic [ref=e2902]:
+                      - img [ref=e2904]
+                      - generic [ref=e2908]: About Reddit
+                  - link "Advertise" [ref=e2910] [cursor=pointer]:
+                    - /url: https://ads.reddit.com/register?utm_source=web3x_consumer&utm_name=left_nav_cta
+                    - generic [ref=e2911]:
+                      - img [ref=e2913]
+                      - generic [ref=e2917]: Advertise
+                  - link "Developer Platform" [ref=e2919] [cursor=pointer]:
+                    - /url: https://developers.reddit.com/?utm_source=reddit&utm_medium=left_nav_resources
+                    - generic [ref=e2920]:
+                      - img [ref=e2922]
+                      - generic [ref=e2926]: Developer Platform
+                  - link "Reddit Pro BETA" [ref=e2928] [cursor=pointer]:
+                    - /url: /reddit-pro?utm_source=reddit&utm_medium=left_nav_resources
+                    - generic [ref=e2929]:
+                      - img [ref=e2931]
+                      - generic [ref=e2935]:
+                        - generic [ref=e2936]: Reddit Pro
+                        - generic [ref=e2937]: BETA
+                  - link "Help" [ref=e2939] [cursor=pointer]:
+                    - /url: https://support.reddithelp.com/hc?utm_source=reddit&utm_medium=footer&utm_campaign=evergreen
+                    - generic [ref=e2940]:
+                      - img [ref=e2942]
+                      - generic [ref=e2946]: Help
+                  - link "Blog" [ref=e2948] [cursor=pointer]:
+                    - /url: https://redditblog.com/
+                    - generic [ref=e2949]:
+                      - img [ref=e2951]
+                      - generic [ref=e2955]: Blog
+                  - link "Careers" [ref=e2957] [cursor=pointer]:
+                    - /url: https://www.redditinc.com/careers
+                    - generic [ref=e2958]:
+                      - img [ref=e2960]
+                      - generic [ref=e2964]: Careers
+                  - link "Press" [ref=e2966] [cursor=pointer]:
+                    - /url: https://www.redditinc.com/press
+                    - generic [ref=e2967]:
+                      - img [ref=e2969]
+                      - generic [ref=e2973]: Press
+                  - separator [ref=e2974]
+                  - link "Best of Reddit" [ref=e2976] [cursor=pointer]:
+                    - /url: https://www.reddit.com/posts/2026/global/
+                    - generic [ref=e2977]:
+                      - img [ref=e2979]
+                      - generic [ref=e2984]: Best of Reddit
+                  - link "Best of Reddit in Portuguese" [ref=e2986] [cursor=pointer]:
+                    - /url: https://www.reddit.com/posts/2026/tl-pt-BR/
+                    - generic [ref=e2987]:
+                      - img [ref=e2989]
+                      - generic [ref=e2993]: Best of Reddit in Portuguese
+                  - link "Best of Reddit in German" [ref=e2995] [cursor=pointer]:
+                    - /url: https://www.reddit.com/posts/2026/tl-de/
+                    - generic [ref=e2996]:
+                      - img [ref=e2998]
+                      - generic [ref=e3002]: Best of Reddit in German
+                  - separator [ref=e3003]
+                  - link "Reddit Rules" [ref=e3005] [cursor=pointer]:
+                    - /url: https://www.redditinc.com/policies/content-policy
+                    - generic [ref=e3006]:
+                      - img [ref=e3008]
+                      - generic [ref=e3012]: Reddit Rules
+                  - link "Privacy Policy" [ref=e3014] [cursor=pointer]:
+                    - /url: https://www.reddit.com/policies/privacy-policy
+                    - generic [ref=e3015]:
+                      - img [ref=e3017]
+                      - generic [ref=e3021]: Privacy Policy
+                  - link "User Agreement" [ref=e3023] [cursor=pointer]:
+                    - /url: https://www.redditinc.com/policies/user-agreement
+                    - generic [ref=e3024]:
+                      - img [ref=e3026]
+                      - generic [ref=e3030]: User Agreement
+                  - link "Accessibility" [ref=e3032] [cursor=pointer]:
+                    - /url: https://support.reddithelp.com/hc/sections/38303584022676-Accessibility
+                    - generic [ref=e3033]:
+                      - img [ref=e3035]
+                      - generic [ref=e3040]: Accessibility
+            - link "Reddit, Inc. © 2026. All rights reserved." [ref=e3042] [cursor=pointer]:
+              - /url: https://redditinc.com

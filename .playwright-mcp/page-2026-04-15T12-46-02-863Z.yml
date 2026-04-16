@@ -1,0 +1,61 @@
+- generic [active] [ref=e1]:
+  - link "欢迎进入 404,盲人用户使用操作智能引导，请按快捷键Ctrl+Alt+R；阅读详细操作说明请按快捷键Ctrl+Alt+问号键。":
+    - /url: javascript:void(0)
+    - img [ref=e2] [cursor=pointer]
+  - generic [ref=e4]:
+    - banner [ref=e7]:
+      - generic [ref=e8]:
+        - link "知乎" [ref=e9] [cursor=pointer]:
+          - /url: https://www.zhihu.com
+          - img [ref=e10]
+        - generic [ref=e15]:
+          - navigation [ref=e16]:
+            - link "关注" [ref=e17] [cursor=pointer]:
+              - /url: https://www.zhihu.com/signin?next=%2Ffollow
+              - generic [ref=e18]: 关注
+            - link "推荐" [ref=e19] [cursor=pointer]:
+              - /url: https://www.zhihu.com/signin?next=%2F
+              - generic [ref=e20]: 推荐
+            - link "热榜" [ref=e21] [cursor=pointer]:
+              - /url: https://www.zhihu.com/signin?next=%2Fhot
+              - generic [ref=e22]: 热榜
+            - link "专栏" [ref=e23] [cursor=pointer]:
+              - /url: https://www.zhihu.com/signin?next=%2Fcolumn-square
+              - generic [ref=e24]: 专栏
+            - link "圈子 New" [ref=e25] [cursor=pointer]:
+              - /url: https://www.zhihu.com/signin?next=%2Fring-feeds
+              - generic [ref=e26]:
+                - text: 圈子
+                - generic [ref=e27]: New
+            - link "付费咨询" [ref=e29] [cursor=pointer]:
+              - /url: https://www.zhihu.com/consult
+              - generic [ref=e30]: 付费咨询
+            - link "知学堂" [ref=e31] [cursor=pointer]:
+              - /url: https://www.zhihu.com/education/learning
+              - generic [ref=e32]: 知学堂
+          - generic [ref=e33]:
+            - search [ref=e34]:
+              - generic [ref=e38]:
+                - combobox "搜索" [ref=e39]
+                - button "搜索" [ref=e40] [cursor=pointer]:
+                  - img [ref=e42]
+              - link "直答" [ref=e44] [cursor=pointer]:
+                - /url: https://zhida.zhihu.com/
+                - img [ref=e45]
+                - text: 直答
+            - generic [ref=e48]:
+              - generic [ref=e50] [cursor=pointer]: 切换模式
+              - button "登录/注册" [ref=e52] [cursor=pointer]
+    - generic [ref=e54]:
+      - generic [ref=e55]:
+        - generic [ref=e56]:
+          - heading "404" [level=1] [ref=e57]
+          - paragraph [ref=e58]: 你似乎来到了没有知识存在的荒原
+          - link "去往首页" [ref=e59] [cursor=pointer]:
+            - /url: https://www.zhihu.com
+        - img "page error" [ref=e61]
+      - button "建议反馈" [ref=e64] [cursor=pointer]:
+        - img "建议反馈" [ref=e65]
+    - complementary:
+      - button "回到顶部" [ref=e67] [cursor=pointer]:
+        - img [ref=e68]

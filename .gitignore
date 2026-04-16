@@ -66,6 +66,10 @@ venv.bak/
 *.swo
 *~
 
+# Worktrees (isolated workspaces)
+.worktrees/
+worktrees/
+
 # Project specific
 .cache/
 logs/

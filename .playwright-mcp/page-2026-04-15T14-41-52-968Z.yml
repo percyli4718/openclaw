@@ -1,0 +1,567 @@
+- generic [active] [ref=e1]:
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。":
+    - /url: javascript:void(0)
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic:
+          - link "到百度首页" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - img "到百度首页" [ref=e7]
+          - generic [ref=e10]:
+            - textbox [ref=e12]: 中保车服 汽车后市场 保险服务
+            - generic [ref=e14]:
+              - generic [ref=e15]:
+                - img [ref=e17] [cursor=pointer]
+                - img [ref=e27] [cursor=pointer]
+                - generic [ref=e30]:
+                  - img [ref=e34] [cursor=pointer]
+                  - img [ref=e39] [cursor=pointer]
+              - button "百度一下" [ref=e43] [cursor=pointer]
+      - generic [ref=e45]:
+        - link "百度首页" [ref=e46] [cursor=pointer]:
+          - /url: /
+        - link "设置" [ref=e47] [cursor=pointer]:
+          - /url: javascript:;
+        - link "登录" [ref=e48] [cursor=pointer]:
+          - /url: https://passport.baidu.com/v2/?login&tpl=mn&u=http%3A%2F%2Fwww.baidu.com%2F
+    - generic [ref=e51]:
+      - link [ref=e52] [cursor=pointer]:
+        - /url: https://chat.baidu.com/search?word=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D+%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA+%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&pd=csaitab&setype=csaitab&extParamsJson=%7B%22enter_type%22%3A%22search_a_tab%22%2C%22sa%22%3A%22vs_tab%22%2C%22apagelid%22%3A%2216266846651129562995%22%2C%22ori_lid%22%3A%2216266846651129562995%22%7D
+        - img [ref=e53]
+      - generic [ref=e54]: 网页
+      - link "图片" [ref=e55] [cursor=pointer]:
+        - /url: http://image.baidu.com/i?tn=baiduimage&ps=1&ct=201326592&lm=-1&cl=2&nc=1&ie=utf-8&lid=e1bf72d800548773&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&word=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D+%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA+%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1
+      - link "资讯" [ref=e56] [cursor=pointer]:
+        - /url: https://www.baidu.com/s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D+%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA+%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1
+      - link "视频" [ref=e57] [cursor=pointer]:
+        - /url: /sf/vsearch?pd=video&tn=vsearch&lid=e1bf72d800548773&ie=utf-8&wd=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D+%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA+%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&rsv_spt=7&rsv_bp=1&f=8&oq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D+%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA+%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&rsv_pq=e1bf72d800548773&rsv_t=2292xvPGPDZm1d1ivFmfHpo0SmHIXtcRD9NIWIgcL0LzhsDEkj8HKj1D1c0
+      - link "笔记" [ref=e58] [cursor=pointer]:
+        - /url: https://www.baidu.com/s?pd=note&rpf=pc&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&word=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D+%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA+%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1
+      - link "地图" [ref=e59] [cursor=pointer]:
+        - /url: https://map.baidu.com/?newmap=1&ie=utf-8&from=pstab&s=s%26wd%3D%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D+%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA+%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1
+      - link "贴吧" [ref=e60] [cursor=pointer]:
+        - /url: http://tieba.baidu.com/f?fr=wwwt&ie=utf-8&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&kw=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D+%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA+%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1
+      - link "文库" [ref=e61] [cursor=pointer]:
+        - /url: http://wenku.baidu.com/search?lm=0&od=0&ie=utf-8&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&word=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D+%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA+%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1
+      - link "更多" [ref=e62] [cursor=pointer]:
+        - /url: http://www.baidu.com/more/
+      - generic [ref=e63] [cursor=pointer]: 搜索工具
+    - generic [ref=e64]:
+      - generic [ref=e65]:
+        - table [ref=e67]:
+          - rowgroup [ref=e68]:
+            - row "相关搜索  中保车险全称是什么  中国易汽保商务网  中保车服是什么公司  中保车服客服电话  中保汽车服务有限公司  中保车服是干什么的    换一换 热搜榜 民生榜 财经榜  习近平同苏林共同会见中越青年代表 1 美国将退还超1万亿元关税 热 2 暴雨、大暴雨要来了 新 3 新的“之最”不断产生 4 摄影师蹲守5天拍到竹笋冲破巨石 新 5 塔克拉玛干沙漠种上了大片苜蓿 新 6 美歌手在联合国高唱《我爱你中国》 热 7 姚安娜代言华为新手机 热 8 北海舰队、南海舰队、东海舰队公告 新 9 阿姨拔笋忘掉的衣服被竹子“穿走” 10 迪拜帆船酒店将停业1年半 新 11 “重庆铜梁地震引发灾情”不实 12 伊朗军方回应美国海上封锁 13 张雪计划骑摩托车飞越长江 网友劝阻 热 14 骗B太大山女孩被百万网红长期资助 15 2女子遭高压水枪狂喷官方将调查" [ref=e69]:
+              - cell "相关搜索  中保车险全称是什么  中国易汽保商务网  中保车服是什么公司  中保车服客服电话  中保汽车服务有限公司  中保车服是干什么的    换一换 热搜榜 民生榜 财经榜  习近平同苏林共同会见中越青年代表 1 美国将退还超1万亿元关税 热 2 暴雨、大暴雨要来了 新 3 新的“之最”不断产生 4 摄影师蹲守5天拍到竹笋冲破巨石 新 5 塔克拉玛干沙漠种上了大片苜蓿 新 6 美歌手在联合国高唱《我爱你中国》 热 7 姚安娜代言华为新手机 热 8 北海舰队、南海舰队、东海舰队公告 新 9 阿姨拔笋忘掉的衣服被竹子“穿走” 10 迪拜帆船酒店将停业1年半 新 11 “重庆铜梁地震引发灾情”不实 12 伊朗军方回应美国海上封锁 13 张雪计划骑摩托车飞越长江 网友劝阻 热 14 骗B太大山女孩被百万网红长期资助 15 2女子遭高压水枪狂喷官方将调查" [ref=e70]:
+                - generic [ref=e71]:
+                  - generic [ref=e77]:
+                    - generic [ref=e79]: 相关搜索
+                    - generic [ref=e80]:
+                      - link " 中保车险全称是什么" [ref=e83] [cursor=pointer]:
+                        - /url: /s?wd=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E9%99%A9%E5%85%A8%E7%A7%B0%E6%98%AF%E4%BB%80%E4%B9%88&usm=2&ie=utf-8&rsv_pq=e1bf72d800548773&oq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&rsv_t=c1c6gHC47w00mI6zb3sMzNwWXwGjXHjIJzL8UgP7%2FLxnLIlQ4Ebdv0Q1N4w&rfqid=e1bf72d800548773&rsv_dl=0_prs_28616_1&rq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&rsf=101633403
+                        - generic [ref=e84]:
+                          - generic [ref=e85]: 
+                          - generic [ref=e86]: 中保车险全称是什么
+                      - link " 中国易汽保商务网" [ref=e89] [cursor=pointer]:
+                        - /url: /s?wd=%E4%B8%AD%E5%9B%BD%E6%98%93%E6%B1%BD%E4%BF%9D%E5%95%86%E5%8A%A1%E7%BD%91&usm=2&ie=utf-8&rsv_pq=e1bf72d800548773&oq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&rsv_t=c1c6gHC47w00mI6zb3sMzNwWXwGjXHjIJzL8UgP7%2FLxnLIlQ4Ebdv0Q1N4w&rfqid=e1bf72d800548773&rsv_dl=0_prs_28616_2&rq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&rsf=101636803
+                        - generic [ref=e90]:
+                          - generic [ref=e91]: 
+                          - generic [ref=e92]: 中国易汽保商务网
+                      - link " 中保车服是什么公司" [ref=e95] [cursor=pointer]:
+                        - /url: /s?wd=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%E6%98%AF%E4%BB%80%E4%B9%88%E5%85%AC%E5%8F%B8&usm=2&ie=utf-8&rsv_pq=e1bf72d800548773&oq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&rsv_t=c1c6gHC47w00mI6zb3sMzNwWXwGjXHjIJzL8UgP7%2FLxnLIlQ4Ebdv0Q1N4w&rfqid=e1bf72d800548773&rsv_dl=0_prs_28616_3&rq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&rsf=101633403
+                        - generic [ref=e96]:
+                          - generic [ref=e97]: 
+                          - generic [ref=e98]: 中保车服是什么公司
+                      - link " 中保车服客服电话" [ref=e101] [cursor=pointer]:
+                        - /url: /s?wd=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%E5%AE%A2%E6%9C%8D%E7%94%B5%E8%AF%9D&usm=2&ie=utf-8&rsv_pq=e1bf72d800548773&oq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&rsv_t=c1c6gHC47w00mI6zb3sMzNwWXwGjXHjIJzL8UgP7%2FLxnLIlQ4Ebdv0Q1N4w&rfqid=e1bf72d800548773&rsv_dl=0_prs_28616_4&rq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&rsf=101633403
+                        - generic [ref=e102]:
+                          - generic [ref=e103]: 
+                          - generic [ref=e104]: 中保车服客服电话
+                      - link " 中保汽车服务有限公司" [ref=e107] [cursor=pointer]:
+                        - /url: /s?wd=%E4%B8%AD%E4%BF%9D%E6%B1%BD%E8%BD%A6%E6%9C%8D%E5%8A%A1%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&usm=2&ie=utf-8&rsv_pq=e1bf72d800548773&oq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&rsv_t=c1c6gHC47w00mI6zb3sMzNwWXwGjXHjIJzL8UgP7%2FLxnLIlQ4Ebdv0Q1N4w&rfqid=e1bf72d800548773&rsv_dl=0_prs_28616_5&rq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&rsf=101633403
+                        - generic [ref=e108]:
+                          - generic [ref=e109]: 
+                          - generic [ref=e110]: 中保汽车服务有限公司
+                      - link " 中保车服是干什么的" [ref=e113] [cursor=pointer]:
+                        - /url: /s?wd=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%E6%98%AF%E5%B9%B2%E4%BB%80%E4%B9%88%E7%9A%84&usm=2&ie=utf-8&rsv_pq=e1bf72d800548773&oq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&rsv_t=c1c6gHC47w00mI6zb3sMzNwWXwGjXHjIJzL8UgP7%2FLxnLIlQ4Ebdv0Q1N4w&rfqid=e1bf72d800548773&rsv_dl=0_prs_28616_6&rq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&rsf=101631202
+                        - generic [ref=e114]:
+                          - generic [ref=e115]: 
+                          - generic [ref=e116]: 中保车服是干什么的
+                  - generic [ref=e120]:
+                    - generic "百度热搜" [ref=e121]:
+                      - link " " [ref=e122] [cursor=pointer]:
+                        - /url: https://top.baidu.com/board?platform=pc&sa=pcindex_a_right
+                        - generic [ref=e123]: 
+                        - generic [ref=e124]: 
+                      - link " 换一换" [ref=e126] [cursor=pointer]:
+                        - /url: javascript:void(0);
+                        - generic [ref=e127]: 
+                        - text: 换一换
+                    - generic [ref=e128]:
+                      - generic [ref=e129] [cursor=pointer]: 热搜榜
+                      - generic [ref=e130] [cursor=pointer]: 民生榜
+                      - generic [ref=e131] [cursor=pointer]: 财经榜
+                    - generic [ref=e133]:
+                      - generic [ref=e135]:
+                        - generic [ref=e137]: 
+                        - link "习近平同苏林共同会见中越青年代表" [ref=e138] [cursor=pointer]:
+                          - /url: /s?wd=%E4%B9%A0%E8%BF%91%E5%B9%B3%E5%90%8C%E8%8B%8F%E6%9E%97%E5%85%B1%E5%90%8C%E4%BC%9A%E8%A7%81%E4%B8%AD%E8%B6%8A%E9%9D%92%E5%B9%B4%E4%BB%A3%E8%A1%A8&usm=2&ie=utf-8&rsv_pq=e1bf72d800548773&oq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&rsv_t=e583z2YVoZm2VEVhT4y8DVprT2PDgTaazved9F6ewYzNf%2FHDF3QRnpKPKlo&rqid=e1bf72d800548773&rsf=1477b7dabd294a36f6b9b0667df0de4c_1_15_1&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=e140]:
+                        - generic [ref=e141]: "1"
+                        - link "美国将退还超1万亿元关税" [ref=e142] [cursor=pointer]:
+                          - /url: /s?wd=%E7%BE%8E%E5%9B%BD%E5%B0%86%E9%80%80%E8%BF%98%E8%B6%851%E4%B8%87%E4%BA%BF%E5%85%83%E5%85%B3%E7%A8%8E&usm=2&ie=utf-8&rsv_pq=e1bf72d800548773&oq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&rsv_t=e583z2YVoZm2VEVhT4y8DVprT2PDgTaazved9F6ewYzNf%2FHDF3QRnpKPKlo&rqid=e1bf72d800548773&rsf=1477b7dabd294a36f6b9b0667df0de4c_1_15_2&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                        - generic [ref=e143]: 热
+                      - generic [ref=e145]:
+                        - generic [ref=e146]: "2"
+                        - link "暴雨、大暴雨要来了" [ref=e147] [cursor=pointer]:
+                          - /url: /s?wd=%E6%9A%B4%E9%9B%A8%E3%80%81%E5%A4%A7%E6%9A%B4%E9%9B%A8%E8%A6%81%E6%9D%A5%E4%BA%86&usm=2&ie=utf-8&rsv_pq=e1bf72d800548773&oq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&rsv_t=e583z2YVoZm2VEVhT4y8DVprT2PDgTaazved9F6ewYzNf%2FHDF3QRnpKPKlo&rqid=e1bf72d800548773&rsf=1477b7dabd294a36f6b9b0667df0de4c_1_15_3&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                        - generic [ref=e148]: 新
+                      - generic [ref=e150]:
+                        - generic [ref=e151]: "3"
+                        - link "新的“之最”不断产生" [ref=e152] [cursor=pointer]:
+                          - /url: /s?wd=%E6%96%B0%E7%9A%84%E2%80%9C%E4%B9%8B%E6%9C%80%E2%80%9D%E4%B8%8D%E6%96%AD%E4%BA%A7%E7%94%9F&usm=2&ie=utf-8&rsv_pq=e1bf72d800548773&oq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&rsv_t=e583z2YVoZm2VEVhT4y8DVprT2PDgTaazved9F6ewYzNf%2FHDF3QRnpKPKlo&rqid=e1bf72d800548773&rsf=1477b7dabd294a36f6b9b0667df0de4c_1_15_4&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=e154]:
+                        - generic [ref=e155]: "4"
+                        - link "摄影师蹲守5天拍到竹笋冲破巨石" [ref=e156] [cursor=pointer]:
+                          - /url: /s?wd=%E6%91%84%E5%BD%B1%E5%B8%88%E8%B9%B2%E5%AE%885%E5%A4%A9%E6%8B%8D%E5%88%B0%E7%AB%B9%E7%AC%8B%E5%86%B2%E7%A0%B4%E5%B7%A8%E7%9F%B3&usm=2&ie=utf-8&rsv_pq=e1bf72d800548773&oq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&rsv_t=e583z2YVoZm2VEVhT4y8DVprT2PDgTaazved9F6ewYzNf%2FHDF3QRnpKPKlo&rqid=e1bf72d800548773&rsf=1477b7dabd294a36f6b9b0667df0de4c_1_15_5&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                        - generic [ref=e157]: 新
+                      - generic [ref=e159]:
+                        - generic [ref=e160]: "5"
+                        - link "塔克拉玛干沙漠种上了大片苜蓿" [ref=e161] [cursor=pointer]:
+                          - /url: /s?wd=%E5%A1%94%E5%85%8B%E6%8B%89%E7%8E%9B%E5%B9%B2%E6%B2%99%E6%BC%A0%E7%A7%8D%E4%B8%8A%E4%BA%86%E5%A4%A7%E7%89%87%E8%8B%9C%E8%93%BF&usm=2&ie=utf-8&rsv_pq=e1bf72d800548773&oq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&rsv_t=e583z2YVoZm2VEVhT4y8DVprT2PDgTaazved9F6ewYzNf%2FHDF3QRnpKPKlo&rqid=e1bf72d800548773&rsf=1477b7dabd294a36f6b9b0667df0de4c_1_15_6&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                        - generic [ref=e162]: 新
+                      - generic [ref=e164]:
+                        - generic [ref=e165]: "6"
+                        - link "美歌手在联合国高唱《我爱你中国》" [ref=e166] [cursor=pointer]:
+                          - /url: /s?wd=%E7%BE%8E%E6%AD%8C%E6%89%8B%E5%9C%A8%E8%81%94%E5%90%88%E5%9B%BD%E9%AB%98%E5%94%B1%E3%80%8A%E6%88%91%E7%88%B1%E4%BD%A0%E4%B8%AD%E5%9B%BD%E3%80%8B&usm=2&ie=utf-8&rsv_pq=e1bf72d800548773&oq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&rsv_t=e583z2YVoZm2VEVhT4y8DVprT2PDgTaazved9F6ewYzNf%2FHDF3QRnpKPKlo&rqid=e1bf72d800548773&rsf=1477b7dabd294a36f6b9b0667df0de4c_1_15_7&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                        - generic [ref=e167]: 热
+                      - generic [ref=e169]:
+                        - generic [ref=e170]: "7"
+                        - link "姚安娜代言华为新手机" [ref=e171] [cursor=pointer]:
+                          - /url: /s?wd=%E5%A7%9A%E5%AE%89%E5%A8%9C%E4%BB%A3%E8%A8%80%E5%8D%8E%E4%B8%BA%E6%96%B0%E6%89%8B%E6%9C%BA&usm=2&ie=utf-8&rsv_pq=e1bf72d800548773&oq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&rsv_t=e583z2YVoZm2VEVhT4y8DVprT2PDgTaazved9F6ewYzNf%2FHDF3QRnpKPKlo&rqid=e1bf72d800548773&rsf=1477b7dabd294a36f6b9b0667df0de4c_1_15_8&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                        - generic [ref=e172]: 热
+                      - generic [ref=e174]:
+                        - generic [ref=e175]: "8"
+                        - link "北海舰队、南海舰队、东海舰队公告" [ref=e176] [cursor=pointer]:
+                          - /url: /s?wd=%E5%8C%97%E6%B5%B7%E8%88%B0%E9%98%9F%E3%80%81%E5%8D%97%E6%B5%B7%E8%88%B0%E9%98%9F%E3%80%81%E4%B8%9C%E6%B5%B7%E8%88%B0%E9%98%9F%E5%85%AC%E5%91%8A&usm=2&ie=utf-8&rsv_pq=e1bf72d800548773&oq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&rsv_t=e583z2YVoZm2VEVhT4y8DVprT2PDgTaazved9F6ewYzNf%2FHDF3QRnpKPKlo&rqid=e1bf72d800548773&rsf=1477b7dabd294a36f6b9b0667df0de4c_1_15_9&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                        - generic [ref=e177]: 新
+                      - generic [ref=e179]:
+                        - generic [ref=e180]: "9"
+                        - link "阿姨拔笋忘掉的衣服被竹子“穿走”" [ref=e181] [cursor=pointer]:
+                          - /url: /s?wd=%E9%98%BF%E5%A7%A8%E6%8B%94%E7%AC%8B%E5%BF%98%E6%8E%89%E7%9A%84%E8%A1%A3%E6%9C%8D%E8%A2%AB%E7%AB%B9%E5%AD%90%E2%80%9C%E7%A9%BF%E8%B5%B0%E2%80%9D&usm=2&ie=utf-8&rsv_pq=e1bf72d800548773&oq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&rsv_t=e583z2YVoZm2VEVhT4y8DVprT2PDgTaazved9F6ewYzNf%2FHDF3QRnpKPKlo&rqid=e1bf72d800548773&rsf=1477b7dabd294a36f6b9b0667df0de4c_1_15_10&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=e183]:
+                        - generic [ref=e184]: "10"
+                        - link "迪拜帆船酒店将停业1年半" [ref=e185] [cursor=pointer]:
+                          - /url: /s?wd=%E8%BF%AA%E6%8B%9C%E5%B8%86%E8%88%B9%E9%85%92%E5%BA%97%E5%B0%86%E5%81%9C%E4%B8%9A1%E5%B9%B4%E5%8D%8A&usm=2&ie=utf-8&rsv_pq=e1bf72d800548773&oq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&rsv_t=e583z2YVoZm2VEVhT4y8DVprT2PDgTaazved9F6ewYzNf%2FHDF3QRnpKPKlo&rqid=e1bf72d800548773&rsf=1477b7dabd294a36f6b9b0667df0de4c_1_15_11&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                        - generic [ref=e186]: 新
+                      - generic [ref=e188]:
+                        - generic [ref=e189]: "11"
+                        - link "“重庆铜梁地震引发灾情”不实" [ref=e190] [cursor=pointer]:
+                          - /url: /s?wd=%E2%80%9C%E9%87%8D%E5%BA%86%E9%93%9C%E6%A2%81%E5%9C%B0%E9%9C%87%E5%BC%95%E5%8F%91%E7%81%BE%E6%83%85%E2%80%9D%E4%B8%8D%E5%AE%9E&usm=2&ie=utf-8&rsv_pq=e1bf72d800548773&oq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&rsv_t=e583z2YVoZm2VEVhT4y8DVprT2PDgTaazved9F6ewYzNf%2FHDF3QRnpKPKlo&rqid=e1bf72d800548773&rsf=1477b7dabd294a36f6b9b0667df0de4c_1_15_12&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=e192]:
+                        - generic [ref=e193]: "12"
+                        - link "伊朗军方回应美国海上封锁" [ref=e194] [cursor=pointer]:
+                          - /url: /s?wd=%E4%BC%8A%E6%9C%97%E5%86%9B%E6%96%B9%E5%9B%9E%E5%BA%94%E7%BE%8E%E5%9B%BD%E6%B5%B7%E4%B8%8A%E5%B0%81%E9%94%81&usm=2&ie=utf-8&rsv_pq=e1bf72d800548773&oq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&rsv_t=e583z2YVoZm2VEVhT4y8DVprT2PDgTaazved9F6ewYzNf%2FHDF3QRnpKPKlo&rqid=e1bf72d800548773&rsf=1477b7dabd294a36f6b9b0667df0de4c_1_15_13&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=e196]:
+                        - generic [ref=e197]: "13"
+                        - link "张雪计划骑摩托车飞越长江 网友劝阻" [ref=e198] [cursor=pointer]:
+                          - /url: /s?wd=%E5%BC%A0%E9%9B%AA%E8%AE%A1%E5%88%92%E9%AA%91%E6%91%A9%E6%89%98%E8%BD%A6%E9%A3%9E%E8%B6%8A%E9%95%BF%E6%B1%9F%20%E7%BD%91%E5%8F%8B%E5%8A%9D%E9%98%BB&usm=2&ie=utf-8&rsv_pq=e1bf72d800548773&oq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&rsv_t=e583z2YVoZm2VEVhT4y8DVprT2PDgTaazved9F6ewYzNf%2FHDF3QRnpKPKlo&rqid=e1bf72d800548773&rsf=1477b7dabd294a36f6b9b0667df0de4c_1_15_14&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                        - generic [ref=e199]: 热
+                      - generic [ref=e201]:
+                        - generic [ref=e202]: "14"
+                        - link "骗B太大山女孩被百万网红长期资助" [ref=e203] [cursor=pointer]:
+                          - /url: /s?wd=%E9%AA%97B%E5%A4%AA%E5%A4%A7%E5%B1%B1%E5%A5%B3%E5%AD%A9%E8%A2%AB%E7%99%BE%E4%B8%87%E7%BD%91%E7%BA%A2%E9%95%BF%E6%9C%9F%E8%B5%84%E5%8A%A9&usm=2&ie=utf-8&rsv_pq=e1bf72d800548773&oq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&rsv_t=e583z2YVoZm2VEVhT4y8DVprT2PDgTaazved9F6ewYzNf%2FHDF3QRnpKPKlo&rqid=e1bf72d800548773&rsf=1477b7dabd294a36f6b9b0667df0de4c_1_15_15&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=e205]:
+                        - generic [ref=e206]: "15"
+                        - link "2女子遭高压水枪狂喷官方将调查" [ref=e207] [cursor=pointer]:
+                          - /url: /s?wd=2%E5%A5%B3%E5%AD%90%E9%81%AD%E9%AB%98%E5%8E%8B%E6%B0%B4%E6%9E%AA%E7%8B%82%E5%96%B7%E5%AE%98%E6%96%B9%E5%B0%86%E8%B0%83%E6%9F%A5&usm=2&ie=utf-8&rsv_pq=e1bf72d800548773&oq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&rsv_t=e583z2YVoZm2VEVhT4y8DVprT2PDgTaazved9F6ewYzNf%2FHDF3QRnpKPKlo&rqid=e1bf72d800548773&rsf=1477b7dabd294a36f6b9b0667df0de4c_16_30_16&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+        - generic [ref=e208]:
+          - generic [ref=e212]:
+            - heading "中保车服官网" [level=3] [ref=e215]:
+              - link "中保车服官网" [ref=e216] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=JFFGoXw87eqcIOEarh-e2FiL1qMwBm7tVeZ1rQirt3e
+                - paragraph [ref=e219]:
+                  - generic [ref=e222]:
+                    - emphasis [ref=e223]: 中保车服
+                    - text: 官网
+            - generic [ref=e224]:
+              - link [ref=e226] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=JFFGoXw87eqcIOEarh-e2FiL1qMwBm7tVeZ1rQirt3e
+              - generic [ref=e231]:
+                - generic [ref=e237]:
+                  - text: 着力新能源车、隐私计算等方向探索,积极为
+                  - emphasis [ref=e238]: 保险
+                  - text: 数字化赋能
+                  - emphasis [ref=e239]: 保险
+                  - text: 行业数据空间 新能源车电池检测服务平台 创新型项目孵化 ꂃ ꁹ 3000万单+ 科技服务累计 1000万单+ 理赔服务累计 60家+ 保险公司总部合作 850家+ 保险机构合作落地 150家 非保险客户合作 3000家
+                - link "中保车服官网" [ref=e244] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=JFFGoXw87eqcIOEarh-e2FiL1qMwBm7tVeZ1rQirt3e
+                  - generic [ref=e245]: 中保车服官网
+                  - generic [ref=e247]: 
+          - generic [ref=e251]:
+            - heading "中保车服官网" [level=3] [ref=e254]:
+              - link "中保车服官网" [ref=e255] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=QVlqhuuboz1bzd4Kkz4G3nWhNBHUClG0dxGxfc0y3pS
+                - paragraph [ref=e258]:
+                  - generic [ref=e261]:
+                    - emphasis [ref=e262]: 中保车服
+                    - text: 官网
+            - generic [ref=e263]:
+              - link [ref=e265] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=QVlqhuuboz1bzd4Kkz4G3nWhNBHUClG0dxGxfc0y3pS
+              - generic [ref=e270]:
+                - generic [ref=e276]:
+                  - text: 风险减量综合服务 坚持以共享模式创新和科技应用创新,赋能
+                  - emphasis [ref=e277]: 保险服务
+                  - text: 提质增效 共享
+                  - emphasis [ref=e278]: 车
+                  - text: 物/人伤理赔服务平台 共享车险增值服务平台 公估信息化/防渗漏反欺诈平台 数智科技解决方案 立足国家战略和政策源头, 拓展灾备云、信创云、行业云生态 金融信创云业务 保险科技云服务 ...
+                - link "中保车服官网" [ref=e283] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=QVlqhuuboz1bzd4Kkz4G3nWhNBHUClG0dxGxfc0y3pS
+                  - generic [ref=e284]: 中保车服官网
+                  - generic [ref=e286]: 
+          - generic [ref=e290]:
+            - heading "三组数据颠覆认知:中保汽车服务车险能买吗?-有驾" [level=3] [ref=e293]:
+              - link "三组数据颠覆认知:中保汽车服务车险能买吗?-有驾" [ref=e294] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=2vL7LPviPYQQO-aB2sY3tnexGTmmXrp1Cw4yEHpN6J1utwPJSMFdyLPJ6ZjGapSdXPyPJ00XjW3hZVSUv1UJ2gIVOXPuf8GhKQhZ7NI9rDe
+                - paragraph [ref=e297]:
+                  - generic [ref=e300]:
+                    - text: "三组数据颠覆认知:"
+                    - emphasis [ref=e301]: 中保汽车服务
+                    - text: 车险能买吗?-有驾
+            - generic [ref=e306]:
+              - text: 2025年3月27日
+              - generic [ref=e307]:
+                - text: 如果把车险
+                - emphasis [ref=e308]: 市场
+                - text: 比作纵横交错的高速路网,中保车险并非孤立的收费站,而是嵌在整条产业链中的智能导航系统。这家隶属中国人民
+                - emphasis [ref=e309]: 保险
+                - text: 集团的车险品牌,既承袭了传统保司的稳健基因,又在理赔
+                - emphasis [ref=e310]: 服务
+                - text: 端嫁接了一个革命性平台——
+                - emphasis [ref=e311]: 中保车服
+                - text: 。 这个2018年诞生的互联网理赔平台,如同在车险高速路上架设了ETC快速通道。证据显示,它整合了...
+            - generic [ref=e312]:
+              - link [ref=e314] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=2vL7LPviPYQQO-aB2sY3tnexGTmmXrp1Cw4yEHpN6J1utwPJSMFdyLPJ6ZjGapSdXPyPJ00XjW3hZVSUv1UJ2gIVOXPuf8GhKQhZ7NI9rDe
+              - link [ref=e318] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=2vL7LPviPYQQO-aB2sY3tnexGTmmXrp1Cw4yEHpN6J1utwPJSMFdyLPJ6ZjGapSdXPyPJ00XjW3hZVSUv1UJ2gIVOXPuf8GhKQhZ7NI9rDe
+              - link [ref=e322] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=2vL7LPviPYQQO-aB2sY3tnexGTmmXrp1Cw4yEHpN6J1utwPJSMFdyLPJ6ZjGapSdXPyPJ00XjW3hZVSUv1UJ2gIVOXPuf8GhKQhZ7NI9rDe
+              - link "5" [ref=e326] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=2vL7LPviPYQQO-aB2sY3tnexGTmmXrp1Cw4yEHpN6J1utwPJSMFdyLPJ6ZjGapSdXPyPJ00XjW3hZVSUv1UJ2gIVOXPuf8GhKQhZ7NI9rDe
+                - generic [ref=e329]:
+                  - generic [ref=e330]: 
+                  - text: "5"
+            - link "百度有驾" [ref=e335] [cursor=pointer]:
+              - /url: http://www.baidu.com/link?url=2vL7LPviPYQQO-aB2sY3tnexGTmmXrp1Cw4yEHpN6J1utwPJSMFdyLPJ6ZjGapSdXPyPJ00XjW3hZVSUv1UJ2gIVOXPuf8GhKQhZ7NI9rDe
+              - generic [ref=e336]: 百度有驾
+              - generic [ref=e338]: 
+          - generic [ref=e340]:
+            - generic [ref=e341]: 大家还在搜
+            - generic [ref=e342]:
+              - link "中保车险全称是什么" [ref=e343] [cursor=pointer]:
+                - /url: /s?wd=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E9%99%A9%E5%85%A8%E7%A7%B0%E6%98%AF%E4%BB%80%E4%B9%88&usm=2&ie=utf-8&rsv_pq=e1bf72d800548773&oq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&rsv_t=2c029qxBbdWokjmuUw0ddNXbZEKSQimVm3tVQWl6uxLizhEdTYVeXBldulM&rsf=101633403&rsv_dl=0_prs_28608_1
+                - generic [ref=e345]: 中保车险全称是什么
+              - link "中国易汽保商务网" [ref=e346] [cursor=pointer]:
+                - /url: /s?wd=%E4%B8%AD%E5%9B%BD%E6%98%93%E6%B1%BD%E4%BF%9D%E5%95%86%E5%8A%A1%E7%BD%91&usm=2&ie=utf-8&rsv_pq=e1bf72d800548773&oq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&rsv_t=2c029qxBbdWokjmuUw0ddNXbZEKSQimVm3tVQWl6uxLizhEdTYVeXBldulM&rsf=101636803&rsv_dl=0_prs_28608_2
+                - generic [ref=e348]: 中国易汽保商务网
+              - link "中保车服是什么公司" [ref=e349] [cursor=pointer]:
+                - /url: /s?wd=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%E6%98%AF%E4%BB%80%E4%B9%88%E5%85%AC%E5%8F%B8&usm=2&ie=utf-8&rsv_pq=e1bf72d800548773&oq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&rsv_t=2c029qxBbdWokjmuUw0ddNXbZEKSQimVm3tVQWl6uxLizhEdTYVeXBldulM&rsf=101633403&rsv_dl=0_prs_28608_3
+                - generic [ref=e351]: 中保车服是什么公司
+              - link "中保车服客服电话" [ref=e352] [cursor=pointer]:
+                - /url: /s?wd=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%E5%AE%A2%E6%9C%8D%E7%94%B5%E8%AF%9D&usm=2&ie=utf-8&rsv_pq=e1bf72d800548773&oq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&rsv_t=2c029qxBbdWokjmuUw0ddNXbZEKSQimVm3tVQWl6uxLizhEdTYVeXBldulM&rsf=101633403&rsv_dl=0_prs_28608_4
+                - generic [ref=e354]: 中保车服客服电话
+              - link "中保汽车服务有限公司" [ref=e355] [cursor=pointer]:
+                - /url: /s?wd=%E4%B8%AD%E4%BF%9D%E6%B1%BD%E8%BD%A6%E6%9C%8D%E5%8A%A1%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&usm=2&ie=utf-8&rsv_pq=e1bf72d800548773&oq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&rsv_t=2c029qxBbdWokjmuUw0ddNXbZEKSQimVm3tVQWl6uxLizhEdTYVeXBldulM&rsf=101633403&rsv_dl=0_prs_28608_5
+                - generic [ref=e357]: 中保汽车服务有限公司
+              - link "中保车服是干什么的" [ref=e358] [cursor=pointer]:
+                - /url: /s?wd=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%E6%98%AF%E5%B9%B2%E4%BB%80%E4%B9%88%E7%9A%84&usm=2&ie=utf-8&rsv_pq=e1bf72d800548773&oq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&rsv_t=2c029qxBbdWokjmuUw0ddNXbZEKSQimVm3tVQWl6uxLizhEdTYVeXBldulM&rsf=101631202&rsv_dl=0_prs_28608_6
+                - generic [ref=e360]: 中保车服是干什么的
+              - link "中保车服科技服务股份有限公司" [ref=e361] [cursor=pointer]:
+                - /url: /s?wd=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%E7%A7%91%E6%8A%80%E6%9C%8D%E5%8A%A1%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&usm=2&ie=utf-8&rsv_pq=e1bf72d800548773&oq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&rsv_t=2c029qxBbdWokjmuUw0ddNXbZEKSQimVm3tVQWl6uxLizhEdTYVeXBldulM&rsf=101633403&rsv_dl=0_prs_28608_7
+                - generic [ref=e363]: 中保车服科技服务股份有限公司
+              - link "中保车服" [ref=e364] [cursor=pointer]:
+                - /url: /s?wd=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D&usm=2&ie=utf-8&rsv_pq=e1bf72d800548773&oq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&rsv_t=2c029qxBbdWokjmuUw0ddNXbZEKSQimVm3tVQWl6uxLizhEdTYVeXBldulM&rsf=101633403&rsv_dl=0_prs_28608_8
+                - generic [ref=e366]: 中保车服
+          - generic [ref=e370]:
+            - heading "中保车险可靠性、服务与口碑全面解析-有驾" [level=3] [ref=e373]:
+              - link "中保车险可靠性、服务与口碑全面解析-有驾" [ref=e374] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=2vL7LPviPYQQO-aB2sY3tnexGTmmXrp1Cw4yEHpN6J_0t7S3UoQEoLniB6ngddJkdiKYkJ2_Sg3o8EQVutbuCKDw_vbgC7uGzPQZkdXS35ciK2kM1TrKRegJI1fr-cB3
+                - paragraph [ref=e377]:
+                  - generic [ref=e380]:
+                    - emphasis [ref=e381]: 中保
+                    - text: 车险可靠性、
+                    - emphasis [ref=e382]: 服务
+                    - text: 与口碑全面解析-有驾
+            - generic [ref=e383]:
+              - link [ref=e385] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=2vL7LPviPYQQO-aB2sY3tnexGTmmXrp1Cw4yEHpN6J_0t7S3UoQEoLniB6ngddJkdiKYkJ2_Sg3o8EQVutbuCKDw_vbgC7uGzPQZkdXS35ciK2kM1TrKRegJI1fr-cB3
+              - generic [ref=e390]:
+                - generic [ref=e395]:
+                  - text: 2026年1月29日
+                  - generic [ref=e396]:
+                    - emphasis [ref=e397]: 中保汽车保险
+                    - text: (中国人民保险集团旗下)是国内领先的
+                    - emphasis [ref=e398]: 保险公司
+                    - text: ",可靠性、"
+                    - emphasis [ref=e399]: 服务
+                    - text: 质量和
+                    - emphasis [ref=e400]: 市场
+                    - text: 口碑表现突出。以下从三个方面详细说明。 中保车险可靠性 中保车险依托中国人民保险集团的央企背景,注册资本424亿元,全国服务网点超2800家,市场份额长期居行业第一。公司受国资委直接管理,服务稳定性高,偏远地区提供跨省免费救援,可靠性较强...
+                - link "百度有驾" [ref=e405] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=2vL7LPviPYQQO-aB2sY3tnexGTmmXrp1Cw4yEHpN6J_0t7S3UoQEoLniB6ngddJkdiKYkJ2_Sg3o8EQVutbuCKDw_vbgC7uGzPQZkdXS35ciK2kM1TrKRegJI1fr-cB3
+                  - generic [ref=e406]: 百度有驾
+                  - generic [ref=e408]: 
+          - generic [ref=e412]:
+            - heading "中保车服科技服务股份有限公司 - 知乎" [level=3] [ref=e415]:
+              - link "中保车服科技服务股份有限公司 - 知乎" [ref=e416] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=2vL7LPviPYQQO-aB2sY3tnexGTmmXrp1Cw4yEHpN6J1hGG0re1jNqn25oFOUjnwsnNhHviCIeRc1z1hS-bWsJa
+                - paragraph [ref=e419]:
+                  - generic [ref=e422]:
+                    - emphasis [ref=e423]: 中保车服
+                    - text: 科技
+                    - emphasis [ref=e424]: 服务
+                    - text: 股份有限公司 - 知乎
+            - generic [ref=e425]:
+              - link [ref=e427] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=2vL7LPviPYQQO-aB2sY3tnexGTmmXrp1Cw4yEHpN6J1hGG0re1jNqn25oFOUjnwsnNhHviCIeRc1z1hS-bWsJa
+              - generic [ref=e432]:
+                - generic [ref=e437]:
+                  - text: 2025年3月21日
+                  - generic [ref=e438]:
+                    - text: 3、
+                    - emphasis [ref=e439]: 中保车服
+                    - text: 数据和模型开发一体化
+                    - emphasis [ref=e440]: 服务
+                    - text: (
+                    - emphasis [ref=e441]: 保险
+                    - text: 行业数据空间) 首创以行业数据空间和数据元件等先进技术构建一整套数据要素新型基础设施,实现保险行业数据与公共数据、产业数据融合创新,推出了贯穿保前、保中、保后的丰富的风险减量产品和服务,已经在营运车辆保险风险减量服务、新能源
+                    - emphasis [ref=e442]: 汽车
+                    - text: 动力电池检测数据服务、车险救援聚合服务...
+                - link "头像 知乎" [ref=e447] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=2vL7LPviPYQQO-aB2sY3tnexGTmmXrp1Cw4yEHpN6J1hGG0re1jNqn25oFOUjnwsnNhHviCIeRc1z1hS-bWsJa
+                  - img "头像" [ref=e450]
+                  - generic [ref=e451]: 知乎
+                  - generic [ref=e453]: 
+          - generic [ref=e457]:
+            - heading "中保车服:让保险服务更规范、更贴心" [level=3] [ref=e460]:
+              - link "中保车服:让保险服务更规范、更贴心" [ref=e461] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=JFFGoXw87eqcIOEarh-e2BJS_5ZpaWx7CyRbaiEr8lUZ636fBpZ5Wwx5ILmdOb-2N-NyiAt4TnubaTG9B6TL_6vNquSX4N42WbqwO5T1LNy
+                - paragraph [ref=e464]:
+                  - generic [ref=e467]:
+                    - emphasis [ref=e468]: 中保车服
+                    - text: :让
+                    - emphasis [ref=e469]: 保险服务
+                    - text: 更规范、更贴心
+            - generic [ref=e470]:
+              - link [ref=e472] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=JFFGoXw87eqcIOEarh-e2BJS_5ZpaWx7CyRbaiEr8lUZ636fBpZ5Wwx5ILmdOb-2N-NyiAt4TnubaTG9B6TL_6vNquSX4N42WbqwO5T1LNy
+              - generic [ref=e477]:
+                - generic [ref=e482]:
+                  - text: 2025年12月26日
+                  - generic [ref=e483]:
+                    - text: 作为全国首个
+                    - emphasis [ref=e484]: 保险
+                    - text: 行业数据空间，
+                    - emphasis [ref=e485]: 中保车服
+                    - text: “保数通” 数智科技综合
+                    - emphasis [ref=e486]: 服务
+                    - text: 平台是响应国家数据要素
+                    - emphasis [ref=e487]: 市场
+                    - text: 化政策的创新成果，由公司联合中国电子数据产业集团、深圳市福田区政府共同建设，推行 “数据要素 ×” 三年行动计划。平台以安全、可信、合规为核心，整合政府公共数据与公安、交通、医疗等行业部委数据，打通保险产业数据...
+                - link "头像 人生文老师" [ref=e492] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=JFFGoXw87eqcIOEarh-e2BJS_5ZpaWx7CyRbaiEr8lUZ636fBpZ5Wwx5ILmdOb-2N-NyiAt4TnubaTG9B6TL_6vNquSX4N42WbqwO5T1LNy
+                  - img "头像" [ref=e495]
+                  - generic [ref=e496]: 人生文老师
+                  - generic [ref=e498]: 
+          - generic [ref=e502]:
+            - heading "中保车服 汽车后市场 保险服务 - 精选笔记" [level=3] [ref=e503]:
+              - link "中保车服 汽车后市场 保险服务 - 精选笔记" [ref=e504] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=2vL7LPviPYQQO-aB2sY3takO8YHyo9vtxARGY05lbPhSIxanFDhiZlrZhaUyyz3R0vzGteQjk934cV24UpU2cOcwM639iM_m_Jl3u-WewdfbLGBmc7hpOh96Nakgqzb0DvokLFo0DZk4udstkbRM9gZcgoqVEQjYwQ1GpQ1gaAsMx23uC_wch6bQ9qT8aVybe9aN8hHk-Uettm-rwyOOadULd5lHSVK5_PmkJXg6nSGNL3NfZEc78NhO7wUjuUW1cUx3m9m19P_h5YIVtphD__
+                - generic [ref=e506]:
+                  - emphasis [ref=e508]: 中保车服 汽车后市场 保险服务
+                  - generic [ref=e509]: "- 精选笔记"
+            - generic [ref=e511]:
+              - link "中保车服科技服务股份有限公司 头像 中保车服官方" [ref=e514] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=2vL7LPviPYQQO-aB2sY3tnexGTmmXrp1Cw4yEHpN6J1hGG0re1jNqn25oFOUjnwsnNhHviCIeRc1z1hS-bWsJa
+                - generic [ref=e515]:
+                  - heading "中保车服科技服务股份有限公司" [level=3] [ref=e522]:
+                    - generic [ref=e524]: 中保车服科技服务股份有限公司
+                  - generic [ref=e526]:
+                    - img "头像" [ref=e529]
+                    - generic [ref=e531]: 中保车服官方
+              - link "三组数据颠覆认知:中保汽车服务车险能买吗?-有驾" [ref=e534] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=2vL7LPviPYQQO-aB2sY3tnexGTmmXrp1Cw4yEHpN6J1utwPJSMFdyLPJ6ZjGapSdXPyPJ00XjW3hZVSUv1UJ2gIVOXPuf8GhKQhZ7NI9rDe
+                - heading "三组数据颠覆认知:中保汽车服务车险能买吗?-有驾" [level=3] [ref=e542]:
+                  - generic [ref=e544]: 三组数据颠覆认知:中保汽车服务车险能买吗?-有驾
+            - link "查看更多笔记 >" [ref=e547] [cursor=pointer]:
+              - /url: http://www.baidu.com/link?url=iw8Ujtblnqfx_ghzk9_mGHCOw0zJERg40e-ivZg97ze-5EdY9NTkb9XcHDrsvwy6MkK-XugatR6ZMyzqDZ-mblTXlCCmtUlnVeIk6SDevxyvj2CeF-hTf1ZqB2uJ5_8gMeCsPcrUCJ0FSCkBQtw_l-5X2aYPw2IzgaaNwSmfqE4emKaZcgkgSt134wB7nOZDDHN436ia516zaZIaNzBmvC5O4d_V5ZBpiSF-fWWPxHgKkuKcni9KUQuXX__q9CBGUGhzhgT0K_XmONTDOsKGR_
+          - generic [ref=e551]:
+            - heading "买的中保汽车服务车险可靠吗" [level=3] [ref=e554]:
+              - link "买的中保汽车服务车险可靠吗" [ref=e555] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=2vL7LPviPYQQO-aB2sY3takO8YHyo9vtxARGY05lbPeA7omCo3Z4UGwgMcS8E8MR-NOvodYrF90bqOJi2xKL7wFbZh1hikY_eURNG_3Z36lFv5wcwUbuFCkr0hoSHbFU
+                - paragraph [ref=e558]:
+                  - generic [ref=e561]:
+                    - text: 买的
+                    - emphasis [ref=e562]: 中保汽车服务
+                    - text: 车险可靠吗
+            - generic [ref=e563]:
+              - link [ref=e565] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=2vL7LPviPYQQO-aB2sY3takO8YHyo9vtxARGY05lbPeA7omCo3Z4UGwgMcS8E8MR-NOvodYrF90bqOJi2xKL7wFbZh1hikY_eURNG_3Z36lFv5wcwUbuFCkr0hoSHbFU
+              - generic [ref=e570]:
+                - generic [ref=e575]:
+                  - text: 2026年2月28日
+                  - generic [ref=e576]:
+                    - text: 关于
+                    - emphasis [ref=e577]: 中保汽车服务
+                    - text: "车险是否可靠的问题,可以从以下几个方面进行综合评估: 一、公司资质与信誉 公司合法性:中保汽车服务如果作为一家提供车险服务的机构,首先应当具备合法的"
+                    - emphasis [ref=e578]: 保险
+                    - text: 代理或销售资质。消费者在购买前应核实其是否持有相关监管部门颁发的许可证。 公司信誉:可以通过查询中保汽车服务的
+                    - emphasis [ref=e579]: 市场
+                    - text: 口碑、客户评价以及是否有过...
+                - link "头像 法行宝" [ref=e584] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=2vL7LPviPYQQO-aB2sY3takO8YHyo9vtxARGY05lbPeA7omCo3Z4UGwgMcS8E8MR-NOvodYrF90bqOJi2xKL7wFbZh1hikY_eURNG_3Z36lFv5wcwUbuFCkr0hoSHbFU
+                  - img "头像" [ref=e587]
+                  - generic [ref=e588]: 法行宝
+                  - generic [ref=e590]: 
+          - generic [ref=e593]:
+            - heading "中保车服共享车险增值服务，平台，百度百科" [level=3] [ref=e594]:
+              - link "中保车服共享车险增值服务，平台，百度百科" [ref=e595] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=prpoHYL30ToFAZrhDlNPQnSmTHSYFEYVb9L7zSH9Fnr7G2hVXzqXdWl4QIS76gKjBXqvvx3ZGl0W5ImOWIpLIMjrIrRFODjUQMb1t0tE9n-njrnprnACGOC0m-VslRiLA0KZuzvVYkr0-z9GxGFuutdDiTiWgCFGKSeyVD1dY8tjBJ2d2KBi7iRL3uZtsuH7LbNCiFDQSi40U4Dnt4RPaaWAPWreqC2rLz6i3o8pM8y
+                - emphasis [ref=e596]: 中保车服
+                - text: 共享车险增值
+                - emphasis [ref=e597]: 服务
+                - text: "- 百度百科"
+            - generic [ref=e598]:
+              - generic "查看更多内容" [ref=e599] [cursor=pointer]:
+                - link "查看更多内容" [ref=e600]:
+                  - /url: http://www.baidu.com/link?url=prpoHYL30ToFAZrhDlNPQnSmTHSYFEYVb9L7zSH9Fnr7G2hVXzqXdWl4QIS76gKjBXqvvx3ZGl0W5ImOWIpLIMjrIrRFODjUQMb1t0tE9n-njrnprnACGOC0m-VslRiLA0KZuzvVYkr0-z9GxGFuutdDiTiWgCFGKSeyVD1dY8tjBJ2d2KBi7iRL3uZtsuH7LbNCiFDQSi40U4Dnt4RPaaWAPWreqC2rLz6i3o8pM8y
+                  - img [ref=e604]
+              - generic [ref=e605]:
+                - generic "中保车服共享车险增值服务是中保车服于2019年推出的保险综合服务平台，具有行业共建共享特色。该平台配合车险增值服务政策要求，以保险公司为原点，整合各类增值服务提供商由平台统一管理，通过引进区块链、大数据、智能调度、反欺诈等核心技术，搭建起“保险公司+车主+服务提供商+平台管控”的服务闭环，实现服务资源和运营管理能力共享，提升车险增值服务的时效和质量。自推出以来，平台已接入50余家保险总公司，中小保险公司合作覆盖率达90%以上，并聚合了全国150余家优质车险服务资源，服务地域覆盖率超99%。2022年，平台获评“金信通”金融科技创新应用最具社会效益案例。2024年，中保车服中标鼎和保险2024-2026年度车险增值服务采购项目。2025年，中保车服获评鼎和保险2024年度“服务创新”和“特别贡献”双料大奖。在与80余家保险公司的合作中，中保车服形成了服务标准化、运营数智化、资源生态化的“三化" [ref=e607]:
+                  - generic [ref=e608]:
+                    - emphasis [ref=e609]: 中保车服
+                    - text: 共享车险增值
+                    - emphasis [ref=e610]: 服务
+                    - text: 是
+                    - emphasis [ref=e611]: 中保车服
+                    - text: 于2019年推出的
+                    - emphasis [ref=e612]: 保险
+                    - text: 综合
+                    - emphasis [ref=e613]: 服务
+                    - text: 平台，具有行业共建共享特色。该平台配合车险增值
+                    - emphasis [ref=e614]: 服务
+                    - text: 政策要求，以
+                    - emphasis [ref=e615]: 保险公司
+                    - text: 为原点，整合各类增值
+                    - emphasis [ref=e616]: 服务
+                    - text: 提供商由平台统一管理，通过引进区块链、大数据、智能调度、反欺诈等核心技术，搭建起“
+                    - emphasis [ref=e617]: 保险公司
+                    - text: +车主+
+                    - emphasis [ref=e618]: 服务
+                    - text: 提供商+平台管控”的
+                    - emphasis [ref=e619]: 服务
+                    - text: 闭环，实现
+                    - emphasis [ref=e620]: 服务
+                    - text: 资源和运营...
+                - generic [ref=e621]:
+                  - link "百度百科" [ref=e622] [cursor=pointer]:
+                    - /url: http://www.baidu.com/link?url=prpoHYL30ToFAZrhDlNPQnSmTHSYFEYVb9L7zSH9Fnr7G2hVXzqXdWl4QIS76gKjBXqvvx3ZGl0W5ImOWIpLIMjrIrRFODjUQMb1t0tE9n-njrnprnACGOC0m-VslRiLA0KZuzvVYkr0-z9GxGFuutdDiTiWgCFGKSeyVD1dY8tjBJ2d2KBi7iRL3uZtsuH7LbNCiFDQSi40U4Dnt4RPaaWAPWreqC2rLz6i3o8pM8y
+                    - img [ref=e627]
+                    - text: 百度百科
+                  - generic [ref=e629] [cursor=pointer]: 
+        - generic [ref=e632]:
+          - generic [ref=e633]: 相关搜索
+          - table [ref=e634]:
+            - rowgroup [ref=e635]:
+              - row "中保车险全称是什么 中国易汽保商务网" [ref=e636]:
+                - cell "中保车险全称是什么" [ref=e637]:
+                  - link "中保车险全称是什么" [ref=e638] [cursor=pointer]:
+                    - /url: /s?wd=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E9%99%A9%E5%85%A8%E7%A7%B0%E6%98%AF%E4%BB%80%E4%B9%88&rsf=101633403&rsp=0&f=1&rs_src=0&rsv_pq=e1bf72d800548773&rsv_t=2292xvPGPDZm1d1ivFmfHpo0SmHIXtcRD9NIWIgcL0LzhsDEkj8HKj1D1c0&rsv_dl=brs_28338_1
+                    - generic [ref=e640]: 中保车险全称是什么
+                - cell "中国易汽保商务网" [ref=e641]:
+                  - link "中国易汽保商务网" [ref=e642] [cursor=pointer]:
+                    - /url: /s?wd=%E4%B8%AD%E5%9B%BD%E6%98%93%E6%B1%BD%E4%BF%9D%E5%95%86%E5%8A%A1%E7%BD%91&rsf=101636803&rsp=1&f=1&rs_src=0&rsv_pq=e1bf72d800548773&rsv_t=2292xvPGPDZm1d1ivFmfHpo0SmHIXtcRD9NIWIgcL0LzhsDEkj8HKj1D1c0&rsv_dl=brs_28338_2
+                    - generic [ref=e644]: 中国易汽保商务网
+              - row "中保车服是什么公司 中保车服客服电话" [ref=e645]:
+                - cell "中保车服是什么公司" [ref=e646]:
+                  - link "中保车服是什么公司" [ref=e647] [cursor=pointer]:
+                    - /url: /s?wd=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%E6%98%AF%E4%BB%80%E4%B9%88%E5%85%AC%E5%8F%B8&rsf=101633403&rsp=2&f=1&rs_src=0&rsv_pq=e1bf72d800548773&rsv_t=2292xvPGPDZm1d1ivFmfHpo0SmHIXtcRD9NIWIgcL0LzhsDEkj8HKj1D1c0&rsv_dl=brs_28338_3
+                    - generic [ref=e649]: 中保车服是什么公司
+                - cell "中保车服客服电话" [ref=e650]:
+                  - link "中保车服客服电话" [ref=e651] [cursor=pointer]:
+                    - /url: /s?wd=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%E5%AE%A2%E6%9C%8D%E7%94%B5%E8%AF%9D&rsf=101633403&rsp=3&f=1&rs_src=0&rsv_pq=e1bf72d800548773&rsv_t=2292xvPGPDZm1d1ivFmfHpo0SmHIXtcRD9NIWIgcL0LzhsDEkj8HKj1D1c0&rsv_dl=brs_28338_4
+                    - generic [ref=e653]: 中保车服客服电话
+              - row "中保汽车服务有限公司 中保车服是干什么的" [ref=e654]:
+                - cell "中保汽车服务有限公司" [ref=e655]:
+                  - link "中保汽车服务有限公司" [ref=e656] [cursor=pointer]:
+                    - /url: /s?wd=%E4%B8%AD%E4%BF%9D%E6%B1%BD%E8%BD%A6%E6%9C%8D%E5%8A%A1%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&rsf=101633403&rsp=4&f=1&rs_src=0&rsv_pq=e1bf72d800548773&rsv_t=2292xvPGPDZm1d1ivFmfHpo0SmHIXtcRD9NIWIgcL0LzhsDEkj8HKj1D1c0&rsv_dl=brs_28338_5
+                    - generic [ref=e658]: 中保汽车服务有限公司
+                - cell "中保车服是干什么的" [ref=e659]:
+                  - link "中保车服是干什么的" [ref=e660] [cursor=pointer]:
+                    - /url: /s?wd=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%E6%98%AF%E5%B9%B2%E4%BB%80%E4%B9%88%E7%9A%84&rsf=101631202&rsp=5&f=1&rs_src=0&rsv_pq=e1bf72d800548773&rsv_t=2292xvPGPDZm1d1ivFmfHpo0SmHIXtcRD9NIWIgcL0LzhsDEkj8HKj1D1c0&rsv_dl=brs_28338_6
+                    - generic [ref=e662]: 中保车服是干什么的
+              - row "中保车服科技服务股份有限公司 中保车服" [ref=e663]:
+                - cell "中保车服科技服务股份有限公司" [ref=e664]:
+                  - link "中保车服科技服务股份有限公司" [ref=e665] [cursor=pointer]:
+                    - /url: /s?wd=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%E7%A7%91%E6%8A%80%E6%9C%8D%E5%8A%A1%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&rsf=101633403&rsp=6&f=1&rs_src=0&rsv_pq=e1bf72d800548773&rsv_t=2292xvPGPDZm1d1ivFmfHpo0SmHIXtcRD9NIWIgcL0LzhsDEkj8HKj1D1c0&rsv_dl=brs_28338_7
+                    - generic [ref=e667]: 中保车服科技服务股份有限公司
+                - cell "中保车服" [ref=e668]:
+                  - link "中保车服" [ref=e669] [cursor=pointer]:
+                    - /url: /s?wd=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D&rsf=101633403&rsp=7&f=1&rs_src=0&rsv_pq=e1bf72d800548773&rsv_t=2292xvPGPDZm1d1ivFmfHpo0SmHIXtcRD9NIWIgcL0LzhsDEkj8HKj1D1c0&rsv_dl=brs_28338_8
+                    - generic [ref=e671]: 中保车服
+              - row "中保车服童清 中保车险" [ref=e672]:
+                - cell "中保车服童清" [ref=e673]:
+                  - link "中保车服童清" [ref=e674] [cursor=pointer]:
+                    - /url: /s?wd=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%E7%AB%A5%E6%B8%85&rsf=101631202&rsp=8&f=1&rs_src=0&rsv_pq=e1bf72d800548773&rsv_t=2292xvPGPDZm1d1ivFmfHpo0SmHIXtcRD9NIWIgcL0LzhsDEkj8HKj1D1c0&rsv_dl=brs_28338_9
+                    - generic [ref=e676]: 中保车服童清
+                - cell "中保车险" [ref=e677]:
+                  - link "中保车险" [ref=e678] [cursor=pointer]:
+                    - /url: /s?wd=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E9%99%A9&rsf=101633403&rsp=9&f=1&rs_src=0&rsv_pq=e1bf72d800548773&rsv_t=2292xvPGPDZm1d1ivFmfHpo0SmHIXtcRD9NIWIgcL0LzhsDEkj8HKj1D1c0&rsv_dl=brs_28338_10
+                    - generic [ref=e680]: 中保车险
+      - generic [ref=e683]:
+        - link "上一页":
+          - /url: ""
+          - img "上一页"
+        - strong [ref=e684]:
+          - generic [ref=e685]: "1"
+        - link "2" [ref=e686] [cursor=pointer]:
+          - /url: /s?wd=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&pn=10&oq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&ie=utf-8&usm=2&rsv_pq=e1bf72d800548773&rsv_t=2292xvPGPDZm1d1ivFmfHpo0SmHIXtcRD9NIWIgcL0LzhsDEkj8HKj1D1c0&topic_pn=
+          - generic [ref=e687]: "2"
+        - link "3" [ref=e688] [cursor=pointer]:
+          - /url: /s?wd=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&pn=20&oq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&ie=utf-8&usm=2&rsv_pq=e1bf72d800548773&rsv_t=2292xvPGPDZm1d1ivFmfHpo0SmHIXtcRD9NIWIgcL0LzhsDEkj8HKj1D1c0&topic_pn=
+          - generic [ref=e689]: "3"
+        - link "4" [ref=e690] [cursor=pointer]:
+          - /url: /s?wd=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&pn=30&oq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&ie=utf-8&usm=2&rsv_pq=e1bf72d800548773&rsv_t=2292xvPGPDZm1d1ivFmfHpo0SmHIXtcRD9NIWIgcL0LzhsDEkj8HKj1D1c0&topic_pn=
+          - generic [ref=e691]: "4"
+        - link "5" [ref=e692] [cursor=pointer]:
+          - /url: /s?wd=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&pn=40&oq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&ie=utf-8&usm=2&rsv_pq=e1bf72d800548773&rsv_t=2292xvPGPDZm1d1ivFmfHpo0SmHIXtcRD9NIWIgcL0LzhsDEkj8HKj1D1c0&topic_pn=
+          - generic [ref=e693]: "5"
+        - link "6" [ref=e694] [cursor=pointer]:
+          - /url: /s?wd=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&pn=50&oq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&ie=utf-8&usm=2&rsv_pq=e1bf72d800548773&rsv_t=2292xvPGPDZm1d1ivFmfHpo0SmHIXtcRD9NIWIgcL0LzhsDEkj8HKj1D1c0&topic_pn=
+          - generic [ref=e695]: "6"
+        - link "7" [ref=e696] [cursor=pointer]:
+          - /url: /s?wd=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&pn=60&oq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&ie=utf-8&usm=2&rsv_pq=e1bf72d800548773&rsv_t=2292xvPGPDZm1d1ivFmfHpo0SmHIXtcRD9NIWIgcL0LzhsDEkj8HKj1D1c0&topic_pn=
+          - generic [ref=e697]: "7"
+        - link "8" [ref=e698] [cursor=pointer]:
+          - /url: /s?wd=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&pn=70&oq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&ie=utf-8&usm=2&rsv_pq=e1bf72d800548773&rsv_t=2292xvPGPDZm1d1ivFmfHpo0SmHIXtcRD9NIWIgcL0LzhsDEkj8HKj1D1c0&topic_pn=
+          - generic [ref=e699]: "8"
+        - link "9" [ref=e700] [cursor=pointer]:
+          - /url: /s?wd=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&pn=80&oq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&ie=utf-8&usm=2&rsv_pq=e1bf72d800548773&rsv_t=2292xvPGPDZm1d1ivFmfHpo0SmHIXtcRD9NIWIgcL0LzhsDEkj8HKj1D1c0&topic_pn=
+          - generic [ref=e701]: "9"
+        - link "10" [ref=e702] [cursor=pointer]:
+          - /url: /s?wd=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&pn=90&oq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&ie=utf-8&usm=2&rsv_pq=e1bf72d800548773&rsv_t=2292xvPGPDZm1d1ivFmfHpo0SmHIXtcRD9NIWIgcL0LzhsDEkj8HKj1D1c0&topic_pn=
+          - generic [ref=e703]: "10"
+        - link "下一页" [ref=e704] [cursor=pointer]:
+          - /url: /s?wd=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&pn=10&oq=%E4%B8%AD%E4%BF%9D%E8%BD%A6%E6%9C%8D%20%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%B8%82%E5%9C%BA%20%E4%BF%9D%E9%99%A9%E6%9C%8D%E5%8A%A1&ie=utf-8&usm=2&rsv_pq=e1bf72d800548773&rsv_t=2292xvPGPDZm1d1ivFmfHpo0SmHIXtcRD9NIWIgcL0LzhsDEkj8HKj1D1c0&topic_pn=&rsv_page=1
+          - img "下一页" [ref=e705]
+      - generic [ref=e708]:
+        - link "帮助" [ref=e709] [cursor=pointer]:
+          - /url: https://help.baidu.com/question?prod_id=1
+        - link "举报" [ref=e710] [cursor=pointer]:
+          - /url: https://help.baidu.com/jubao?source=search
+        - link "用户反馈" [ref=e711] [cursor=pointer]:
+          - /url: javascript:;
+        - link "企业推广" [ref=e712] [cursor=pointer]:
+          - /url: https://e.baidu.com/lp/search/?refer=1298

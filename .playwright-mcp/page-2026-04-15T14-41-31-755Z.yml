@@ -1,0 +1,546 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e7]:
+      - list [ref=e11]:
+        - listitem [ref=e12]:
+          - link "合作与促销" [ref=e14] [cursor=pointer]:
+            - /url: /hzycx
+            - text: 合作与促销
+        - listitem [ref=e15]:
+          - link "平台规划" [ref=e17] [cursor=pointer]:
+            - /url: /ptgh
+            - text: 平台规划
+        - listitem [ref=e18]:
+          - link "产品列表" [ref=e20] [cursor=pointer]:
+            - /url: /sy#首页-产品列表
+            - text: 产品列表
+        - listitem [ref=e21]:
+          - link "解决方案" [ref=e23] [cursor=pointer]:
+            - /url: /jjfa
+            - text: 解决方案
+        - listitem [ref=e24]:
+          - link "系统入口" [ref=e26] [cursor=pointer]:
+            - /url: /xtrk
+            - text: 系统入口
+        - listitem [ref=e27]:
+          - link "生态伙伴" [ref=e29] [cursor=pointer]:
+            - /url: /sthb
+            - text: 生态伙伴
+        - listitem [ref=e30]:
+          - link "新闻资讯" [ref=e32] [cursor=pointer]:
+            - /url: /gsxw
+            - text: 新闻资讯
+        - listitem [ref=e33]:
+          - link "关于我们" [ref=e35] [cursor=pointer]:
+            - /url: /gywm
+            - text: 关于我们
+        - listitem [ref=e36]:
+          - link "招聘信息" [ref=e38] [cursor=pointer]:
+            - /url: /zpxx
+            - text: 招聘信息
+      - generic [ref=e42]:
+        - link [ref=e46] [cursor=pointer]:
+          - /url: http://www.iachina.cn
+        - paragraph [ref=e51]:
+          - strong [ref=e52]:
+            - generic [ref=e54]: 中国保险行业协会会员单位
+      - link [ref=e58] [cursor=pointer]:
+        - /url: /sy
+    - generic [ref=e64]:
+      - generic [ref=e67]:
+        - generic [ref=e75]:
+          - paragraph [ref=e76]:
+            - generic [ref=e78]: 业务板块
+          - paragraph [ref=e79]:
+            - generic [ref=e82]: 打造保险行业信息和服务共享平台
+        - generic [ref=e94]:
+          - paragraph [ref=e99]:
+            - strong [ref=e103]: 风险减量综合服务
+          - generic [ref=e107]:
+            - paragraph [ref=e108]:
+              - generic [ref=e110]: 坚持以共享模式创新和科技应用创新，赋能保险服务提质增效
+            - paragraph [ref=e111]
+            - paragraph [ref=e112]:
+              - generic [ref=e114]: 共享车物/人伤理赔服务平台
+            - paragraph [ref=e115]:
+              - generic [ref=e117]: 共享车险增值服务平台
+            - paragraph [ref=e118]:
+              - generic [ref=e120]: 公估信息化/防渗漏反欺诈平台
+        - generic [ref=e128]:
+          - paragraph [ref=e133]:
+            - strong [ref=e137]: 数智科技解决方案
+          - generic [ref=e141]:
+            - paragraph [ref=e142]:
+              - generic [ref=e144]: 立足国家战略和政策源头，
+            - paragraph [ref=e145]:
+              - generic [ref=e147]: 拓展灾备云、信创云、行业云生态
+            - paragraph [ref=e148]
+            - paragraph [ref=e149]:
+              - generic [ref=e151]: 金融信创云业务
+            - paragraph [ref=e152]:
+              - generic [ref=e154]: 保险科技云服务
+            - paragraph [ref=e155]:
+              - generic [ref=e157]: IT集成服务/科技应用输出
+        - generic [ref=e165]:
+          - paragraph [ref=e170]:
+            - strong [ref=e174]: 数据应用创新
+          - generic [ref=e178]:
+            - paragraph [ref=e179]:
+              - generic [ref=e181]: 着力新能源车、隐私计算等方向探索，积极为保险数字化赋能
+            - paragraph [ref=e182]
+            - paragraph [ref=e183]:
+              - link "保险行业数据空间" [ref=e184] [cursor=pointer]:
+                - /url: https://www.cias.cn/newsinfo/7690709.html
+                - generic [ref=e186]: 保险行业数据空间
+            - paragraph [ref=e187]:
+              - generic [ref=e189]: 新能源车电池检测服务平台
+            - paragraph [ref=e190]:
+              - generic [ref=e192]: 创新型项目孵化
+      - generic [ref=e201]:
+        - generic [ref=e233] [cursor=pointer]: ꂃ
+        - generic [ref=e235] [cursor=pointer]: ꁹ
+      - generic [ref=e243]:
+        - paragraph [ref=e244]:
+          - generic [ref=e246]: 模式创新
+        - paragraph [ref=e247]:
+          - generic [ref=e249]:
+            - generic [ref=e250]: 车险·人伤·增值服务全
+            - generic [ref=e251]: 覆盖
+      - generic [ref=e267]:
+        - paragraph [ref=e268]:
+          - generic [ref=e270]: 科技赋能
+        - paragraph [ref=e271]:
+          - generic [ref=e274]: 一云多芯·全栈解决方案
+      - generic [ref=e290]:
+        - paragraph [ref=e291]:
+          - generic [ref=e293]: 生态建设
+        - paragraph [ref=e294]:
+          - generic [ref=e297]: 持绿色低碳·打造新基建
+      - generic [ref=e308]:
+        - generic [ref=e316]:
+          - paragraph [ref=e317]:
+            - strong [ref=e318]:
+              - generic [ref=e319]:
+                - generic [ref=e320]: 3000万
+                - generic [ref=e321]: 单
+                - generic [ref=e322]: +
+          - paragraph [ref=e323]:
+            - generic [ref=e325]: 科技服务累计
+        - generic [ref=e333]:
+          - paragraph [ref=e334]:
+            - strong [ref=e335]:
+              - generic [ref=e336]:
+                - generic [ref=e337]: 1000万
+                - generic [ref=e338]: 单
+                - generic [ref=e339]: +
+          - paragraph [ref=e340]:
+            - generic [ref=e342]: 理赔服务累计
+        - generic [ref=e350]:
+          - paragraph [ref=e351]:
+            - strong [ref=e352]:
+              - generic [ref=e353]:
+                - generic [ref=e354]: "60"
+                - generic [ref=e355]: 家
+                - generic [ref=e356]: +
+          - paragraph [ref=e357]:
+            - generic [ref=e359]: 保险公司总部合作
+        - generic [ref=e367]:
+          - paragraph [ref=e368]:
+            - strong [ref=e369]:
+              - generic [ref=e370]:
+                - generic [ref=e371]: "850"
+                - generic [ref=e372]: 家
+                - generic [ref=e373]: +
+          - paragraph [ref=e374]:
+            - generic [ref=e376]: 保险机构合作落地
+        - generic [ref=e384]:
+          - paragraph [ref=e385]:
+            - strong [ref=e386]:
+              - generic [ref=e387]:
+                - generic [ref=e388]: "150"
+                - generic [ref=e389]: 家
+                - generic [ref=e390]: +
+          - paragraph [ref=e391]:
+            - generic [ref=e393]: 非保险客户合作
+        - generic [ref=e401]:
+          - paragraph [ref=e402]:
+            - strong [ref=e403]:
+              - generic [ref=e404]:
+                - generic [ref=e405]: "3000"
+                - generic [ref=e406]: 家
+                - generic [ref=e407]: +
+          - paragraph [ref=e408]:
+            - generic [ref=e410]: 平台生态伙伴
+      - generic [ref=e414]:
+        - generic [ref=e418]:
+          - paragraph [ref=e419]:
+            - generic [ref=e422]: 产品列表
+          - paragraph [ref=e423]:
+            - generic [ref=e426]: 服务有温度 科技有力量
+        - generic [ref=e430]:
+          - link "金融信创云" [ref=e433] [cursor=pointer]:
+            - /url: /jrxcy
+            - emphasis [ref=e435]: 金融信创云
+          - paragraph [ref=e440]:
+            - generic [ref=e442]: 整合数字原生引擎+云基础设施+云开发平台+信创生态合作伙伴，打造全栈信创云平台，提供基于各类基础架构的多维度全场景信创解决方案。
+          - link "查看详情" [ref=e445] [cursor=pointer]:
+            - /url: /jrxcy
+            - emphasis [ref=e448]: 查看详情
+          - link [ref=e452] [cursor=pointer]:
+            - /url: /jrxcy
+        - generic [ref=e464]:
+          - link "保险灾备云" [ref=e467] [cursor=pointer]:
+            - /url: /bxzby
+            - emphasis [ref=e469]: 保险灾备云
+          - paragraph [ref=e474]:
+            - generic [ref=e476]: 基于云计算技术及数据中心基础设施服务，构建行业灾备云平台，提供先进、成熟、安全、可靠的系统灾难恢复、灾备演练、数据统计分析等服务。
+          - link "查看详情" [ref=e479] [cursor=pointer]:
+            - /url: /bxzby
+            - emphasis [ref=e482]: 查看详情
+          - link [ref=e486] [cursor=pointer]:
+            - /url: /bxzby
+        - generic [ref=e490]:
+          - link "云擎（云原生平台）" [ref=e493] [cursor=pointer]:
+            - /url: /zbcfyq
+            - emphasis [ref=e495]: 云擎（云原生平台）
+          - paragraph [ref=e500]:
+            - generic [ref=e502]: 输出强大的融合资源管控和应用服务编排能力，覆盖研发、测试和运维全流程，支撑技术团队实现CI/CD独立交付，打通新一代云数据中心应用交付最后一公里。
+          - link "查看详情" [ref=e505] [cursor=pointer]:
+            - /url: /zbcfyq
+            - emphasis [ref=e508]: 查看详情
+          - link [ref=e512] [cursor=pointer]:
+            - /url: /zbcfyq
+        - generic [ref=e516]:
+          - link "车险智能理赔服务" [ref=e519] [cursor=pointer]:
+            - /url: /cxznlpfw
+            - emphasis [ref=e521]: 车险智能理赔服务
+          - paragraph [ref=e526]:
+            - generic [ref=e528]: 自主研发、引进、集成行业先进技术和服务，帮助保险公司实现理赔线上化的平滑过渡和系统迁移，提升科技能力、运营效率、客户满意度。
+          - link "查看详情" [ref=e531] [cursor=pointer]:
+            - /url: /cxznlpfw
+            - emphasis [ref=e534]: 查看详情
+          - link [ref=e538] [cursor=pointer]:
+            - /url: /cxznlpfw
+        - generic [ref=e542]:
+          - link "共享人伤理赔服务" [ref=e545] [cursor=pointer]:
+            - /url: /gxrslpfw
+            - emphasis [ref=e547]: 共享人伤理赔服务
+          - paragraph [ref=e552]:
+            - generic [ref=e554]: 围绕保险医疗理赔的标准作业和节点化管理，通过智能调度、流程管控、标准作业、风险提示，为保险公司涉医理赔进行科技赋能。
+          - link "查看详情" [ref=e557] [cursor=pointer]:
+            - /url: /gxrslpfw
+            - emphasis [ref=e560]: 查看详情
+          - link [ref=e564] [cursor=pointer]:
+            - /url: /gxrslpfw
+        - generic [ref=e568]:
+          - link "VNET" [ref=e571] [cursor=pointer]:
+            - /url: /vnet
+            - emphasis [ref=e573]: VNET
+          - paragraph [ref=e578]:
+            - generic [ref=e580]: 基于SDN技术，利用运营商MPLSVPN、4G等多种承载网络，提供运营商级高可靠、差异化、智能灵活的广域网多点互联新型专线产品。
+          - link "查看详情" [ref=e583] [cursor=pointer]:
+            - /url: /vnet
+            - emphasis [ref=e586]: 查看详情
+          - link [ref=e590] [cursor=pointer]:
+            - /url: /vnet
+        - generic [ref=e594]:
+          - link "保数通" [ref=e597] [cursor=pointer]:
+            - /url: /bst
+            - emphasis [ref=e599]: 保数通
+          - paragraph [ref=e604]:
+            - generic [ref=e606]: 基于中保车服行业基础设施属性，通过优选集采、自研共建等形式，匹配先进的隐私计算技术，打造保险行业合规、安全、有效、友善的数据处理和服务平台。
+          - link "查看详情" [ref=e609] [cursor=pointer]:
+            - /url: /bst
+            - emphasis [ref=e612]: 查看详情
+          - link [ref=e616] [cursor=pointer]:
+            - /url: /bst
+        - generic [ref=e620]:
+          - link "短信服务" [ref=e623] [cursor=pointer]:
+            - /url: /dxfw
+            - emphasis [ref=e625]: 短信服务
+          - paragraph [ref=e630]:
+            - generic [ref=e632]: 为企业客户输出快速触达手机用户的通信服务能力，支持验证码服务、通知、推广等多种类型，具有多网关、成本低、触达率高等优势。
+          - link "查看详情" [ref=e635] [cursor=pointer]:
+            - /url: /dxfw
+            - emphasis [ref=e638]: 查看详情
+          - link [ref=e642] [cursor=pointer]:
+            - /url: /dxfw
+        - generic [ref=e646]:
+          - link "云影像" [ref=e649] [cursor=pointer]:
+            - /url: /yyx
+            - emphasis [ref=e651]: 云影像
+          - paragraph [ref=e656]:
+            - generic [ref=e658]: 基于企业业务需求，提供影像采集、智能识别分类、OCR、分布式云存储等全流程一站式综合解决方案，提升分享管控能力和操作效率，降低系统开发和管理成本。
+          - link "查看详情" [ref=e661] [cursor=pointer]:
+            - /url: /yyx
+            - emphasis [ref=e664]: 查看详情
+          - link [ref=e668] [cursor=pointer]:
+            - /url: /yyx
+        - generic [ref=e672]:
+          - link "共享车险增值服务" [ref=e675] [cursor=pointer]:
+            - /url: /gxcxzz
+            - emphasis [ref=e677]: 共享车险增值服务
+          - paragraph [ref=e682]:
+            - generic [ref=e684]: 搭建“互联网+智能科技+共享资源”的资源整合和服务平台，为保险公司提供增值服务运营支持和管理系统输出，并通过平台集采降低服务成本。
+          - link "查看详情" [ref=e687] [cursor=pointer]:
+            - /url: /gxcxzz
+            - emphasis [ref=e690]: 查看详情
+          - link [ref=e694] [cursor=pointer]:
+            - /url: /gxcxzz
+        - generic [ref=e698]:
+          - link "公估聚合平台" [ref=e701] [cursor=pointer]:
+            - /url: /ggjhpt
+            - emphasis [ref=e703]: 公估聚合平台
+          - paragraph [ref=e708]:
+            - generic [ref=e710]: 整合优质公估资源，打造“标准化前端作业+专业化中台指导”的“线上+线下”协同作业模式，提供高效、快捷、高质量的“理赔管家”式服务。
+          - link "查看详情" [ref=e713] [cursor=pointer]:
+            - /url: /ggjhpt
+            - emphasis [ref=e716]: 查看详情
+          - link [ref=e720] [cursor=pointer]:
+            - /url: /ggjhpt
+        - generic [ref=e724]:
+          - link "保险行业数据空间" [ref=e727] [cursor=pointer]:
+            - /url: /bxhysjkj
+            - emphasis [ref=e729]: 保险行业数据空间
+          - paragraph [ref=e734]:
+            - generic [ref=e737]: 首创“政府+行业+企业”协同的生态共建模式，以场景应用为导向，充分挖掘数据要素的潜力与价值，以数据驱动保险业转型升级、创新发展的新力量。
+          - link "查看详情" [ref=e740] [cursor=pointer]:
+            - /url: /bxhysjkj
+            - emphasis [ref=e743]: 查看详情
+          - link [ref=e747] [cursor=pointer]:
+            - /url: /jrxcy
+      - generic [ref=e751]:
+        - generic [ref=e755]:
+          - paragraph [ref=e756]:
+            - generic [ref=e758]: 市场动态
+          - paragraph [ref=e759]
+        - link "查看更多" [ref=e762] [cursor=pointer]:
+          - /url: /gsxw
+          - emphasis [ref=e765]: 查看更多
+        - generic [ref=e773]:
+          - paragraph [ref=e774]
+          - paragraph [ref=e775]:
+            - generic [ref=e776]: 2024数据要素×大赛全国二等奖
+        - link [ref=e780] [cursor=pointer]:
+          - /url: /newsinfo/4788719.html
+        - paragraph [ref=e789]:
+          - generic [ref=e792]: 获评深圳高科技高成长20强
+        - link [ref=e796] [cursor=pointer]:
+          - /url: /newsinfo/7690709.html
+        - generic [ref=e800]:
+          - link [ref=e804] [cursor=pointer]:
+            - /url: /newsinfo/3113956.html
+          - paragraph [ref=e809]:
+            - generic [ref=e812]: 获评专精特新企业
+        - generic [ref=e816]:
+          - link [ref=e820] [cursor=pointer]:
+            - /url: /newsinfo/4669175.html
+          - paragraph [ref=e825]:
+            - generic [ref=e828]: 入选金融科技创新价值案例
+      - generic [ref=e845]:
+        - paragraph [ref=e846]:
+          - generic [ref=e848]: 生态伙伴
+        - paragraph [ref=e849]:
+          - generic [ref=e852]: 致力保险新基建 推动共建共享共赢
+      - generic [ref=e856]:
+        - link [ref=e864] [cursor=pointer]:
+          - /url: /hzycx
+        - generic [ref=e868]:
+          - paragraph [ref=e869]:
+            - link "业务快讯" [ref=e870] [cursor=pointer]:
+              - /url: http://c1966469022cjw.scd.wezhan.cn/hzycx?
+              - generic [ref=e873]: 业务快讯
+          - paragraph [ref=e874]:
+            - link "合作试用与促销" [ref=e875] [cursor=pointer]:
+              - /url: http://c1966469022cjw.scd.wezhan.cn/hzycx?
+              - generic [ref=e878]: 合作试用与促销
+    - generic [ref=e1042]:
+      - generic [ref=e1046]:
+        - generic [ref=e1050]:
+          - generic [ref=e1054]:
+            - list [ref=e1058]:
+              - listitem [ref=e1059]:
+                - link "金融信创云解决方案" [ref=e1061] [cursor=pointer]:
+                  - /url: /jjfa
+                  - text: 金融信创云解决方案
+              - listitem [ref=e1062]:
+                - link "文件下载" [ref=e1064] [cursor=pointer]:
+                  - /url: /jjfa
+                  - text: 文件下载
+            - list [ref=e1068]:
+              - listitem [ref=e1069]:
+                - link "解决方案" [ref=e1071] [cursor=pointer]:
+                  - /url: javascript:;
+                  - text: 解决方案
+          - generic [ref=e1075]:
+            - list [ref=e1079]:
+              - listitem [ref=e1080]:
+                - link "中国保险行业协会" [ref=e1082] [cursor=pointer]:
+                  - /url: http://www.iachina.cn/
+                  - text: 中国保险行业协会
+              - listitem [ref=e1083]:
+                - link "深圳市金融科技协会" [ref=e1085] [cursor=pointer]:
+                  - /url: https://www.szfta.org.cn/
+                  - text: 深圳市金融科技协会
+              - listitem [ref=e1086]:
+                - link "深圳市互联网金融协会" [ref=e1088] [cursor=pointer]:
+                  - /url: "#"
+                  - text: 深圳市互联网金融协会
+            - list [ref=e1092]:
+              - listitem [ref=e1093]:
+                - link "特别链接" [ref=e1095] [cursor=pointer]:
+                  - /url: javascript:;
+                  - text: 特别链接
+        - generic [ref=e1099]:
+          - list [ref=e1103]:
+            - listitem [ref=e1104]:
+              - link "金融信创云管平台" [ref=e1106] [cursor=pointer]:
+                - /url: /xtrk
+                - text: 金融信创云管平台
+            - listitem [ref=e1107]:
+              - link "共享车险增值服务管理平台" [ref=e1109] [cursor=pointer]:
+                - /url: /xtrk
+                - text: 共享车险增值服务管理平台
+            - listitem [ref=e1110]:
+              - link "共享车险理赔服务管理平台" [ref=e1112] [cursor=pointer]:
+                - /url: /xtrk
+                - text: 共享车险理赔服务管理平台
+            - listitem [ref=e1113]:
+              - link "共享人伤理赔服务管理平台" [ref=e1115] [cursor=pointer]:
+                - /url: /xtrk
+                - text: 共享人伤理赔服务管理平台
+          - list [ref=e1119]:
+            - listitem [ref=e1120]:
+              - link "系统入口" [ref=e1122] [cursor=pointer]:
+                - /url: javascript:;
+                - text: 系统入口
+      - generic [ref=e1126]:
+        - list [ref=e1130]:
+          - listitem [ref=e1131]:
+            - link "金融行业生态伙伴" [ref=e1133] [cursor=pointer]:
+              - /url: /sthb
+              - text: 金融行业生态伙伴
+          - listitem [ref=e1134]:
+            - link "科技企业生态伙伴" [ref=e1136] [cursor=pointer]:
+              - /url: /sthb
+              - text: 科技企业生态伙伴
+        - list [ref=e1140]:
+          - listitem [ref=e1141]:
+            - link "生态伙伴" [ref=e1143] [cursor=pointer]:
+              - /url: javascript:;
+              - text: 生态伙伴
+      - generic [ref=e1147]:
+        - generic [ref=e1151]:
+          - paragraph [ref=e1156]:
+            - generic [ref=e1158]: 联系我们
+          - generic [ref=e1162]:
+            - paragraph [ref=e1163]:
+              - generic [ref=e1165]:
+                - text: 客服热线：
+                - strong [ref=e1166]: 400 002 6862
+            - paragraph [ref=e1167]:
+              - generic [ref=e1168]: 公司地址：深圳市福田区深业上城T2写字楼44层
+            - paragraph [ref=e1169]:
+              - generic [ref=e1170]: 前台接洽：0755 - 8860 2229
+            - paragraph [ref=e1171]:
+              - generic [ref=e1172]: 服务邮箱：service@cias.cn
+        - paragraph [ref=e1185]:
+          - generic [ref=e1187]: 关注我们
+      - generic [ref=e1191]:
+        - generic [ref=e1195]:
+          - list [ref=e1199]:
+            - listitem [ref=e1200]:
+              - link "金融信创云" [ref=e1202] [cursor=pointer]:
+                - /url: /jrxcy
+                - text: 金融信创云
+            - listitem [ref=e1203]:
+              - link "保险灾备云" [ref=e1205] [cursor=pointer]:
+                - /url: /bxzby
+                - text: 保险灾备云
+            - listitem [ref=e1206]:
+              - link "共享车险增值服务" [ref=e1208] [cursor=pointer]:
+                - /url: /gxcxzz
+                - text: 共享车险增值服务
+            - listitem [ref=e1209]:
+              - link "车险智能理赔服务" [ref=e1211] [cursor=pointer]:
+                - /url: /cxznlpfw
+                - text: 车险智能理赔服务
+            - listitem [ref=e1212]:
+              - link "共享人伤理赔服务" [ref=e1214] [cursor=pointer]:
+                - /url: /gxrslpfw
+                - text: 共享人伤理赔服务
+            - listitem [ref=e1215]:
+              - link "短信服务" [ref=e1217] [cursor=pointer]:
+                - /url: /dxfw
+                - text: 短信服务
+            - listitem [ref=e1218]:
+              - link "云影像" [ref=e1220] [cursor=pointer]:
+                - /url: /yyx
+                - text: 云影像
+            - listitem [ref=e1221]:
+              - link "VNET" [ref=e1223] [cursor=pointer]:
+                - /url: /vnet
+                - text: VNET
+            - listitem [ref=e1224]:
+              - link "保数通" [ref=e1226] [cursor=pointer]:
+                - /url: /bst
+                - text: 保数通
+          - list [ref=e1230]:
+            - listitem [ref=e1231]:
+              - link "产品列表" [ref=e1233] [cursor=pointer]:
+                - /url: javascript:;
+                - text: 产品列表
+        - generic [ref=e1237]:
+          - list [ref=e1241]:
+            - listitem [ref=e1242]:
+              - link "市场概况" [ref=e1244] [cursor=pointer]:
+                - /url: /ptgh
+                - text: 市场概况
+            - listitem [ref=e1245]:
+              - link "成立背景" [ref=e1247] [cursor=pointer]:
+                - /url: /ptgh
+                - text: 成立背景
+            - listitem [ref=e1248]:
+              - link "行业属性" [ref=e1250] [cursor=pointer]:
+                - /url: /ptgh
+                - text: 行业属性
+            - listitem [ref=e1251]:
+              - link "创新方向" [ref=e1253] [cursor=pointer]:
+                - /url: /ptgh
+                - text: 创新方向
+            - listitem [ref=e1254]:
+              - link "战略与融资" [ref=e1256] [cursor=pointer]:
+                - /url: /ptgh
+                - text: 战略与融资
+          - list [ref=e1260]:
+            - listitem [ref=e1261]:
+              - link "平台规划" [ref=e1263] [cursor=pointer]:
+                - /url: javascript:;
+                - text: 平台规划
+  - generic [ref=e1267]:
+    - generic [ref=e1268]:
+      - generic [ref=e1269]: 版权所有© 中保车服官网
+      - link "粤ICP备18139212号-1" [ref=e1272] [cursor=pointer]:
+        - /url: https://beian.miit.gov.cn
+      - link "粤公网安备44030402002780号" [ref=e1275] [cursor=pointer]:
+        - /url: http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030402002780
+    - generic [ref=e1276]:
+      - link "本网站由阿里云提供云计算及安全服务" [ref=e1278] [cursor=pointer]:
+        - /url: https://wanwang.aliyun.com/webdesign/webdesign?source=5176.11533457&userCode=i7rzleoi
+        - img [ref=e1279]
+        - text: 本网站由阿里云提供云计算及安全服务
+      - generic [ref=e1289]:
+        - text: 本网站支持
+        - generic [ref=e1290]: IPv6
+      - link "Powered by 万网" [ref=e1293] [cursor=pointer]:
+        - /url: https://wanwang.aliyun.com
+        - generic [ref=e1294]: Powered by 万网
+  - list [ref=e1298]:
+    - listitem [ref=e1299]:
+      - generic [ref=e1300]:
+        - generic [ref=e1301]: ꁸ
+        - generic [ref=e1302]: 回到顶部
+    - listitem [ref=e1303]:
+      - generic [ref=e1304]:
+        - generic [ref=e1305]: ꀥ
+        - generic [ref=e1306]: 微信二维码

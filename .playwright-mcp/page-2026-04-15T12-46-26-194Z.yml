@@ -1,0 +1,464 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-SG
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&ictx=0&sa=X&ved=0ahUKEwjltKDR8e-TAxU-2ckDHZufA-4QpYkNCAs
+          - img "Go to Google Home" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Search" [ref=e23]: Hermes Agent vs OpenClaw 对比 评测 Hermes Agent vs OpenClaw 对比 评测
+          - generic [ref=e24]:
+            - button "Clear" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Search by voice" [ref=e32] [cursor=pointer]:
+                - img [ref=e33]
+              - button "Search by image" [ref=e35] [cursor=pointer]:
+                - img [ref=e36]
+        - button "Search" [ref=e38] [cursor=pointer]:
+          - img [ref=e41]
+    - generic [ref=e43]:
+      - button "Settings" [ref=e45] [cursor=pointer]:
+        - img [ref=e48]
+      - generic [ref=e51]:
+        - button "Google apps" [ref=e53] [cursor=pointer]:
+          - img [ref=e54]
+        - link "Sign in" [ref=e58] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DHermes%2BAgent%2Bvs%2BOpenClaw%2B%25E5%25AF%25B9%25E6%25AF%2594%2B%25E8%25AF%2584%25E6%25B5%258B%26sei%3DmYjfaZniHYy5wN4P3YPZ8A0&ec=futura_srp_og_si_72236_p
+  - generic [ref=e60]:
+    - navigation [ref=e66]:
+      - generic [ref=e70]:
+        - list [ref=e71]:
+          - listitem [ref=e72]:
+            - link "AI Mode" [ref=e75] [cursor=pointer]:
+              - /url: /search?q=Hermes+Agent+vs+OpenClaw+%E5%AF%B9%E6%AF%94+%E8%AF%84%E6%B5%8B&sca_esv=b23efcb65468375a&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX5ijYCyJdSZFM4mewRGuivYYa3mYl0ctDuDplBAp7RpJKLuGI9TCQijdSoJVylJCiBOeHvz4yIwV0_H1TPcOGnHmopgosc9ch9OJ8A_8pM7RAxnHcUcL4sfikSHXa2kOj8y7Li8krK-gwMMC7MmdOQyk7yKot_AHyyCyILBjwvNSxIvjPw&aep=1&ntc=1&sa=X&ved=2ahUKEwjltKDR8e-TAxU-2ckDHZufA-4Q2J8OegQIDhAE
+              - generic [ref=e78]: AI Mode
+          - listitem [ref=e79]:
+            - link "All" [disabled] [ref=e80]:
+              - generic [ref=e82]: All
+          - listitem [ref=e83]:
+            - link "Videos" [ref=e84] [cursor=pointer]:
+              - /url: /search?sca_esv=b23efcb65468375a&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX5ijYCyJdSZFM4mewRGuivYYa3mYl0ctDuDplBAp7RpJKLuGI9TCQijdSoJVylJCiBOeHvz4yIwV0_H1TPcOGnHmopgosc9ch9OJ8A_8pM7RAxnHcUcL4sfikSHXa2kOj8y7Li8krK-gwMMC7MmdOQyk7yKot_AHyyCyILBjwvNSxIvjPw&q=Hermes+Agent+vs+OpenClaw+%E5%AF%B9%E6%AF%94+%E8%AF%84%E6%B5%8B&sa=X&ved=2ahUKEwjltKDR8e-TAxU-2ckDHZufA-4QtKgLegQIFBAB
+              - generic [ref=e86]: Videos
+          - listitem [ref=e87]:
+            - link "Images" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=b23efcb65468375a&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX5ijYCyJdSZFM4mewRGuivYYa3mYl0ctDuDplBAp7RpJKLuGI9TCQijdSoJVylJCiBOeHvz4yIwV0_H1TPcOGnHmopgosc9ch9OJ8A_8pM7RAxnHcUcL4sfikSHXa2kOj8y7Li8krK-gwMMC7MmdOQyk7yKot_AHyyCyILBjwvNSxIvjPw&q=Hermes+Agent+vs+OpenClaw+%E5%AF%B9%E6%AF%94+%E8%AF%84%E6%B5%8B&sa=X&ved=2ahUKEwjltKDR8e-TAxU-2ckDHZufA-4QtKgLegQIExAB
+              - generic [ref=e90]: Images
+          - listitem [ref=e91]:
+            - link "Short videos" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=b23efcb65468375a&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX5ijYCyJdSZFM4mewRGuivYYa3mYl0ctDuDplBAp7RpJKLuGI9TCQijdSoJVylJCiBOeHvz4yIwV0_H1TPcOGnHmopgosc9ch9OJ8A_8pM7RAxnHcUcL4sfikSHXa2kOj8y7Li8krK-gwMMC7MmdOQyk7yKot_AHyyCyILBjwvNSxIvjPw&q=Hermes+Agent+vs+OpenClaw+%E5%AF%B9%E6%AF%94+%E8%AF%84%E6%B5%8B&sa=X&ved=2ahUKEwjltKDR8e-TAxU-2ckDHZufA-4Qs6gLegQIERAB
+              - generic [ref=e94]: Short videos
+          - listitem [ref=e95]:
+            - link "News" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=b23efcb65468375a&q=Hermes+Agent+vs+OpenClaw+%E5%AF%B9%E6%AF%94+%E8%AF%84%E6%B5%8B&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX5ijYCyJdSZFM4mewRGuivYYa3mYl0ctDuDplBAp7RpJKLuGI9TCQijdSoJVylJCiBOeHvz4yIwV0_H1TPcOGnHmopgosc9ch9OJ8A_8pM7RAxnHcUcL4sfikSHXa2kOj8y7Li8krK-gwMMC7MmdOQyk7yKot_AHyyCyILBjwvNSxIvjPw&sa=X&ved=2ahUKEwjltKDR8e-TAxU-2ckDHZufA-4Q0pQJegQIEhAB
+              - generic [ref=e98]: News
+          - listitem [ref=e99]:
+            - link "Shopping" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=b23efcb65468375a&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX5ijYCyJdSZFM4mewRGuivYYa3mYl0ctDuDplBAp7RpJKLuGI9TCQijdSoJVylJCiBOeHvz4yIwV0_H1TPcOGnHmopgosc9ch9OJ8A_8pM7RAxnHcUcL4sfikSHXa2kOj8y7Li8krK-gwMMC7MmdOQyk7yKot_AHyyCyILBjwvNSxIvjPw&q=Hermes+Agent+vs+OpenClaw+%E5%AF%B9%E6%AF%94+%E8%AF%84%E6%B5%8B&ved=1t:220175&ictx=111
+              - generic [ref=e102]: Shopping
+          - listitem [ref=e103]:
+            - button "More filters" [ref=e104] [cursor=pointer]:
+              - generic "More filters" [ref=e105]:
+                - generic [ref=e106]:
+                  - generic [ref=e107]: More
+                  - img [ref=e109]
+        - button "Tools" [ref=e112] [cursor=pointer]:
+          - generic [ref=e114]:
+            - generic [ref=e115]: Tools
+            - img [ref=e117]
+    - heading "Search Results" [level=1] [ref=e119]
+    - main [ref=e125]:
+      - generic [ref=e129]:
+        - generic [ref=e133]:
+          - generic [ref=e135]:
+            - heading "Videos" [level=2] [ref=e136]
+            - button "About this result" [ref=e137] [cursor=pointer]:
+              - img [ref=e140]
+          - generic [ref=e143]:
+            - generic [ref=e149]:
+              - generic [ref=e150]:
+                - generic [ref=e151]:
+                  - link "Hermes Agent，新一代的“OpenClaw 龙虾” YouTube AI随风 1 week ago" [ref=e153] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=UJF3xqXGbuw
+                    - heading "Hermes Agent，新一代的“OpenClaw 龙虾” YouTube AI随风 1 week ago" [level=3] [ref=e154]:
+                      - generic [ref=e157]: Hermes Agent，新一代的“OpenClaw 龙虾”
+                      - generic [ref=e159]:
+                        - generic [ref=e160]:
+                          - text: YouTube
+                          - generic [ref=e161]: · AI随风
+                        - generic [ref=e162]: 1 week ago
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: YouTube
+                            - generic: · AI随风
+                      - button "About this result" [ref=e163] [cursor=pointer]:
+                        - img [ref=e166]
+                - button "Hermes Agent，新一代的“OpenClaw 龙虾” by AI随风 on YouTube. Play on Google. 13:33" [ref=e168] [cursor=pointer]:
+                  - generic [ref=e169]:
+                    - img [ref=e175]
+                    - generic [ref=e178]:
+                      - generic [ref=e179]: 13:33
+                      - img [ref=e182]
+              - button "5 key moments in this video" [ref=e188] [cursor=pointer]:
+                - generic [ref=e197]:
+                  - generic [ref=e200]: 5 key moments in this video
+                  - img [ref=e202]
+            - generic [ref=e209]:
+              - generic [ref=e210]:
+                - link "完美取代OpenClaw：Hermes Agent自主进化+安全防御+无缝 ... YouTube AI超元域 5 days ago" [ref=e212] [cursor=pointer]:
+                  - /url: https://www.youtube.com/watch?v=NlrSxI6Frqg
+                  - heading "完美取代OpenClaw：Hermes Agent自主进化+安全防御+无缝 ... YouTube AI超元域 5 days ago" [level=3] [ref=e213]:
+                    - generic [ref=e216]: 完美取代OpenClaw：Hermes Agent自主进化+安全防御+无缝 ...
+                    - generic [ref=e218]:
+                      - generic [ref=e219]:
+                        - text: YouTube
+                        - generic [ref=e220]: · AI超元域
+                      - generic [ref=e221]: 5 days ago
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - text: YouTube
+                          - generic: · AI超元域
+                    - button "About this result" [ref=e222] [cursor=pointer]:
+                      - img [ref=e225]
+              - button "完美取代OpenClaw：Hermes Agent自主进化+安全防御+无缝 ... by AI超元域 on YouTube. Play on Google. 13:46" [ref=e227] [cursor=pointer]:
+                - generic [ref=e228]:
+                  - img [ref=e231]
+                  - generic [ref=e234]:
+                    - generic [ref=e235]: 13:46
+                    - img [ref=e238]
+            - generic [ref=e245]:
+              - generic [ref=e246]:
+                - link "Can Hermes Agent replace OpenClaw? Lao Fan was shocked ... YouTube 老范讲故事 3 days ago" [ref=e248] [cursor=pointer]:
+                  - /url: https://www.youtube.com/watch?v=7VlcJU5iV5A&vl=zh
+                  - heading "Can Hermes Agent replace OpenClaw? Lao Fan was shocked ... YouTube 老范讲故事 3 days ago" [level=3] [ref=e249]:
+                    - generic [ref=e252]: Can Hermes Agent replace OpenClaw? Lao Fan was shocked ...
+                    - generic [ref=e254]:
+                      - generic [ref=e255]:
+                        - text: YouTube
+                        - generic [ref=e256]: · 老范讲故事
+                      - generic [ref=e257]: 3 days ago
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - text: YouTube
+                          - generic: · 老范讲故事
+                    - button "About this result" [ref=e258] [cursor=pointer]:
+                      - img [ref=e261]
+              - button "Can Hermes Agent replace OpenClaw? Lao Fan was shocked ... by 老范讲故事 on YouTube. Play on Google. 20:21" [ref=e263] [cursor=pointer]:
+                - generic [ref=e264]:
+                  - img [ref=e267]
+                  - generic [ref=e270]:
+                    - generic [ref=e271]: 20:21
+                    - img [ref=e274]
+          - link "View all videos" [ref=e278] [cursor=pointer]:
+            - /url: /search?sca_esv=b23efcb65468375a&udm=7&q=Hermes+Agent+vs+OpenClaw+%E5%AF%B9%E6%AF%94+%E8%AF%84%E6%B5%8B&sa=X&ved=2ahUKEwjltKDR8e-TAxU-2ckDHZufA-4Q8ccDKAJ6BAgYEAQ
+            - separator [ref=e279]
+            - generic [ref=e280]:
+              - generic [ref=e281]: View all
+              - img [ref=e283]
+        - generic [ref=e287]:
+          - heading "网页搜索结果" [level=2] [ref=e288]
+          - generic [ref=e289]:
+            - generic [ref=e292]:
+              - link "Hermes Agent vs OpenClaw：下一代自学习AI 助手深度对比 知乎专栏 https://zhuanlan.zhihu.com › ..." [ref=e294] [cursor=pointer]:
+                - /url: https://zhuanlan.zhihu.com/p/2025962241942398550
+                - heading "Hermes Agent vs OpenClaw：下一代自学习AI 助手深度对比" [level=3] [ref=e295]
+                - generic [ref=e300]:
+                  - generic [ref=e302]: 知乎专栏
+                  - generic [ref=e304]: https://zhuanlan.zhihu.com › ...
+              - generic [ref=e305]:
+                - generic [ref=e306]: ·
+                - link "Translate this page" [ref=e307] [cursor=pointer]:
+                  - /url: https://zhuanlan.zhihu.com/p/2025962241942398550
+              - button "About this result" [ref=e308] [cursor=pointer]:
+                - img [ref=e311]
+            - generic [ref=e314]:
+              - generic [ref=e315]: 5 days ago —
+              - generic [ref=e316]:
+                - text: 二、技术
+                - emphasis [ref=e317]: 对比
+                - text: ：
+                - emphasis [ref=e318]: Hermes vs OpenClaw vs
+                - text: 其他玩家. 现在
+                - emphasis [ref=e319]: Agent
+                - text: 相关的产品，不敢说是多如牛毛，但也称得上是“比比皆是”。话不多说，表格先上为敬。 核心竞 ...
+              - link "Read more" [ref=e320] [cursor=pointer]:
+                - /url: https://zhuanlan.zhihu.com/p/2025962241942398550#:~:text=%E4%BA%8C%E3%80%81%E6%8A%80%E6%9C%AF%E5%AF%B9%E6%AF%94%EF%BC%9AHermes%20vs%20OpenClaw%20vs%20%E5%85%B6%E4%BB%96%E7%8E%A9%E5%AE%B6,%E6%A0%B8%E5%BF%83%E7%AB%9E%E5%93%81%E4%B8%80%E8%A7%88
+            - generic [ref=e322]:
+              - text: "Missing: 评测 ‎| Show results with:"
+              - link "评测" [ref=e323] [cursor=pointer]:
+                - /url: /search?sca_esv=b23efcb65468375a&q=Hermes+Agent+vs+OpenClaw+%E5%AF%B9%E6%AF%94+%22%E8%AF%84%E6%B5%8B%22&sa=X&ved=2ahUKEwjltKDR8e-TAxU-2ckDHZufA-4Q5t4CegQIJhAB
+        - generic [ref=e327]:
+          - generic [ref=e330]:
+            - link "Hermes Agent vs OpenClaw：52k Star 背后，谁才是2026 最 ... 腾讯新闻 https://news.qq.com › rain" [ref=e332] [cursor=pointer]:
+              - /url: https://news.qq.com/rain/a/20260411A03F6A00
+              - heading "Hermes Agent vs OpenClaw：52k Star 背后，谁才是2026 最 ..." [level=3] [ref=e333]
+              - generic [ref=e338]:
+                - generic [ref=e340]: 腾讯新闻
+                - generic [ref=e342]: https://news.qq.com › rain
+            - generic [ref=e343]:
+              - generic [ref=e344]: ·
+              - link "Translate this page" [ref=e345] [cursor=pointer]:
+                - /url: https://news.qq.com/rain/a/20260411A03F6A00
+            - button "About this result" [ref=e346] [cursor=pointer]:
+              - img [ref=e349]
+          - generic [ref=e352]:
+            - generic [ref=e353]: 4 days ago —
+            - generic [ref=e354]:
+              - text: 本文将从架构设计、核心能力、学习曲线、适用场景四个维度，深度
+              - emphasis [ref=e355]: 对比
+              - text: 这两个框架，帮你做出正确的技术选型。 02 架构
+              - emphasis [ref=e356]: 对比
+              - text: ：自我进化
+              - emphasis [ref=e357]: vs
+              - text: 本地优先.
+              - emphasis [ref=e358]: Hermes
+              - text: ...
+            - link "Read more" [ref=e359] [cursor=pointer]:
+              - /url: https://news.qq.com/rain/a/20260411A03F6A00#:~:text=%E6%9C%AC%E6%96%87%E5%B0%86%E4%BB%8E%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E3%80%81%E6%A0%B8%E5%BF%83%E8%83%BD%E5%8A%9B%E3%80%81%E5%AD%A6%E4%B9%A0%E6%9B%B2%E7%BA%BF%E3%80%81%E9%80%82%E7%94%A8%E5%9C%BA%E6%99%AF%E5%9B%9B%E4%B8%AA%E7%BB%B4%E5%BA%A6%EF%BC%8C%E6%B7%B1%E5%BA%A6%E5%AF%B9%E6%AF%94%E8%BF%99%E4%B8%A4%E4%B8%AA%E6%A1%86%E6%9E%B6%EF%BC%8C%E5%B8%AE%E4%BD%A0%E5%81%9A%E5%87%BA%E6%AD%A3%E7%A1%AE%E7%9A%84%E6%8A%80%E6%9C%AF%E9%80%89%E5%9E%8B%E3%80%82,%F0%9F%94%B4%20Hermes%20Agent%EF%BC%9ASelf%2DImproving%20Agent%20Runtime
+        - generic [ref=e363]:
+          - generic [ref=e366]:
+            - link "Hermes Agent vs OpenClaw：一个会自我进化的AI助手 博客园 https://www.cnblogs.com › ghj1976" [ref=e368] [cursor=pointer]:
+              - /url: https://www.cnblogs.com/ghj1976/p/19832817
+              - heading "Hermes Agent vs OpenClaw：一个会自我进化的AI助手" [level=3] [ref=e369]
+              - generic [ref=e374]:
+                - generic [ref=e376]: 博客园
+                - generic [ref=e378]: https://www.cnblogs.com › ghj1976
+            - generic [ref=e379]:
+              - generic [ref=e380]: ·
+              - link "Translate this page" [ref=e381] [cursor=pointer]:
+                - /url: https://www.cnblogs.com/ghj1976/p/19832817
+            - button "About this result" [ref=e382] [cursor=pointer]:
+              - img [ref=e385]
+          - generic [ref=e388]:
+            - generic [ref=e389]: 7 days ago —
+            - generic [ref=e390]:
+              - text: 技能系统一句话
+              - emphasis [ref=e391]: 对比
+              - text: ：
+              - emphasis [ref=e392]: OpenClaw
+              - text: 是“下载别人写好的技能”，
+              - emphasis [ref=e393]: Hermes
+              - text: 是“自己写技能并持续优化”。 03 记忆体系：笔记本
+              - emphasis [ref=e394]: vs
+              - text: 搜索引擎. 两者都声称有跨会话记忆 ...
+            - link "Read more" [ref=e395] [cursor=pointer]:
+              - /url: https://www.cnblogs.com/ghj1976/p/19832817#:~:text=%E6%8A%80%E8%83%BD%E7%B3%BB%E7%BB%9F%E4%B8%80%E5%8F%A5%E8%AF%9D%E5%AF%B9%E6%AF%94%EF%BC%9A,%E4%B8%A4%E8%80%85%E9%83%BD%E5%A3%B0%E7%A7%B0%E6%9C%89%E8%B7%A8%E4%BC%9A%E8%AF%9D%E8%AE%B0%E5%BF%86%E8%83%BD%E5%8A%9B%EF%BC%8C%E4%BD%86%E5%AE%9E%E7%8E%B0%E6%96%B9%E5%BC%8F%E8%BF%A5%E5%BC%82%E3%80%82
+        - generic [ref=e399]:
+          - generic [ref=e402]:
+            - link "Hermes Agent vs Openclaw 全面对比分析 新浪财经 https://finance.sina.com.cn › doc-i..." [ref=e404] [cursor=pointer]:
+              - /url: https://finance.sina.com.cn/wm/2026-04-12/doc-inhuetnn3645721.shtml
+              - heading "Hermes Agent vs Openclaw 全面对比分析" [level=3] [ref=e405]
+              - generic [ref=e410]:
+                - generic [ref=e412]: 新浪财经
+                - generic [ref=e414]: https://finance.sina.com.cn › doc-i...
+            - generic [ref=e415]:
+              - generic [ref=e416]: ·
+              - link "Translate this page" [ref=e417] [cursor=pointer]:
+                - /url: https://finance.sina.com.cn/wm/2026-04-12/doc-inhuetnn3645721.shtml
+            - button "About this result" [ref=e418] [cursor=pointer]:
+              - img [ref=e421]
+          - generic [ref=e424]:
+            - generic [ref=e425]: 4 days ago —
+            - generic [ref=e426]:
+              - text: 近期
+              - emphasis [ref=e427]: Hermes Agent
+              - text: 很火，本文将其与
+              - emphasis [ref=e428]: Openclaw 对比
+              - text: ：
+              - emphasis [ref=e429]: Openclaw
+              - text: 社区热度高，有354k Stars、71.6k Forks。二者在多方面有别，
+              - emphasis [ref=e430]: Hermes Agent
+              - text: 是模块化多代理AI ...
+          - generic [ref=e432]:
+            - text: "Missing: 评测 ‎| Show results with:"
+            - link "评测" [ref=e433] [cursor=pointer]:
+              - /url: /search?sca_esv=b23efcb65468375a&q=Hermes+Agent+vs+OpenClaw+%E5%AF%B9%E6%AF%94+%22%E8%AF%84%E6%B5%8B%22&sa=X&ved=2ahUKEwjltKDR8e-TAxU-2ckDHZufA-4Q5t4CegQIJRAB
+        - generic [ref=e437]:
+          - generic [ref=e440]:
+            - link "Hermes Agent vs OpenClaw：记忆机制与自动进化的深度解析 什么值得买 https://post.smzdm.com › ..." [ref=e442] [cursor=pointer]:
+              - /url: https://post.smzdm.com/p/arz44m3w/
+              - heading "Hermes Agent vs OpenClaw：记忆机制与自动进化的深度解析" [level=3] [ref=e443]
+              - generic [ref=e448]:
+                - generic [ref=e450]: 什么值得买
+                - generic [ref=e452]: https://post.smzdm.com › ...
+            - generic [ref=e453]:
+              - generic [ref=e454]: ·
+              - link "Translate this page" [ref=e455] [cursor=pointer]:
+                - /url: https://post.smzdm.com/p/arz44m3w/
+            - button "About this result" [ref=e456] [cursor=pointer]:
+              - img [ref=e459]
+          - generic [ref=e462]:
+            - generic [ref=e463]: 7 days ago —
+            - generic [ref=e464]:
+              - emphasis [ref=e465]: Hermes Agent
+              - text: 与
+              - emphasis [ref=e466]: OpenClaw
+              - text: 核心差异 · 定位为个人专属助理，强调陪伴感与个性化成长。 · 自动技能进化：通过对话自动提取流程并沉淀为技能，无需手动创建。
+            - link "Read more" [ref=e467] [cursor=pointer]:
+              - /url: https://post.smzdm.com/p/arz44m3w/#:~:text=Hermes%20Agent%20%E4%B8%8EOpenClaw%20%E6%A0%B8%E5%BF%83%E5%B7%AE%E5%BC%82&text=%E5%AE%9A%E4%BD%8D%E4%B8%BA%E4%B8%AA%E4%BA%BA%E4%B8%93%E5%B1%9E%E5%8A%A9%E7%90%86%EF%BC%8C%E5%BC%BA%E8%B0%83%E9%99%AA%E4%BC%B4%E6%84%9F%E4%B8%8E%E4%B8%AA%E6%80%A7%E5%8C%96%E6%88%90%E9%95%BF%E3%80%82&text=%E8%87%AA%E5%8A%A8%E6%8A%80%E8%83%BD%E8%BF%9B%E5%8C%96%EF%BC%9A%E9%80%9A%E8%BF%87%E5%AF%B9%E8%AF%9D%E8%87%AA%E5%8A%A8%E6%8F%90%E5%8F%96%E6%B5%81%E7%A8%8B%E5%B9%B6%E6%B2%89%E6%B7%80%E4%B8%BA%E6%8A%80%E8%83%BD%EF%BC%8C%E6%97%A0%E9%9C%80%E6%89%8B%E5%8A%A8%E5%88%9B%E5%BB%BA%E3%80%82
+        - generic [ref=e471]:
+          - generic [ref=e474]:
+            - link "What Is Hermes Agent? The OpenClaw Alternative with a ... MindStudio https://www.mindstudio.ai › blog › what-is-hermes-agent..." [ref=e476] [cursor=pointer]:
+              - /url: https://www.mindstudio.ai/blog/what-is-hermes-agent-openclaw-alternative/
+              - heading "What Is Hermes Agent? The OpenClaw Alternative with a ..." [level=3] [ref=e477]
+              - generic [ref=e482]:
+                - generic [ref=e484]: MindStudio
+                - generic [ref=e486]: https://www.mindstudio.ai › blog › what-is-hermes-agent...
+            - button "About this result" [ref=e487] [cursor=pointer]:
+              - img [ref=e490]
+          - generic [ref=e493]:
+            - generic [ref=e494]: 27 Mar 2026 —
+            - generic [ref=e495]:
+              - text: The
+              - emphasis [ref=e496]: agent
+              - text: gets faster, more consistent, and more accurate on task types it has encountered before.
+              - emphasis [ref=e497]: Hermes vs
+              - text: .
+              - emphasis [ref=e498]: OpenClaw
+              - text: . The comparison to ...
+            - link "Read more" [ref=e499] [cursor=pointer]:
+              - /url: https://www.mindstudio.ai/blog/what-is-hermes-agent-openclaw-alternative/#:~:text=The%20agent%20gets%20faster%2C%20more,what%20makes%20an%20agent%20valuable.
+        - generic [ref=e503]:
+          - generic [ref=e506]:
+            - link "Hermes 智能体全面研究报告与OpenClaw 对比分析 知乎专栏 https://zhuanlan.zhihu.com › ..." [ref=e508] [cursor=pointer]:
+              - /url: https://zhuanlan.zhihu.com/p/2026622473097978502
+              - heading "Hermes 智能体全面研究报告与OpenClaw 对比分析" [level=3] [ref=e509]
+              - generic [ref=e514]:
+                - generic [ref=e516]: 知乎专栏
+                - generic [ref=e518]: https://zhuanlan.zhihu.com › ...
+            - generic [ref=e519]:
+              - generic [ref=e520]: ·
+              - link "Translate this page" [ref=e521] [cursor=pointer]:
+                - /url: https://zhuanlan.zhihu.com/p/2026622473097978502
+            - button "About this result" [ref=e522] [cursor=pointer]:
+              - img [ref=e525]
+          - generic [ref=e528]:
+            - generic [ref=e529]: 3 days ago —
+            - generic [ref=e530]:
+              - text: 与传统的AI 聊天机器人或IDE 绑定的代码补全工具不同，
+              - emphasis [ref=e531]: Hermes Agent
+              - text: 是一个运行在用户服务器上的自主智能体，具有持久记忆和自我改进能力，能够在运行过程中 ...
+            - link "Read more" [ref=e532] [cursor=pointer]:
+              - /url: https://zhuanlan.zhihu.com/p/2026622473097978502#:~:text=%E4%B8%8E%E4%BC%A0%E7%BB%9F%E7%9A%84AI%20%E8%81%8A%E5%A4%A9%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%88%96IDE%20%E7%BB%91%E5%AE%9A%E7%9A%84%E4%BB%A3%E7%A0%81%E8%A1%A5%E5%85%A8%E5%B7%A5%E5%85%B7%E4%B8%8D%E5%90%8C%EF%BC%8CHermes%20Agent%20%E6%98%AF%E4%B8%80%E4%B8%AA%E8%BF%90%E8%A1%8C%E5%9C%A8%E7%94%A8%E6%88%B7%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E7%9A%84%E8%87%AA%E4%B8%BB%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%8C%E5%85%B7%E6%9C%89%E6%8C%81%E4%B9%85%E8%AE%B0%E5%BF%86%E5%92%8C%E8%87%AA%E6%88%91%E6%94%B9%E8%BF%9B%E8%83%BD%E5%8A%9B%EF%BC%8C%E8%83%BD%E5%A4%9F%E5%9C%A8%E8%BF%90%E8%A1%8C%E8%BF%87%E7%A8%8B%E4%B8%AD%E4%B8%8D%E6%96%AD%E5%AD%A6%E4%B9%A0%E5%92%8C%E8%BF%9B%E5%8C%96%E3%80%82
+          - generic [ref=e534]: "Missing: vs ‎评测"
+        - generic [ref=e538]:
+          - generic [ref=e541]:
+            - link "Hermes Agent vs OpenClaw：我花了一周对比，说说真实感受 CSDN https://gitcode.csdn.net › ..." [ref=e543] [cursor=pointer]:
+              - /url: https://gitcode.csdn.net/69d84e2354b52172bc681e5b.html
+              - heading "Hermes Agent vs OpenClaw：我花了一周对比，说说真实感受" [level=3] [ref=e544]
+              - generic [ref=e549]:
+                - generic [ref=e551]: CSDN
+                - generic [ref=e553]: https://gitcode.csdn.net › ...
+            - generic [ref=e554]:
+              - generic [ref=e555]: ·
+              - link "Translate this page" [ref=e556] [cursor=pointer]:
+                - /url: https://gitcode.csdn.net/69d84e2354b52172bc681e5b.html
+            - button "About this result" [ref=e557] [cursor=pointer]:
+              - img [ref=e560]
+          - generic [ref=e563]:
+            - generic [ref=e564]: 5 days ago —
+            - generic [ref=e565]:
+              - emphasis [ref=e566]: Hermes Agent 的核心卖点是"会自己变聪明
+              - text: "\"——完成任务后会自动提炼技能、积累记忆，用得越久越好用。OpenClaw 的核心卖点是\"生态大\"——50+ 平台接入、13000+ ..."
+            - link "Read more" [ref=e567] [cursor=pointer]:
+              - /url: https://gitcode.csdn.net/69d84e2354b52172bc681e5b.html#:~:text=Hermes%20Agent%20%E7%9A%84%E6%A0%B8%E5%BF%83%E5%8D%96%E7%82%B9%E6%98%AF%22%E4%BC%9A%E8%87%AA%E5%B7%B1%E5%8F%98%E8%81%AA%E6%98%8E%22%E2%80%94%E2%80%94%E5%AE%8C%E6%88%90%E4%BB%BB%E5%8A%A1%E5%90%8E%E4%BC%9A%E8%87%AA%E5%8A%A8%E6%8F%90%E7%82%BC%E6%8A%80%E8%83%BD%E3%80%81%E7%A7%AF%E7%B4%AF%E8%AE%B0%E5%BF%86%EF%BC%8C%E7%94%A8%E5%BE%97%E8%B6%8A%E4%B9%85%E8%B6%8A%E5%A5%BD%E7%94%A8%E3%80%82OpenClaw%20%E7%9A%84%E6%A0%B8%E5%BF%83%E5%8D%96%E7%82%B9%E6%98%AF%22%E7%94%9F%E6%80%81%E5%A4%A7%22%E2%80%94%E2%80%9450%2B%20%E5%B9%B3%E5%8F%B0%E6%8E%A5%E5%85%A5%E3%80%8113000%2B,%E7%A4%BE%E5%8C%BA%E6%8A%80%E8%83%BD%EF%BC%8C%E5%BC%80%E7%AE%B1%E5%8D%B3%E7%94%A8%E3%80%82
+          - generic [ref=e569]:
+            - text: "Missing: 评测 ‎| Show results with:"
+            - link "评测" [ref=e570] [cursor=pointer]:
+              - /url: /search?sca_esv=b23efcb65468375a&q=Hermes+Agent+vs+OpenClaw+%E5%AF%B9%E6%AF%94+%22%E8%AF%84%E6%B5%8B%22&sa=X&ved=2ahUKEwjltKDR8e-TAxU-2ckDHZufA-4Q5t4CegQIRhAB
+        - generic [ref=e574]:
+          - generic [ref=e577]:
+            - link "Hermes Agent彻底评测：你的AI分身会偷偷自我进化 高效码农 https://www.xugj520.cn › archives" [ref=e579] [cursor=pointer]:
+              - /url: https://www.xugj520.cn/archives/hermes-agent-openclaw-self-evolving-ai.html
+              - heading "Hermes Agent彻底评测：你的AI分身会偷偷自我进化" [level=3] [ref=e580]
+              - generic [ref=e585]:
+                - generic [ref=e587]: 高效码农
+                - generic [ref=e589]: https://www.xugj520.cn › archives
+            - generic [ref=e590]:
+              - generic [ref=e591]: ·
+              - link "Translate this page" [ref=e592] [cursor=pointer]:
+                - /url: https://www.xugj520.cn/archives/hermes-agent-openclaw-self-evolving-ai.html
+            - button "About this result" [ref=e593] [cursor=pointer]:
+              - img [ref=e596]
+          - generic [ref=e599]:
+            - generic [ref=e600]: 7 days ago —
+            - generic [ref=e601]:
+              - text: 这篇文章将基于官方发布的信息，为你全面解析
+              - emphasis [ref=e602]: Hermes Agent
+              - text: 到底是什么、它与另一款知名工具
+              - emphasis [ref=e603]: OpenClaw
+              - text: 有何不同，以及如何从零开始安装和使用它。如果你对长期 ...
+            - link "Read more" [ref=e604] [cursor=pointer]:
+              - /url: https://www.xugj520.cn/archives/hermes-agent-openclaw-self-evolving-ai.html#:~:text=%E8%BF%99%E7%AF%87%E6%96%87%E7%AB%A0%E5%B0%86%E5%9F%BA%E4%BA%8E%E5%AE%98%E6%96%B9%E5%8F%91%E5%B8%83%E7%9A%84%E4%BF%A1%E6%81%AF%EF%BC%8C%E4%B8%BA%E4%BD%A0%E5%85%A8%E9%9D%A2%E8%A7%A3%E6%9E%90Hermes%20Agent%20%E5%88%B0%E5%BA%95%E6%98%AF%E4%BB%80%E4%B9%88%E3%80%81%E5%AE%83%E4%B8%8E%E5%8F%A6%E4%B8%80%E6%AC%BE%E7%9F%A5%E5%90%8D%E5%B7%A5%E5%85%B7OpenClaw%20%E6%9C%89%E4%BD%95%E4%B8%8D%E5%90%8C%EF%BC%8C%E4%BB%A5%E5%8F%8A%E5%A6%82%E4%BD%95%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8%E5%AE%83%E3%80%82%E5%A6%82%E6%9E%9C%E4%BD%A0%E5%AF%B9%E9%95%BF%E6%9C%9F%E3%80%81%E4%B8%AA%E6%80%A7%E5%8C%96%E7%9A%84AI%20%E5%8A%A9%E6%89%8B%E6%84%9F%E5%85%B4%E8%B6%A3%EF%BC%8C%E8%BF%99%E7%AF%87%E6%96%87%E7%AB%A0%E6%88%96%E8%AE%B8%E8%83%BD%E4%B8%BA%E4%BD%A0%E6%8F%90%E4%BE%9B%E4%B8%80%E4%B8%AA%E5%AE%9E%E7%94%A8%E7%9A%84%E8%B5%B7%E7%82%B9%E3%80%82
+      - navigation [ref=e607]:
+        - heading "Page navigation" [level=1] [ref=e608]
+        - text: "1"
+        - link "Page 2" [ref=e611] [cursor=pointer]:
+          - /url: /search?q=Hermes+Agent+vs+OpenClaw+%E5%AF%B9%E6%AF%94+%E8%AF%84%E6%B5%8B&sca_esv=b23efcb65468375a&ei=mojfaeX_IL6yp84Pm7-O8A4&start=10&sa=N&sstk=Af77f_cFfzJTvYSzkD-XdU3h-MIPSyy14WY1G9kispxVEuYi37mJtwVAyGR8Y1hO2UVaa54gH0FH5c05h9TOrtxEhOl8snXm0eV-Tw&ved=2ahUKEwjltKDR8e-TAxU-2ckDHZufA-4Q8tMDegQIOBAE
+          - text: "2"
+        - link "Page 3" [ref=e613] [cursor=pointer]:
+          - /url: /search?q=Hermes+Agent+vs+OpenClaw+%E5%AF%B9%E6%AF%94+%E8%AF%84%E6%B5%8B&sca_esv=b23efcb65468375a&ei=mojfaeX_IL6yp84Pm7-O8A4&start=20&sa=N&sstk=Af77f_cFfzJTvYSzkD-XdU3h-MIPSyy14WY1G9kispxVEuYi37mJtwVAyGR8Y1hO2UVaa54gH0FH5c05h9TOrtxEhOl8snXm0eV-Tw&ved=2ahUKEwjltKDR8e-TAxU-2ckDHZufA-4Q8tMDegQIOBAG
+          - text: "3"
+        - link "Page 4" [ref=e615] [cursor=pointer]:
+          - /url: /search?q=Hermes+Agent+vs+OpenClaw+%E5%AF%B9%E6%AF%94+%E8%AF%84%E6%B5%8B&sca_esv=b23efcb65468375a&ei=mojfaeX_IL6yp84Pm7-O8A4&start=30&sa=N&sstk=Af77f_cFfzJTvYSzkD-XdU3h-MIPSyy14WY1G9kispxVEuYi37mJtwVAyGR8Y1hO2UVaa54gH0FH5c05h9TOrtxEhOl8snXm0eV-Tw&ved=2ahUKEwjltKDR8e-TAxU-2ckDHZufA-4Q8tMDegQIOBAI
+          - text: "4"
+        - link "Page 5" [ref=e617] [cursor=pointer]:
+          - /url: /search?q=Hermes+Agent+vs+OpenClaw+%E5%AF%B9%E6%AF%94+%E8%AF%84%E6%B5%8B&sca_esv=b23efcb65468375a&ei=mojfaeX_IL6yp84Pm7-O8A4&start=40&sa=N&sstk=Af77f_cFfzJTvYSzkD-XdU3h-MIPSyy14WY1G9kispxVEuYi37mJtwVAyGR8Y1hO2UVaa54gH0FH5c05h9TOrtxEhOl8snXm0eV-Tw&ved=2ahUKEwjltKDR8e-TAxU-2ckDHZufA-4Q8tMDegQIOBAK
+          - text: "5"
+        - link "Page 6" [ref=e619] [cursor=pointer]:
+          - /url: /search?q=Hermes+Agent+vs+OpenClaw+%E5%AF%B9%E6%AF%94+%E8%AF%84%E6%B5%8B&sca_esv=b23efcb65468375a&ei=mojfaeX_IL6yp84Pm7-O8A4&start=50&sa=N&sstk=Af77f_cFfzJTvYSzkD-XdU3h-MIPSyy14WY1G9kispxVEuYi37mJtwVAyGR8Y1hO2UVaa54gH0FH5c05h9TOrtxEhOl8snXm0eV-Tw&ved=2ahUKEwjltKDR8e-TAxU-2ckDHZufA-4Q8tMDegQIOBAM
+          - text: "6"
+        - link "Page 7" [ref=e621] [cursor=pointer]:
+          - /url: /search?q=Hermes+Agent+vs+OpenClaw+%E5%AF%B9%E6%AF%94+%E8%AF%84%E6%B5%8B&sca_esv=b23efcb65468375a&ei=mojfaeX_IL6yp84Pm7-O8A4&start=60&sa=N&sstk=Af77f_cFfzJTvYSzkD-XdU3h-MIPSyy14WY1G9kispxVEuYi37mJtwVAyGR8Y1hO2UVaa54gH0FH5c05h9TOrtxEhOl8snXm0eV-Tw&ved=2ahUKEwjltKDR8e-TAxU-2ckDHZufA-4Q8tMDegQIOBAO
+          - text: "7"
+        - link "Page 8" [ref=e623] [cursor=pointer]:
+          - /url: /search?q=Hermes+Agent+vs+OpenClaw+%E5%AF%B9%E6%AF%94+%E8%AF%84%E6%B5%8B&sca_esv=b23efcb65468375a&ei=mojfaeX_IL6yp84Pm7-O8A4&start=70&sa=N&sstk=Af77f_cFfzJTvYSzkD-XdU3h-MIPSyy14WY1G9kispxVEuYi37mJtwVAyGR8Y1hO2UVaa54gH0FH5c05h9TOrtxEhOl8snXm0eV-Tw&ved=2ahUKEwjltKDR8e-TAxU-2ckDHZufA-4Q8tMDegQIOBAQ
+          - text: "8"
+        - link "Page 9" [ref=e625] [cursor=pointer]:
+          - /url: /search?q=Hermes+Agent+vs+OpenClaw+%E5%AF%B9%E6%AF%94+%E8%AF%84%E6%B5%8B&sca_esv=b23efcb65468375a&ei=mojfaeX_IL6yp84Pm7-O8A4&start=80&sa=N&sstk=Af77f_cFfzJTvYSzkD-XdU3h-MIPSyy14WY1G9kispxVEuYi37mJtwVAyGR8Y1hO2UVaa54gH0FH5c05h9TOrtxEhOl8snXm0eV-Tw&ved=2ahUKEwjltKDR8e-TAxU-2ckDHZufA-4Q8tMDegQIOBAS
+          - text: "9"
+        - link "Page 10" [ref=e627] [cursor=pointer]:
+          - /url: /search?q=Hermes+Agent+vs+OpenClaw+%E5%AF%B9%E6%AF%94+%E8%AF%84%E6%B5%8B&sca_esv=b23efcb65468375a&ei=mojfaeX_IL6yp84Pm7-O8A4&start=90&sa=N&sstk=Af77f_cFfzJTvYSzkD-XdU3h-MIPSyy14WY1G9kispxVEuYi37mJtwVAyGR8Y1hO2UVaa54gH0FH5c05h9TOrtxEhOl8snXm0eV-Tw&ved=2ahUKEwjltKDR8e-TAxU-2ckDHZufA-4Q8tMDegQIOBAU
+          - text: "10"
+        - heading "Next" [level=2] [ref=e629]:
+          - link "Next" [ref=e630] [cursor=pointer]:
+            - /url: /search?q=Hermes+Agent+vs+OpenClaw+%E5%AF%B9%E6%AF%94+%E8%AF%84%E6%B5%8B&sca_esv=b23efcb65468375a&ei=mojfaeX_IL6yp84Pm7-O8A4&start=10&sa=N&sstk=Af77f_cFfzJTvYSzkD-XdU3h-MIPSyy14WY1G9kispxVEuYi37mJtwVAyGR8Y1hO2UVaa54gH0FH5c05h9TOrtxEhOl8snXm0eV-Tw&ved=2ahUKEwjltKDR8e-TAxU-2ckDHZufA-4Q8NMDegQIOBAW
+            - generic [ref=e632]: Next
+      - navigation
+    - contentinfo [ref=e633]:
+      - heading "Footer links" [level=1] [ref=e634]
+      - generic [ref=e638]:
+        - generic [ref=e640]:
+          - text: Singapore
+          - generic [ref=e642]:
+            - button "Singapore - From your IP address" [ref=e644] [cursor=pointer]:
+              - generic [ref=e645]: Singapore
+              - generic [ref=e647]:
+                - text: "-"
+                - generic [ref=e648]: From your IP address
+            - text: "-"
+            - button "Update location" [ref=e650] [cursor=pointer]: Update location
+        - generic [ref=e653]:
+          - link "Help" [ref=e654] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-SG&fg=1
+          - link "Send feedback" [ref=e655] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e656] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-SG&fg=1
+          - link "Terms" [ref=e657] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-SG&fg=1
