@@ -1,0 +1,121 @@
+version: '3.8'
+
+services:
+  # PostgreSQL 15 - 主业务数据库
+  postgres:
+    image: postgres:15
+    container_name: baoke-tong-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: baoke_tong
+      POSTGRES_USER: baoke
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-baoke_tong_dev_password}
+      PGDATA: /var/lib/postgresql/data/pgdata
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./sql/init.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U baoke -d baoke_tong"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - baoke-tong-network
+
+  # Redis 7 - 缓存和会话存储
+  redis:
+    image: redis:7-alpine
+    container_name: baoke-tong-redis
+    restart: unless-stopped
+    command: redis-server --appendonly yes --requirepass ${REDIS_PASSWORD:-baoke_tong_redis_password}
+    ports:
+      - "${REDIS_PORT:-6379}:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "--raw", "incr", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - baoke-tong-network
+
+  # Qdrant 1.7 - 向量数据库（客户画像检索）
+  qdrant:
+    image: qdrant/qdrant:v1.7.0
+    container_name: baoke-tong-qdrant
+    restart: unless-stopped
+    ports:
+      - "${QDRANT_PORT:-6333}:6333"
+      - "6334:6334"
+    volumes:
+      - qdrant_data:/qdrant/storage
+    environment:
+      - QDRANT__SERVICE__GRPC_PORT=6334
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://localhost:6333/"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - baoke-tong-network
+
+  # 保客通后端服务
+  backend:
+    build:
+      context: ..
+      dockerfile: infra/Dockerfile.backend
+    container_name: baoke-tong-backend
+    restart: unless-stopped
+    environment:
+      # 数据库配置
+      DATABASE_URL: postgresql://baoke:${POSTGRES_PASSWORD:-baoke_tong_dev_password}@postgres:5432/baoke_tong
+      REDIS_URL: redis://:${REDIS_PASSWORD:-baoke_tong_redis_password}@redis:6379/0
+      QDRANT_URL: http://qdrant:6333
+
+      # AI 模型配置
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      OLLAMA_BASE_URL: ${OLLAMA_BASE_URL:-http://host.docker.internal:11434}
+
+      # 应用配置
+      APP_ENV: ${APP_ENV:-development}
+      SECRET_KEY: ${SECRET_KEY:-baoke_tong_secret_key_change_in_production}
+      ENCRYPTION_KEY: ${ENCRYPTION_KEY:-baoke_tong_encryption_key_32bytes!}
+
+      # 多租户配置
+      DEFAULT_TENANT_ID: ${DEFAULT_TENANT_ID:-00000000-0000-0000-0000-000000000000}
+    ports:
+      - "${BACKEND_PORT:-8000}:8000"
+    volumes:
+      - ../baoke_tong:/app/baoke_tong
+      - ../api:/app/api
+      - ../models:/app/models
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      qdrant:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    networks:
+      - baoke-tong-network
+
+volumes:
+  postgres_data:
+    driver: local
+  redis_data:
+    driver: local
+  qdrant_data:
+    driver: local
+
+networks:
+  baoke-tong-network:
+    driver: bridge
