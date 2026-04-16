@@ -1,0 +1,266 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+    - generic [ref=e4]: Skip to main content
+  - generic [ref=e6]:
+    - generic:
+      - banner [ref=e9]:
+        - navigation [ref=e10]:
+          - link "Home" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - img [ref=e16]
+          - search [ref=e32]:
+            - generic [ref=e34]:
+              - img [ref=e37]
+              - generic "Remove r/LocalLLaMA filter and expand search to all of Reddit" [ref=e40] [cursor=pointer]:
+                - button [pressed] [ref=e41]:
+                  - generic [ref=e45]: r/LocalLLaMA
+                  - img [ref=e47]
+              - textbox "Remove r/LocalLLaMA filter and expand search to all of Reddit" [ref=e50]:
+                - /placeholder: Search in r/LocalLLaMA
+          - generic [ref=e51]:
+            - button "Get App" [ref=e56] [cursor=pointer]:
+              - generic [ref=e57]:
+                - img [ref=e59]
+                - generic [ref=e61]: Get App
+            - link "Log In" [ref=e65] [cursor=pointer]:
+              - /url: https://www.reddit.com/login/
+              - generic [ref=e67]: Log In
+            - button "Expand user menu" [ref=e72] [cursor=pointer]:
+              - img [ref=e75]
+              - generic [ref=e77]:
+                - generic: Expand user menu
+      - generic [ref=e78]:
+        - generic [ref=e81]:
+          - main [ref=e82]:
+            - 'generic "OpenClaw has 250K GitHub stars. The only reliable use case I''ve found is daily news digests. : r/LocalLLaMA"'
+            - generic [ref=e83]:
+              - generic [ref=e84]:
+                - generic [ref=e85]:
+                  - button "Back" [ref=e87] [cursor=pointer]:
+                    - img [ref=e90]
+                    - generic [ref=e92]:
+                      - generic: Back
+                  - link "Go to LocalLLaMA" [ref=e95] [cursor=pointer]:
+                    - /url: /r/LocalLLaMA/
+                    - generic [ref=e99]:
+                      - generic: Go to LocalLLaMA
+                  - group [ref=e100]:
+                    - generic [ref=e101]:
+                      - link "r/LocalLLaMA" [ref=e104] [cursor=pointer]:
+                        - /url: /r/LocalLLaMA/
+                      - generic [ref=e105]: •
+                      - time [ref=e106]: 2d ago
+                    - 'link "Author: Sad_Bandicoot_6925" [ref=e111] [cursor=pointer]':
+                      - /url: /user/Sad_Bandicoot_6925/
+                      - text: Sad_Bandicoot_6925
+                - button "Open user actions" [ref=e114] [cursor=pointer]:
+                  - img [ref=e117]
+              - 'heading "Post Title: OpenClaw has 250K GitHub stars. The only reliable use case I''ve found is daily news digests." [level=1] [ref=e121]': OpenClaw has 250K GitHub stars. The only reliable use case I've found is daily news digests.
+              - generic [ref=e124]:
+                - generic [ref=e125]:
+                  - paragraph [ref=e126]: So I run cloud infra where people spin up Linux VMs. We made a video a while back showing how to deploy OpenClaw on an isolated VM in like 7 minutes, and it kind of took off. We've had roughly a thousand OpenClaw deploys since then.
+                  - paragraph [ref=e127]: I've also talked to a bunch of people in my network who went all in on OpenClaw - not weekend tinkerers, people who spent weeks trying to make it actually useful. Engineers, founders, people who really wanted this to work.
+                  - paragraph [ref=e128]: "Here’s what I found: there are zero legitimate use cases."
+                  - paragraph [ref=e129]: Not saying that OpenClaw is fake - it's a real piece of software. It installs. It runs. It connects to your messaging apps. It can talk to Claude and GPT. It can execute shell commands. The technology exists.
+                  - paragraph [ref=e130]: But when I looked at what people are actually doing with it - across our thousand deploys, across conversations with my network, across the flood of LinkedIn and Twitter posts - I couldn’t find a single use case that holds up under scrutiny.
+                  - paragraph [ref=e131]: "The core issue is: Memory, and everything else flows from it."
+                  - paragraph [ref=e132]: OpenClaw runs as a persistent agent. It’s supposed to be your always-on assistant. But its memory is unreliable, and the worst part - you don’t know when it will break.
+                  - paragraph [ref=e133]: Like say you're planning a birthday party. Three people said yes, one said no. You ask OpenClaw to send an update email. It's been following the whole thread, it has the context - except it forgot that one person declined. Now everyone gets wrong info and you didn't catch it because the whole point was that you're not supposed to be checking every single output.
+                  - paragraph [ref=e134]: An autonomous agent that you have to verify every time is just a chatbot with extra steps.
+                  - paragraph [ref=e135]: This isn’t a bug that gets fixed in the next release. It’s a fundamental constraint of how OpenClaw manages context. The agent runs, the context fills up, things get forgotten. Sometimes the important things. You’ll never know which things until after the damage is done.
+                  - paragraph [ref=e136]: After going through everything I could find - our deploy data, user conversations, posts online - the only use case that genuinely works is daily news summaries. OpenClaw searches the web for topics you care about, summarizes them, and sends the summary to you on WhatsApp every morning.
+                  - paragraph [ref=e137]: That’s it. That’s the killer app.
+                  - paragraph [ref=e138]: Which like... fine, a personalized morning briefing is nice. But you can do that with a cron job and any LLM API. Or ChatGPT scheduled tasks. Or Zapier. You don't need a full autonomous agent with root access on a dedicated server to get a news digest.
+                  - paragraph [ref=e139]: Not calling anyone out but I've dug into a lot of the "I automated my entire team with OpenClaw" posts. Every time it's one of two things - either what they built could already be done with normal AI tools (Claude, ChatGPT, whatever), or it's a demo that technically works once but nobody would actually rely on for real work. OpenClaw content gets engagement right now so people make OpenClaw content. That doesn't mean the use cases are real.
+                  - paragraph [ref=e140]:
+                    - strong [ref=e141]: So should you bother?
+                  - paragraph [ref=e142]: Here’s my honest take. If you have a weekend to spare and you enjoy tinkering with new technology, OpenClaw is a fascinating experiment.
+                  - paragraph [ref=e143]: The ideas are right. Agents doing real stuff on real computers is where things are going. But the execution isn't there. Until memory actually works reliably the rest is mostly theater.
+                - button "Read more" [ref=e144] [cursor=pointer]:
+                  - text: Read more
+                  - img [ref=e146]
+              - generic [ref=e148]:
+                - img [ref=e149]
+                - generic [ref=e151]: "830"
+                - img [ref=e152]
+                - generic [ref=e154]: ·
+                - img [ref=e155]
+                - generic [ref=e157]: "327"
+            - img [ref=e162]
+          - generic [ref=e175]:
+            - generic [ref=e176]:
+              - complementary [ref=e179]:
+                - generic [ref=e180]:
+                  - generic [ref=e181]: New to Reddit?
+                  - paragraph [ref=e182]: Create your account and connect with a world of communities.
+                - generic [ref=e183]:
+                  - iframe [ref=e192]:
+                    - button "Continue with Google. Opens in new tab" [ref=f10e3] [cursor=pointer]:
+                      - generic [ref=f10e5]:
+                        - img [ref=f10e7]
+                        - generic [ref=f10e14]: Continue with Google
+                  - link "Continue with Email" [ref=e194] [cursor=pointer]:
+                    - /url: https://www.reddit.com/register/
+                    - generic [ref=e197]:
+                      - img [ref=e198]
+                      - generic [ref=e200]: Continue with Email
+                - link "Continue With Phone Number" [ref=e203] [cursor=pointer]:
+                  - /url: https://www.reddit.com/login/
+                  - generic [ref=e206]:
+                    - img [ref=e207]
+                    - generic [ref=e210]: Continue With Phone Number
+                - generic [ref=e211]:
+                  - text: By continuing, you agree to our
+                  - link "User Agreement" [ref=e212] [cursor=pointer]:
+                    - /url: https://www.redditinc.com/policies/user-agreement
+                  - text: and acknowledge that you understand the
+                  - link "Privacy Policy" [ref=e213] [cursor=pointer]:
+                    - /url: https://www.redditinc.com/policies/privacy-policy
+                  - text: .
+              - complementary "Related Answers Section" [ref=e215]:
+                - heading "Related Answers Section" [level=1] [ref=e216]
+                - generic [ref=e217]:
+                  - img [ref=e219]
+                  - generic [ref=e221]: Related Answers
+                - generic [ref=e222]:
+                  - generic [ref=e224]:
+                    - generic [ref=e225]:
+                      - generic [ref=e226]: Best practices for hosting LLaMA locally
+                      - generic [ref=e227]:
+                        - paragraph [ref=e228]:
+                          - text: To host LLaMA locally effectively, prioritize
+                          - strong [ref=e229]: sufficient RAM and a powerful GPU
+                          - text: for optimal performance, and consider
+                          - strong [ref=e230]: Ollama or LM Studio for simplified setup
+                          - text: .
+                        - heading "Hardware Considerations" [level=3] [ref=e231]
+                        - list [ref=e232]:
+                          - listitem [ref=e233]:
+                            - paragraph [ref=e234]:
+                              - strong [ref=e235]: RAM is Crucial
+                              - text: ": You need a significant amount of RAM, with 16GB+ being a minimum, as smaller models (7B and under) are much faster for quick tasks."
+                              - link "\"Main gotcha is RAM - you really want 16GB+ or it'll crawl.\"" [ref=e236] [cursor=pointer]:
+                                - /url: https://www.reddit.com/r/LocalLLaMA/comments/1qrvx16/comment/o2r5mbj/
+                                - text: "\"Main gotcha is RAM - you really want 16GB+ or it'll crawl.\""
+                                - img [ref=e238]
+                          - listitem [ref=e240]:
+                            - paragraph [ref=e241]:
+                              - strong [ref=e242]: GPU for Speed
+                              - text: ": A dedicated GPU is highly recommended, as CPU-only inference can be"
+                              - link "\"painfully slow, even for a single user.\"" [ref=e243] [cursor=pointer]:
+                                - /url: https://www.reddit.com/r/LocalLLaMA/comments/1iobld4/comment/mcifa6r/
+                                - text: "\"painfully slow, even for a single user.\""
+                                - img [ref=e245]
+                          - listitem [ref=e247]:
+                            - paragraph [ref=e248]:
+                              - strong [ref=e249]: Mac vs. PC
+                              - text: ": Apple Silicon Macs with 32GB RAM or Strix Halo mini PCs are suggested for home use, as LM Studio works well on both AMD and Mac."
+                              - link "\"LM Studio is really easy to setup, easier than Ollama. It also works well on AMD and Mac. Hardware wise get a mac mini with maxed out RAM or a Strix Halo mini pc.\"" [ref=e250] [cursor=pointer]:
+                                - /url: https://www.reddit.com/r/LocalLLaMA/comments/1qrvx16/comment/o2r5zik/
+                                - text: "\"LM Studio is really easy to setup, easier than Ollama. It also works well on AMD and Mac. Hardware wise get a mac mini with maxed out RAM or a Strix Halo mini pc.\""
+                                - img [ref=e252]
+                        - heading "Software and Setup" [level=3] [ref=e254]
+                        - list [ref=e255]:
+                          - listitem [ref=e256]:
+                            - paragraph [ref=e257]:
+                              - strong [ref=e258]: Ollama or LM Studio
+                              - text: ": These tools simplify the process of running LLaMA locally."
+                              - link "\"LM Studio is really easy to setup, easier than Ollama.\"" [ref=e259] [cursor=pointer]:
+                                - /url: https://www.reddit.com/r/LocalLLaMA/comments/1qrvx16/comment/o2r5zik/
+                                - text: "\"LM Studio is really easy to setup, easier than Ollama.\""
+                                - img [ref=e261]
+                          - listitem [ref=e263]:
+                            - paragraph [ref=e264]:
+                              - strong [ref=e265]: Context Length Adjustment
+                              - text: ": If using Ollama, increase the default context length (2048) to at least 8192 for more consistent and useful results."
+                              - link "\"the thing that trips people up most with Ollama is the default context -- it's 2048, way too short for anything useful. set OLLAMA_NUM_CTX=8192 at minimum and things get a lot more consistent.\"" [ref=e266] [cursor=pointer]:
+                                - /url: https://www.reddit.com/r/LocalLLaMA/comments/1rgrlzv/comment/o7ummyz/
+                                - text: "\"the thing that trips people up most with Ollama is the default context -- it's 2048, way too short for anything useful. set OLLAMA_NUM_CTX=8192 at minimum and things get a lot more consistent.\""
+                                - img [ref=e268]
+                          - listitem [ref=e270]:
+                            - paragraph [ref=e271]:
+                              - strong [ref=e272]: Model-Specific Prompting
+                              - text: ": Be aware that each model has specific prompting structures; refer to the model documentation for the best results."
+                              - link "\"Have a look at the model documentation. Every model has a particular way of prompting structure.\"" [ref=e273] [cursor=pointer]:
+                                - /url: https://www.reddit.com/r/LocalLLaMA/comments/1rgrlzv/comment/o7tks9o/
+                                - text: "\"Have a look at the model documentation. Every model has a particular way of prompting structure.\""
+                                - img [ref=e275]
+                        - heading "Performance and Expectations" [level=3] [ref=e277]
+                        - list [ref=e278]:
+                          - listitem [ref=e279]:
+                            - paragraph [ref=e280]:
+                              - strong [ref=e281]: Model Size and Performance
+                              - text: ": Smaller models (e.g., 7B-8B) offer better speed for daily tasks, while larger models (e.g., 70B) can be significantly slower."
+                              - link "\"smaller models (7B and under) are way snappier for quick tasks than trying to run the 70B monsters locally\"" [ref=e282] [cursor=pointer]:
+                                - /url: https://www.reddit.com/r/LocalLLaMA/comments/1qrvx16/comment/o2r5mbj/
+                                - text: "\"smaller models (7B and under) are way snappier for quick tasks than trying to run the 70B monsters locally\""
+                                - img [ref=e284]
+                          - listitem [ref=e286]:
+                            - paragraph [ref=e287]:
+                              - strong [ref=e288]: Manage Expectations
+                              - text: ": Local LLMs might not always match the quality of cloud-based services like GPT-4, especially for complex reasoning tasks."
+                              - link "\"I do not expect chatgpt quality, but i at least expected some intelligent answers.\"" [ref=e289] [cursor=pointer]:
+                                - /url: https://www.reddit.com/r/LocalLLaMA/comments/1rgrlzv/is_hosting_a_local_llm_really_as_crappy_of_an/
+                                - text: "\"I do not expect chatgpt quality, but i at least expected some intelligent answers.\""
+                                - img [ref=e291]
+                          - listitem [ref=e293]:
+                            - paragraph [ref=e294]:
+                              - strong [ref=e295]: Hybrid Approach
+                              - text: ": For coding tasks, a hybrid approach combining local models for \"thinking out loud\" and cloud APIs for complex problems can be effective."
+                              - 'link "\"The hybrid approach mentioned above is honestly the sweet spot: local for unlimited \"thinking out loud\" iterations and exploration, cloud API for the complex stuff that needs frontier model capability.\"" [ref=e296] [cursor=pointer]':
+                                - /url: https://www.reddit.com/r/LocalLLM/comments/1qvktbl/comment/o3jubjz/
+                                - text: "\"The hybrid approach mentioned above is honestly the sweet spot: local for unlimited \"thinking out loud\" iterations and exploration, cloud API for the complex stuff that needs frontier model capability.\""
+                                - img [ref=e298]
+                        - paragraph [ref=e300]: Are you interested in recommendations for specific LLaMA models to run locally?
+                    - link "See Answer" [ref=e305] [cursor=pointer]:
+                      - /url: https://www.reddit.com/answers/7a063ef7-15da-4ab0-9b68-a26008e21d00/?q=Best+practices+for+hosting+LLaMA+locally&source=PDP
+                      - generic [ref=e307]: See Answer
+                  - link "Top tools for optimizing AI model performance" [ref=e309] [cursor=pointer]:
+                    - /url: https://www.reddit.com/answers/52c436dc-6bd2-4b0e-a497-bc28daf1f119/?q=Top+tools+for+optimizing+AI+model+performance&source=PDP
+                    - generic [ref=e312]: Top tools for optimizing AI model performance
+                    - img [ref=e315]
+                  - link "How to fine-tune LLaMA for specific tasks" [ref=e318] [cursor=pointer]:
+                    - /url: https://www.reddit.com/answers/0b89c0fd-921f-41a4-ab15-12471e215e1e/?q=How+to+fine-tune+LLaMA+for+specific+tasks&source=PDP
+                    - generic [ref=e321]: How to fine-tune LLaMA for specific tasks
+                    - img [ref=e324]
+                  - link "Common challenges in local AI deployment" [ref=e327] [cursor=pointer]:
+                    - /url: https://www.reddit.com/answers/e150b741-a80b-4704-bc07-e1698b4215e0/?q=Common+challenges+in+local+AI+deployment&source=PDP
+                    - generic [ref=e330]: Common challenges in local AI deployment
+                    - img [ref=e333]
+                  - link "Innovative applications of LLaMA in business" [ref=e336] [cursor=pointer]:
+                    - /url: https://www.reddit.com/answers/54ad6219-0c2a-4e2d-acd6-b00e235e3768/?q=Innovative+applications+of+LLaMA+in+business&source=PDP
+                    - generic [ref=e339]: Innovative applications of LLaMA in business
+                    - img [ref=e342]
+              - complementary "Community information" [ref=e947]:
+                - generic [ref=e949]:
+                  - heading "Community Info Section" [level=1] [ref=e950]
+                  - generic [ref=e951]:
+                    - generic [ref=e952]:
+                      - link "r/LocalLLaMA" [ref=e953] [cursor=pointer]:
+                        - /url: /r/LocalLLaMA/
+                        - generic [ref=e954]: r/LocalLLaMA
+                      - 'button "Community status: https://x.com/localllamasub" [ref=e957] [cursor=pointer]':
+                        - img "Llama" [ref=e958]
+                    - button "Join" [ref=e962] [cursor=pointer]
+                  - generic [ref=e963]:
+                    - generic [ref=e964]: LocalLlama
+                    - generic [ref=e965]: Subreddit to discuss locally hostable AI
+                    - generic [ref=e968]:
+                      - img [ref=e969]
+                      - text: Public
+            - generic [ref=e972]:
+              - link "Reddit Rules" [ref=e975] [cursor=pointer]:
+                - /url: https://www.redditinc.com/policies/content-policy
+              - link "Privacy Policy" [ref=e978] [cursor=pointer]:
+                - /url: https://www.reddit.com/policies/privacy-policy
+              - link "User Agreement" [ref=e981] [cursor=pointer]:
+                - /url: https://www.redditinc.com/policies/user-agreement
+              - link "Accessibility" [ref=e984] [cursor=pointer]:
+                - /url: https://support.reddithelp.com/hc/sections/38303584022676-Accessibility
+              - link "Reddit, Inc. © 2026. All rights reserved." [ref=e986] [cursor=pointer]:
+                - /url: https://redditinc.com
+        - button "Collapse Navigation" [ref=e991] [cursor=pointer]:
+          - img [ref=e994]
+          - generic [ref=e996]:
+            - generic: Collapse Navigation

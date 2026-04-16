@@ -1,128 +1,125 @@
-# TODOS - OpenClaw 企业级 Agent 编排系统
+# TODOS - 保客通 AI+ 保险获客系统
 
-## 安全审计修复 (2026-04-15 CSO Audit)
+## 产品设计完善
 
-### CRITICAL (需立即修复)
-- [ ] #1: Docker Compose 硬编码 Qdrant API Key (docker-compose.yml:45)
-  - 修复：使用 `${QDRANT_API_KEY:-$(openssl rand -hex 16)}`
-- [ ] #2: Docker Compose 硬编码 Milvus token (docker-compose.yml:68)
-  - 修复：使用 `${MILVUS_TOKEN:-changeit_now}`
-- [ ] #3: Docker Compose 硬编码 Postgres 凭证 (docker-compose.yml:95)
-  - 修复：使用 `${POSTGRES_PASSWORD:-$(openssl rand -hex 16)}`
+### Hermes Agent 技能实现
+- [ ] #1: `generate_wechat_copywriting` - 朋友圈文案生成技能
+- [ ] #2: `generate_short_video_script` - 短视频脚本生成技能
+- [ ] #3: `generate_poster_copywriting` - 海报文案生成技能
+- [ ] #4: `analyze_customer_profile` - 客户画像分析技能
+- [ ] #5: `segment_customers` - 客户分层技能
+- [ ] #6: `create_followup_plan` - 跟进计划制定技能
+- [ ] #7: `schedule_automated_message` - 定时消息推送技能
 
-### HIGH (近期修复)
-- [ ] #4: FastAPI 端点无认证机制 (openclaw/api/routes.py:25)
-  - 修复：添加 API Key 认证中间件
-- [ ] #5: CORS 允许所有来源 (openclaw/main.py:32)
-  - 修复：限制为具体域名列表
-
-### MEDIUM (计划修复)
-- [ ] #6: Redis 无密码保护 (docker-compose.yml:110)
-  - 修复：添加 requirepass 配置
-- [ ] #7: LangFuse 公钥/密钥硬编码 (docker-compose.yml:135)
-  - 修复：`openssl rand -hex 32` 生成随机密钥
+### UI 状态矩阵实现
+- [ ] #8: 内容生成模块 5 状态 (Loading/Empty/Success/Error/Partial)
+- [ ] #9: 客户画像模块 5 状态
+- [ ] #10: 自动化跟进模块 5 状态
 
 ---
 
-## 功能完善
+## 技术架构
 
-### LangGraph 状态机
-- [ ] 实现真实的 LLM 调用（当前为 Mock）
-- [ ] 添加更多任务类型支持（数据查询、文档处理、审批流程）
-- [ ] 实现动态任务拆解和并行执行
+### 数据隔离与安全
+- [ ] #11: PostgreSQL RLS (Row-Level Security) 实现
+- [ ] #12: 敏感数据 AES-256 加密 (手机号/身份证/地址)
+- [ ] #13: Redis Cluster 高可用配置
+- [ ] #14: Circuit Breaker 熔断器模式 (AI 调用)
 
-### 50+ 工具库
-- [ ] 消息通知类：企业微信/钉钉/飞书/短信/邮件（10 个）
-- [ ] 数据查询类：MySQL/PostgreSQL/Oracle/MongoDB/Redis/API 通用调用（15 个）
-- [ ] 文档处理类：OCR/PDF 解析/Excel 读取/Word 解析（10 个）
-- [ ] 审批流程类：请假/报销/采购/合同/用印（15 个）
-
-### Harness/Context Engineering
-- [ ] 完善 AGENTS.md 管理器（支持多 Agent 上下文隔离）
-- [ ] 实现 Hooks 生命周期（pre_task/post_task/pre_tool_call/post_tool_call）
-- [ ] 添加 Sub-agent 编排框架
-
-### 低代码配置
-- [ ] 可视化流程编排界面
-- [ ] 工具 Schema 编辑器
-- [ ] Agent 模板配置界面
-- [ ] AI 辅助配置生成
+### AI 调用优化
+- [ ] #15: 混合 AI 部署 (云端 Claude API + 本地 Ollama)
+- [ ] #16: AI 调用超时降级策略
+- [ ] #17: 话术合规审核工作流
 
 ---
 
-## 代码质量
-- [ ] 添加 LangGraph 状态机单元测试
-- [ ] 添加工具注册集成测试
-- [ ] 添加 Hooks 框架端到端测试
-- [ ] 添加 FastAPI 接口测试
+## 功能开发
+
+### MVP 功能 (P0)
+- [ ] #18: 朋友圈文案生成 (Web + 小程序)
+- [ ] #19: 短视频脚本生成
+- [ ] #20: 客户标签管理
+- [ ] #21: 客户分层分析
+- [ ] #22: 跟进计划制定
+- [ ] #23: 定时消息推送
+
+### V2 功能 (P1)
+- [ ] #24: 海报文案生成
+- [ ] #25: 话术模板库 (100+ 模板)
+- [ ] #26: 需求预测 AI
+- [ ] #27: 相似客户向量检索
+- [ ] #28: 跟进逾期提醒
+- [ ] #29: 获客效果分析面板
+- [ ] #30: A/B 测试功能
+
+---
+
+## 多端适配
+
+- [ ] #31: Web 端 (H5/PC) 基础框架
+- [ ] #32: 微信小程序适配
+- [ ] #33: iOS App (uni-app x)
+- [ ] #34: Android App (uni-app x)
+- [ ] #35: 鸿蒙 App (uni-app x)
+- [ ] #36: 平板横屏布局适配
+
+---
+
+## 测试策略
+
+### 单元测试 (pytest)
+- [ ] #37: 内容生成技能测试
+- [ ] #38: 客户分析技能测试
+- [ ] #39: 跟进管理技能测试
+- [ ] #40: 数据隔离测试 (租户 A 不可见租户 B 数据)
+
+### 集成测试 (Testcontainers)
+- [ ] #41: PostgreSQL 集成测试
+- [ ] #42: Redis 集成测试
+- [ ] #43: Qdrant 向量检索测试
+
+### E2E 测试 (Playwright)
+- [ ] #44: 主流程测试 (生成文案→发送→跟进)
+- [ ] #45: 小程序端到端测试
+
+---
+
+## 合规与审计
+
+- [ ] #46: 话术敏感词过滤
+- [ ] #47: 合规模型审核 (AI 语义分析)
+- [ ] #48: 审计日志记录 (所有 AI 生成操作)
+- [ ] #49: 微信小程序资质申请
 
 ---
 
 ## 文档
-- [ ] 补充 API 接口文档（OpenAPI/Swagger）
-- [ ] 编写部署指南（Docker Compose / Kubernetes）
-- [ ] 添加面试演示脚本
-- [ ] 编写工具接入指南
+
+- [ ] #50: API 接口文档 (OpenAPI/Swagger)
+- [ ] #51: 部署指南 (Docker Compose)
+- [ ] #52: 面试演示脚本
+- [ ] #53: 用户操作手册
 
 ---
 
-## 性能优化
-- [ ] 工具调用并发执行（asyncio.gather）
-- [ ] 向量检索缓存（Redis 缓存 Top-K 结果）
-- [ ] LangGraph 状态序列化优化（支持断点续传）
-
----
-
-## 可观测性
-- [ ] 集成 LangFuse 链路追踪
-- [ ] 添加自定义指标（工具调用次数、成功率、延迟）
-- [ ] 实现 Trace 可视化查询
-
----
-
-## 软件全生命周期流程说明（从 EHS 项目复制）
+## 软件全生命周期流程说明
 
 ### 已完成的生命周期文档
 
-本项目已从 EHS 智能安保决策中台项目完整复制软件全生命周期流程和坑点：
-
-| 文档 | 路径 | 说明 | 对应 EHS 文档 |
-|------|------|------|--------------|
-| Design Spec | `docs/plans/2026-04-15-openclaw-design.md` | 技术可行性、边界条件、风险识别 | `ehs-interview/docs/plans/2026-04-13-ehs-design.md` |
-| Implementation Plan | `docs/plans/2026-04-15-openclaw-implementation-plan.md` | 9 阶段实施计划 | `ehs-interview/docs/superpowers/plans/2026-04-13-ehs-implementation-plan.md` |
-| TODOS.md | `TODOS.md` | 安全审计发现 + 功能待办 | `ehs-interview/TODOS.md` |
-| 面试 Q&A | `docs/interview/openclaw-qna.md` | 与 resume.md 对应的面试问答 | `ehs-interview/docs/interview/ehs-qna.md` |
-| 演示脚本 | `docs/interview/demo-script.md` | 15-20 分钟面试演示流程 | `ehs-interview/docs/interview/demo-script.md` |
-| CHANGELOG | `CHANGELOG.md` | v0.1.0.0 交付清单 | `ehs-interview/CHANGELOG.md` |
+| 文档 | 路径 | 说明 |
+|------|------|------|
+| Design Spec | `docs/plans/2026-04-15-baoke-tong-design.md` | 技术可行性、边界条件、风险识别 |
+| Implementation Plan | `docs/plans/2026-04-15-baoke-tong-plan.md` | 9 阶段实施计划 |
+| TODOS.md | `TODOS.md` | 产品待办 + 技术待办 |
+| 面试 Q&A | `docs/interview/baoke-tong-qna.md` | 与 resume.md 对应的面试问答 |
+| 演示脚本 | `docs/interview/demo-script.md` | 15-20 分钟面试演示流程 |
 
 ### Superpowers + gstack 工作流程
 
-本项目采用与 EHS 相同的 6 阶段工作流程：
-
 ```
 阶段 0: 需求澄清 → 阶段 1: 计划与审查 → 阶段 2: 隔离环境 → 阶段 3: 编码实现 → 阶段 4: 调试验证 → 阶段 5: 质量门禁 → 阶段 6: 发布
-     ↓                    ↓                     ↓                  ↓                    ↓                   ↓
-  Product Brief      Design Spec          Implementation       Source Code        Test/QA Report    GitHub Release
-  (office-hours)     (brainstorming)      Plan (writing-plans)                     + Security Audit
 ```
-
-### 从 EHS 吸取的关键坑点
-
-1. **安全审计必须在前**：EHS 项目 CSO 审计发现 6 个问题（3 CRITICAL + 2 HIGH + 1 MEDIUM），本项目已在 TODOS.md 中标注
-2. **状态机严格单向流转**：EHS 项目遇到状态污染、循环依赖问题，本项目设计时已避免
-3. **工具 Schema 标准化**：EHS 项目工具接入周期 2 周，本项目通过标准化缩短到 2 小时
-4. **Harness 实践核心能力**：AGENTS.md 持久化、Hooks 生命周期、分层上下文、Sub-agent 编排
-5. **面试文档完整性**：Q&A 与 resume.md 严格对应，所有数据可追溯至代码或生产数据
-
-### 下一步建议
-
-按照 Implementation Plan 执行：
-1. Phase 1: LangGraph 状态机（TDD 测试驱动）
-2. Phase 2: 50+ 工具库实现
-3. Phase 3: Harness/Context Engineering
-4. Phase 4: Docker Compose 基础设施
-5. Phase 5-9: 前端、测试、低代码、可观测性
 
 ---
 
-*Last updated: 2026-04-15*
+*Last updated: 2026-04-16*

@@ -1,0 +1,269 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+    - generic [ref=e4]: Skip to main content
+  - generic [ref=e6]:
+    - generic:
+      - banner [ref=e9]:
+        - navigation [ref=e10]:
+          - link "Home" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - img [ref=e16]
+          - search [ref=e32]:
+            - generic [ref=e34]:
+              - img [ref=e37]
+              - generic "Remove r/LocalLLaMA filter and expand search to all of Reddit" [ref=e40] [cursor=pointer]:
+                - button [pressed] [ref=e41]:
+                  - generic [ref=e45]: r/LocalLLaMA
+                  - img [ref=e47]
+              - textbox "Remove r/LocalLLaMA filter and expand search to all of Reddit Clear search" [ref=e50]:
+                - /placeholder: Search in r/LocalLLaMA
+                - text: Hermes Agent OpenClaw
+              - button "Clear search" [ref=e52] [cursor=pointer]:
+                - img [ref=e55]
+                - generic [ref=e57]:
+                  - generic: Clear search
+          - generic [ref=e58]:
+            - button "Get App" [ref=e63] [cursor=pointer]:
+              - generic [ref=e64]:
+                - img [ref=e66]
+                - generic [ref=e68]: Get App
+            - link "Log In" [ref=e72] [cursor=pointer]:
+              - /url: https://www.reddit.com/login/
+              - generic [ref=e74]: Log In
+            - button "Expand user menu" [ref=e79] [cursor=pointer]:
+              - img [ref=e82]
+              - generic [ref=e84]:
+                - generic: Expand user menu
+      - generic "Hermes Agent OpenClaw - Reddit Search!"
+      - generic [ref=e88]:
+        - generic [ref=e89]:
+          - generic [ref=e91]:
+            - generic [ref=e93]:
+              - button "Posts" [ref=e94] [cursor=pointer]:
+                - generic [ref=e98]: Posts
+              - link "Comments" [ref=e99] [cursor=pointer]:
+                - /url: /r/LocalLLaMA/search/?q=Hermes+Agent+OpenClaw&type=comments
+                - generic [ref=e104]: Comments
+              - link "Media" [ref=e105] [cursor=pointer]:
+                - /url: /r/LocalLLaMA/search/?q=Hermes+Agent+OpenClaw&type=media
+                - generic [ref=e110]: Media
+            - generic [ref=e111]:
+              - button "Relevance" [ref=e115] [cursor=pointer]:
+                - generic [ref=e118]: Relevance
+              - button "All time" [ref=e124] [cursor=pointer]:
+                - generic [ref=e127]: All time
+          - generic [ref=e132]:
+            - main [ref=e133]:
+              - generic [ref=e134]:
+                - paragraph [ref=e137]:
+                  - text: Show results from
+                  - link "all of Reddit" [ref=e139] [cursor=pointer]:
+                    - /url: /search/?q=Hermes+Agent+OpenClaw
+                  - img [ref=e141]
+                - generic [ref=e144]:
+                  - generic:
+                    - heading "Hermes Vs OpenClaw" [level=2]:
+                      - link "Hermes Vs OpenClaw" [ref=e145] [cursor=pointer]:
+                        - /url: /r/LocalLLaMA/comments/1sj7vqt/hermes_vs_openclaw/
+                        - generic [ref=e146]:
+                          - generic: Hermes Vs OpenClaw
+                  - generic [ref=e147]:
+                    - generic [ref=e150]:
+                      - link "r/LocalLLaMA" [ref=e153] [cursor=pointer]:
+                        - /url: /r/LocalLLaMA/
+                        - generic [ref=e157]: r/LocalLLaMA
+                      - generic [ref=e158]: ·
+                      - time [ref=e160]: 3d ago
+                    - link "Hermes Vs OpenClaw" [ref=e161] [cursor=pointer]:
+                      - /url: /r/LocalLLaMA/comments/1sj7vqt/hermes_vs_openclaw/
+                    - generic [ref=e162]:
+                      - generic [ref=e163]:
+                        - generic [ref=e164]: "7"
+                        - text: votes
+                      - text: ·
+                      - generic [ref=e165]:
+                        - generic [ref=e166]: "38"
+                        - text: comments
+                - separator [ref=e167]
+                - generic [ref=e169]:
+                  - generic:
+                    - heading "Anybody who tried Hermes-Agent?" [level=2]:
+                      - link "Anybody who tried Hermes-Agent?" [ref=e170] [cursor=pointer]:
+                        - /url: /r/LocalLLaMA/comments/1ro9lph/anybody_who_tried_hermesagent/
+                        - generic [ref=e171]:
+                          - generic: Anybody who tried Hermes-Agent?
+                  - generic [ref=e172]:
+                    - generic [ref=e175]:
+                      - link "r/LocalLLaMA" [ref=e178] [cursor=pointer]:
+                        - /url: /r/LocalLLaMA/
+                        - generic [ref=e182]: r/LocalLLaMA
+                      - generic [ref=e183]: ·
+                      - time [ref=e185]: 1mo ago
+                    - link "Anybody who tried Hermes-Agent?" [ref=e186] [cursor=pointer]:
+                      - /url: /r/LocalLLaMA/comments/1ro9lph/anybody_who_tried_hermesagent/
+                    - generic [ref=e187]:
+                      - generic [ref=e188]:
+                        - generic [ref=e189]: "38"
+                        - text: votes
+                      - text: ·
+                      - generic [ref=e190]:
+                        - generic [ref=e191]: "67"
+                        - text: comments
+                  - link "Anybody who tried Hermes-Agent? thumbnail image" [ref=e193] [cursor=pointer]:
+                    - /url: /r/LocalLLaMA/comments/1ro9lph/anybody_who_tried_hermesagent/
+                - separator [ref=e198]
+                - generic [ref=e200]:
+                  - generic:
+                    - heading "Hermes vs OpenClaw Browser" [level=2]:
+                      - link "Hermes vs OpenClaw Browser" [ref=e201] [cursor=pointer]:
+                        - /url: /r/LocalLLaMA/comments/1scw53d/hermes_vs_openclaw_browser/
+                        - generic [ref=e202]:
+                          - generic: Hermes vs OpenClaw Browser
+                  - generic [ref=e203]:
+                    - generic [ref=e206]:
+                      - link "r/LocalLLaMA" [ref=e209] [cursor=pointer]:
+                        - /url: /r/LocalLLaMA/
+                        - generic [ref=e213]: r/LocalLLaMA
+                      - generic [ref=e214]: ·
+                      - time [ref=e216]: 10d ago
+                    - link "Hermes vs OpenClaw Browser" [ref=e217] [cursor=pointer]:
+                      - /url: /r/LocalLLaMA/comments/1scw53d/hermes_vs_openclaw_browser/
+                    - generic [ref=e218]:
+                      - generic [ref=e219]:
+                        - generic [ref=e220]: "0"
+                        - text: votes
+                      - text: ·
+                      - generic [ref=e221]:
+                        - generic [ref=e222]: "2"
+                        - text: comments
+                - separator [ref=e223]
+                - generic [ref=e225]:
+                  - generic:
+                    - heading "OpenClaw has 250K GitHub stars. The only reliable use case I've found is daily news digests." [level=2]:
+                      - link "OpenClaw has 250K GitHub stars. The only reliable use case I've found is daily news digests." [ref=e226] [cursor=pointer]:
+                        - /url: /r/LocalLLaMA/comments/1skce14/openclaw_has_250k_github_stars_the_only_reliable/
+                        - generic [ref=e227]:
+                          - generic: OpenClaw has 250K GitHub stars. The only reliable use case I've found is daily news digests.
+                  - generic [ref=e228]:
+                    - generic [ref=e231]:
+                      - link "r/LocalLLaMA" [ref=e234] [cursor=pointer]:
+                        - /url: /r/LocalLLaMA/
+                        - generic [ref=e238]: r/LocalLLaMA
+                      - generic [ref=e239]: ·
+                      - time [ref=e241]: 2d ago
+                    - link "OpenClaw has 250K GitHub stars. The only reliable use case I've found is daily news digests." [ref=e242] [cursor=pointer]:
+                      - /url: /r/LocalLLaMA/comments/1skce14/openclaw_has_250k_github_stars_the_only_reliable/
+                    - generic [ref=e243]:
+                      - generic [ref=e244]:
+                        - generic [ref=e245]: "830"
+                        - text: votes
+                      - text: ·
+                      - generic [ref=e246]:
+                        - generic [ref=e247]: "327"
+                        - text: comments
+                - separator [ref=e248]
+                - generic [ref=e250]:
+                  - generic:
+                    - heading "What OpenClaw alternative are you using?" [level=2]:
+                      - link "What OpenClaw alternative are you using?" [ref=e251] [cursor=pointer]:
+                        - /url: /r/LocalLLaMA/comments/1rxc6us/what_openclaw_alternative_are_you_using/
+                        - generic [ref=e252]:
+                          - generic: What OpenClaw alternative are you using?
+                  - generic [ref=e253]:
+                    - generic [ref=e256]:
+                      - link "r/LocalLLaMA" [ref=e259] [cursor=pointer]:
+                        - /url: /r/LocalLLaMA/
+                        - generic [ref=e263]: r/LocalLLaMA
+                      - generic [ref=e264]: ·
+                      - time [ref=e266]: 28d ago
+                    - link "What OpenClaw alternative are you using?" [ref=e267] [cursor=pointer]:
+                      - /url: /r/LocalLLaMA/comments/1rxc6us/what_openclaw_alternative_are_you_using/
+                    - generic [ref=e268]:
+                      - generic [ref=e269]:
+                        - generic [ref=e270]: "0"
+                        - text: votes
+                      - text: ·
+                      - generic [ref=e271]:
+                        - generic [ref=e272]: "53"
+                        - text: comments
+                - separator [ref=e273]
+                - generic [ref=e275]:
+                  - generic:
+                    - heading "why is openclaw even this popular?" [level=2]:
+                      - link "why is openclaw even this popular?" [ref=e276] [cursor=pointer]:
+                        - /url: /r/LocalLLaMA/comments/1rfp6bk/why_is_openclaw_even_this_popular/
+                        - generic [ref=e277]:
+                          - generic: why is openclaw even this popular?
+                  - generic [ref=e278]:
+                    - generic [ref=e281]:
+                      - link "r/LocalLLaMA" [ref=e284] [cursor=pointer]:
+                        - /url: /r/LocalLLaMA/
+                        - generic [ref=e288]: r/LocalLLaMA
+                      - generic [ref=e289]: ·
+                      - time [ref=e291]: 2mo ago
+                    - link "why is openclaw even this popular?" [ref=e292] [cursor=pointer]:
+                      - /url: /r/LocalLLaMA/comments/1rfp6bk/why_is_openclaw_even_this_popular/
+                    - generic [ref=e293]:
+                      - generic [ref=e294]:
+                        - generic [ref=e295]: "473"
+                        - text: votes
+                      - text: ·
+                      - generic [ref=e296]:
+                        - generic [ref=e297]: "318"
+                        - text: comments
+                - separator [ref=e298]
+                - generic [ref=e300]:
+                  - generic:
+                    - heading "hermes delivers!" [level=2]:
+                      - link "hermes delivers!" [ref=e301] [cursor=pointer]:
+                        - /url: /r/LocalLLaMA/comments/1rzy6g6/hermes_delivers/
+                        - generic [ref=e302]:
+                          - generic: hermes delivers!
+                  - generic [ref=e303]:
+                    - generic [ref=e306]:
+                      - link "r/LocalLLaMA" [ref=e309] [cursor=pointer]:
+                        - /url: /r/LocalLLaMA/
+                        - generic [ref=e313]: r/LocalLLaMA
+                      - generic [ref=e314]: ·
+                      - time [ref=e316]: 25d ago
+                    - link "hermes delivers!" [ref=e317] [cursor=pointer]:
+                      - /url: /r/LocalLLaMA/comments/1rzy6g6/hermes_delivers/
+                    - generic [ref=e318]:
+                      - generic [ref=e319]:
+                        - generic [ref=e320]: "1"
+                        - text: vote
+                      - text: ·
+                      - generic [ref=e321]:
+                        - generic [ref=e322]: "4"
+                        - text: comments
+                  - link "hermes delivers! thumbnail image" [ref=e324] [cursor=pointer]:
+                    - /url: /r/LocalLLaMA/comments/1rzy6g6/hermes_delivers/
+                - separator [ref=e329]
+                - generic [ref=e331]:
+                  - generic:
+                    - article [ref=e332]:
+                      - separator [ref=e358]
+                    - article [ref=e359]:
+                      - separator [ref=e385]
+                    - article [ref=e386]:
+                      - separator [ref=e412]
+            - generic [ref=e413]:
+              - generic [ref=e417]:
+                - generic [ref=e436]: 1.1M
+                - generic [ref=e437]: 26K
+              - generic [ref=e439]:
+                - link "Reddit Rules" [ref=e442] [cursor=pointer]:
+                  - /url: https://www.redditinc.com/policies/content-policy
+                - link "Privacy Policy" [ref=e445] [cursor=pointer]:
+                  - /url: https://www.reddit.com/policies/privacy-policy
+                - link "User Agreement" [ref=e448] [cursor=pointer]:
+                  - /url: https://www.redditinc.com/policies/user-agreement
+                - link "Accessibility" [ref=e451] [cursor=pointer]:
+                  - /url: https://support.reddithelp.com/hc/sections/38303584022676-Accessibility
+                - link "Reddit, Inc. © 2026. All rights reserved." [ref=e453] [cursor=pointer]:
+                  - /url: https://redditinc.com
+        - button "Collapse Navigation" [ref=e458] [cursor=pointer]:
+          - img [ref=e461]
+          - generic [ref=e463]:
+            - generic: Collapse Navigation

@@ -1,0 +1,2284 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic:
+      - list [ref=e4]:
+        - listitem [ref=e5]:
+          - link "新浪首页" [ref=e6] [cursor=pointer]:
+            - /url: http://www.sina.com.cn/
+        - listitem [ref=e7]:
+          - link "新闻" [ref=e8] [cursor=pointer]:
+            - /url: http://news.sina.com.cn/
+        - listitem [ref=e9]:
+          - link "体育" [ref=e10] [cursor=pointer]:
+            - /url: http://sports.sina.com.cn/
+        - listitem [ref=e11]:
+          - link "财经" [ref=e12] [cursor=pointer]:
+            - /url: http://finance.sina.com.cn/
+        - listitem [ref=e13]:
+          - link "娱乐" [ref=e14] [cursor=pointer]:
+            - /url: http://ent.sina.com.cn/
+        - listitem [ref=e15]:
+          - link "科技" [ref=e16] [cursor=pointer]:
+            - /url: http://tech.sina.com.cn/
+        - listitem [ref=e17]:
+          - link "博客" [ref=e18] [cursor=pointer]:
+            - /url: http://blog.sina.com.cn/
+        - listitem [ref=e19]:
+          - link "图片" [ref=e20] [cursor=pointer]:
+            - /url: http://photo.sina.com.cn/
+        - listitem [ref=e21]:
+          - link "专栏" [ref=e22] [cursor=pointer]:
+            - /url: http://zhuanlan.sina.com.cn/
+        - listitem [ref=e23]:
+          - link "更多" [ref=e24] [cursor=pointer]:
+            - /url: "#"
+            - text: 更多
+      - link "移动客户端" [ref=e28] [cursor=pointer]:
+        - /url: "#"
+        - text: 移动客户端
+      - generic [ref=e30]:
+        - link "注册" [ref=e32] [cursor=pointer]:
+          - /url: https://login.sina.com.cn/signup/signup?entry=news
+        - link "登录" [ref=e35] [cursor=pointer]:
+          - /url: javascript:;
+          - img [ref=e37]
+          - generic [ref=e38]: 登录
+  - generic [ref=e39]:
+    - generic [ref=e41]:
+      - insertion
+    - generic [ref=e42]:
+      - generic [ref=e43]:
+        - link [ref=e44] [cursor=pointer]:
+          - /url: http://finance.sina.com.cn/
+        - generic [ref=e45]: 自媒体热点 > 正文
+      - generic [ref=e47]:
+        - option "行情" [selected]
+        - option "股吧"
+        - option "新闻"
+        - option "外汇"
+        - option "新三板"
+        - textbox [ref=e50]: 简称/代码/拼音
+        - button "Submit" [ref=e51] [cursor=pointer]
+        - generic [ref=e54] [cursor=pointer]: 行情
+    - heading "Hermes Agent vs Openclaw 全面对比分析" [level=1] [ref=e55]
+    - generic [ref=e58]:
+      - generic [ref=e59]:
+        - text: 2026年04月12日 07:03
+        - link "市场资讯" [ref=e60] [cursor=pointer]:
+          - /url: https://mp.weixin.qq.com/s/o-v3YOfm2SlxtvwfSjX3hA
+      - generic [ref=e61]:
+        - link "新浪财经APP" [ref=e63] [cursor=pointer]:
+          - /url: https://finance.sina.com.cn/mobile/comfinanceweb.shtml?source=cjzhengwen04
+        - link "举报" [ref=e65] [cursor=pointer]:
+          - /url: https://finance.sina.com.cn/other/blank/feedback2024.shtml?docId=nhuetnn3645721
+        - link "缩小字体" [ref=e67] [cursor=pointer]:
+          - /url: javascript:;
+        - link "放大字体" [ref=e69] [cursor=pointer]:
+          - /url: javascript:;
+        - link "收藏" [ref=e71] [cursor=pointer]:
+          - /url: javascript:;
+        - link "微博" [ref=e73] [cursor=pointer]:
+          - /url: http://service.weibo.com/share/share.php?url=http%3A%2F%2Fcj.sina.com.cn%2Farticle%2Fnormal_detail%3Furl%3Dhttps%253A%252F%252Ffinance.sina.com.cn%252Fwm%252F2026-04-12%252Fdoc-inhuetnn3645721.shtml&title=Hermes%20Agent%20vs%20Openclaw%20%E5%85%A8%E9%9D%A2%E5%AF%B9%E6%AF%94%E5%88%86%E6%9E%90&pic=https%3A%2F%2Fn.sinaimg.cn%2Ffinance%2Fcece9e13%2F20240627%2F655959900_20240627.png
+        - link "分享" [ref=e75] [cursor=pointer]:
+          - /url: javascript:;
+        - link "MD" [ref=e77] [cursor=pointer]:
+          - /url: https://finance.sina.com.cn/wm/2026-04-12/doc-inhuetnn3645721.shtml.md
+        - link [ref=e79] [cursor=pointer]:
+          - /url: javascript:;
+    - generic [ref=e80]:
+      - generic [ref=e81]:
+        - generic:
+          - insertion
+        - generic [ref=e82]:
+          - paragraph [ref=e83]: （来源：CloudAI Sphere）
+          - paragraph [ref=e84]: 最近 Hermes Agent 特别火，对比下 Openclaw 的核心区别
+          - paragraph [ref=e85]: 一、项目概览
+          - paragraph
+          - table [ref=e88]:
+            - rowgroup [ref=e89]:
+              - row "维度 Hermes Agent Openclaw" [ref=e90]:
+                - cell "维度" [ref=e91]:
+                  - paragraph
+                  - paragraph [ref=e92]: 维度
+                  - paragraph
+                - cell "Hermes Agent" [ref=e93]:
+                  - paragraph
+                  - paragraph [ref=e94]: Hermes Agent
+                  - paragraph
+                - cell "Openclaw" [ref=e95]:
+                  - paragraph
+                  - paragraph [ref=e96]: Openclaw
+                  - paragraph
+              - row "GitHub nousresearch/hermes-agent openclaw/openclaw" [ref=e97]:
+                - cell "GitHub" [ref=e98]:
+                  - paragraph
+                  - paragraph [ref=e99]: GitHub
+                  - paragraph
+                - cell "nousresearch/hermes-agent" [ref=e100]:
+                  - paragraph
+                  - paragraph [ref=e101]: nousresearch/hermes-agent
+                  - paragraph
+                - cell "openclaw/openclaw" [ref=e102]:
+                  - paragraph
+                  - paragraph [ref=e103]: openclaw/openclaw
+                  - paragraph
+              - row "定位 模块化多代理 AI 框架 个人 AI 助手（全平台）" [ref=e104]:
+                - cell "定位" [ref=e105]:
+                  - paragraph
+                  - paragraph [ref=e106]: 定位
+                  - paragraph
+                - cell "模块化多代理 AI 框架" [ref=e107]:
+                  - paragraph
+                  - paragraph [ref=e108]: 模块化多代理 AI 框架
+                  - paragraph
+                - cell "个人 AI 助手（全平台）" [ref=e109]:
+                  - paragraph
+                  - paragraph [ref=e110]: 个人 AI 助手（全平台）
+                  - paragraph
+              - row "口号 Modular Multi-Agent AI Framework Your own personal AI assistant. The lobster way 🦞" [ref=e111]:
+                - cell "口号" [ref=e112]:
+                  - paragraph
+                  - paragraph [ref=e113]: 口号
+                  - paragraph
+                - cell "Modular Multi-Agent AI Framework" [ref=e114]:
+                  - paragraph
+                  - paragraph [ref=e115]: Modular Multi-Agent AI Framework
+                  - paragraph
+                - cell "Your own personal AI assistant. The lobster way 🦞" [ref=e116]:
+                  - paragraph
+                  - paragraph [ref=e117]: Your own personal AI assistant. The lobster way 🦞
+                  - paragraph
+              - row "开源协议 Apache 2.0 MIT" [ref=e118]:
+                - cell "开源协议" [ref=e119]:
+                  - paragraph
+                  - paragraph [ref=e120]: 开源协议
+                  - paragraph
+                - cell "Apache 2.0" [ref=e121]:
+                  - paragraph
+                  - paragraph [ref=e122]: Apache 2.0
+                  - paragraph
+                - cell "MIT" [ref=e123]:
+                  - paragraph
+                  - paragraph [ref=e124]: MIT
+                  - paragraph
+              - row "社区热度 较新项目 354k Stars, 71.6k Forks" [ref=e125]:
+                - cell "社区热度" [ref=e126]:
+                  - paragraph
+                  - paragraph [ref=e127]: 社区热度
+                  - paragraph
+                - cell "较新项目" [ref=e128]:
+                  - paragraph
+                  - paragraph [ref=e129]: 较新项目
+                  - paragraph
+                - cell "354k Stars, 71.6k Forks" [ref=e130]:
+                  - paragraph
+                  - paragraph [ref=e131]: 354k Stars, 71.6k Forks
+                  - paragraph
+              - row "官网 - openclaw.ai" [ref=e132]:
+                - cell "官网" [ref=e133]:
+                  - paragraph
+                  - paragraph [ref=e134]: 官网
+                  - paragraph
+                - cell "-" [ref=e135]:
+                  - paragraph
+                  - paragraph [ref=e136]: "-"
+                  - paragraph
+                - cell "openclaw.ai" [ref=e137]:
+                  - paragraph
+                  - paragraph [ref=e138]: openclaw.ai
+                  - paragraph
+          - paragraph
+          - paragraph
+          - paragraph [ref=e139]: 二、形态对比
+          - paragraph
+          - table [ref=e142]:
+            - rowgroup [ref=e143]:
+              - row "维度 Hermes Agent Openclaw" [ref=e144]:
+                - cell "维度" [ref=e145]:
+                  - paragraph
+                  - paragraph [ref=e146]: 维度
+                  - paragraph
+                - cell "Hermes Agent" [ref=e147]:
+                  - paragraph
+                  - paragraph [ref=e148]: Hermes Agent
+                  - paragraph
+                - cell "Openclaw" [ref=e149]:
+                  - paragraph
+                  - paragraph [ref=e150]: Openclaw
+                  - paragraph
+              - row "产品形态 开发框架/SDK 完整产品 + 开发平台" [ref=e151]:
+                - cell "产品形态" [ref=e152]:
+                  - paragraph
+                  - paragraph [ref=e153]: 产品形态
+                  - paragraph
+                - cell "开发框架/SDK" [ref=e154]:
+                  - paragraph
+                  - paragraph [ref=e155]: 开发框架/SDK
+                  - paragraph
+                - cell "完整产品 + 开发平台" [ref=e156]:
+                  - paragraph
+                  - paragraph [ref=e157]: 完整产品 + 开发平台
+                  - paragraph
+              - row "部署方式 自托管 本地优先 + 云端可选" [ref=e158]:
+                - cell "部署方式" [ref=e159]:
+                  - paragraph
+                  - paragraph [ref=e160]: 部署方式
+                  - paragraph
+                - cell "自托管" [ref=e161]:
+                  - paragraph
+                  - paragraph [ref=e162]: 自托管
+                  - paragraph
+                - cell "本地优先 + 云端可选" [ref=e163]:
+                  - paragraph
+                  - paragraph [ref=e164]: 本地优先 + 云端可选
+                  - paragraph
+              - row "目标用户 开发者、企业 终端用户、开发者" [ref=e165]:
+                - cell "目标用户" [ref=e166]:
+                  - paragraph
+                  - paragraph [ref=e167]: 目标用户
+                  - paragraph
+                - cell "开发者、企业" [ref=e168]:
+                  - paragraph
+                  - paragraph [ref=e169]: 开发者、企业
+                  - paragraph
+                - cell "终端用户、开发者" [ref=e170]:
+                  - paragraph
+                  - paragraph [ref=e171]: 终端用户、开发者
+                  - paragraph
+              - row "交付物 代码库 多平台应用 + 网关系统" [ref=e172]:
+                - cell "交付物" [ref=e173]:
+                  - paragraph
+                  - paragraph [ref=e174]: 交付物
+                  - paragraph
+                - cell "代码库" [ref=e175]:
+                  - paragraph
+                  - paragraph [ref=e176]: 代码库
+                  - paragraph
+                - cell "多平台应用 + 网关系统" [ref=e177]:
+                  - paragraph
+                  - paragraph [ref=e178]: 多平台应用 + 网关系统
+                  - paragraph
+              - row "生态 技术社区 应用市场（ClawHub）" [ref=e179]:
+                - cell "生态" [ref=e180]:
+                  - paragraph
+                  - paragraph [ref=e181]: 生态
+                  - paragraph
+                - cell "技术社区" [ref=e182]:
+                  - paragraph
+                  - paragraph [ref=e183]: 技术社区
+                  - paragraph
+                - cell "应用市场（ClawHub）" [ref=e184]:
+                  - paragraph
+                  - paragraph [ref=e185]: 应用市场（ClawHub）
+                  - paragraph
+          - paragraph
+          - paragraph
+          - paragraph [ref=e186]: 三、使用方式对比
+          - paragraph [ref=e187]: Hermes Agent
+          - paragraph [ref=e188]: "# 安装"
+          - paragraph [ref=e189]: pip install hermes-agent
+          - paragraph
+          - paragraph [ref=e190]: "# 基础使用"
+          - paragraph [ref=e191]: from hermes import Agent, Tool
+          - paragraph
+          - paragraph [ref=e192]: agent = Agent(
+          - paragraph [ref=e193]: name="my-agent",
+          - paragraph [ref=e194]: tools=[Tool(name="search", ...)]
+          - paragraph [ref=e195]: )
+          - paragraph [ref=e196]: result = agent.run("搜索相关信息")
+          - paragraph
+          - paragraph [ref=e197]: Openclaw
+          - paragraph [ref=e198]: "# 安装"
+          - paragraph [ref=e199]: pnpm install
+          - paragraph [ref=e200]: pnpm dev
+          - paragraph
+          - paragraph [ref=e201]: "# 配置文件方式"
+          - paragraph [ref=e202]: "# .agents/config.json"
+          - paragraph [ref=e203]: "{"
+          - paragraph [ref=e204]: "\"agent\": {"
+          - paragraph [ref=e205]: "\"name\": \"my-assistant\","
+          - paragraph [ref=e206]: "\"skills\": [\"web-search\", \"code-analysis\"]"
+          - paragraph [ref=e207]: "}"
+          - paragraph
+          - table [ref=e210]:
+            - rowgroup [ref=e211]:
+              - row "特性 Hermes Agent Openclaw" [ref=e212]:
+                - cell "特性" [ref=e213]:
+                  - paragraph
+                  - paragraph [ref=e214]: 特性
+                  - paragraph
+                - cell "Hermes Agent" [ref=e215]:
+                  - paragraph
+                  - paragraph [ref=e216]: Hermes Agent
+                  - paragraph
+                - cell "Openclaw" [ref=e217]:
+                  - paragraph
+                  - paragraph [ref=e218]: Openclaw
+                  - paragraph
+              - row "编程接口 Python SDK 配置文件 + TypeScript API" [ref=e219]:
+                - cell "编程接口" [ref=e220]:
+                  - paragraph
+                  - paragraph [ref=e221]: 编程接口
+                  - paragraph
+                - cell "Python SDK" [ref=e222]:
+                  - paragraph
+                  - paragraph [ref=e223]: Python SDK
+                  - paragraph
+                - cell "配置文件 + TypeScript API" [ref=e224]:
+                  - paragraph
+                  - paragraph [ref=e225]: 配置文件 + TypeScript API
+                  - paragraph
+              - row "CLI 支持 有 有" [ref=e226]:
+                - cell "CLI 支持" [ref=e227]:
+                  - paragraph
+                  - paragraph [ref=e228]: CLI 支持
+                  - paragraph
+                - cell "有" [ref=e229]:
+                  - paragraph
+                  - paragraph [ref=e230]: 有
+                  - paragraph
+                - cell "有" [ref=e231]:
+                  - paragraph
+                  - paragraph [ref=e232]: 有
+                  - paragraph
+              - row "可视化界面 无 Canvas 工作区" [ref=e233]:
+                - cell "可视化界面" [ref=e234]:
+                  - paragraph
+                  - paragraph [ref=e235]: 可视化界面
+                  - paragraph
+                - cell "无" [ref=e236]:
+                  - paragraph
+                  - paragraph [ref=e237]: 无
+                  - paragraph
+                - cell "Canvas 工作区" [ref=e238]:
+                  - paragraph
+                  - paragraph [ref=e239]: Canvas 工作区
+                  - paragraph
+              - row "移动端应用 无 macOS/iOS/Android 应用" [ref=e240]:
+                - cell "移动端应用" [ref=e241]:
+                  - paragraph
+                  - paragraph [ref=e242]: 移动端应用
+                  - paragraph
+                - cell "无" [ref=e243]:
+                  - paragraph
+                  - paragraph [ref=e244]: 无
+                  - paragraph
+                - cell "macOS/iOS/Android 应用" [ref=e245]:
+                  - paragraph
+                  - paragraph [ref=e246]: macOS/iOS/Android 应用
+                  - paragraph
+          - paragraph
+          - paragraph
+          - paragraph [ref=e247]: 四、技术栈对比
+          - paragraph
+          - table [ref=e250]:
+            - rowgroup [ref=e251]:
+              - row "维度 Hermes Agent Openclaw" [ref=e252]:
+                - cell "维度" [ref=e253]:
+                  - paragraph
+                  - paragraph [ref=e254]: 维度
+                  - paragraph
+                - cell "Hermes Agent" [ref=e255]:
+                  - paragraph
+                  - paragraph [ref=e256]: Hermes Agent
+                  - paragraph
+                - cell "Openclaw" [ref=e257]:
+                  - paragraph
+                  - paragraph [ref=e258]: Openclaw
+                  - paragraph
+              - row "主要语言 Python TypeScript (90.4%)" [ref=e259]:
+                - cell "主要语言" [ref=e260]:
+                  - paragraph
+                  - paragraph [ref=e261]: 主要语言
+                  - paragraph
+                - cell "Python" [ref=e262]:
+                  - paragraph
+                  - paragraph [ref=e263]: Python
+                  - paragraph
+                - cell "TypeScript (90.4%)" [ref=e264]:
+                  - paragraph
+                  - paragraph [ref=e265]: TypeScript (90.4%)
+                  - paragraph
+              - row "移动端 - Swift (5.4%), Kotlin (1.4%)" [ref=e266]:
+                - cell "移动端" [ref=e267]:
+                  - paragraph
+                  - paragraph [ref=e268]: 移动端
+                  - paragraph
+                - cell "-" [ref=e269]:
+                  - paragraph
+                  - paragraph [ref=e270]: "-"
+                  - paragraph
+                - cell "Swift (5.4%), Kotlin (1.4%)" [ref=e271]:
+                  - paragraph
+                  - paragraph [ref=e272]: Swift (5.4%), Kotlin (1.4%)
+                  - paragraph
+              - row "运行时 Python 3.8+ Node 22.16+ / Node 24" [ref=e273]:
+                - cell "运行时" [ref=e274]:
+                  - paragraph
+                  - paragraph [ref=e275]: 运行时
+                  - paragraph
+                - cell "Python 3.8+" [ref=e276]:
+                  - paragraph
+                  - paragraph [ref=e277]: Python 3.8+
+                  - paragraph
+                - cell "Node 22.16+ / Node 24" [ref=e278]:
+                  - paragraph
+                  - paragraph [ref=e279]: Node 22.16+ / Node 24
+                  - paragraph
+              - row "包管理 pip / poetry pnpm" [ref=e280]:
+                - cell "包管理" [ref=e281]:
+                  - paragraph
+                  - paragraph [ref=e282]: 包管理
+                  - paragraph
+                - cell "pip / poetry" [ref=e283]:
+                  - paragraph
+                  - paragraph [ref=e284]: pip / poetry
+                  - paragraph
+                - cell "pnpm" [ref=e285]:
+                  - paragraph
+                  - paragraph [ref=e286]: pnpm
+                  - paragraph
+              - row "LLM 集成 OpenAI, Anthropic, 本地模型 多模型支持" [ref=e287]:
+                - cell "LLM 集成" [ref=e288]:
+                  - paragraph
+                  - paragraph [ref=e289]: LLM 集成
+                  - paragraph
+                - cell "OpenAI, Anthropic, 本地模型" [ref=e290]:
+                  - paragraph
+                  - paragraph [ref=e291]: OpenAI, Anthropic, 本地模型
+                  - paragraph
+                - cell "多模型支持" [ref=e292]:
+                  - paragraph
+                  - paragraph [ref=e293]: 多模型支持
+                  - paragraph
+              - row "数据库 可选（PostgreSQL/MongoDB） 本地存储 + 可选云端" [ref=e294]:
+                - cell "数据库" [ref=e295]:
+                  - paragraph
+                  - paragraph [ref=e296]: 数据库
+                  - paragraph
+                - cell "可选（PostgreSQL/MongoDB）" [ref=e297]:
+                  - paragraph
+                  - paragraph [ref=e298]: 可选（PostgreSQL/MongoDB）
+                  - paragraph
+                - cell "本地存储 + 可选云端" [ref=e299]:
+                  - paragraph
+                  - paragraph [ref=e300]: 本地存储 + 可选云端
+                  - paragraph
+          - paragraph
+          - paragraph
+          - paragraph [ref=e301]: 五、架构设计对比
+          - paragraph [ref=e302]: Hermes Agent 架构
+          - paragraph [ref=e303]: ┌─────────────────────────────────────┐
+          - paragraph [ref=e304]: │ Agent Core │
+          - paragraph [ref=e305]: │ ┌─────────┐ ┌─────────┐ │
+          - paragraph [ref=e306]: │ │ Planner │ │Executor │ │
+          - paragraph [ref=e307]: │ └────┬────┘ └────┬────┘ │
+          - paragraph [ref=e308]: │ │ │ │
+          - paragraph [ref=e309]: │ ┌────▼────────────▼────┐ │
+          - paragraph [ref=e310]: │ │ Tool Registry │ │
+          - paragraph [ref=e311]: │ └──────────────────────┘ │
+          - paragraph [ref=e312]: └─────────────────────────────────────┘
+          - paragraph [ref=e313]: 特点：
+          - list [ref=e314]:
+            - listitem [ref=e315]:
+              - paragraph [ref=e316]: 模块化设计，可插拔组件
+            - listitem [ref=e317]:
+              - paragraph [ref=e318]: 计划-执行分离架构
+            - listitem [ref=e319]:
+              - paragraph [ref=e320]: 工具注册机制
+          - paragraph
+          - paragraph [ref=e321]: Openclaw 架构
+          - paragraph [ref=e322]: ┌─────────────────────────────────────────────────┐
+          - paragraph [ref=e323]: │ Gateway (控制平面) │
+          - paragraph [ref=e324]: │ ┌─────────────┐ ┌─────────────┐ │
+          - paragraph [ref=e325]: │ │Agent Router│ │Skill Manager│ │
+          - paragraph [ref=e326]: │ └──────┬──────┘ └──────┬──────┘ │
+          - paragraph [ref=e327]: │ │ │ │
+          - paragraph [ref=e328]: │ ┌──────▼────────────────▼──────┐ │
+          - paragraph [ref=e329]: │ │ Channel Adapters │ │
+          - paragraph [ref=e330]: │ │ WhatsApp | Telegram | Slack │ │
+          - paragraph [ref=e331]: │ └───────────────────────────────┘ │
+          - paragraph [ref=e332]: └─────────────────────────────────────────────────┘
+          - paragraph [ref=e333]: 特点：
+          - list [ref=e334]:
+            - listitem [ref=e335]:
+              - paragraph [ref=e336]: 网关 + 代理分离
+            - listitem [ref=e337]:
+              - paragraph [ref=e338]: 多渠道适配器
+            - listitem [ref=e339]:
+              - paragraph [ref=e340]: 分布式可扩展
+          - paragraph
+          - paragraph [ref=e341]: 六、核心功能对比
+          - paragraph
+          - table [ref=e344]:
+            - rowgroup [ref=e345]:
+              - row "功能 Hermes Agent Openclaw" [ref=e346]:
+                - cell "功能" [ref=e347]:
+                  - paragraph
+                  - paragraph [ref=e348]: 功能
+                  - paragraph
+                - cell "Hermes Agent" [ref=e349]:
+                  - paragraph
+                  - paragraph [ref=e350]: Hermes Agent
+                  - paragraph
+                - cell "Openclaw" [ref=e351]:
+                  - paragraph
+                  - paragraph [ref=e352]: Openclaw
+                  - paragraph
+              - row "多代理协作 ✅ 原生支持 ✅ 支持" [ref=e353]:
+                - cell "多代理协作" [ref=e354]:
+                  - paragraph
+                  - paragraph [ref=e355]: 多代理协作
+                  - paragraph
+                - cell "✅ 原生支持" [ref=e356]:
+                  - paragraph
+                  - paragraph [ref=e357]: ✅ 原生支持
+                  - paragraph
+                - cell "✅ 支持" [ref=e358]:
+                  - paragraph
+                  - paragraph [ref=e359]: ✅ 支持
+                  - paragraph
+              - row "工具/技能系统 ✅ Tools ✅ Skills Hub" [ref=e360]:
+                - cell "工具/技能系统" [ref=e361]:
+                  - paragraph
+                  - paragraph [ref=e362]: 工具/技能系统
+                  - paragraph
+                - cell "✅ Tools" [ref=e363]:
+                  - paragraph
+                  - paragraph [ref=e364]: ✅ Tools
+                  - paragraph
+                - cell "✅ Skills Hub" [ref=e365]:
+                  - paragraph
+                  - paragraph [ref=e366]: ✅ Skills Hub
+                  - paragraph
+              - row "多渠道集成 ❌ ✅ 20+ 平台" [ref=e367]:
+                - cell "多渠道集成" [ref=e368]:
+                  - paragraph
+                  - paragraph [ref=e369]: 多渠道集成
+                  - paragraph
+                - cell "❌" [ref=e370]:
+                  - paragraph
+                  - paragraph [ref=e371]: ❌
+                  - paragraph
+                - cell "✅ 20+ 平台" [ref=e372]:
+                  - paragraph
+                  - paragraph [ref=e373]: ✅ 20+ 平台
+                  - paragraph
+              - row "语音交互 ❌ ✅ 唤醒 + 对话" [ref=e374]:
+                - cell "语音交互" [ref=e375]:
+                  - paragraph
+                  - paragraph [ref=e376]: 语音交互
+                  - paragraph
+                - cell "❌" [ref=e377]:
+                  - paragraph
+                  - paragraph [ref=e378]: ❌
+                  - paragraph
+                - cell "✅ 唤醒 + 对话" [ref=e379]:
+                  - paragraph
+                  - paragraph [ref=e380]: ✅ 唤醒 + 对话
+                  - paragraph
+              - row "可视化工作区 ❌ ✅ Canvas" [ref=e381]:
+                - cell "可视化工作区" [ref=e382]:
+                  - paragraph
+                  - paragraph [ref=e383]: 可视化工作区
+                  - paragraph
+                - cell "❌" [ref=e384]:
+                  - paragraph
+                  - paragraph [ref=e385]: ❌
+                  - paragraph
+                - cell "✅ Canvas" [ref=e386]:
+                  - paragraph
+                  - paragraph [ref=e387]: ✅ Canvas
+                  - paragraph
+              - row "浏览器控制 可扩展 ✅ 内置" [ref=e388]:
+                - cell "浏览器控制" [ref=e389]:
+                  - paragraph
+                  - paragraph [ref=e390]: 浏览器控制
+                  - paragraph
+                - cell "可扩展" [ref=e391]:
+                  - paragraph
+                  - paragraph [ref=e392]: 可扩展
+                  - paragraph
+                - cell "✅ 内置" [ref=e393]:
+                  - paragraph
+                  - paragraph [ref=e394]: ✅ 内置
+                  - paragraph
+              - row "定时任务 可扩展 ✅ 内置" [ref=e395]:
+                - cell "定时任务" [ref=e396]:
+                  - paragraph
+                  - paragraph [ref=e397]: 定时任务
+                  - paragraph
+                - cell "可扩展" [ref=e398]:
+                  - paragraph
+                  - paragraph [ref=e399]: 可扩展
+                  - paragraph
+                - cell "✅ 内置" [ref=e400]:
+                  - paragraph
+                  - paragraph [ref=e401]: ✅ 内置
+                  - paragraph
+              - row "节点管理 ❌ ✅ 内置" [ref=e402]:
+                - cell "节点管理" [ref=e403]:
+                  - paragraph
+                  - paragraph [ref=e404]: 节点管理
+                  - paragraph
+                - cell "❌" [ref=e405]:
+                  - paragraph
+                  - paragraph [ref=e406]: ❌
+                  - paragraph
+                - cell "✅ 内置" [ref=e407]:
+                  - paragraph
+                  - paragraph [ref=e408]: ✅ 内置
+                  - paragraph
+              - row "移动端原生应用 ❌ ✅" [ref=e409]:
+                - cell "移动端原生应用" [ref=e410]:
+                  - paragraph
+                  - paragraph [ref=e411]: 移动端原生应用
+                  - paragraph
+                - cell "❌" [ref=e412]:
+                  - paragraph
+                  - paragraph [ref=e413]: ❌
+                  - paragraph
+                - cell "✅" [ref=e414]:
+                  - paragraph
+                  - paragraph [ref=e415]: ✅
+                  - paragraph
+          - paragraph
+          - paragraph
+          - paragraph [ref=e416]: 七、扩展能力对比
+          - paragraph
+          - table [ref=e419]:
+            - rowgroup [ref=e420]:
+              - row "维度 Hermes Agent Openclaw" [ref=e421]:
+                - cell "维度" [ref=e422]:
+                  - paragraph
+                  - paragraph [ref=e423]: 维度
+                  - paragraph
+                - cell "Hermes Agent" [ref=e424]:
+                  - paragraph
+                  - paragraph [ref=e425]: Hermes Agent
+                  - paragraph
+                - cell "Openclaw" [ref=e426]:
+                  - paragraph
+                  - paragraph [ref=e427]: Openclaw
+                  - paragraph
+              - row "插件/技能生态 自定义 Tools ClawHub 应用市场" [ref=e428]:
+                - cell "插件/技能生态" [ref=e429]:
+                  - paragraph
+                  - paragraph [ref=e430]: 插件/技能生态
+                  - paragraph
+                - cell "自定义 Tools" [ref=e431]:
+                  - paragraph
+                  - paragraph [ref=e432]: 自定义 Tools
+                  - paragraph
+                - cell "ClawHub 应用市场" [ref=e433]:
+                  - paragraph
+                  - paragraph [ref=e434]: ClawHub 应用市场
+                  - paragraph
+              - row "自定义模型 支持" [ref=e435]:
+                - cell "自定义模型" [ref=e436]:
+                  - paragraph
+                  - paragraph [ref=e437]: 自定义模型
+                  - paragraph
+                - cell "支持" [ref=e438]:
+                  - paragraph
+                  - paragraph [ref=e439]: 支持
+                  - paragraph
+                - cell [ref=e440]:
+                  - paragraph
+                  - paragraph
+              - row "API 扩展 REST API Webhook + API" [ref=e441]:
+                - cell "API 扩展" [ref=e442]:
+                  - paragraph
+                  - paragraph [ref=e443]: API 扩展
+                  - paragraph
+                - cell "REST API" [ref=e444]:
+                  - paragraph
+                  - paragraph [ref=e445]: REST API
+                  - paragraph
+                - cell "Webhook + API" [ref=e446]:
+                  - paragraph
+                  - paragraph [ref=e447]: Webhook + API
+                  - paragraph
+              - row "第三方集成 需自行开发 丰富的预置集成" [ref=e448]:
+                - cell "第三方集成" [ref=e449]:
+                  - paragraph
+                  - paragraph [ref=e450]: 第三方集成
+                  - paragraph
+                - cell "需自行开发" [ref=e451]:
+                  - paragraph
+                  - paragraph [ref=e452]: 需自行开发
+                  - paragraph
+                - cell "丰富的预置集成" [ref=e453]:
+                  - paragraph
+                  - paragraph [ref=e454]: 丰富的预置集成
+                  - paragraph
+              - row "社区贡献 代码贡献 技能提交" [ref=e455]:
+                - cell "社区贡献" [ref=e456]:
+                  - paragraph
+                  - paragraph [ref=e457]: 社区贡献
+                  - paragraph
+                - cell "代码贡献" [ref=e458]:
+                  - paragraph
+                  - paragraph [ref=e459]: 代码贡献
+                  - paragraph
+                - cell "技能提交" [ref=e460]:
+                  - paragraph
+                  - paragraph [ref=e461]: 技能提交
+                  - paragraph
+          - paragraph
+          - paragraph
+          - paragraph [ref=e462]: 八、安全与隐私对比
+          - paragraph
+          - table [ref=e465]:
+            - rowgroup [ref=e466]:
+              - row "维度 Hermes Agent Openclaw" [ref=e467]:
+                - cell "维度" [ref=e468]:
+                  - paragraph
+                  - paragraph [ref=e469]: 维度
+                  - paragraph
+                - cell "Hermes Agent" [ref=e470]:
+                  - paragraph
+                  - paragraph [ref=e471]: Hermes Agent
+                  - paragraph
+                - cell "Openclaw" [ref=e472]:
+                  - paragraph
+                  - paragraph [ref=e473]: Openclaw
+                  - paragraph
+              - row "数据存储 自控 本地优先" [ref=e474]:
+                - cell "数据存储" [ref=e475]:
+                  - paragraph
+                  - paragraph [ref=e476]: 数据存储
+                  - paragraph
+                - cell "自控" [ref=e477]:
+                  - paragraph
+                  - paragraph [ref=e478]: 自控
+                  - paragraph
+                - cell "本地优先" [ref=e479]:
+                  - paragraph
+                  - paragraph [ref=e480]: 本地优先
+                  - paragraph
+              - row "命令执行安全 依赖开发者配置 命令批准机制" [ref=e481]:
+                - cell "命令执行安全" [ref=e482]:
+                  - paragraph
+                  - paragraph [ref=e483]: 命令执行安全
+                  - paragraph
+                - cell "依赖开发者配置" [ref=e484]:
+                  - paragraph
+                  - paragraph [ref=e485]: 依赖开发者配置
+                  - paragraph
+                - cell "命令批准机制" [ref=e486]:
+                  - paragraph
+                  - paragraph [ref=e487]: 命令批准机制
+                  - paragraph
+              - row "认证方式 API Key DM 配对 + API Key" [ref=e488]:
+                - cell "认证方式" [ref=e489]:
+                  - paragraph
+                  - paragraph [ref=e490]: 认证方式
+                  - paragraph
+                - cell "API Key" [ref=e491]:
+                  - paragraph
+                  - paragraph [ref=e492]: API Key
+                  - paragraph
+                - cell "DM 配对 + API Key" [ref=e493]:
+                  - paragraph
+                  - paragraph [ref=e494]: DM 配对 + API Key
+                  - paragraph
+              - row "开源透明度 完全开源" [ref=e495]:
+                - cell "开源透明度" [ref=e496]:
+                  - paragraph
+                  - paragraph [ref=e497]: 开源透明度
+                  - paragraph
+                - cell "完全开源" [ref=e498]:
+                  - paragraph
+                  - paragraph [ref=e499]: 完全开源
+                  - paragraph
+                - cell [ref=e500]:
+                  - paragraph
+                  - paragraph
+              - row "隐私保护 自托管 数据所有权" [ref=e501]:
+                - cell "隐私保护" [ref=e502]:
+                  - paragraph
+                  - paragraph [ref=e503]: 隐私保护
+                  - paragraph
+                - cell "自托管" [ref=e504]:
+                  - paragraph
+                  - paragraph [ref=e505]: 自托管
+                  - paragraph
+                - cell "数据所有权" [ref=e506]:
+                  - paragraph
+                  - paragraph [ref=e507]: 数据所有权
+                  - paragraph
+          - paragraph
+          - paragraph
+          - paragraph [ref=e508]: 九、部署与运维对比
+          - paragraph
+          - table [ref=e511]:
+            - rowgroup [ref=e512]:
+              - row "维度 Hermes Agent Openclaw" [ref=e513]:
+                - cell "维度" [ref=e514]:
+                  - paragraph
+                  - paragraph [ref=e515]: 维度
+                  - paragraph
+                - cell "Hermes Agent" [ref=e516]:
+                  - paragraph
+                  - paragraph [ref=e517]: Hermes Agent
+                  - paragraph
+                - cell "Openclaw" [ref=e518]:
+                  - paragraph
+                  - paragraph [ref=e519]: Openclaw
+                  - paragraph
+              - row "部署复杂度 中等 较高（完整系统）" [ref=e520]:
+                - cell "部署复杂度" [ref=e521]:
+                  - paragraph
+                  - paragraph [ref=e522]: 部署复杂度
+                  - paragraph
+                - cell "中等" [ref=e523]:
+                  - paragraph
+                  - paragraph [ref=e524]: 中等
+                  - paragraph
+                - cell "较高（完整系统）" [ref=e525]:
+                  - paragraph
+                  - paragraph [ref=e526]: 较高（完整系统）
+                  - paragraph
+              - row "资源需求 低 中等" [ref=e527]:
+                - cell "资源需求" [ref=e528]:
+                  - paragraph
+                  - paragraph [ref=e529]: 资源需求
+                  - paragraph
+                - cell "低" [ref=e530]:
+                  - paragraph
+                  - paragraph [ref=e531]: 低
+                  - paragraph
+                - cell "中等" [ref=e532]:
+                  - paragraph
+                  - paragraph [ref=e533]: 中等
+                  - paragraph
+              - row "Docker 支持 有 有" [ref=e534]:
+                - cell "Docker 支持" [ref=e535]:
+                  - paragraph
+                  - paragraph [ref=e536]: Docker 支持
+                  - paragraph
+                - cell "有" [ref=e537]:
+                  - paragraph
+                  - paragraph [ref=e538]: 有
+                  - paragraph
+                - cell "有" [ref=e539]:
+                  - paragraph
+                  - paragraph [ref=e540]: 有
+                  - paragraph
+              - row "Kubernetes 支持 可选" [ref=e541]:
+                - cell "Kubernetes 支持" [ref=e542]:
+                  - paragraph
+                  - paragraph [ref=e543]: Kubernetes 支持
+                  - paragraph
+                - cell "可选" [ref=e544]:
+                  - paragraph
+                  - paragraph [ref=e545]: 可选
+                  - paragraph
+                - cell [ref=e546]:
+                  - paragraph
+                  - paragraph
+              - row "监控/日志 需自行配置 内置基础监控" [ref=e547]:
+                - cell "监控/日志" [ref=e548]:
+                  - paragraph
+                  - paragraph [ref=e549]: 监控/日志
+                  - paragraph
+                - cell "需自行配置" [ref=e550]:
+                  - paragraph
+                  - paragraph [ref=e551]: 需自行配置
+                  - paragraph
+                - cell "内置基础监控" [ref=e552]:
+                  - paragraph
+                  - paragraph [ref=e553]: 内置基础监控
+                  - paragraph
+              - row "更新方式 pip update pnpm update" [ref=e554]:
+                - cell "更新方式" [ref=e555]:
+                  - paragraph
+                  - paragraph [ref=e556]: 更新方式
+                  - paragraph
+                - cell "pip update" [ref=e557]:
+                  - paragraph
+                  - paragraph [ref=e558]: pip update
+                  - paragraph
+                - cell "pnpm update" [ref=e559]:
+                  - paragraph
+                  - paragraph [ref=e560]: pnpm update
+                  - paragraph
+          - paragraph
+          - paragraph
+          - paragraph [ref=e561]: 十、适用场景对比
+          - paragraph [ref=e562]: Hermes Agent 适合：
+          - list [ref=e563]:
+            - listitem [ref=e564]:
+              - paragraph [ref=e565]: ✅ 开发自定义 AI 代理系统
+            - listitem [ref=e566]:
+              - paragraph [ref=e567]: ✅ 企业内部自动化流程
+            - listitem [ref=e568]:
+              - paragraph [ref=e569]: ✅ 需要深度定制和灵活架构
+            - listitem [ref=e570]:
+              - paragraph [ref=e571]: ✅ Python 生态开发者
+            - listitem [ref=e572]:
+              - paragraph [ref=e573]: ✅ 研究和实验性项目
+          - paragraph [ref=e574]: Openclaw 适合：
+          - list [ref=e575]:
+            - listitem [ref=e576]:
+              - paragraph [ref=e577]: ✅ 个人 AI 助手需求
+            - listitem [ref=e578]:
+              - paragraph [ref=e579]: ✅ 多平台消息集成
+            - listitem [ref=e580]:
+              - paragraph [ref=e581]: ✅ 快速部署完整解决方案
+            - listitem [ref=e582]:
+              - paragraph [ref=e583]: ✅ 需要 UI/可视化界面
+            - listitem [ref=e584]:
+              - paragraph [ref=e585]: ✅ 移动端 + 桌面端统一体验
+          - paragraph
+          - paragraph [ref=e586]: 十一、迁移建议
+          - paragraph [ref=e587]: 从 Hermes Agent 迁移到 Openclaw
+          - list [ref=e588]:
+            - listitem [ref=e589]:
+              - paragraph [ref=e590]:
+                - generic [ref=e593]: 工具映射
+                - generic [ref=e594]: ：将 Hermes 的 Tools 转换为 Openclaw Skills
+            - listitem [ref=e595]:
+              - paragraph [ref=e596]:
+                - generic [ref=e599]: 配置迁移
+                - generic [ref=e600]: ：将代码配置转为 JSON/YAML 配置文件
+            - listitem [ref=e601]:
+              - paragraph [ref=e602]:
+                - generic [ref=e605]: 渠道集成
+                - generic [ref=e606]: ：利用 Openclaw 的多渠道能力扩展触达范围
+            - listitem [ref=e607]:
+              - paragraph [ref=e608]:
+                - generic [ref=e611]: 学习曲线
+                - generic [ref=e612]: ：需适应配置驱动而非代码驱动
+          - paragraph [ref=e613]: 从 Openclaw 迁移到 Hermes Agent
+          - list [ref=e614]:
+            - listitem [ref=e615]:
+              - paragraph [ref=e616]:
+                - generic [ref=e619]: 技能重构
+                - generic [ref=e620]: ：将 Skills 改写为 Python Tools
+            - listitem [ref=e621]:
+              - paragraph [ref=e622]:
+                - generic [ref=e625]: 架构简化
+                - generic [ref=e626]: ：如只需核心代理功能，Hermes 更轻量
+            - listitem [ref=e627]:
+              - paragraph [ref=e628]:
+                - generic [ref=e631]: 开发效率
+                - generic [ref=e632]: ：Python 开发者可能更熟悉 Hermes
+          - paragraph
+          - paragraph [ref=e633]: 十二、总结
+          - paragraph
+          - table [ref=e636]:
+            - rowgroup [ref=e637]:
+              - row "评价维度 Hermes Agent Openclaw" [ref=e638]:
+                - cell "评价维度" [ref=e639]:
+                  - paragraph
+                  - paragraph [ref=e640]: 评价维度
+                  - paragraph
+                - cell "Hermes Agent" [ref=e641]:
+                  - paragraph
+                  - paragraph [ref=e642]: Hermes Agent
+                  - paragraph
+                - cell "Openclaw" [ref=e643]:
+                  - paragraph
+                  - paragraph [ref=e644]: Openclaw
+                  - paragraph
+              - row "灵活性 ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐" [ref=e645]:
+                - cell "灵活性" [ref=e646]:
+                  - paragraph
+                  - paragraph [ref=e647]: 灵活性
+                  - paragraph
+                - cell "⭐⭐⭐⭐⭐" [ref=e648]:
+                  - paragraph
+                  - paragraph [ref=e649]: ⭐⭐⭐⭐⭐
+                  - paragraph
+                - cell "⭐⭐⭐⭐" [ref=e650]:
+                  - paragraph
+                  - paragraph [ref=e651]: ⭐⭐⭐⭐
+                  - paragraph
+              - row "易用性 ⭐⭐⭐ ⭐⭐⭐⭐⭐" [ref=e652]:
+                - cell "易用性" [ref=e653]:
+                  - paragraph
+                  - paragraph [ref=e654]: 易用性
+                  - paragraph
+                - cell "⭐⭐⭐" [ref=e655]:
+                  - paragraph
+                  - paragraph [ref=e656]: ⭐⭐⭐
+                  - paragraph
+                - cell "⭐⭐⭐⭐⭐" [ref=e657]:
+                  - paragraph
+                  - paragraph [ref=e658]: ⭐⭐⭐⭐⭐
+                  - paragraph
+              - row "功能完整性 ⭐⭐⭐ ⭐⭐⭐⭐⭐" [ref=e659]:
+                - cell "功能完整性" [ref=e660]:
+                  - paragraph
+                  - paragraph [ref=e661]: 功能完整性
+                  - paragraph
+                - cell "⭐⭐⭐" [ref=e662]:
+                  - paragraph
+                  - paragraph [ref=e663]: ⭐⭐⭐
+                  - paragraph
+                - cell "⭐⭐⭐⭐⭐" [ref=e664]:
+                  - paragraph
+                  - paragraph [ref=e665]: ⭐⭐⭐⭐⭐
+                  - paragraph
+              - row "社区活跃度 ⭐⭐⭐ ⭐⭐⭐⭐⭐" [ref=e666]:
+                - cell "社区活跃度" [ref=e667]:
+                  - paragraph
+                  - paragraph [ref=e668]: 社区活跃度
+                  - paragraph
+                - cell "⭐⭐⭐" [ref=e669]:
+                  - paragraph
+                  - paragraph [ref=e670]: ⭐⭐⭐
+                  - paragraph
+                - cell "⭐⭐⭐⭐⭐" [ref=e671]:
+                  - paragraph
+                  - paragraph [ref=e672]: ⭐⭐⭐⭐⭐
+                  - paragraph
+              - row "企业适用性 ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐" [ref=e673]:
+                - cell "企业适用性" [ref=e674]:
+                  - paragraph
+                  - paragraph [ref=e675]: 企业适用性
+                  - paragraph
+                - cell "⭐⭐⭐⭐⭐" [ref=e676]:
+                  - paragraph
+                  - paragraph [ref=e677]: ⭐⭐⭐⭐⭐
+                  - paragraph
+                - cell "⭐⭐⭐⭐" [ref=e678]:
+                  - paragraph
+                  - paragraph [ref=e679]: ⭐⭐⭐⭐
+                  - paragraph
+              - row "个人适用性 ⭐⭐⭐ ⭐⭐⭐⭐⭐" [ref=e680]:
+                - cell "个人适用性" [ref=e681]:
+                  - paragraph
+                  - paragraph [ref=e682]: 个人适用性
+                  - paragraph
+                - cell "⭐⭐⭐" [ref=e683]:
+                  - paragraph
+                  - paragraph [ref=e684]: ⭐⭐⭐
+                  - paragraph
+                - cell "⭐⭐⭐⭐⭐" [ref=e685]:
+                  - paragraph
+                  - paragraph [ref=e686]: ⭐⭐⭐⭐⭐
+                  - paragraph
+          - paragraph
+          - paragraph
+          - paragraph [ref=e687]: 结论
+          - paragraph [ref=e688]: 选择 Hermes Agent 如果：
+          - list [ref=e689]:
+            - listitem [ref=e690]:
+              - paragraph [ref=e691]: 你是开发者，需要高度可定制的框架
+            - listitem [ref=e692]:
+              - paragraph [ref=e693]: 你熟悉 Python 生态
+            - listitem [ref=e694]:
+              - paragraph [ref=e695]: 你需要构建企业级内部系统
+            - listitem [ref=e696]:
+              - paragraph [ref=e697]: 你更倾向于代码驱动而非配置驱动
+          - paragraph
+          - paragraph [ref=e698]: 选择 Openclaw 如果：
+          - list [ref=e699]:
+            - listitem [ref=e700]:
+              - paragraph [ref=e701]: 你需要开箱即用的个人 AI 助手
+            - listitem [ref=e702]:
+              - paragraph [ref=e703]: 你需要多平台消息集成
+            - listitem [ref=e704]:
+              - paragraph [ref=e705]: 你需要可视化界面和移动端应用
+            - listitem [ref=e706]:
+              - paragraph [ref=e707]: 你希望快速部署完整解决方案
+          - paragraph
+          - paragraph
+          - generic [ref=e708]:
+            - img [ref=e710]
+            - generic [ref=e711]: 海量资讯、精准解读，尽在新浪财经APP
+          - insertion [ref=e713]:
+            - insertion [ref=e714]:
+              - link "广告" [ref=e715] [cursor=pointer]:
+                - /url: http://saxn.sina.com.cn/click?type=bottom&t=UERQUzAwMDAwMDA0NDA5OQ%3D%3D&url=https%3A%2F%2Ffinance.sina.com.cn%2Fmobile%2Fcomfinanceweb.shtml%3Fsource%3DPDPS000000044099&sign=e32b776cb8255330
+                - img "广告" [ref=e716]
+        - paragraph [ref=e719]: 新浪财经声明：此消息系转载自合作媒体，新浪财经登载此文出于传递更多信息之目的，文章内容仅供参考，不构成投资建议。
+        - generic [ref=e720]:
+          - insertion [ref=e722]:
+            - insertion [ref=e723]:
+              - iframe [ref=e724]:
+                - generic [active] [ref=f17e1]:
+                  - iframe [ref=f17e3]:
+                    - generic [ref=f31e2]:
+                      - link "数据分析平台" [ref=f31e3] [cursor=pointer]:
+                        - /url: https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1Yknzu9TZKxpyfqnauWpjYsFhwG5H6hpgPxmgKs5H0hph_qmWmYm19bPWN9Pjb1rj9Wnzuo5iNjfiNAwaNawiNDwaNjPBNawaNjfzNKrau_IyVG5HDhUyPsUHYzPj6YnjbhTHYkPW0dPWbzrNtkgvPsTBuzmWYsFMF15HDhTvN_UANzgv-b5HDhTv-b5yn1rj64nvDYPWR3ujwWmWmhTLwGujYkPWnhIjdYTAP_pyPouyf1gv9WFMwb5HTsnHD1rHThIAYqnWTdPHf4P1f1FMwVT1YkP1TvnWRLnWf1FMwd5gRLnjDkn1bLFMRqpZwYTZn-nYD-nbm-nbuhpy49UhP-FHF7Tv-8miRzwyPEUiRzwyP8FMmqnBuG5yDLrHm1PHKB&besl=-1&c=news&cf=1&ctag=6-0&cvrq=0&device_id_v2=C14D97E67490D6ADE5D27EFB2E70EC7C&efc=0&fr=4&fv=0&haacp=626&img_typ=4130&itm=0&lu_idc=gz&lukid=1&lus=c38893a4658d4cb6&lust=69df88db&luwtr=2348650315000192703&mscf=0&mtids=2221477438&n=10&nttp=1&p=baidu&rcl=0&sce=5&sig=0&sr=90&ssp2=1&sti=30001&tpl=template_inlay_all_pc_lu_info_flow_image_no_des&tsf=dtp:1&tt_sign=%CA%FD%BE%DD%B7%D6%CE%F6%C6%BD%CC%A8&tt_src=0&tu_type=0&u=%2Fwm%2F2026%2D04%2D12%2Fdoc%2Dinhuetnn3645721%2Eshtml&uicf=lurecv&urlid=0&eot=1
+                        - generic [ref=f31e4]: 数据分析平台
+                      - generic [ref=f31e5]:
+                        - link:
+                          - /url: https://union.baidu.com
+                          - img [ref=f31e6] [cursor=pointer]
+                        - link:
+                          - /url: javascript:;
+                          - img [ref=f31e8] [cursor=pointer]
+                  - generic [ref=f17e4]: 广告
+          - generic [ref=e725]:
+            - text: 文章关键词：
+            - link "AI" [ref=e726] [cursor=pointer]:
+              - /url: http://tags.finance.sina.com.cn/AI
+            - link "python" [ref=e727] [cursor=pointer]:
+              - /url: http://tags.finance.sina.com.cn/python
+        - link [ref=e730] [cursor=pointer]:
+          - /url: http://tousu.sina.com.cn/
+          - img [ref=e731]
+        - insertion [ref=e732]:
+          - insertion [ref=e733]:
+            - iframe [ref=e734]:
+              - iframe [ref=f26e3]:
+                - generic [ref=f35e2]:
+                  - generic [ref=f35e7]:
+                    - generic [ref=f35e9]:
+                      - link [ref=f35e11] [cursor=pointer]:
+                        - /url: https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1YsFh7sT7qGujYsFhPC5H0huAbqrauGTdq9TZ0qnauJp1YLujD1uHIbmvN9nvfdrH6sFh_qFRczFRFaFRf1FRn1FRcdFRnLFRnzFRFjFRcdFRnYFRf1FRP7FRPAFRcLFhkdpvbqniuVmLKV5Hc1rH6LFMDqnHmsPHm4nW-xnNqWTZchThcqnauzT1YkFMP-UAk-T-qGujYkFMPGujY3njR4nvw-mywWuHTkn1IbFMPYpyfqnHDdFMfqIZKWUA-WpvNbndqCmzuYujYLnjDkn1m3FMwV5HcLPHRYrHTYnzuYUgnqnHTLPWcdP1cYnzuYIHddP10knHnvraud5y9YIZK1FHPKFHFAFHFAuh-8my4WuiRzwgPGUhD-nbNWUvY-nbNWUBuv5HchpHYLnAD1P10Ynf&besl=-1&c=news&cf=1&ctag=6-0&cvrq=0&device_id_v2=C14D97E67490D6ADE5D27EFB2E70EC7C&efc=0&fr=4&fv=0&haacp=319&img_typ=2&itm=0&lu_idc=gzhxy&lukid=1&lus=80593deadce7137d&lust=69df88db&luwtr=6484714787965361975&mscf=0&mtids=3090914246&n=10&nttp=1&p=baidu&rcl=0&sce=7&sig=100&sr=90&ssp2=1&sti=60101&tpl=baiduCustNativeADImage&tsf=dtp:1&tt_sign=%B2%BB%D3%C3%B5%C7%C2%BC%B5%C4%D3%CE%CF%B7&tt_src=0&tu_type=0&u=%2Fwm%2F2026%2D04%2D12%2Fdoc%2Dinhuetnn3645721%2Eshtml&uicf=lurecv&urlid=0&eot=1
+                        - img [ref=f35e12]
+                      - link "不用登录的游戏" [ref=f35e13] [cursor=pointer]:
+                        - /url: https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1YsFh7sT7qGujYsFhPC5H0huAbqrauGTdq9TZ0qnauJp1YLujD1uHIbmvN9nvfdrH6sFh_qFRczFRFaFRf1FRn1FRcdFRnLFRnzFRFjFRcdFRnYFRf1FRP7FRPAFRcLFhkdpvbqniuVmLKV5Hc1rH6LFMDqnHmsPHm4nW-xnNqWTZchThcqnauzT1YkFMP-UAk-T-qGujYkFMPGujY3njR4nvw-mywWuHTkn1IbFMPYpyfqnHDdFMfqIZKWUA-WpvNbndqCmzuYujYLnjDkn1m3FMwV5HcLPHRYrHTYnzuYUgnqnHTLPWcdP1cYnzuYIHddP10knHnvraud5y9YIZK1FHPKFHFAFHFAuh-8my4WuiRzwgPGUhD-nbNWUvY-nbNWUBuv5HchpHYLnAD1P10Ynf&besl=-1&c=news&cf=1&ctag=6-0&cvrq=0&device_id_v2=C14D97E67490D6ADE5D27EFB2E70EC7C&efc=0&fr=4&fv=0&haacp=319&img_typ=2&itm=0&lu_idc=gzhxy&lukid=1&lus=80593deadce7137d&lust=69df88db&luwtr=6484714787965361975&mscf=0&mtids=3090914246&n=10&nttp=1&p=baidu&rcl=0&sce=7&sig=100&sr=90&ssp2=1&sti=60101&tpl=baiduCustNativeADImage&tsf=dtp:1&tt_sign=%B2%BB%D3%C3%B5%C7%C2%BC%B5%C4%D3%CE%CF%B7&tt_src=0&tu_type=0&u=%2Fwm%2F2026%2D04%2D12%2Fdoc%2Dinhuetnn3645721%2Eshtml&uicf=lurecv&urlid=0&eot=1
+                        - generic [ref=f35e14]: 不用登录的游戏
+                    - generic [ref=f35e16]:
+                      - link [ref=f35e18] [cursor=pointer]:
+                        - /url: https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1YsFh7sT7qGujYsFhPC5H0huAbqrauGTdq9TZ0qnauJp1YLujD1uHIbmvN9nvfdrH6sFh_qFRPjFRRdFRf1FRuDFhkdpvbqnBuVmLKV5HcYnWT3FMDqnHmsPHm4nW-xnNqWTZchThcqnauzT1YkFMP-UAk-T-qGujYkFMPGujY3njR4nvw-mywWuHTkn1IbFMPYpyfqnHDdFMfqIZKWUA-WpvNbndqCmzuYujYLnjDkn1m3FMwV5HcLPHRYrHTYnzuYUgnqnHTLPWcdP1cYnzuYIHddP10knHnvraud5y9YIZK1FHPKFHFAFHFAuh-8my4WuiRzwgPGUhD-nbNWUvY-nbNWUBuv5HchpHYYmhnsPHD4u6&besl=-1&c=news&cf=1&ctag=6-0&cvrq=0&device_id_v2=C14D97E67490D6ADE5D27EFB2E70EC7C&efc=0&fr=4&fv=0&haacp=304&img_typ=4134&itm=0&lu_idc=gzhxy&lukid=2&lus=80593deadce7137d&lust=69df88db&luwtr=12662931170583111116&mscf=0&mtids=9987951&n=10&nttp=1&p=baidu&rcl=0&sce=7&sig=100&sr=90&ssp2=1&sti=60101&tpl=baiduCustNativeADImage&tsf=dtp:1&tt_sign=%CE%C4%BB%AF%CC%E5%D3%FD&tt_src=0&tu_type=0&u=%2Fwm%2F2026%2D04%2D12%2Fdoc%2Dinhuetnn3645721%2Eshtml&uicf=lurecv&urlid=0&eot=1
+                        - img [ref=f35e19]
+                      - link "文化体育" [ref=f35e20] [cursor=pointer]:
+                        - /url: https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1YsFh7sT7qGujYsFhPC5H0huAbqrauGTdq9TZ0qnauJp1YLujD1uHIbmvN9nvfdrH6sFh_qFRPjFRRdFRf1FRuDFhkdpvbqnBuVmLKV5HcYnWT3FMDqnHmsPHm4nW-xnNqWTZchThcqnauzT1YkFMP-UAk-T-qGujYkFMPGujY3njR4nvw-mywWuHTkn1IbFMPYpyfqnHDdFMfqIZKWUA-WpvNbndqCmzuYujYLnjDkn1m3FMwV5HcLPHRYrHTYnzuYUgnqnHTLPWcdP1cYnzuYIHddP10knHnvraud5y9YIZK1FHPKFHFAFHFAuh-8my4WuiRzwgPGUhD-nbNWUvY-nbNWUBuv5HchpHYYmhnsPHD4u6&besl=-1&c=news&cf=1&ctag=6-0&cvrq=0&device_id_v2=C14D97E67490D6ADE5D27EFB2E70EC7C&efc=0&fr=4&fv=0&haacp=304&img_typ=4134&itm=0&lu_idc=gzhxy&lukid=2&lus=80593deadce7137d&lust=69df88db&luwtr=12662931170583111116&mscf=0&mtids=9987951&n=10&nttp=1&p=baidu&rcl=0&sce=7&sig=100&sr=90&ssp2=1&sti=60101&tpl=baiduCustNativeADImage&tsf=dtp:1&tt_sign=%CE%C4%BB%AF%CC%E5%D3%FD&tt_src=0&tu_type=0&u=%2Fwm%2F2026%2D04%2D12%2Fdoc%2Dinhuetnn3645721%2Eshtml&uicf=lurecv&urlid=0&eot=1
+                        - generic [ref=f35e21]: 文化体育
+                    - generic [ref=f35e23]:
+                      - link [ref=f35e25] [cursor=pointer]:
+                        - /url: https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1YsFh7sT7qGujYsFhPC5H0huAbqrauGTdq9TZ0qnauJp1YLujD1uHIbmvN9nvfdrH6sFh_qFRPDFRm3FRfdFRF7FRFDFRD3FRn4FRR3FRc4FR7aFRPaFRF7FhkdpvbqnzuVmLKV5HfYPjDvFMDqnHmsPHm4nW-xnNqWTZchThcqnauzT1YkFMP-UAk-T-qGujYkFMPGujY3njR4nvw-mywWuHTkn1IbFMPYpyfqnHDdFMfqIZKWUA-WpvNbndqCmzuYujYLnjDkn1m3FMwV5HcLPHRYrHTYnzuYUgnqnHTLPWcdP1cYnzuYIHddP10knHnvraud5y9YIZK1FHPKFHFAFHFAuh-8my4WuiRzwgPGUhD-nbNWUvY-nbNWUBuv5HchpHY4PhFBuWnYnf&besl=-1&c=news&cf=1&ctag=6-0&cvrq=0&device_id_v2=C14D97E67490D6ADE5D27EFB2E70EC7C&efc=0&fr=4&fv=0&haacp=181&img_typ=2&itm=0&lu_idc=gzhxy&lukid=3&lus=80593deadce7137d&lust=69df88db&luwtr=2119994127536429777&mscf=0&mtids=3100001396&n=10&nttp=1&p=baidu&rcl=0&sce=7&sig=100&sr=90&ssp2=1&sti=60101&tpl=baiduCustNativeADImage&tsf=dtp:1&tt_sign=%B0%B2%C8%AB%CD%F8%D5%BE%BC%DC%B9%B9&tt_src=0&tu_type=0&u=%2Fwm%2F2026%2D04%2D12%2Fdoc%2Dinhuetnn3645721%2Eshtml&uicf=lurecv&urlid=0&eot=1
+                        - img [ref=f35e26]
+                      - link "安全网站架构" [ref=f35e27] [cursor=pointer]:
+                        - /url: https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1YsFh7sT7qGujYsFhPC5H0huAbqrauGTdq9TZ0qnauJp1YLujD1uHIbmvN9nvfdrH6sFh_qFRPDFRm3FRfdFRF7FRFDFRD3FRn4FRR3FRc4FR7aFRPaFRF7FhkdpvbqnzuVmLKV5HfYPjDvFMDqnHmsPHm4nW-xnNqWTZchThcqnauzT1YkFMP-UAk-T-qGujYkFMPGujY3njR4nvw-mywWuHTkn1IbFMPYpyfqnHDdFMfqIZKWUA-WpvNbndqCmzuYujYLnjDkn1m3FMwV5HcLPHRYrHTYnzuYUgnqnHTLPWcdP1cYnzuYIHddP10knHnvraud5y9YIZK1FHPKFHFAFHFAuh-8my4WuiRzwgPGUhD-nbNWUvY-nbNWUBuv5HchpHY4PhFBuWnYnf&besl=-1&c=news&cf=1&ctag=6-0&cvrq=0&device_id_v2=C14D97E67490D6ADE5D27EFB2E70EC7C&efc=0&fr=4&fv=0&haacp=181&img_typ=2&itm=0&lu_idc=gzhxy&lukid=3&lus=80593deadce7137d&lust=69df88db&luwtr=2119994127536429777&mscf=0&mtids=3100001396&n=10&nttp=1&p=baidu&rcl=0&sce=7&sig=100&sr=90&ssp2=1&sti=60101&tpl=baiduCustNativeADImage&tsf=dtp:1&tt_sign=%B0%B2%C8%AB%CD%F8%D5%BE%BC%DC%B9%B9&tt_src=0&tu_type=0&u=%2Fwm%2F2026%2D04%2D12%2Fdoc%2Dinhuetnn3645721%2Eshtml&uicf=lurecv&urlid=0&eot=1
+                        - generic [ref=f35e28]: 安全网站架构
+                    - generic [ref=f35e30]:
+                      - link [ref=f35e32] [cursor=pointer]:
+                        - /url: https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1YsFh7sT7qGujYsFhPC5H0huAbqrauGTdq9TZ0qnauJp1YLujD1uHIbmvN9nvfdrH6sFh_qFRFjFRDYFRc4FRRzFRnsFRfLFRcYFRNAFRn3FRuDFRP7FR7jFRc1FRn4FRPAFRmkFhkdpvbqPauVmLKV5Hbdn104FMDqnHmsPHm4nW-xnNqWTZchThcqnauzT1YkFMP-UAk-T-qGujYkFMPGujY3njR4nvw-mywWuHTkn1IbFMPYpyfqnHDdFMfqIZKWUA-WpvNbndqCmzuYujYLnjDkn1m3FMwV5HcLPHRYrHTYnzuYUgnqnHTLPWcdP1cYnzuYIHddP10knHnvraud5y9YIZK1FHPKFHFAFHFAuh-8my4WuiRzwgPGUhD-nbNWUvY-nbNWUBuv5HchpHYsmH--Pvm4u0&besl=-1&c=news&cf=1&ctag=6-0&cvrq=0&device_id_v2=C14D97E67490D6ADE5D27EFB2E70EC7C&efc=0&fr=4&fv=0&haacp=181&img_typ=2&itm=0&lu_idc=gzhxy&lukid=4&lus=80593deadce7137d&lust=69df88db&luwtr=2252042192524638781&mscf=0&mtids=3099074349&n=10&nttp=1&p=baidu&rcl=0&sce=7&sig=100&sr=90&ssp2=1&sti=60101&tpl=baiduCustNativeADImage&tsf=dtp:1&tt_sign=%B8%DF%B7%C0%BB%A4%C9%A8%C3%E8%D2%C7&tt_src=0&tu_type=0&u=%2Fwm%2F2026%2D04%2D12%2Fdoc%2Dinhuetnn3645721%2Eshtml&uicf=lurecv&urlid=0&eot=1
+                        - img [ref=f35e33]
+                      - link "高防护扫描仪" [ref=f35e34] [cursor=pointer]:
+                        - /url: https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1YsFh7sT7qGujYsFhPC5H0huAbqrauGTdq9TZ0qnauJp1YLujD1uHIbmvN9nvfdrH6sFh_qFRFjFRDYFRc4FRRzFRnsFRfLFRcYFRNAFRn3FRuDFRP7FR7jFRc1FRn4FRPAFRmkFhkdpvbqPauVmLKV5Hbdn104FMDqnHmsPHm4nW-xnNqWTZchThcqnauzT1YkFMP-UAk-T-qGujYkFMPGujY3njR4nvw-mywWuHTkn1IbFMPYpyfqnHDdFMfqIZKWUA-WpvNbndqCmzuYujYLnjDkn1m3FMwV5HcLPHRYrHTYnzuYUgnqnHTLPWcdP1cYnzuYIHddP10knHnvraud5y9YIZK1FHPKFHFAFHFAuh-8my4WuiRzwgPGUhD-nbNWUvY-nbNWUBuv5HchpHYsmH--Pvm4u0&besl=-1&c=news&cf=1&ctag=6-0&cvrq=0&device_id_v2=C14D97E67490D6ADE5D27EFB2E70EC7C&efc=0&fr=4&fv=0&haacp=181&img_typ=2&itm=0&lu_idc=gzhxy&lukid=4&lus=80593deadce7137d&lust=69df88db&luwtr=2252042192524638781&mscf=0&mtids=3099074349&n=10&nttp=1&p=baidu&rcl=0&sce=7&sig=100&sr=90&ssp2=1&sti=60101&tpl=baiduCustNativeADImage&tsf=dtp:1&tt_sign=%B8%DF%B7%C0%BB%A4%C9%A8%C3%E8%D2%C7&tt_src=0&tu_type=0&u=%2Fwm%2F2026%2D04%2D12%2Fdoc%2Dinhuetnn3645721%2Eshtml&uicf=lurecv&urlid=0&eot=1
+                        - generic [ref=f35e35]: 高防护扫描仪
+                    - generic [ref=f35e37]:
+                      - link [ref=f35e39] [cursor=pointer]:
+                        - /url: https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1YsFh7sT7qGujYsFhPC5H0huAbqrauGTdq9TZ0qnauJp1YLujD1uHIbmvN9nvfdrH6sFh_qFRc4FRwjFRnsFRNDFRPAFRcdFRPDFRc1FhkdpvbqPiuVmLKV5H6kP163FMDqnHmsPHm4nW-xnNqWTZchThcqnauzT1YkFMP-UAk-T-qGujYkFMPGujY3njR4nvw-mywWuHTkn1IbFMPYpyfqnHDdFMfqIZKWUA-WpvNbndqCmzuYujYLnjDkn1m3FMwV5HcLPHRYrHTYnzuYUgnqnHTLPWcdP1cYnzuYIHddP10knHnvraud5y9YIZK1FHPKFHFAFHFAuh-8my4WuiRzwgPGUhD-nbNWUvY-nbNWUBuv5HchpHYYrARsuWnkP6&besl=-1&c=news&cf=1&ctag=6-0&cvrq=0&device_id_v2=C14D97E67490D6ADE5D27EFB2E70EC7C&efc=0&fr=4&fv=0&haacp=626&img_typ=4130&itm=0&lu_idc=gzhxy&lukid=5&lus=80593deadce7137d&lust=69df88db&luwtr=6981257321548992688&mscf=0&mtids=3087521316&n=10&nttp=1&p=baidu&rcl=0&sce=7&sig=100&sr=90&ssp2=1&sti=60101&tpl=baiduCustNativeADImage&tsf=dtp:1&tt_sign=%D3%C3%BB%A7%B9%DC%C0%ED%CF%B5%CD%B3%B5%C7%C2%BC&tt_src=0&tu_type=0&u=%2Fwm%2F2026%2D04%2D12%2Fdoc%2Dinhuetnn3645721%2Eshtml&uicf=lurecv&urlid=0&eot=1
+                        - img [ref=f35e40]
+                      - link "用户管理系统登录" [ref=f35e41] [cursor=pointer]:
+                        - /url: https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1YsFh7sT7qGujYsFhPC5H0huAbqrauGTdq9TZ0qnauJp1YLujD1uHIbmvN9nvfdrH6sFh_qFRc4FRwjFRnsFRNDFRPAFRcdFRPDFRc1FhkdpvbqPiuVmLKV5H6kP163FMDqnHmsPHm4nW-xnNqWTZchThcqnauzT1YkFMP-UAk-T-qGujYkFMPGujY3njR4nvw-mywWuHTkn1IbFMPYpyfqnHDdFMfqIZKWUA-WpvNbndqCmzuYujYLnjDkn1m3FMwV5HcLPHRYrHTYnzuYUgnqnHTLPWcdP1cYnzuYIHddP10knHnvraud5y9YIZK1FHPKFHFAFHFAuh-8my4WuiRzwgPGUhD-nbNWUvY-nbNWUBuv5HchpHYYrARsuWnkP6&besl=-1&c=news&cf=1&ctag=6-0&cvrq=0&device_id_v2=C14D97E67490D6ADE5D27EFB2E70EC7C&efc=0&fr=4&fv=0&haacp=626&img_typ=4130&itm=0&lu_idc=gzhxy&lukid=5&lus=80593deadce7137d&lust=69df88db&luwtr=6981257321548992688&mscf=0&mtids=3087521316&n=10&nttp=1&p=baidu&rcl=0&sce=7&sig=100&sr=90&ssp2=1&sti=60101&tpl=baiduCustNativeADImage&tsf=dtp:1&tt_sign=%D3%C3%BB%A7%B9%DC%C0%ED%CF%B5%CD%B3%B5%C7%C2%BC&tt_src=0&tu_type=0&u=%2Fwm%2F2026%2D04%2D12%2Fdoc%2Dinhuetnn3645721%2Eshtml&uicf=lurecv&urlid=0&eot=1
+                        - generic [ref=f35e42]: 用户管理系统登录
+                    - generic [ref=f35e44]:
+                      - link [ref=f35e46] [cursor=pointer]:
+                        - /url: https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1YsFh7sT7qGujYsFhPC5H0huAbqrauGTdq9TZ0qnauJp1YLujD1uHIbmvN9nvfdrH6sFh_qFRn3FRuDFRP7FR7jFRPDFRnvFhkdpvbqPBuVmLKV5HT1P1bLFMDqnHmsPHm4nW-xnNqWTZchThcqnauzT1YkFMP-UAk-T-qGujYkFMPGujY3njR4nvw-mywWuHTkn1IbFMPYpyfqnHDdFMfqIZKWUA-WpvNbndqCmzuYujYLnjDkn1m3FMwV5HcLPHRYrHTYnzuYUgnqnHTLPWcdP1cYnzuYIHddP10knHnvraud5y9YIZK1FHPKFHFAFHFAuh-8my4WuiRzwgPGUhD-nbNWUvY-nbNWUBuv5HchpHY3Pj9-nHbkuf&besl=-1&c=news&cf=1&ctag=6-0&cvrq=0&device_id_v2=C14D97E67490D6ADE5D27EFB2E70EC7C&efc=0&fr=4&fv=0&haacp=168&img_typ=2&itm=0&lu_idc=gzhxy&lukid=6&lus=80593deadce7137d&lust=69df88db&luwtr=12452169058126575050&mscf=0&mtids=3087543533&n=10&nttp=1&p=baidu&rcl=0&sce=7&sig=100&sr=90&ssp2=1&sti=60101&tpl=baiduCustNativeADImage&tsf=dtp:1&tt_sign=%C8%FD%CE%AC%CA%B5%BE%B0&tt_src=0&tu_type=0&u=%2Fwm%2F2026%2D04%2D12%2Fdoc%2Dinhuetnn3645721%2Eshtml&uicf=lurecv&urlid=0&eot=1
+                        - img [ref=f35e47]
+                      - link "三维实景" [ref=f35e48] [cursor=pointer]:
+                        - /url: https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1YsFh7sT7qGujYsFhPC5H0huAbqrauGTdq9TZ0qnauJp1YLujD1uHIbmvN9nvfdrH6sFh_qFRn3FRuDFRP7FR7jFRPDFRnvFhkdpvbqPBuVmLKV5HT1P1bLFMDqnHmsPHm4nW-xnNqWTZchThcqnauzT1YkFMP-UAk-T-qGujYkFMPGujY3njR4nvw-mywWuHTkn1IbFMPYpyfqnHDdFMfqIZKWUA-WpvNbndqCmzuYujYLnjDkn1m3FMwV5HcLPHRYrHTYnzuYUgnqnHTLPWcdP1cYnzuYIHddP10knHnvraud5y9YIZK1FHPKFHFAFHFAuh-8my4WuiRzwgPGUhD-nbNWUvY-nbNWUBuv5HchpHY3Pj9-nHbkuf&besl=-1&c=news&cf=1&ctag=6-0&cvrq=0&device_id_v2=C14D97E67490D6ADE5D27EFB2E70EC7C&efc=0&fr=4&fv=0&haacp=168&img_typ=2&itm=0&lu_idc=gzhxy&lukid=6&lus=80593deadce7137d&lust=69df88db&luwtr=12452169058126575050&mscf=0&mtids=3087543533&n=10&nttp=1&p=baidu&rcl=0&sce=7&sig=100&sr=90&ssp2=1&sti=60101&tpl=baiduCustNativeADImage&tsf=dtp:1&tt_sign=%C8%FD%CE%AC%CA%B5%BE%B0&tt_src=0&tu_type=0&u=%2Fwm%2F2026%2D04%2D12%2Fdoc%2Dinhuetnn3645721%2Eshtml&uicf=lurecv&urlid=0&eot=1
+                        - generic [ref=f35e49]: 三维实景
+                    - generic [ref=f35e51]:
+                      - link [ref=f35e53] [cursor=pointer]:
+                        - /url: https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1YsFh7sT7qGujYsFhPC5H0huAbqrauGTdq9TZ0qnauJp1YLujD1uHIbmvN9nvfdrH6sFh_qFRcYFR7aFRnvFRRvFhkdpvbqPzuVmLKV5HDkP1D3niuk5HDvnjRvrHc4g17xmLKzFMFB5H0hTMnqniu1uyk_ugFxpyfqniu1pyfqrj0drHPbuy7bmvRLnHnLuau1IA-b5HDkPiuY5gwsmvkGmvV-ujPxpAnhIAfqP10knHnvrauYUHYzP1RdPjbLPjnhIAd15HDLP1mzPHTzPjnhIZRqIHTsnHD1PW6hIHdCIZwsTzR1fiRzwBRzwhuGUh78mvR-nbN1py49FHF7mvqVFHF7mv3hIWYzFhbqPjfLrjTvPHm&besl=-1&c=news&cf=1&ctag=6-0&cvrq=0&device_id_v2=C14D97E67490D6ADE5D27EFB2E70EC7C&efc=0&fr=4&fv=0&haacp=399&img_typ=2&itm=0&lu_idc=gzhxy&lukid=7&lus=80593deadce7137d&lust=69df88db&luwtr=2233480023862830922&mscf=0&mtids=3101067679&n=10&nttp=1&p=baidu&rcl=0&sce=7&sig=100&sr=90&ssp2=1&sti=60101&tpl=baiduCustNativeADImage&tsf=dtp:1&tt_sign=%CA%D6%D3%CE%CE%E4%CF%C0%B4%AB%C6%E6&tt_src=0&tu_type=0&u=%2Fwm%2F2026%2D04%2D12%2Fdoc%2Dinhuetnn3645721%2Eshtml&uicf=lurecv&urlid=0&eot=1
+                        - img [ref=f35e54]
+                      - link "手游武侠传奇" [ref=f35e55] [cursor=pointer]:
+                        - /url: https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1YsFh7sT7qGujYsFhPC5H0huAbqrauGTdq9TZ0qnauJp1YLujD1uHIbmvN9nvfdrH6sFh_qFRcYFR7aFRnvFRRvFhkdpvbqPzuVmLKV5HDkP1D3niuk5HDvnjRvrHc4g17xmLKzFMFB5H0hTMnqniu1uyk_ugFxpyfqniu1pyfqrj0drHPbuy7bmvRLnHnLuau1IA-b5HDkPiuY5gwsmvkGmvV-ujPxpAnhIAfqP10knHnvrauYUHYzP1RdPjbLPjnhIAd15HDLP1mzPHTzPjnhIZRqIHTsnHD1PW6hIHdCIZwsTzR1fiRzwBRzwhuGUh78mvR-nbN1py49FHF7mvqVFHF7mv3hIWYzFhbqPjfLrjTvPHm&besl=-1&c=news&cf=1&ctag=6-0&cvrq=0&device_id_v2=C14D97E67490D6ADE5D27EFB2E70EC7C&efc=0&fr=4&fv=0&haacp=399&img_typ=2&itm=0&lu_idc=gzhxy&lukid=7&lus=80593deadce7137d&lust=69df88db&luwtr=2233480023862830922&mscf=0&mtids=3101067679&n=10&nttp=1&p=baidu&rcl=0&sce=7&sig=100&sr=90&ssp2=1&sti=60101&tpl=baiduCustNativeADImage&tsf=dtp:1&tt_sign=%CA%D6%D3%CE%CE%E4%CF%C0%B4%AB%C6%E6&tt_src=0&tu_type=0&u=%2Fwm%2F2026%2D04%2D12%2Fdoc%2Dinhuetnn3645721%2Eshtml&uicf=lurecv&urlid=0&eot=1
+                        - generic [ref=f35e56]: 手游武侠传奇
+                    - generic [ref=f35e58]:
+                      - link [ref=f35e60] [cursor=pointer]:
+                        - /url: https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1YsFh7sT7qGujYsFhPC5H0huAbqrauGTdq9TZ0qnauJp1YLujD1uHIbmvN9nvfdrH6sFh_qFRPKFRczFRn1FRcYFRfsFRwDFRPAFRfsFRf1FRP7FRPAFRcLFRFKFRn1FRPDFRRvFhkdpvbqrauVmLKV5HD4PWmsFMDqnHmsPHm4nW-xnNqWTZchThcqnauzT1YkFMP-UAk-T-qGujYkFMPGujY3njR4nvw-mywWuHTkn1IbFMPYpyfqnHDdFMfqIZKWUA-WpvNbndqCmzuYujYLnjDkn1m3FMwV5HcLPHRYrHTYnzuYUgnqnHTLPWcdP1cYnzuYIHddP10knHnvraud5y9YIZK1FHPKFHFAFHFAuh-8my4WuiRzwgPGUhD-nbNWUvY-nbNWUBuv5HchpHYsPhRLmhDsPs&besl=-1&c=news&cf=1&ctag=6-0&cvrq=0&device_id_v2=C14D97E67490D6ADE5D27EFB2E70EC7C&efc=0&fr=4&fv=0&haacp=304&img_typ=2&itm=0&lu_idc=gzhxy&lukid=8&lus=80593deadce7137d&lust=69df88db&luwtr=13245032438625588426&mscf=0&mtids=3087232389&n=10&nttp=1&p=baidu&rcl=0&sce=7&sig=100&sr=90&ssp2=1&sti=60101&tpl=baiduCustNativeADImage&tsf=dtp:1&tt_sign=%D3%CE%CF%B7%CA%D4%CD%E6&tt_src=0&tu_type=0&u=%2Fwm%2F2026%2D04%2D12%2Fdoc%2Dinhuetnn3645721%2Eshtml&uicf=lurecv&urlid=0&eot=1
+                        - img [ref=f35e61]
+                      - link "游戏试玩" [ref=f35e62] [cursor=pointer]:
+                        - /url: https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1YsFh7sT7qGujYsFhPC5H0huAbqrauGTdq9TZ0qnauJp1YLujD1uHIbmvN9nvfdrH6sFh_qFRPKFRczFRn1FRcYFRfsFRwDFRPAFRfsFRf1FRP7FRPAFRcLFRFKFRn1FRPDFRRvFhkdpvbqrauVmLKV5HD4PWmsFMDqnHmsPHm4nW-xnNqWTZchThcqnauzT1YkFMP-UAk-T-qGujYkFMPGujY3njR4nvw-mywWuHTkn1IbFMPYpyfqnHDdFMfqIZKWUA-WpvNbndqCmzuYujYLnjDkn1m3FMwV5HcLPHRYrHTYnzuYUgnqnHTLPWcdP1cYnzuYIHddP10knHnvraud5y9YIZK1FHPKFHFAFHFAuh-8my4WuiRzwgPGUhD-nbNWUvY-nbNWUBuv5HchpHYsPhRLmhDsPs&besl=-1&c=news&cf=1&ctag=6-0&cvrq=0&device_id_v2=C14D97E67490D6ADE5D27EFB2E70EC7C&efc=0&fr=4&fv=0&haacp=304&img_typ=2&itm=0&lu_idc=gzhxy&lukid=8&lus=80593deadce7137d&lust=69df88db&luwtr=13245032438625588426&mscf=0&mtids=3087232389&n=10&nttp=1&p=baidu&rcl=0&sce=7&sig=100&sr=90&ssp2=1&sti=60101&tpl=baiduCustNativeADImage&tsf=dtp:1&tt_sign=%D3%CE%CF%B7%CA%D4%CD%E6&tt_src=0&tu_type=0&u=%2Fwm%2F2026%2D04%2D12%2Fdoc%2Dinhuetnn3645721%2Eshtml&uicf=lurecv&urlid=0&eot=1
+                        - generic [ref=f35e63]: 游戏试玩
+                    - generic [ref=f35e65]:
+                      - link [ref=f35e67] [cursor=pointer]:
+                        - /url: https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1YsFh7sT7qGujYsFhPC5H0huAbqrauGTdq9TZ0qnauJp1YLujD1uHIbmvN9nvfdrH6sFh_qFRnvFRRdFRndFRnvFRf1FRP7FRPAFRcLFhkdpvbqriuVmLKV5HcvPjnLFMDqnHmsPHm4nW-xnNqWTZchThcqnauzT1YkFMP-UAk-T-qGujYkFMPGujY3njR4nvw-mywWuHTkn1IbFMPYpyfqnHDdFMfqIZKWUA-WpvNbndqCmzuYujYLnjDkn1m3FMwV5HcLPHRYrHTYnzuYUgnqnHTLPWcdP1cYnzuYIHddP10knHnvraud5y9YIZK1FHPKFHFAFHFAuh-8my4WuiRzwgPGUhD-nbNWUvY-nbNWUBuv5HchpHdhmyf1PHcYmf&besl=-1&c=news&cf=1&ctag=6-0&cvrq=0&device_id_v2=C14D97E67490D6ADE5D27EFB2E70EC7C&efc=0&fr=4&fv=0&haacp=233&img_typ=2&itm=0&lu_idc=gzhxy&lukid=9&lus=80593deadce7137d&lust=69df88db&luwtr=14323106831571865299&mscf=0&mtids=3044080635&n=10&nttp=1&p=baidu&rcl=0&sce=7&sig=100&sr=90&ssp2=1&sti=60101&tpl=baiduCustNativeADImage&tsf=dtp:1&tt_sign=%C6%E5%C5%C6%D3%CE%CF%B7&tt_src=0&tu_type=0&u=%2Fwm%2F2026%2D04%2D12%2Fdoc%2Dinhuetnn3645721%2Eshtml&uicf=lurecv&urlid=0&eot=1
+                        - img [ref=f35e68]
+                      - link "棋牌游戏" [ref=f35e69] [cursor=pointer]:
+                        - /url: https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1YsFh7sT7qGujYsFhPC5H0huAbqrauGTdq9TZ0qnauJp1YLujD1uHIbmvN9nvfdrH6sFh_qFRnvFRRdFRndFRnvFRf1FRP7FRPAFRcLFhkdpvbqriuVmLKV5HcvPjnLFMDqnHmsPHm4nW-xnNqWTZchThcqnauzT1YkFMP-UAk-T-qGujYkFMPGujY3njR4nvw-mywWuHTkn1IbFMPYpyfqnHDdFMfqIZKWUA-WpvNbndqCmzuYujYLnjDkn1m3FMwV5HcLPHRYrHTYnzuYUgnqnHTLPWcdP1cYnzuYIHddP10knHnvraud5y9YIZK1FHPKFHFAFHFAuh-8my4WuiRzwgPGUhD-nbNWUvY-nbNWUBuv5HchpHdhmyf1PHcYmf&besl=-1&c=news&cf=1&ctag=6-0&cvrq=0&device_id_v2=C14D97E67490D6ADE5D27EFB2E70EC7C&efc=0&fr=4&fv=0&haacp=233&img_typ=2&itm=0&lu_idc=gzhxy&lukid=9&lus=80593deadce7137d&lust=69df88db&luwtr=14323106831571865299&mscf=0&mtids=3044080635&n=10&nttp=1&p=baidu&rcl=0&sce=7&sig=100&sr=90&ssp2=1&sti=60101&tpl=baiduCustNativeADImage&tsf=dtp:1&tt_sign=%C6%E5%C5%C6%D3%CE%CF%B7&tt_src=0&tu_type=0&u=%2Fwm%2F2026%2D04%2D12%2Fdoc%2Dinhuetnn3645721%2Eshtml&uicf=lurecv&urlid=0&eot=1
+                        - generic [ref=f35e70]: 棋牌游戏
+                  - generic [ref=f35e71]:
+                    - link:
+                      - /url: https://union.baidu.com
+                      - img [ref=f35e72] [cursor=pointer]
+                    - link:
+                      - /url: javascript:;
+                      - img [ref=f35e74] [cursor=pointer]
+        - generic [ref=e735]:
+          - generic [ref=e736]:
+            - generic [ref=e737]:
+              - generic [ref=e738]:
+                - emphasis [ref=e739]:
+                  - link "0" [ref=e740] [cursor=pointer]:
+                    - /url: https://comment5.news.sina.com.cn/comment/skin/default.html?channel=cj&newsid=comos-nhuetnn3645721
+                - text: 条评论|
+                - emphasis [ref=e741]:
+                  - link "0" [ref=e742] [cursor=pointer]:
+                    - /url: https://comment5.news.sina.com.cn/comment/skin/default.html?channel=cj&newsid=comos-nhuetnn3645721
+                - text: 人参与
+              - generic [ref=e743]: 网友评论
+            - generic [ref=e744]:
+              - textbox "我有话要说..." [ref=e747]
+              - link [ref=e749] [cursor=pointer]:
+                - /url: https://weibo.com/
+                - img [ref=e750]
+            - generic [ref=e752]:
+              - generic [ref=e753]:
+                - link "登录" [ref=e754] [cursor=pointer]:
+                  - /url: javascript:;
+                - text: "|"
+                - link "注册" [ref=e755] [cursor=pointer]:
+                  - /url: https://login.sina.com.cn/signup/signup.php
+              - link "发布" [ref=e756]:
+                - /url: javascript:;
+          - paragraph [ref=e758]: 郑重声明：1.根据《证券法》规定，禁止编造、传播虚假信息或者误导性信息，扰乱证券市场；2.用户在本社区发表的所有资料、言论等仅代表个人观点，与本网站立场无关，不对您构成任何投资建议。用户应基于自己的独立判断，自行决定证券投资并承担相应风险。
+        - insertion [ref=e760]:
+          - insertion [ref=e761]:
+            - iframe [ref=e762]:
+              - generic [active] [ref=f23e1]:
+                - iframe [ref=f23e3]:
+                  - generic [ref=f36e2]:
+                    - link "wifi管理器" [ref=f36e3] [cursor=pointer]:
+                      - /url: https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1Yknzu9TZKxpyfqnauWpjYsFhwG5H6hpgPxmgKs5H0hph_quWw9n1PbnhFBuWNBnWKbnauo5gIGuhb-fbm-fYf-fbc-fHT-fWb-wDn-f10-wRf-fYm-fWR-fYf-fWn-fWb-wDn-f10-wRfhUZNopHYkFhdWTAYqPH0vnjDhTHYkPW0dPWbzrNtkgvPsTBuzmWYsFMF15HDhTvN_UANzgv-b5HDhTv-b5yfsnW0dmhFhnhc1uAD1uWfhTLwGujYkPWnhIjdYTAP_pyPouyf1gv9WFMwb5HTsnHD1PWchIAYqnWTdPHf4P1f1FMwVT1YkP1TvnWRLnWf1FMwd5gRLnjDkn1mzFMRqpZwYTZn-nYD-nbm-nbuhpy49UhP-FHF7Tv-8miRzwyPEUiRzwyP8FMmqnBuG5yP-PAcvnAms&besl=-1&c=news&cf=1&ctag=6-0&cvrq=0&device_id_v2=C14D97E67490D6ADE5D27EFB2E70EC7C&efc=0&eid_list=200044&expid=200044&fr=4&fv=0&haacp=328&img_typ=2&itm=0&lu_idc=gzhxy&lukid=1&lus=d0205bbf2b3da3f4&lust=69df88db&luwtr=795902179770173670&mscf=0&mtids=690804&n=10&nttp=1&p=baidu&rcl=0&sce=5&sig=100&sr=90&ssp2=1&sti=30001&tpl=template_inlay_all_pc_lu_info_flow_image_no_des&tsf=dtp:1&tt_sign=wifi%B9%DC%C0%ED%C6%F7&tt_src=0&tu_type=0&u=%2Fwm%2F2026%2D04%2D12%2Fdoc%2Dinhuetnn3645721%2Eshtml&uicf=lurecv&urlid=0&eot=1
+                      - generic [ref=f36e4]: wifi管理器
+                    - generic [ref=f36e5]:
+                      - link:
+                        - /url: https://union.baidu.com
+                        - img [ref=f36e6] [cursor=pointer]
+                      - link:
+                        - /url: javascript:;
+                        - img [ref=f36e8] [cursor=pointer]
+                - generic [ref=f23e4]: 广告
+        - generic [ref=e763]:
+          - heading "VIP课程推荐" [level=2] [ref=e765]
+          - generic [ref=e766]:
+            - generic [ref=e767]:
+              - link [ref=e768] [cursor=pointer]:
+                - /url: https://live.finance.sina.com.cn/bozhu/1658605145
+                - img [ref=e769]
+              - paragraph [ref=e770]:
+                - link "大题材的引爆点" [ref=e771] [cursor=pointer]:
+                  - /url: https://live.finance.sina.com.cn/bozhu/1658605145
+            - generic [ref=e772]:
+              - link [ref=e773] [cursor=pointer]:
+                - /url: https://live.finance.sina.com.cn/bozhu/2060480585
+                - img [ref=e774]
+              - paragraph [ref=e775]:
+                - link "科技仍是26年主线" [ref=e776] [cursor=pointer]:
+                  - /url: https://live.finance.sina.com.cn/bozhu/2060480585
+            - generic [ref=e777]:
+              - link [ref=e778] [cursor=pointer]:
+                - /url: https://live.finance.sina.com.cn/bozhu/2342117515
+                - img [ref=e779]
+              - paragraph [ref=e780]:
+                - link "26年继续牛市格局" [ref=e781] [cursor=pointer]:
+                  - /url: https://live.finance.sina.com.cn/bozhu/2342117515
+        - generic [ref=e782]:
+          - heading "APP专享直播" [level=2] [ref=e784]
+          - generic [ref=e785]:
+            - generic:
+              - generic:
+                - generic [ref=e786]:
+                  - generic [ref=e787] [cursor=pointer]:
+                    - img [ref=e788]
+                    - generic [ref=e789]: 开播时间 | 4-15 16:00
+                    - heading "光大证券：创新药获政策支持，优化首发价格机制" [level=5] [ref=e792]
+                  - generic [ref=e793] [cursor=pointer]:
+                    - img [ref=e794]
+                    - generic [ref=e795]: 开播时间 | 4-15 15:30
+                    - heading "博时基金：穿越震荡，探寻硬科技投资新机遇" [level=5] [ref=e798]
+                  - generic [ref=e799] [cursor=pointer]:
+                    - img [ref=e800]
+                    - generic [ref=e801]: 开播时间 | 4-15 15:30
+                    - heading "国泰基金：供给波澜起，需求势方兴，新能源机遇何处寻？创业板新能源ETF国泰投资价值解析" [level=5] [ref=e804]
+                  - generic [ref=e805] [cursor=pointer]:
+                    - img [ref=e806]
+                    - generic [ref=e807]: 开播时间 | 4-15 15:30
+                    - heading "进门财经：AI如何重塑资产配置与投资实践" [level=5] [ref=e810]
+                  - generic [ref=e811] [cursor=pointer]:
+                    - img [ref=e812]
+                    - generic [ref=e813]: 开播时间 | 4-15 15:30
+                    - heading "华安基金：指数大学堂：创业板50新高+黄金震荡，如何双线布局？" [level=5] [ref=e816]
+                  - generic [ref=e817] [cursor=pointer]:
+                    - img [ref=e818]
+                    - generic [ref=e819]: 开播时间 | 4-15 15:00
+                    - heading "招商基金：地缘局势不稳定下A股凸显韧性——招商基金二季度共赢策略会" [level=5] [ref=e822]
+                  - generic [ref=e823] [cursor=pointer]:
+                    - img [ref=e824]
+                    - generic [ref=e825]: 开播时间 | 4-15 15:00
+                    - heading "国投瑞银：追上资源热点 | 有色开始反弹了？" [level=5] [ref=e828]
+                  - generic [ref=e829] [cursor=pointer]:
+                    - img [ref=e830]
+                    - generic [ref=e831]: 开播时间 | 4-15 15:00
+                    - heading "鹏华基金：国家安全新范式 | 国防粮食筑底 空天经济启航" [level=5] [ref=e834]
+                  - generic [ref=e835] [cursor=pointer]:
+                    - img [ref=e836]
+                    - generic [ref=e837]: 开播时间 | 4-15 15:00
+                    - heading "国泰海通：为什么又是半导体？" [level=5] [ref=e840]
+                  - generic [ref=e841] [cursor=pointer]:
+                    - img [ref=e842]
+                    - generic [ref=e843]: 开播时间 | 4-15 15:00
+                    - heading "中信期货：橡胶三品种 后市有何机会?" [level=5] [ref=e846]
+                - generic [ref=e847]:
+                  - generic [ref=e848] [cursor=pointer]:
+                    - img [ref=e849]
+                    - generic [ref=e850]: 开播时间 | 4-15 16:00
+                    - heading "光大证券：创新药获政策支持，优化首发价格机制" [level=5] [ref=e853]
+                  - generic [ref=e854] [cursor=pointer]:
+                    - img [ref=e855]
+                    - generic [ref=e856]: 开播时间 | 4-15 15:30
+                    - heading "博时基金：穿越震荡，探寻硬科技投资新机遇" [level=5] [ref=e859]
+                  - generic [ref=e860] [cursor=pointer]:
+                    - img [ref=e861]
+                    - generic [ref=e862]: 开播时间 | 4-15 15:30
+                    - heading "国泰基金：供给波澜起，需求势方兴，新能源机遇何处寻？创业板新能源ETF国泰投资价值解析" [level=5] [ref=e865]
+                  - generic [ref=e866] [cursor=pointer]:
+                    - img [ref=e867]
+                    - generic [ref=e868]: 开播时间 | 4-15 15:30
+                    - heading "进门财经：AI如何重塑资产配置与投资实践" [level=5] [ref=e871]
+                  - generic [ref=e872] [cursor=pointer]:
+                    - img [ref=e873]
+                    - generic [ref=e874]: 开播时间 | 4-15 15:30
+                    - heading "华安基金：指数大学堂：创业板50新高+黄金震荡，如何双线布局？" [level=5] [ref=e877]
+                  - generic [ref=e878] [cursor=pointer]:
+                    - img [ref=e879]
+                    - generic [ref=e880]: 开播时间 | 4-15 15:00
+                    - heading "招商基金：地缘局势不稳定下A股凸显韧性——招商基金二季度共赢策略会" [level=5] [ref=e883]
+                  - generic [ref=e884] [cursor=pointer]:
+                    - img [ref=e885]
+                    - generic [ref=e886]: 开播时间 | 4-15 15:00
+                    - heading "国投瑞银：追上资源热点 | 有色开始反弹了？" [level=5] [ref=e889]
+                  - generic [ref=e890] [cursor=pointer]:
+                    - img [ref=e891]
+                    - generic [ref=e892]: 开播时间 | 4-15 15:00
+                    - heading "鹏华基金：国家安全新范式 | 国防粮食筑底 空天经济启航" [level=5] [ref=e895]
+                  - generic [ref=e896] [cursor=pointer]:
+                    - img [ref=e897]
+                    - generic [ref=e898]: 开播时间 | 4-15 15:00
+                    - heading "国泰海通：为什么又是半导体？" [level=5] [ref=e901]
+                  - generic [ref=e902] [cursor=pointer]:
+                    - img [ref=e903]
+                    - generic [ref=e904]: 开播时间 | 4-15 15:00
+                    - heading "中信期货：橡胶三品种 后市有何机会?" [level=5] [ref=e907]
+            - link "上一页" [ref=e908] [cursor=pointer]:
+              - /url: javascript:;
+            - link "下一页" [ref=e909] [cursor=pointer]:
+              - /url: javascript:;
+          - generic [ref=e910]: 1/10
+        - generic [ref=e911]:
+          - img "新浪财经公众号" [ref=e913]
+          - generic [ref=e914]:
+            - generic [ref=e915]: 新浪财经公众号
+            - paragraph [ref=e916]: 24小时滚动播报最新的财经资讯和视频，更多粉丝福利扫描二维码关注（sinafinance）
+        - link "相关新闻" [ref=e919] [cursor=pointer]:
+          - /url: javascript:;
+      - generic [ref=e920]:
+        - generic [ref=e921]:
+          - heading "投资研报 扫码订阅" [level=2] [ref=e922]:
+            - link "投资研报" [ref=e923] [cursor=pointer]:
+              - /url: https://daxue.sina.cn/category/130
+            - generic [ref=e924] [cursor=pointer]: 扫码订阅
+          - list [ref=e925]:
+            - listitem [ref=e926]:
+              - link "算力链核心个股，机构给予买入评级！AI PCB+光通信+交换机+数据中心+智能驾驶+华为，机构表示AI算力景气度持续验证，高端产能释放在即！" [ref=e927] [cursor=pointer]:
+                - /url: https://daxue.sina.cn/detail/graphics/54a2c39021ef4ec89125cd681601b84d/32be55050e2d
+              - generic [ref=e928]:
+                - generic [ref=e929]: 04-15 20:30
+                - link "机构内参会员专享" [ref=e930] [cursor=pointer]:
+                  - /url: https://daxue.sina.cn/column/54a2c39021ef4ec89125cd681601b84d
+            - listitem [ref=e931]:
+              - link "产业链收入兑现：人形机器人产业或逐步从小批量验证迈向“1-10”新阶段！机器人形成良好布局+加大对多模态大模型等研发投入+芯片+算力" [ref=e932] [cursor=pointer]:
+                - /url: https://daxue.sina.cn/detail/graphics/1a3971a466489e1796dc092794f59956/a34b626784a5
+              - generic [ref=e933]:
+                - generic [ref=e934]: 04-15 19:21
+                - link "火线电报会员专享" [ref=e935] [cursor=pointer]:
+                  - /url: https://daxue.sina.cn/column/1a3971a466489e1796dc092794f59956
+            - listitem [ref=e936]:
+              - link "欧洲海风短期供应链放量信号明显，能源自主可控及算力驱动长期需求进一步打开！铝合金+消费电子、服务器、新能源全面布局+折叠屏+储能" [ref=e937] [cursor=pointer]:
+                - /url: https://daxue.sina.cn/detail/graphics/f5443bd63a8b4e858b9225ffa008a6c6/c8aed7a3bc47
+              - generic [ref=e938]:
+                - generic [ref=e939]: 04-15 18:45
+                - link "会选股会员专享" [ref=e940] [cursor=pointer]:
+                  - /url: https://daxue.sina.cn/column/f5443bd63a8b4e858b9225ffa008a6c6
+        - generic [ref=e941]:
+          - heading "股市直播" [level=2] [ref=e942]:
+            - link [ref=e943] [cursor=pointer]:
+              - /url: http://live.finance.sina.com.cn
+            - link "股市直播" [ref=e944] [cursor=pointer]:
+              - /url: http://live.finance.sina.com.cn
+          - generic [ref=e945]:
+            - list [ref=e947]:
+              - listitem [ref=e948]: 图文直播间
+              - listitem [ref=e949]: 视频直播间
+            - generic [ref=e951]:
+              - list [ref=e952]:
+                - listitem [ref=e953]:
+                  - link "趋势领涨 趋势领涨今天 20:21:16 4月水价继续冲高，利好驱动来自需求提振，北方环丙企业持续采购，叠加己内提负，造纸、磷酸铁等下游集中采购。各因素下市场交投氛围持续升温，北方率先提价，南方多地跟涨。截至4月14日，山东27.5%双氧水均价845元/吨，较月初涨7%。进入下旬，多主产区库位偏低且五一前下游存备货需求，预计市场主线偏强，重点关注山东主力企业复产进度。" [ref=e954] [cursor=pointer]:
+                    - /url: http://live.finance.sina.com.cn/bozhu/1658605145
+                    - img "趋势领涨" [ref=e956]
+                    - generic [ref=e957]:
+                      - heading "趋势领涨今天 20:21:16" [level=3] [ref=e958]
+                      - generic "4月水价继续冲高，利好驱动来自需求提振，北方环丙企业持续采购，叠加己内提负，造纸、磷酸铁等下游集中采购。各因素下市场交投氛围持续升温，北方率先提价，南方多地跟涨。截至4月14日，山东27.5%双氧水均价845元/吨，较月初涨7%。进入下旬，多主产区库位偏低且五一前下游存备货需求，预计市场主线偏强，重点关注山东主力企业复产进度。" [ref=e959]
+                - listitem [ref=e960]:
+                  - link "林教头 林教头今天 18:53:29 很多人以为复盘就是盘后看几眼，其实真正高效的复盘，逻辑完全反过来。在我的体系里，一直坚持盘中动态复盘为主，盘后静态复盘为辅。盘后只是做梳理、归类、定方向，把板块梯队、核心标的、关键位置标记出来，建立观察池，这是 “静态打底”。关注我，时间会给你最真实的答案" [ref=e961] [cursor=pointer]:
+                    - /url: http://live.finance.sina.com.cn/bozhu/8004372005
+                    - img "林教头" [ref=e963]
+                    - generic [ref=e964]:
+                      - heading "林教头今天 18:53:29" [level=3] [ref=e965]
+                      - generic "很多人以为复盘就是盘后看几眼，其实真正高效的复盘，逻辑完全反过来。在我的体系里，一直坚持盘中动态复盘为主，盘后静态复盘为辅。盘后只是做梳理、归类、定方向，把板块梯队、核心标的、关键位置标记出来，建立观察池，这是 “静态打底”。关注我，时间会给你最真实的答案" [ref=e966]
+                - listitem [ref=e967]:
+                  - link "林教头 林教头今天 18:49:57 美伊冲突，砸了一个黄金坑，一来一去回到了起点，后面一定要注意好节奏，不要太关注外围。 开盘以后，成交量是放大了不少的，但是感觉更多的是兑现，电池兑现，易中天这些冲高回落，然后市场开始拉药避险。 这里药的利好是昨天就有的，看一下哈药控股就知道有问题了，开得很高，结果开盘就兑现，后面板块回流，又回首掏涨停。 那么药等于结构就是不对的，不是主攻对象，而是其他板块兑现时候做的避险。算力租赁这块，依然是打不出强度，但是和指数联动比较强，指数拉，算力租赁就有异动。" [ref=e968] [cursor=pointer]:
+                    - /url: http://live.finance.sina.com.cn/bozhu/8004372005
+                    - img "林教头" [ref=e970]
+                    - generic [ref=e971]:
+                      - heading "林教头今天 18:49:57" [level=3] [ref=e972]
+                      - generic "美伊冲突，砸了一个黄金坑，一来一去回到了起点，后面一定要注意好节奏，不要太关注外围。 开盘以后，成交量是放大了不少的，但是感觉更多的是兑现，电池兑现，易中天这些冲高回落，然后市场开始拉药避险。 这里药的利好是昨天就有的，看一下哈药控股就知道有问题了，开得很高，结果开盘就兑现，后面板块回流，又回首掏涨停。 那么药等于结构就是不对的，不是主攻对象，而是其他板块兑现时候做的避险。算力租赁这块，依然是打不出强度，但是和指数联动比较强，指数拉，算力租赁就有异动。" [ref=e973]
+                - listitem [ref=e974]:
+                  - link "林教头 林教头今天 18:36:49 在这样的情况下，又回到之前混战的局面，这个时候剐蹭的损失最容易出现，很多看起来很强的载体，可能经不住风吹雨打，稍有不对就会反杀。所以这是一个浪里淘沙的阶段，难度会加大不少，操作上必须谨慎，多等待多有耐心才会有确定性更好的机会，匆忙上车并不意味着安全。只是这个调整的时间，应该会比较短，过程中一些主动的、抵抗的载体，还是要注意去留心，也许下一次的行情，它们就是盘面的主角了。" [ref=e975] [cursor=pointer]:
+                    - /url: http://live.finance.sina.com.cn/bozhu/8004372005
+                    - img "林教头" [ref=e977]
+                    - generic [ref=e978]:
+                      - heading "林教头今天 18:36:49" [level=3] [ref=e979]
+                      - generic "在这样的情况下，又回到之前混战的局面，这个时候剐蹭的损失最容易出现，很多看起来很强的载体，可能经不住风吹雨打，稍有不对就会反杀。所以这是一个浪里淘沙的阶段，难度会加大不少，操作上必须谨慎，多等待多有耐心才会有确定性更好的机会，匆忙上车并不意味着安全。只是这个调整的时间，应该会比较短，过程中一些主动的、抵抗的载体，还是要注意去留心，也许下一次的行情，它们就是盘面的主角了。" [ref=e980]
+                - listitem [ref=e981]:
+                  - link "林教头 林教头今天 18:31:05 随着指数衰竭进入调整，趋势也同步在走弱，但意味着趋势就此终结，那倒未必，不过载体的洗牌还是有较大可能的。接下来，如果指数如期展开调整，则趋势同样会有一个消化阶段，那么盘面转入混沌之后，可能抱团相对会更安全一些，尤其是情绪的抱团，今天豫能、美诺华（sh603538）的逆势走强，就是这样的体现。至于题材层面，感觉会更加随机，轮动快，就看消息面是如何去发酵了。" [ref=e982] [cursor=pointer]:
+                    - /url: http://live.finance.sina.com.cn/bozhu/8004372005
+                    - img "林教头" [ref=e984]
+                    - generic [ref=e985]:
+                      - heading "林教头今天 18:31:05" [level=3] [ref=e986]
+                      - generic "随着指数衰竭进入调整，趋势也同步在走弱，但意味着趋势就此终结，那倒未必，不过载体的洗牌还是有较大可能的。接下来，如果指数如期展开调整，则趋势同样会有一个消化阶段，那么盘面转入混沌之后，可能抱团相对会更安全一些，尤其是情绪的抱团，今天豫能、美诺华（sh603538）的逆势走强，就是这样的体现。至于题材层面，感觉会更加随机，轮动快，就看消息面是如何去发酵了。" [ref=e987]
+                - listitem [ref=e988]:
+                  - link "趋势领涨 趋势领涨今天 17:43:17 【报道称美国向中东增派数千名士兵 美股期货转跌、黄金短线跳水失守4800美元】据华盛顿邮报报道，美国向中东增派数千名士兵。受消息影响，美股三大股指期货全线转跌，现货黄金失守4800美元/盎司，现货白银日内跌幅扩大至1%。布伦特原油日内涨幅达1.5%，报96.23美元/桶。" [ref=e989] [cursor=pointer]:
+                    - /url: http://live.finance.sina.com.cn/bozhu/1658605145
+                    - img "趋势领涨" [ref=e991]
+                    - generic [ref=e992]:
+                      - heading "趋势领涨今天 17:43:17" [level=3] [ref=e993]
+                      - generic "【报道称美国向中东增派数千名士兵 美股期货转跌、黄金短线跳水失守4800美元】据华盛顿邮报报道，美国向中东增派数千名士兵。受消息影响，美股三大股指期货全线转跌，现货黄金失守4800美元/盎司，现货白银日内跌幅扩大至1%。布伦特原油日内涨幅达1.5%，报96.23美元/桶。" [ref=e994]
+                - listitem [ref=e995]:
+                  - link "趋势领涨 趋势领涨今天 16:50:53 【亚康股份（sz301085）：下属公司签订2.4亿美元集装箱柴油发电机组销售合同 金额占最近年度主营业务收入100%以上】亚康股份（sz301085）(301085.SZ)公告称，公司下属子公司新加坡科技有限公司与供应商A公司签订两份《设备采购合同》，采购柴油发电机组、电力模块、中压方舱、直流配电方舱等设备，含税金额合计约2.34亿美元(折合人民币约15.98亿元)；同时与客户B公司签订《设备采购合同》，向其销售集装箱柴油发电机组等设备，含税金额约2.40亿美元(折合人民币约16.38亿元)。销售合同金额占公司最近一个会计年度经审计主营业务收入100%以上。" [ref=e996] [cursor=pointer]:
+                    - /url: http://live.finance.sina.com.cn/bozhu/1658605145
+                    - img "趋势领涨" [ref=e998]
+                    - generic [ref=e999]:
+                      - heading "趋势领涨今天 16:50:53" [level=3] [ref=e1000]
+                      - generic "【亚康股份（sz301085）：下属公司签订2.4亿美元集装箱柴油发电机组销售合同 金额占最近年度主营业务收入100%以上】亚康股份（sz301085）(301085.SZ)公告称，公司下属子公司新加坡科技有限公司与供应商A公司签订两份《设备采购合同》，采购柴油发电机组、电力模块、中压方舱、直流配电方舱等设备，含税金额合计约2.34亿美元(折合人民币约15.98亿元)；同时与客户B公司签订《设备采购合同》，向其销售集装箱柴油发电机组等设备，含税金额约2.40亿美元(折合人民币约16.38亿元)。销售合同金额占公司最近一个会计年度经审计主营业务收入100%以上。" [ref=e1001]
+                - listitem [ref=e1002]:
+                  - link "张馨元 张馨元今天 16:08:27 市场高开低走，深成指跌近1%。创业板指盘中刷新2015年6月19日以来新高，随后震荡下挫跌超1%止步5连阳。沪深两市成交额2.42万亿，较上一个交易日放量315亿。盘面上，市场热点较为杂乱，全市场超3500只个股下跌。从板块来看，医药板块逆势拉升，哈药股份（sh600664）2连板，津药药业（sh600488）、博瑞医药（sh688166）、金陵药业（sz000919）、鹭燕医药（sz002788）均涨停。算力租赁概念反复走强，利通电子（sh603629）2连板，协创数据（sz300857）、宏景科技（sz301396）大涨续创历史新高。商业航天概念表现活跃，神剑股份（sz002361）涨停创历史新高，华菱线缆（sz001208）涨停。下跌方面，锂电池概念集体调整，海科新源（sz301292）跌超12%，孚日股份（sz002083）跌停，华盛锂电（sh688353）跌超8%。算力硬件方向冲高回落，特发信息（sz000070）、新易盛（sz300502）、仕佳光子（sh688313）纷纷下挫。存储芯片概念走弱，大为股份（sz002213）触及跌停。" [ref=e1003] [cursor=pointer]:
+                    - /url: http://live.finance.sina.com.cn/bozhu/2060480585
+                    - img "张馨元" [ref=e1005]
+                    - generic [ref=e1006]:
+                      - heading "张馨元今天 16:08:27" [level=3] [ref=e1007]
+                      - generic "市场高开低走，深成指跌近1%。创业板指盘中刷新2015年6月19日以来新高，随后震荡下挫跌超1%止步5连阳。沪深两市成交额2.42万亿，较上一个交易日放量315亿。盘面上，市场热点较为杂乱，全市场超3500只个股下跌。从板块来看，医药板块逆势拉升，哈药股份（sh600664）2连板，津药药业（sh600488）、博瑞医药（sh688166）、金陵药业（sz000919）、鹭燕医药（sz002788）均涨停。算力租赁概念反复走强，利通电子（sh603629）2连板，协创数据（sz300857）、宏景科技（sz301396）大涨续创历史新高。商业航天概念表现活跃，神剑股份（sz002361）涨停创历史新高，华菱线缆（sz001208）涨停。下跌方面，锂电池概念集体调整，海科新源（sz301292）跌超12%，孚日股份（sz002083）跌停，华盛锂电（sh688353）跌超8%。算力硬件方向冲高回落，特发信息（sz000070）、新易盛（sz300502）、仕佳光子（sh688313）纷纷下挫。存储芯片概念走弱，大为股份（sz002213）触及跌停。" [ref=e1008]
+                - listitem [ref=e1009]:
+                  - link "北京红竹 北京红竹今天 15:57:56 能源金属：回踩很明显还没有结束，继续等待3天左右调整之后再说，前几天给了短线加速上涨不格局的观点，过两天再等待低吸的机会。 创新药：短线剧烈震荡，这里可以理解为洗盘，波段继续可以持有。 油气：日线调整的空间够了，只是还没有真正的企稳，买入不着急再等等，被套的不宜割肉了。化工：短线进入震荡阶段了，静等方向。" [ref=e1010] [cursor=pointer]:
+                    - /url: http://live.finance.sina.com.cn/bozhu/2910812187
+                    - img "北京红竹" [ref=e1012]
+                    - generic [ref=e1013]:
+                      - heading "北京红竹今天 15:57:56" [level=3] [ref=e1014]
+                      - generic "能源金属：回踩很明显还没有结束，继续等待3天左右调整之后再说，前几天给了短线加速上涨不格局的观点，过两天再等待低吸的机会。 创新药：短线剧烈震荡，这里可以理解为洗盘，波段继续可以持有。 油气：日线调整的空间够了，只是还没有真正的企稳，买入不着急再等等，被套的不宜割肉了。化工：短线进入震荡阶段了，静等方向。" [ref=e1015]
+                - listitem [ref=e1016]:
+                  - link "北京红竹 北京红竹今天 15:57:47 沪指60日均线为中线多空分界线，自从跌破之后沪指就进入了空头态势，而现在反弹即将到60日均线，自然就成为了压力。从3794点以来的反弹到现在4000点上方，很有散户从不相信到相信，甚至于还看反转。怎么看待市场都可以，但要有自己的交易模式和体系。按照缠论的交易体系，我们在低位3794点的时候考虑怎么做加法的事，那时很多人恐慌，而反弹到现在很多人又要贪婪了，我们就要考虑怎么做减法的事了。毕竟低位买高位卖，这逻辑没毛病。目前缠论给出的防守线依然还是3966点，若明天沪指再新高，防守线还将继续上移。至于还能反弹到哪里，那是市场的事，我们只需要盯好防守线就好。跌破我们的认知内的反弹结束，不跌破反弹还可以继续。这就是红竹在晚上直播的时候经常讲解的小级别移动止盈，不用猜顶部在哪里，也不知道猜哪里去卖，只要盯好止盈位就可以。方法一样，自己可以对照找找自己的品种的止盈位。大白话：反弹进入末端，盯好防守线。" [ref=e1017] [cursor=pointer]:
+                    - /url: http://live.finance.sina.com.cn/bozhu/2910812187
+                    - img "北京红竹" [ref=e1019]
+                    - generic [ref=e1020]:
+                      - heading "北京红竹今天 15:57:47" [level=3] [ref=e1021]
+                      - generic "沪指60日均线为中线多空分界线，自从跌破之后沪指就进入了空头态势，而现在反弹即将到60日均线，自然就成为了压力。从3794点以来的反弹到现在4000点上方，很有散户从不相信到相信，甚至于还看反转。怎么看待市场都可以，但要有自己的交易模式和体系。按照缠论的交易体系，我们在低位3794点的时候考虑怎么做加法的事，那时很多人恐慌，而反弹到现在很多人又要贪婪了，我们就要考虑怎么做减法的事了。毕竟低位买高位卖，这逻辑没毛病。目前缠论给出的防守线依然还是3966点，若明天沪指再新高，防守线还将继续上移。至于还能反弹到哪里，那是市场的事，我们只需要盯好防守线就好。跌破我们的认知内的反弹结束，不跌破反弹还可以继续。这就是红竹在晚上直播的时候经常讲解的小级别移动止盈，不用猜顶部在哪里，也不知道猜哪里去卖，只要盯好止盈位就可以。方法一样，自己可以对照找找自己的品种的止盈位。大白话：反弹进入末端，盯好防守线。" [ref=e1022]
+              - link "更多>" [ref=e1023] [cursor=pointer]:
+                - /url: http://live.finance.sina.com.cn
+        - generic [ref=e1024]:
+          - iframe [ref=e1025]:
+            - generic [active] [ref=f8e1]:
+              - generic [ref=f8e2]:
+                - heading "申购日历" [level=2] [ref=f8e3]:
+                  - link "申购日历" [ref=f8e4] [cursor=pointer]:
+                    - /url: http://finance.sina.com.cn/stock/newstock/
+                - list [ref=f8e5]:
+                  - listitem [ref=f8e6]:
+                    - generic [ref=f8e7]: 日期
+                    - generic [ref=f8e8]: 股票名称
+                    - generic [ref=f8e9]: 申购代码
+                    - generic [ref=f8e10]: 申购价格
+                  - listitem [ref=f8e11]:
+                    - generic [ref=f8e12]: 04-20
+                    - generic [ref=f8e13]: 中科仪
+                    - generic [ref=f8e14]: "920186"
+                    - generic [ref=f8e15]: "--"
+                  - listitem [ref=f8e16]:
+                    - generic [ref=f8e17]: 04-20
+                    - generic [ref=f8e18]: 理奇智能
+                    - generic [ref=f8e19]: "301599"
+                    - generic [ref=f8e20]: "--"
+                  - listitem [ref=f8e21]:
+                    - generic [ref=f8e22]: 04-15
+                    - generic [ref=f8e23]: 海昌智能
+                    - generic [ref=f8e24]: "920156"
+                    - generic [ref=f8e25]: "20.93"
+                  - listitem [ref=f8e26]:
+                    - generic [ref=f8e27]: 04-14
+                    - generic [ref=f8e28]: 联讯仪器
+                    - generic [ref=f8e29]: "688808"
+                    - generic [ref=f8e30]: "81.88"
+                  - listitem [ref=f8e31]:
+                    - generic [ref=f8e32]: 04-13
+                    - generic [ref=f8e33]: 鸿仕达
+                    - generic [ref=f8e34]: "920125"
+                    - generic [ref=f8e35]: "16.57"
+                - link [ref=f8e37] [cursor=pointer]:
+                  - /url: https://www.citics.com/newsite/channel/account/202201/zfH5/index.html?webViewType=1
+              - generic [ref=f8e38]:
+                - heading "新股" [level=2] [ref=f8e39]:
+                  - link [ref=f8e40] [cursor=pointer]:
+                    - /url: http://finance.sina.com.cn/stock/newstock/
+                  - link "新股" [ref=f8e41] [cursor=pointer]:
+                    - /url: http://finance.sina.com.cn/stock/newstock/
+                - list [ref=f8e42]:
+                  - listitem [ref=f8e43]:
+                    - link "英诺激光上市！中1签赚17643元 收益率372.99%" [ref=f8e44] [cursor=pointer]:
+                      - /url: https://finance.sina.com.cn/stock/observe/2021-07-06/doc-ikqcfnca5297102.shtml
+                  - listitem [ref=f8e45]:
+                    - link "航宇科技上市！中1签赚13960元 收益率243.21%" [ref=f8e46] [cursor=pointer]:
+                      - /url: https://finance.sina.com.cn/stock/observe/2021-07-05/doc-ikqcfnca5090860.shtml
+                  - listitem [ref=f8e47]:
+                    - link "海泰科上市！中1签赚15500元 收益率96%" [ref=f8e48] [cursor=pointer]:
+                      - /url: https://finance.sina.com.cn/stock/observe/2021-07-02/doc-ikqciyzk3179263.shtml
+              - generic [ref=f8e49]:
+                - generic [ref=f8e50]:
+                  - generic [ref=f8e51]:
+                    - link [ref=f8e53] [cursor=pointer]:
+                      - /url: https://finance.sina.com.cn/stock/observe/2020-09-08/doc-iivhvpwy5545269.shtml
+                      - img [ref=f8e54]
+                    - heading "六：凑市值打新可行 资金成本不超7.86%即可" [level=3] [ref=f8e55]:
+                      - link "六：凑市值打新可行 资金成本不超7.86%即可" [ref=f8e56] [cursor=pointer]:
+                        - /url: https://finance.sina.com.cn/stock/observe/2020-09-08/doc-iivhvpwy5545269.shtml
+                  - generic [ref=f8e57]:
+                    - link [ref=f8e59] [cursor=pointer]:
+                      - /url: https://finance.sina.com.cn/stock/observe/2020-09-09/doc-iivhvpwy5706486.shtml
+                      - img [ref=f8e60]
+                    - heading "七：流通股和融资仓算市值，限售股和基金等不算" [level=3] [ref=f8e61]:
+                      - link "七：流通股和融资仓算市值，限售股和基金等不算" [ref=f8e62] [cursor=pointer]:
+                        - /url: https://finance.sina.com.cn/stock/observe/2020-09-09/doc-iivhvpwy5706486.shtml
+                  - generic [ref=f8e63]:
+                    - link [ref=f8e65] [cursor=pointer]:
+                      - /url: https://finance.sina.com.cn/stock/observe/2020-09-03/doc-iivhuipp2298470.shtml
+                      - img [ref=f8e66]
+                    - heading "一：打新究竟有多暴利？一签可赚26万" [level=3] [ref=f8e67]:
+                      - link "一：打新究竟有多暴利？一签可赚26万" [ref=f8e68] [cursor=pointer]:
+                        - /url: https://finance.sina.com.cn/stock/observe/2020-09-03/doc-iivhuipp2298470.shtml
+                  - generic [ref=f8e69]:
+                    - link [ref=f8e71] [cursor=pointer]:
+                      - /url: https://finance.sina.com.cn/stock/observe/2020-09-04/doc-iivhvpwy4816236.shtml
+                      - img [ref=f8e72]
+                    - heading "二：中1签赚5万以内的概率是92.79%" [level=3] [ref=f8e73]:
+                      - link "二：中1签赚5万以内的概率是92.79%" [ref=f8e74] [cursor=pointer]:
+                        - /url: https://finance.sina.com.cn/stock/observe/2020-09-04/doc-iivhvpwy4816236.shtml
+                  - generic [ref=f8e75]:
+                    - link [ref=f8e77] [cursor=pointer]:
+                      - /url: https://finance.sina.com.cn/stock/observe/2020-09-05/doc-iivhuipp2669253.shtml
+                      - img [ref=f8e78]
+                    - heading "三：账户等级越高，中签金额越高" [level=3] [ref=f8e79]:
+                      - link "三：账户等级越高，中签金额越高" [ref=f8e80] [cursor=pointer]:
+                        - /url: https://finance.sina.com.cn/stock/observe/2020-09-05/doc-iivhuipp2669253.shtml
+                  - generic [ref=f8e81]:
+                    - link [ref=f8e83] [cursor=pointer]:
+                      - /url: https://finance.sina.com.cn/stock/observe/2020-09-06/doc-iivhvpwy5049617.shtml
+                      - img [ref=f8e84]
+                    - heading "四：创业板户中签收益率最高 普通户最低" [level=3] [ref=f8e85]:
+                      - link "四：创业板户中签收益率最高 普通户最低" [ref=f8e86] [cursor=pointer]:
+                        - /url: https://finance.sina.com.cn/stock/observe/2020-09-06/doc-iivhvpwy5049617.shtml
+                  - generic [ref=f8e87]:
+                    - link [ref=f8e89] [cursor=pointer]:
+                      - /url: https://finance.sina.com.cn/stock/observe/2020-09-07/doc-iivhuipp2933371.shtml
+                      - img [ref=f8e90]
+                    - heading "五：科创板户无风险收益率最高 普通户最低" [level=3] [ref=f8e91]:
+                      - link "五：科创板户无风险收益率最高 普通户最低" [ref=f8e92] [cursor=pointer]:
+                        - /url: https://finance.sina.com.cn/stock/observe/2020-09-07/doc-iivhuipp2933371.shtml
+                  - generic [ref=f8e93]:
+                    - link [ref=f8e95] [cursor=pointer]:
+                      - /url: https://finance.sina.com.cn/stock/observe/2020-09-08/doc-iivhvpwy5545269.shtml
+                      - img [ref=f8e96]
+                    - heading "六：凑市值打新可行 资金成本不超7.86%即可" [level=3] [ref=f8e97]:
+                      - link "六：凑市值打新可行 资金成本不超7.86%即可" [ref=f8e98] [cursor=pointer]:
+                        - /url: https://finance.sina.com.cn/stock/observe/2020-09-08/doc-iivhvpwy5545269.shtml
+                  - generic [ref=f8e99]:
+                    - link [ref=f8e101] [cursor=pointer]:
+                      - /url: https://finance.sina.com.cn/stock/observe/2020-09-09/doc-iivhvpwy5706486.shtml
+                      - img [ref=f8e102]
+                    - heading "七：流通股和融资仓算市值，限售股和基金等不算" [level=3] [ref=f8e103]:
+                      - link "七：流通股和融资仓算市值，限售股和基金等不算" [ref=f8e104] [cursor=pointer]:
+                        - /url: https://finance.sina.com.cn/stock/observe/2020-09-09/doc-iivhvpwy5706486.shtml
+                  - generic [ref=f8e105]:
+                    - link [ref=f8e107] [cursor=pointer]:
+                      - /url: https://finance.sina.com.cn/stock/observe/2020-09-03/doc-iivhuipp2298470.shtml
+                      - img [ref=f8e108]
+                    - heading "一：打新究竟有多暴利？一签可赚26万" [level=3] [ref=f8e109]:
+                      - link "一：打新究竟有多暴利？一签可赚26万" [ref=f8e110] [cursor=pointer]:
+                        - /url: https://finance.sina.com.cn/stock/observe/2020-09-03/doc-iivhuipp2298470.shtml
+                  - generic [ref=f8e111]:
+                    - link [ref=f8e113] [cursor=pointer]:
+                      - /url: https://finance.sina.com.cn/stock/observe/2020-09-04/doc-iivhvpwy4816236.shtml
+                      - img [ref=f8e114]
+                    - heading "二：中1签赚5万以内的概率是92.79%" [level=3] [ref=f8e115]:
+                      - link "二：中1签赚5万以内的概率是92.79%" [ref=f8e116] [cursor=pointer]:
+                        - /url: https://finance.sina.com.cn/stock/observe/2020-09-04/doc-iivhvpwy4816236.shtml
+                - button "Next slide" [ref=f8e117] [cursor=pointer]
+                - button "Previous slide" [ref=f8e118] [cursor=pointer]
+          - generic [ref=e1028]:
+            - list [ref=e1030]:
+              - listitem [ref=e1031] [cursor=pointer]:
+                - link "最近访问" [ref=e1032]:
+                  - /url: http://finance.sina.com.cn/realstock/company/sh000001/nc.shtml
+              - listitem [ref=e1033] [cursor=pointer]:
+                - link "我的自选" [ref=e1034]:
+                  - /url: http://watchlist.finance.sina.com.cn/portfolio/view/main.php
+              - text: /
+            - generic [ref=e1037]:
+              - generic [ref=e1039]:
+                - generic [ref=e1040]: 股票简称
+                - generic [ref=e1041]: 最新价
+                - generic [ref=e1042]: 涨跌幅
+              - generic [ref=e1043]:
+                - generic [ref=e1044]: 以下为热门股票
+                - generic [ref=e1045]:
+                  - generic [ref=e1046]:
+                    - link "三峡能源" [ref=e1048] [cursor=pointer]:
+                      - /url: http://finance.sina.com.cn/realstock/company/sh600905/nc.shtml
+                    - generic [ref=e1049]: "4.11"
+                    - generic [ref=e1050]: "-0.24%"
+                  - generic [ref=e1051]:
+                    - link "京东方Ａ" [ref=e1053] [cursor=pointer]:
+                      - /url: http://finance.sina.com.cn/realstock/company/sz000725/nc.shtml
+                    - generic [ref=e1054]: "4.00"
+                    - generic [ref=e1055]: "-0.50%"
+                  - generic [ref=e1056]:
+                    - link "TCL科技" [ref=e1058] [cursor=pointer]:
+                      - /url: http://finance.sina.com.cn/realstock/company/sz000100/nc.shtml
+                    - generic [ref=e1059]: "4.35"
+                    - generic [ref=e1060]: "-0.68%"
+                  - generic [ref=e1061]:
+                    - link "中远海控" [ref=e1063] [cursor=pointer]:
+                      - /url: http://finance.sina.com.cn/realstock/company/sh601919/nc.shtml
+                    - generic [ref=e1064]: "15.08"
+                    - generic [ref=e1065]: "-0.46%"
+                  - generic [ref=e1066]:
+                    - link "格力电器" [ref=e1068] [cursor=pointer]:
+                      - /url: http://finance.sina.com.cn/realstock/company/sz000651/nc.shtml
+                    - generic [ref=e1069]: "37.39"
+                    - generic [ref=e1070]: +0.30%
+          - link "下载新浪财经客户端，智能添加自选" [ref=e1072] [cursor=pointer]:
+            - /url: https://finance.sina.com.cn/mobile/comfinanceweb.shtml?source=cjzhengwen06&page=5
+          - generic:
+            - insertion
+          - iframe [ref=e1073]:
+            - generic [ref=f9e2]:
+              - heading "排行榜" [level=2] [ref=f9e3]:
+                - link [ref=f9e4] [cursor=pointer]:
+                  - /url: http://finance.sina.com.cn/topnews/
+                - link "排行榜" [ref=f9e5] [cursor=pointer]:
+                  - /url: http://finance.sina.com.cn/topnews/
+              - generic [ref=f9e6]:
+                - list [ref=f9e8]:
+                  - listitem [ref=f9e9] [cursor=pointer]: 新闻
+                  - listitem [ref=f9e10] [cursor=pointer]: 证券
+                  - listitem [ref=f9e11] [cursor=pointer]: 理财
+                  - listitem [ref=f9e12] [cursor=pointer]: 博客
+                - list [ref=f9e15]:
+                  - listitem [ref=f9e16]:
+                    - generic [ref=f9e17]: "01"
+                    - link "特朗普：美国对伊朗的战争已经结束" [ref=f9e19] [cursor=pointer]:
+                      - /url: https://finance.sina.com.cn/roll/2026-04-15/doc-inhupqxi8544035.shtml
+                  - listitem [ref=f9e20]:
+                    - generic [ref=f9e21]: "02"
+                    - link "英伟达股价10连涨！万亿算力订单撑住4.6万亿市值，距历史新高仅差8%" [ref=f9e23] [cursor=pointer]:
+                      - /url: https://finance.sina.com.cn/world/2026-04-15/doc-inhupkrh4339902.shtml
+                  - listitem [ref=f9e24]:
+                    - generic [ref=f9e25]: "03"
+                    - link "俄罗斯外长拉夫罗夫：普京将于今年上半年访华" [ref=f9e27] [cursor=pointer]:
+                      - /url: https://finance.sina.com.cn/wm/2026-04-15/doc-inhuqfve3498026.shtml
+                  - listitem [ref=f9e28]:
+                    - generic [ref=f9e29]: "04"
+                    - link "沪指收复4000点关口 一季报绩优股表现亮眼" [ref=f9e31] [cursor=pointer]:
+                      - /url: https://finance.sina.com.cn/roll/2026-04-15/doc-inhupeis3822194.shtml
+                  - listitem [ref=f9e32]:
+                    - generic [ref=f9e33]: "05"
+                    - link "美加墨世界杯将至 义乌又爆单了" [ref=f9e35] [cursor=pointer]:
+                      - /url: https://finance.sina.com.cn/roll/2026-04-15/doc-inhupqxi8543007.shtml
+          - generic [ref=e1074]:
+            - insertion [ref=e1075]:
+              - insertion [ref=e1076]:
+                - link "广告" [ref=e1077] [cursor=pointer]:
+                  - /url: http://saxn.sina.com.cn/click?type=bottom&t=UERQUzAwMDAwMDAyODU3Mg%3D%3D&url=https%3A%2F%2Ffinance.sina.com.cn%2Fmobile%2Fcomfinanceweb.shtml%3Fsource%3DPDPS000000028572&sign=a8d0f7cc13fdec0c
+                  - img "广告" [ref=e1078]
+            - insertion [ref=e1080]:
+              - insertion [ref=e1081]:
+                - iframe [ref=e1082]:
+                  - iframe [ref=f21e3]:
+                    - generic [ref=f30e2]:
+                      - generic [ref=f30e3]:
+                        - list [ref=f30e4] [cursor=pointer]:
+                          - listitem [ref=f30e5]:
+                            - link [ref=f30e6]:
+                              - /url: https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1YsFh7sT7qGujYsFhPC5H0huAbqrauGTdq9TZ0qnauJp1d-PjDkmH9buAP-nH0kP1F-Fh_qFRcsFRNjFRc4FR7aFRn3FRNDFRFjFRu7FhkdpvbqPauVmLKV5HckPjTYFMDqnHmsPHm4nW-xnNqWTZchThcqnauzT1YkFMP-UAk-T-qGujYkFMPGujYzuHDLnHKWuywbmH6knyRYFMPYpyfqnHDLFMfqIZKWUA-WpvNbndqCmzuYujYLnjDkn1bzFMwV5HcLPHRYrHTYnzuYUgnqnHTLPWcdP1cYnzuYIHddP10knHn4nBud5y9YIZK1FHPKFHFAFHFAuh-8my4WuiRzwgPGUhD-nbNWUvY-nbNWUBuv5HchpHYYrj7hPWFbn6&besl=-1&c=news&cf=1&ctag=6-0&cvrq=0&device_id_v2=C14D97E67490D6ADE5D27EFB2E70EC7C&efc=0&fr=4&fv=0&haacp=304&img_typ=2&itm=0&lu_idc=gzhxy&lukid=4&lus=2e1710cedda811e4&lust=69df88db&luwtr=430936206925177121&mscf=0&mtids=8361588&n=10&nttp=1&p=baidu&rcl=11&sce=7&sig=100&sr=0&ssp2=1&sti=60102&tpl=baiduCustNativeADImageCarousel&tsf=dtp:1&tt_sign=%B0%EC%B9%ABoffice&tt_src=0&tu_type=0&u=%2Fwm%2F2026%2D04%2D12%2Fdoc%2Dinhuetnn3645721%2Eshtml&uicf=lurecv&urlid=0&eot=1
+                              - img [ref=f30e7]
+                          - listitem [ref=f30e8]:
+                            - link [ref=f30e9]:
+                              - /url: https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1YsFh7sT7qGujYsFhPC5H0huAbqrauGTdq9TZ0qnauJp1d-PjDkmH9buAP-nH0kP1F-Fh_qFRPDFRm3FRf1FRP7FRndFRndFRfsFRfsFRcsFRmkFRnLFRcsFRPKFR77FRn1FRuaFRPDFRm3FRnzFRRLFRf1FRP7FRPAFRcLFhkdpvbqniuVmLKV5HRkPHDkFMDqnHmsPHm4nW-xnNqWTZchThcqnauzT1YkFMP-UAk-T-qGujYkFMPGujYzuHDLnHKWuywbmH6knyRYFMPYpyfqnHDLFMfqIZKWUA-WpvNbndqCmzuYujYLnjDkn1bzFMwV5HcLPHRYrHTYnzuYUgnqnHTLPWcdP1cYnzuYIHddP10knHn4nBud5y9YIZK1FHPKFHFAFHFAuh-8my4WuiRzwgPGUhD-nbNWUvY-nbNWUBuv5HchpHYYnAcvPjf1m6&besl=-1&c=news&cf=1&ctag=6-0&cvrq=0&device_id_v2=C14D97E67490D6ADE5D27EFB2E70EC7C&efc=0&fr=4&fv=0&haacp=404&img_typ=4134&itm=0&lu_idc=gzhxy&lukid=1&lus=2e1710cedda811e4&lust=69df88db&luwtr=7811669593641595160&mscf=0&mtids=2221452762&n=10&nttp=1&p=baidu&rcl=11&sce=7&sig=100&sr=0&ssp2=1&sti=60102&tpl=baiduCustNativeADImageCarousel&tsf=dtp:1&tt_sign=%CD%F8%C2%E7%D3%CE%CF%B7%C5%C5%D0%D0%B0%F1&tt_src=0&tu_type=0&u=%2Fwm%2F2026%2D04%2D12%2Fdoc%2Dinhuetnn3645721%2Eshtml&uicf=lurecv&urlid=0&eot=1
+                              - img [ref=f30e10]
+                          - listitem [ref=f30e11]:
+                            - link [ref=f30e12]:
+                              - /url: https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1YsFh7sT7qGujYsFhPC5H0huAbqrauGTdq9TZ0qnauJp1d-PjDkmH9buAP-nH0kP1F-Fh_qTZKYFRfvFRnvFRfLFRmLFhkdpvbqnBuVmLKV5HmdrHR1FMDqnHmsPHm4nW-xnNqWTZchThcqnauzT1YkFMP-UAk-T-qGujYkFMPGujYzuHDLnHKWuywbmH6knyRYFMPYpyfqnHDLFMfqIZKWUA-WpvNbndqCmzuYujYLnjDkn1bzFMwV5HcLPHRYrHTYnzuYUgnqnHTLPWcdP1cYnzuYIHddP10knHn4nBud5y9YIZK1FHPKFHFAFHFAuh-8my4WuiRzwgPGUhD-nbNWUvY-nbNWUBuv5HchpHYYuW9Wrjc1uf&besl=-1&c=news&cf=1&ctag=6-0&cvrq=0&device_id_v2=C14D97E67490D6ADE5D27EFB2E70EC7C&efc=0&fr=4&fv=0&haacp=518&img_typ=4134&itm=0&lu_idc=gzhxy&lukid=2&lus=2e1710cedda811e4&lust=69df88db&luwtr=15444057326704121798&mscf=0&mtids=3059652347&n=10&nttp=1&p=baidu&rcl=11&sce=7&sig=100&sr=0&ssp2=1&sti=60102&tpl=baiduCustNativeADImageCarousel&tsf=dtp:1&tt_sign=PPT%D6%C6%D7%F7&tt_src=0&tu_type=0&u=%2Fwm%2F2026%2D04%2D12%2Fdoc%2Dinhuetnn3645721%2Eshtml&uicf=lurecv&urlid=0&eot=1
+                              - img [ref=f30e13]
+                        - generic [ref=f30e18]:
+                          - link:
+                            - /url: https://union.baidu.com
+                            - img [ref=f30e19] [cursor=pointer]
+                          - link:
+                            - /url: javascript:;
+                            - img [ref=f30e21] [cursor=pointer]
+                      - link "网络游戏排行榜" [ref=f30e23] [cursor=pointer]:
+                        - /url: https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1YsFh7sT7qGujYsFhPC5H0huAbqrauGTdq9TZ0qnauJp1d-PjDkmH9buAP-nH0kP1F-Fh_qFRPDFRm3FRf1FRP7FRndFRndFRfsFRfsFRcsFRmkFRnLFRcsFRPKFR77FRn1FRuaFRPDFRm3FRnzFRRLFRf1FRP7FRPAFRcLFhkdpvbqniuVmLKV5HRkPHDkFMDqnHmsPHm4nW-xnNqWTZchThcqnauzT1YkFMP-UAk-T-qGujYkFMPGujYzuHDLnHKWuywbmH6knyRYFMPYpyfqnHDLFMfqIZKWUA-WpvNbndqCmzuYujYLnjDkn1bzFMwV5HcLPHRYrHTYnzuYUgnqnHTLPWcdP1cYnzuYIHddP10knHn4nBud5y9YIZK1FHPKFHFAFHFAuh-8my4WuiRzwgPGUhD-nbNWUvY-nbNWUBuv5HchpHYYnAcvPjf1m6&besl=-1&c=news&cf=1&ctag=6-0&cvrq=0&device_id_v2=C14D97E67490D6ADE5D27EFB2E70EC7C&efc=0&fr=4&fv=0&haacp=404&img_typ=4134&itm=0&lu_idc=gzhxy&lukid=1&lus=2e1710cedda811e4&lust=69df88db&luwtr=7811669593641595160&mscf=0&mtids=2221452762&n=10&nttp=1&p=baidu&rcl=11&sce=7&sig=100&sr=0&ssp2=1&sti=60102&tpl=baiduCustNativeADImageCarousel&tsf=dtp:1&tt_sign=%CD%F8%C2%E7%D3%CE%CF%B7%C5%C5%D0%D0%B0%F1&tt_src=0&tu_type=0&u=%2Fwm%2F2026%2D04%2D12%2Fdoc%2Dinhuetnn3645721%2Eshtml&uicf=lurecv&urlid=0&eot=1
+                      - list [ref=f30e24]:
+                        - listitem [ref=f30e25]
+                        - listitem [ref=f30e26]
+                        - listitem [ref=f30e27]
+                        - listitem [ref=f30e28]
+          - heading "7X24小时" [level=2] [ref=e1084]:
+            - link [ref=e1085] [cursor=pointer]:
+              - /url: http://live.sina.com.cn/zt/f/v/finance/globalnews1
+            - link "7X24小时" [ref=e1086] [cursor=pointer]:
+              - /url: http://live.sina.com.cn/zt/f/v/finance/globalnews1
+          - generic:
+            - insertion
+            - insertion
+          - iframe [ref=e1087]:
+            - generic [ref=f10e2]:
+              - heading "名 博" [level=2] [ref=f10e3]:
+                - link [ref=f10e4] [cursor=pointer]:
+                  - /url: http://blog.sina.com.cn/lm/stock/
+                - link "名 博" [ref=f10e5] [cursor=pointer]:
+                  - /url: http://blog.sina.com.cn/lm/stock/
+              - list [ref=f10e6]:
+                - listitem [ref=f10e7]:
+                  - link "徐小明" [ref=f10e8] [cursor=pointer]:
+                    - /url: http://live.finance.sina.com.cn/bozhu/1300871220
+                  - text: ：
+                  - link "耐心等待市场底部结构形成" [ref=f10e9] [cursor=pointer]:
+                    - /url: http://live.finance.sina.com.cn/bozhu/1300871220
+                - listitem [ref=f10e10]:
+                  - link "冯矿伟" [ref=f10e11] [cursor=pointer]:
+                    - /url: http://live.finance.sina.com.cn/bozhu/1504965870
+                  - text: ：
+                  - link "三大指数在酝酿底部" [ref=f10e12] [cursor=pointer]:
+                    - /url: http://live.finance.sina.com.cn/bozhu/1504965870
+                - listitem [ref=f10e13]:
+                  - link "王继洲" [ref=f10e14] [cursor=pointer]:
+                    - /url: http://live.finance.sina.com.cn/bozhu/2141337317
+                  - text: ：
+                  - link "超跌反弹依然是市场主线" [ref=f10e15] [cursor=pointer]:
+                    - /url: http://live.finance.sina.com.cn/bozhu/2141337317
+                - listitem [ref=f10e16]:
+                  - link "趋势巡航" [ref=f10e17] [cursor=pointer]:
+                    - /url: http://live.finance.sina.com.cn/bozhu/1658605145
+                  - text: ：
+                  - link "短期调整或为更好上攻" [ref=f10e18] [cursor=pointer]:
+                    - /url: http://live.finance.sina.com.cn/bozhu/1658605145
+              - paragraph [ref=f10e22]:
+                - link "徐小明" [ref=f10e23] [cursor=pointer]:
+                  - /url: http://blog.sina.com.cn/u/1300871220
+                - link "凯恩斯" [ref=f10e24] [cursor=pointer]:
+                  - /url: http://blog.sina.com.cn/u/1284139322
+                - link "占豪" [ref=f10e25] [cursor=pointer]:
+                  - /url: http://blog.sina.com.cn/u/1298535315
+                - link "花荣" [ref=f10e26] [cursor=pointer]:
+                  - /url: http://blog.sina.com.cn/u/1282871591
+                - link "金鼎" [ref=f10e27] [cursor=pointer]:
+                  - /url: http://blog.sina.com.cn/s/articlelist_1394379401_0_1.html
+                - link "wu2198" [ref=f10e28] [cursor=pointer]:
+                  - /url: http://blog.sina.com.cn/u/1216826604
+                - link "丁大卫" [ref=f10e29] [cursor=pointer]:
+                  - /url: http://blog.sina.com.cn/s/articlelist_1307309734_0_1.html
+                - link "易宪容" [ref=f10e30] [cursor=pointer]:
+                  - /url: http://blog.sina.com.cn/u/2377371197
+                - link "叶荣添" [ref=f10e31] [cursor=pointer]:
+                  - /url: http://blog.sina.com.cn/u/1364334665
+                - link "沙黾农" [ref=f10e32] [cursor=pointer]:
+                  - /url: http://blog.sina.com.cn/u/1279884602
+                - link "冯矿伟" [ref=f10e33] [cursor=pointer]:
+                  - /url: http://blog.sina.com.cn/u/1504965870
+                - link "趋势之友" [ref=f10e34] [cursor=pointer]:
+                  - /url: http://blog.sina.com.cn/s/articlelist_1638714710_0_1.html
+                - link "空空道人" [ref=f10e35] [cursor=pointer]:
+                  - /url: http://blog.sina.com.cn/u/1236135807
+                - link "股市风云" [ref=f10e36] [cursor=pointer]:
+                  - /url: http://blog.sina.com.cn/u/1285707277
+                - link "股海光头" [ref=f10e37] [cursor=pointer]:
+                  - /url: http://blog.sina.com.cn/u/2949913420
+          - generic [ref=e1088]:
+            - insertion [ref=e1089]:
+              - insertion [ref=e1090]:
+                - iframe [ref=e1091]:
+                  - iframe [ref=f29e3]:
+                    - generic [ref=f32e2]:
+                      - generic [ref=f32e3]:
+                        - list [ref=f32e4] [cursor=pointer]:
+                          - listitem [ref=f32e5]:
+                            - link [ref=f32e6]:
+                              - /url: https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1YsFh7sT7qGujYsFhPC5H0huAbqrauGTdq9TZ0qnauJp1YzPH-WuWRsmHNbn10vrjn3Fh_qFRcYFR7aFRnvFRRvFhkdpvbqPauVmLKV5HDYPj0vniuk5HDvnjRvrHc4g17xmLKzFMFB5H0hTMnqniu1uyk_ugFxpyfqniu1pyfqn16vrjnsPyw9uWR4m1cdFMPYpyfqnHDLFMfqIZKWUA-WpvNbndqCmzuYujYLnjDkn1b4FMwV5HcLPHRYrHTYnzuYUgnqnHTLPWcdP1cYnzuYIHddP10knHn4riud5y9YIZK1FHPKFHFAFHFAuh-8my4WuiRzwgPGUhD-nbNWUvY-nbNWUBuv5HchpHYknyRvn1mLPs&besl=-1&c=news&cf=1&ctag=6-0&cvrq=0&device_id_v2=C14D97E67490D6ADE5D27EFB2E70EC7C&efc=0&fr=4&fv=0&haacp=399&img_typ=2&itm=0&lu_idc=gzhxy&lukid=4&lus=3868305d0af59c25&lust=69df88db&luwtr=2233480023862830922&mscf=0&mtids=3101067679&n=10&nttp=1&p=baidu&rcl=0&sce=7&sig=100&sr=90&ssp2=1&sti=60102&tpl=baiduCustNativeADImageCarousel&tsf=dtp:1&tt_sign=%CA%D6%D3%CE%CE%E4%CF%C0%B4%AB%C6%E6&tt_src=0&tu_type=0&u=%2Fwm%2F2026%2D04%2D12%2Fdoc%2Dinhuetnn3645721%2Eshtml&uicf=lurecv&urlid=0&eot=1
+                              - img [ref=f32e7]
+                          - listitem [ref=f32e8]:
+                            - link [ref=f32e9]:
+                              - /url: https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1YsFh7sT7qGujYsFhPC5H0huAbqrauGTdq9TZ0qnauJp1YzPH-WuWRsmHNbn10vrjn3Fh_qFRnkFRR4FRfzFRu7FRPaFRnzFhkdpvbqniuVmLKV5Hc1nW63FMDqnHmsPHm4nW-xnNqWTZchThcqnauzT1YkFMP-UAk-T-qGujYkFMPGujY1rjm3n10duA7hPH-WnWRhTLwGujYknHThIjdYTAP_pyPouyf1gv9WFMwb5HTsnHD1rHbhIAYqnWTdPHf4P1f1FMwVT1YkP1TvnWRLnWf1FMwd5gRLnjDkn1b4FMRqpZwYTZn-nYD-nbm-nbuhpy49UhP-FHF7Tv-8miRzwyPEUiRzwyP8FMmqnBuG5ycvnj9hnWT3&besl=-1&c=news&cf=1&ctag=6-0&cvrq=0&device_id_v2=C14D97E67490D6ADE5D27EFB2E70EC7C&efc=0&fr=4&fv=0&haacp=325&img_typ=2&itm=0&lu_idc=gzhxy&lukid=1&lus=3868305d0af59c25&lust=69df88db&luwtr=768856490254647948&mscf=0&mtids=5344076&n=10&nttp=1&p=baidu&rcl=0&sce=7&sig=100&sr=90&ssp2=1&sti=60102&tpl=baiduCustNativeADImageCarousel&tsf=dtp:1&tt_sign=%C1%E9%D2%FE%CB%C2%D3%CE%CD%E6&tt_src=0&tu_type=0&u=%2Fwm%2F2026%2D04%2D12%2Fdoc%2Dinhuetnn3645721%2Eshtml&uicf=lurecv&urlid=0&eot=1
+                              - img [ref=f32e10]
+                          - listitem [ref=f32e11]:
+                            - link [ref=f32e12]:
+                              - /url: https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1YsFh7sT7qGujYsFhPC5H0huAbqrauGTdq9TZ0qnauJp1YzPH-WuWRsmHNbn10vrjn3Fh_qFRPDFRm3FRf1FRP7FRndFRndFRfsFRfsFRcsFRmkFRnLFRcsFRPKFR77FRn1FRuaFRPDFRm3FRnzFRRLFRf1FRP7FRPAFRcLFhkdpvbqnBuVmLKV5HDsPH0vPauk5HDvnjRvrHc4g17xmLKzFMFB5H0hTMnqniu1uyk_ugFxpyfqniu1pyfqn16vrjnsPyw9uWR4m1cdFMPYpyfqnHDLFMfqIZKWUA-WpvNbndqCmzuYujYLnjDkn1b4FMwV5HcLPHRYrHTYnzuYUgnqnHTLPWcdP1cYnzuYIHddP10knHn4riud5y9YIZK1FHPKFHFAFHFAuh-8my4WuiRzwgPGUhD-nbNWUvY-nbNWUBuv5HchpHdBuW9bPAcsP6&besl=-1&c=news&cf=1&ctag=6-0&cvrq=0&device_id_v2=C14D97E67490D6ADE5D27EFB2E70EC7C&efc=0&fr=4&fv=0&haacp=404&img_typ=4134&itm=0&lu_idc=gzhxy&lukid=2&lus=3868305d0af59c25&lust=69df88db&luwtr=7811669593641595160&mscf=0&mtids=2221452762&n=10&nttp=1&p=baidu&rcl=0&sce=7&sig=100&sr=90&ssp2=1&sti=60102&tpl=baiduCustNativeADImageCarousel&tsf=dtp:1&tt_sign=%CD%F8%C2%E7%D3%CE%CF%B7%C5%C5%D0%D0%B0%F1&tt_src=0&tu_type=0&u=%2Fwm%2F2026%2D04%2D12%2Fdoc%2Dinhuetnn3645721%2Eshtml&uicf=lurecv&urlid=0&eot=1
+                              - img [ref=f32e13]
+                        - generic [ref=f32e18]:
+                          - link:
+                            - /url: https://union.baidu.com
+                            - img [ref=f32e19] [cursor=pointer]
+                          - link:
+                            - /url: javascript:;
+                            - img [ref=f32e21] [cursor=pointer]
+                      - link "灵隐寺游玩" [ref=f32e23] [cursor=pointer]:
+                        - /url: https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1YsFh7sT7qGujYsFhPC5H0huAbqrauGTdq9TZ0qnauJp1YzPH-WuWRsmHNbn10vrjn3Fh_qFRnkFRR4FRfzFRu7FRPaFRnzFhkdpvbqniuVmLKV5Hc1nW63FMDqnHmsPHm4nW-xnNqWTZchThcqnauzT1YkFMP-UAk-T-qGujYkFMPGujY1rjm3n10duA7hPH-WnWRhTLwGujYknHThIjdYTAP_pyPouyf1gv9WFMwb5HTsnHD1rHbhIAYqnWTdPHf4P1f1FMwVT1YkP1TvnWRLnWf1FMwd5gRLnjDkn1b4FMRqpZwYTZn-nYD-nbm-nbuhpy49UhP-FHF7Tv-8miRzwyPEUiRzwyP8FMmqnBuG5ycvnj9hnWT3&besl=-1&c=news&cf=1&ctag=6-0&cvrq=0&device_id_v2=C14D97E67490D6ADE5D27EFB2E70EC7C&efc=0&fr=4&fv=0&haacp=325&img_typ=2&itm=0&lu_idc=gzhxy&lukid=1&lus=3868305d0af59c25&lust=69df88db&luwtr=768856490254647948&mscf=0&mtids=5344076&n=10&nttp=1&p=baidu&rcl=0&sce=7&sig=100&sr=90&ssp2=1&sti=60102&tpl=baiduCustNativeADImageCarousel&tsf=dtp:1&tt_sign=%C1%E9%D2%FE%CB%C2%D3%CE%CD%E6&tt_src=0&tu_type=0&u=%2Fwm%2F2026%2D04%2D12%2Fdoc%2Dinhuetnn3645721%2Eshtml&uicf=lurecv&urlid=0&eot=1
+                      - list [ref=f32e24]:
+                        - listitem [ref=f32e25]
+                        - listitem [ref=f32e26]
+                        - listitem [ref=f32e27]
+                        - listitem [ref=f32e28]
+            - insertion [ref=e1092]:
+              - insertion [ref=e1093]:
+                - iframe [ref=e1094]:
+                  - iframe [ref=f22e4]:
+                    - generic [ref=f37e2]:
+                      - link "广告图 金融级防护标准：动态捕捉技术与多维特征分析系统 金融级防护标准：动态捕捉技术与多维特征分析系统 查看详情" [ref=f37e3] [cursor=pointer]:
+                        - /url: https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1Yknzu9TZKxpyfqnauWpjYsFhwG5H6hpgPxmgKs5H0hph_qm1TYPHP9mHT3rj04nW6Lniuo5iNjraNjfBNjniNanzNjfiNaPBNaniNAnaNjraN7waNafzNAwiu_IyVG5HDhUyPsUHY3PHD4rauk5HTYnHcdPjcdgvPsTBuzmWYsFMF15HDhTvN_UANzgv-b5HDhTv-b5HTknW6srH63mHT1mHfdm1ThTLwGujYkPW0hIjdYTAP_pyPouyf1gv9WFMwb5HTsnjRYnH0hIAYqnWTdP1bYPWT4FMwVT1YkP1TvnWRLnWf1FMwd5gRLnj0dPjDsFMRqpZwYTZn-nYD-nbm-nbuhpy49UhP-FHF7Tv-8miRzwyPEUiRzwyP8FMmqnBuG5H-9njT3PWck&besl=-1&c=news&cf=1&ctag=6-0&cvrq=0&device_id_v2=C14D97E67490D6ADE5D27EFB2E70EC7C&efc=0&fr=4&fv=0&haacp=622&img_typ=2&itm=0&lu_idc=gzhxy&lukid=1&lus=71280988a73a45c7&lust=69df88db&luwtr=16668420738465300741&mscf=0&mtids=3100703331&n=10&nttp=1&p=baidu&rcl=0&sce=5&sig=100&sr=90&ssp2=1&sti=50039&tpl=template_inlay_all_pc_new_tu_window&tsf=dtp:1&tt_sign=%BD%F0%C8%DA%BC%B6%B7%C0%BB%A4%B1%EA%D7%BC%A3%BA%B6%AF%CC%AC%B2%B6%D7%BD%BC%BC%CA%F5%D3%EB%B6%E0%CE%AC%CC%D8%D5%F7%B7%D6%CE%F6%CF%B5%CD%B3&tt_src=0&tu_type=0&u=%2Fwm%2F2026%2D04%2D12%2Fdoc%2Dinhuetnn3645721%2Eshtml&uicf=lurecv&urlid=0&eot=1
+                        - generic [ref=f37e4]:
+                          - img "广告图" [ref=f37e6]
+                          - generic [ref=f37e7]:
+                            - paragraph [ref=f37e8]: 金融级防护标准：动态捕捉技术与多维特征分析系统
+                            - generic [ref=f37e9]:
+                              - generic [ref=f37e11]: 金融级防护标准：动态捕捉技术与多维特征分析系统
+                              - generic [ref=f37e12]: 查看详情
+                      - generic [ref=f37e13]:
+                        - link:
+                          - /url: https://union.baidu.com
+                          - img [ref=f37e14] [cursor=pointer]
+                        - link:
+                          - /url: javascript:;
+                          - img [ref=f37e16] [cursor=pointer]
+          - iframe [ref=e1095]:
+            - generic [ref=f11e2]:
+              - heading "意见领袖" [level=2] [ref=f11e3]:
+                - link [ref=f11e4] [cursor=pointer]:
+                  - /url: http://finance.sina.com.cn/zl/
+                - link "意见领袖" [ref=f11e5] [cursor=pointer]:
+                  - /url: http://finance.sina.com.cn/zl/
+              - list [ref=f11e6]:
+                - listitem [ref=f11e7]:
+                  - link "李德林" [ref=f11e8] [cursor=pointer]:
+                    - /url: http://finance.sina.com.cn/zl/author.d.html?uid=5307552992
+                  - text: ：
+                  - link "上市公司炒股票到底有多野" [ref=f11e9] [cursor=pointer]:
+                    - /url: http://finance.sina.com.cn/zl/china/2026-04-15/zl-inhuqsku0746069.shtml
+                - listitem [ref=f11e10]:
+                  - link "曹中铭" [ref=f11e11] [cursor=pointer]:
+                    - /url: http://finance.sina.com.cn/zl/author.d.html?uid=1095876111
+                  - text: ：
+                  - link "FOF基金风格\"漂移\"应引起重视" [ref=f11e12] [cursor=pointer]:
+                    - /url: http://finance.sina.com.cn/zl/stock/2026-04-15/zl-inhuqsky3411863.shtml
+                - listitem [ref=f11e13]:
+                  - link "温彬" [ref=f11e14] [cursor=pointer]:
+                    - /url: http://finance.sina.com.cn/zl/author.d.html?uid=1400595735
+                  - text: ：
+                  - link "后续外贸形势如何演变" [ref=f11e15] [cursor=pointer]:
+                    - /url: http://finance.sina.com.cn/zl/china/2026-04-15/zl-inhuqfuy0898901.shtml
+                - listitem [ref=f11e16]:
+                  - link "洪偌馨" [ref=f11e17] [cursor=pointer]:
+                    - /url: http://finance.sina.com.cn/zl/author.d.html?uid=1909143804
+                  - text: ：
+                  - link "存款搬家让银行理财露馅了" [ref=f11e18] [cursor=pointer]:
+                    - /url: http://finance.sina.com.cn/zl/bank/2026-04-15/zl-inhuqfve3487357.shtml
+                - listitem [ref=f11e19]:
+                  - link "付一夫" [ref=f11e20] [cursor=pointer]:
+                    - /url: http://finance.sina.com.cn/zl/author.d.html?uid=1537952284109
+                  - text: ：
+                  - link "锂矿板块迎来价值重估窗口" [ref=f11e21] [cursor=pointer]:
+                    - /url: http://finance.sina.com.cn/zl/china/2026-04-15/zl-inhupvfk3639008.shtml
+          - generic [ref=e1096]:
+            - insertion [ref=e1097]:
+              - insertion [ref=e1098]:
+                - iframe [ref=e1099]:
+                  - iframe [ref=f24e4]:
+                    - generic [ref=f39e2]:
+                      - generic [ref=f39e5] [cursor=pointer]:
+                        - img [ref=f39e8]
+                        - generic [ref=f39e9]:
+                          - generic [ref=f39e11]: 一汽大众价格..
+                          - generic [ref=f39e12]: 一汽大众汽车价格表
+                          - generic [ref=f39e13]: 1.7万阅读
+                      - generic [ref=f39e14]:
+                        - link:
+                          - /url: https://union.baidu.com
+                          - img [ref=f39e15] [cursor=pointer]
+                        - link:
+                          - /url: javascript:;
+                          - img [ref=f39e17] [cursor=pointer]
+            - insertion [ref=e1100]:
+              - insertion [ref=e1101]:
+                - iframe [ref=e1102]:
+                  - iframe [ref=f25e4]:
+                    - generic [ref=f38e2]:
+                      - link "广告图 我的世界正版 我的世界正版 查看详情" [ref=f38e3] [cursor=pointer]:
+                        - /url: https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1Yknzu9TZKxpyfqnauWpjYsFhwG5H6hpgPxmgKs5H0hph_qrj6vPHmzuHmLuh7bnWb3nzuo5iNjwiNDnBNaPiNjPaNjfiNjnaNawaN7PzNjwaNAraNDnBNDPzNariNDriNaPzNawaNDPiNAwaNanaN7PBu_IyVG5HDhUyPsUHYdnjRLFMDqP1fknWRYnWNxmLKzFMFB5H0hTMnqniu1uyk_ugFxpyfqniu1pyfqrjnzry7bPvu-PWmzPWR3rau1IA-b5HDvnauY5gwsmvkGmvV-ujPxpAnhIAfqP10sPHfsriuYUHYzP1RLrHfvP1bhIAd15HDLP1mzPHTzPjnhIZRqIHTsnjRYnjbhIHdCIZwsTzR1fiRzwBRzwhuGUh78mvR-nbN1py49FHF7mvqVFHF7mv3hIWYzFhbqmH9hrHDvP1n&besl=-1&c=news&cf=1&ctag=6-0&cvrq=0&device_id_v2=C14D97E67490D6ADE5D27EFB2E70EC7C&efc=0&fr=4&fv=0&haacp=253&img_typ=4098&itm=0&lu_idc=gzhxy&lukid=1&lus=8329ad7fe6626588&lust=69df88db&luwtr=2162807663814423305&mscf=0&mtids=3086967203&n=10&nttp=1&p=baidu&rcl=11&sce=5&sig=100&sr=90&ssp2=1&sti=50039&tpl=template_inlay_all_pc_new_tu_window&tsf=dtp:1&tt_sign=%CE%D2%B5%C4%CA%C0%BD%E7%D5%FD%B0%E6&tt_src=0&tu_type=0&u=%2Fwm%2F2026%2D04%2D12%2Fdoc%2Dinhuetnn3645721%2Eshtml&uicf=lurecv&urlid=0&eot=1
+                        - generic [ref=f38e4]:
+                          - img "广告图" [ref=f38e6]
+                          - generic [ref=f38e7]:
+                            - paragraph [ref=f38e8]: 我的世界正版
+                            - generic [ref=f38e9]:
+                              - generic [ref=f38e11]: 我的世界正版
+                              - generic [ref=f38e12]: 查看详情
+                      - generic [ref=f38e13]:
+                        - link:
+                          - /url: https://union.baidu.com
+                          - img [ref=f38e14] [cursor=pointer]
+                        - link:
+                          - /url: javascript:;
+                          - img [ref=f38e16] [cursor=pointer]
+          - iframe [ref=e1103]:
+            - generic [ref=f12e2]:
+              - heading "投资助手" [level=2] [ref=f12e3]
+              - generic [ref=f12e4]:
+                - list [ref=f12e6]:
+                  - listitem [ref=f12e7] [cursor=pointer]: 股票基金
+                  - listitem [ref=f12e8] [cursor=pointer]: 期货
+                  - listitem [ref=f12e9] [cursor=pointer]: 外汇
+                  - listitem [ref=f12e10] [cursor=pointer]: 黄金
+                - generic [ref=f12e12]:
+                  - link "交易提示" [ref=f12e13] [cursor=pointer]:
+                    - /url: http://finance.sina.com.cn/stock/jyts/
+                  - link "操盘必读" [ref=f12e14] [cursor=pointer]:
+                    - /url: http://finance.sina.com.cn/stock/cpbd/
+                  - link "证券报" [ref=f12e15] [cursor=pointer]:
+                    - /url: http://finance.sina.com.cn/focus/zqbjh/
+                  - link "最新公告" [ref=f12e16] [cursor=pointer]:
+                    - /url: http://vip.stock.finance.sina.com.cn/corp/view/vCB_BulletinGather.php?stock_str=&gg_date=&ftype=0
+                  - link "限售解禁" [ref=f12e17] [cursor=pointer]:
+                    - /url: http://vip.stock.finance.sina.com.cn/q/go.php/vInvestConsult/kind/xsjj/index.phtml
+                  - link "数据中心" [ref=f12e18] [cursor=pointer]:
+                    - /url: http://finance.sina.com.cn/data/
+                  - link "条件选股" [ref=f12e19] [cursor=pointer]:
+                    - /url: https://touzi.sina.com.cn/public/choose
+                  - link "券商评级" [ref=f12e20] [cursor=pointer]:
+                    - /url: http://stock.finance.sina.com.cn/stock/go.php/vIR_RatingNewest/index.phtml
+                  - link "股价预测" [ref=f12e21] [cursor=pointer]:
+                    - /url: http://stock.finance.sina.com.cn/stock/go.php/vIR_SumPrice/index.phtml
+                  - link "板块行情" [ref=f12e22] [cursor=pointer]:
+                    - /url: http://finance.sina.com.cn/stock/sl/
+                  - link "千股千评" [ref=f12e23] [cursor=pointer]:
+                    - /url: http://vip.stock.finance.sina.com.cn/q/go.php/vInvestConsult/kind/qgqp/index.phtml?t=sh_a
+                  - link "个股诊断" [ref=f12e24] [cursor=pointer]:
+                    - /url: http://vip.stock.finance.sina.com.cn/q/go.php/vDYData/kind/znzd/index.phtml
+                  - link "大宗交易" [ref=f12e25] [cursor=pointer]:
+                    - /url: http://vip.stock.finance.sina.com.cn/q/go.php/vInvestConsult/kind/dzjy/index.phtml
+                  - link "财报查询" [ref=f12e26] [cursor=pointer]:
+                    - /url: http://finance.sina.com.cn/realstock/income_statement/2017-03-31/issued_pdate_de_1.html
+                  - link "业绩预告" [ref=f12e27] [cursor=pointer]:
+                    - /url: http://vip.stock.finance.sina.com.cn/q/go.php/vFinanceAnalyze/kind/performance/index.phtml
+                  - link "ETF期权" [ref=f12e28] [cursor=pointer]:
+                    - /url: http://stock.finance.sina.com.cn/option/quotes.html
+                  - link "类余额宝" [ref=f12e29] [cursor=pointer]:
+                    - /url: http://finance.sina.com.cn/fund/box/
+                  - link "基金净值" [ref=f12e30] [cursor=pointer]:
+                    - /url: http://vip.stock.finance.sina.com.cn/fund_center/index.html#jzkfall
+                  - link "基金对比" [ref=f12e31] [cursor=pointer]:
+                    - /url: http://finance.sina.com.cn/money/fund/compare/
+                  - link "基金排名" [ref=f12e32] [cursor=pointer]:
+                    - /url: http://vip.stock.finance.sina.com.cn/fund_center/index.html#hbphall
+          - generic [ref=e1104]:
+            - insertion [ref=e1105]:
+              - insertion [ref=e1106]:
+                - iframe [ref=e1107]:
+                  - iframe [ref=f27e3]:
+                    - generic [ref=f34e2]:
+                      - generic [ref=f34e3]:
+                        - list [ref=f34e4] [cursor=pointer]:
+                          - listitem [ref=f34e5]:
+                            - link [ref=f34e6]:
+                              - /url: https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1YsFh7sT7qGujYsFhPC5H0huAbqrauGTdq9TZ0qnauJp1Y4rj6dPhcLnhnYP1R1njmYFh_qFRPDFRm3FRf1FRP7FRndFRndFRfsFRfsFRcsFRmkFRnLFRcsFRPKFR77FRn1FRuaFRPDFRm3FRnzFRRLFRf1FRP7FRPAFRcLFhkdpvbqPauVmLKV5HTzn1RsFMDqnHmsPHm4nW-xnNqWTZchThcqnauzT1YkFMP-UAk-T-qGujYkFMPGujYvPjnsP1NWPjTzPhc3PHb3FMPYpyfqnHDLFMfqIZKWUA-WpvNbndqCmzuYujYLnjDkn1b1FMwV5HcLPHRYrHTYnzuYUgnqnHTLPWcdP1cYnzuYIHddP10knHn4nzud5y9YIZK1FHPKFHFAFHFAuh-8my4WuiRzwgPGUhD-nbNWUvY-nbNWUBuv5HchpHd-ujbdnHmznf&besl=-1&c=news&cf=1&ctag=6-0&cvrq=0&device_id_v2=C14D97E67490D6ADE5D27EFB2E70EC7C&efc=0&fr=4&fv=0&haacp=404&img_typ=4134&itm=0&lu_idc=gzhxy&lukid=4&lus=643075c4726b8598&lust=69df88db&luwtr=7811669593641595160&mscf=0&mtids=2221452762&n=10&nttp=1&p=baidu&rcl=11&sce=7&sig=100&sr=90&ssp2=1&sti=60102&tpl=baiduCustNativeADImageCarousel&tsf=dtp:1&tt_sign=%CD%F8%C2%E7%D3%CE%CF%B7%C5%C5%D0%D0%B0%F1&tt_src=0&tu_type=0&u=%2Fwm%2F2026%2D04%2D12%2Fdoc%2Dinhuetnn3645721%2Eshtml&uicf=lurecv&urlid=0&eot=1
+                              - img [ref=f34e7]
+                          - listitem [ref=f34e8]:
+                            - link [ref=f34e9]:
+                              - /url: https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1YsFh7sT7qGujYsFhPC5H0huAbqrauGTdq9TZ0qnauJp1Y4rj6dPhcLnhnYP1R1njmYFh_qFRcYFRm1FRPDFRnsFRnkFRuKFRPKFRfvFRf1FRP7FRc4FRDdFRnzFRfYFhkdpvbqniuVmLKV5HcvPHbvFMDqnHmsPHm4nW-xnNqWTZchThcqnauzT1YkFMP-UAk-T-qGujYkFMPGujYvPjnsP1NWPjTzPhc3PHb3FMPYpyfqnHDLFMfqIZKWUA-WpvNbndqCmzuYujYLnjDkn1b1FMwV5HcLPHRYrHTYnzuYUgnqnHTLPWcdP1cYnzuYIHddP10knHn4nzud5y9YIZK1FHPKFHFAFHFAuh-8my4WuiRzwgPGUhD-nbNWUvY-nbNWUBuv5HchpHdhnWm3uHcvm6&besl=-1&c=news&cf=1&ctag=6-0&cvrq=0&device_id_v2=C14D97E67490D6ADE5D27EFB2E70EC7C&efc=0&fr=4&fv=0&haacp=201&img_typ=2&itm=0&lu_idc=gzhxy&lukid=1&lus=643075c4726b8598&lust=69df88db&luwtr=13893028379927575233&mscf=0&mtids=3087968687&n=10&nttp=1&p=baidu&rcl=11&sce=7&sig=100&sr=90&ssp2=1&sti=60102&tpl=baiduCustNativeADImageCarousel&tsf=dtp:1&tt_sign=%B4%F3%CD%C0%C1%FA&tt_src=0&tu_type=0&u=%2Fwm%2F2026%2D04%2D12%2Fdoc%2Dinhuetnn3645721%2Eshtml&uicf=lurecv&urlid=0&eot=1
+                              - img [ref=f34e10]
+                          - listitem [ref=f34e11]:
+                            - link [ref=f34e12]:
+                              - /url: https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1YsFh7sT7qGujYsFhPC5H0huAbqrauGTdq9TZ0qnauJp1Y4rj6dPhcLnhnYP1R1njmYFh_qFRcYFRm1FRc1FRwAFRcYFRRLFRP7FRw7FRPAFRwAFRFjFRfzFRPDFRDdFRf1FRcsFRfYFRFKFhkdpvbqnBuVmLKV5HD4nHc3FMDqnHmsPHm4nW-xnNqWTZchThcqnauzT1YkFMP-UAk-T-qGujYkFMPGujYvPjnsP1NWPjTzPhc3PHb3FMPYpyfqnHDLFMfqIZKWUA-WpvNbndqCmzuYujYLnjDkn1b1FMwV5HcLPHRYrHTYnzuYUgnqnHTLPWcdP1cYnzuYIHddP10knHn4nzud5y9YIZK1FHPKFHFAFHFAuh-8my4WuiRzwgPGUhD-nbNWUvY-nbNWUBuv5HchpHYvuAfsrHbYmf&besl=-1&c=news&cf=1&ctag=6-0&cvrq=0&device_id_v2=C14D97E67490D6ADE5D27EFB2E70EC7C&efc=0&fr=4&fv=0&haacp=100&img_typ=2&itm=0&lu_idc=gzhxy&lukid=2&lus=643075c4726b8598&lust=69df88db&luwtr=11947437094513979603&mscf=0&mtids=3057926516&n=10&nttp=1&p=baidu&rcl=11&sce=7&sig=100&sr=90&ssp2=1&sti=60102&tpl=baiduCustNativeADImageCarousel&tsf=dtp:1&tt_sign=%BC%D2%CD%A5%D3%B0%D4%BA&tt_src=0&tu_type=0&u=%2Fwm%2F2026%2D04%2D12%2Fdoc%2Dinhuetnn3645721%2Eshtml&uicf=lurecv&urlid=0&eot=1
+                              - img [ref=f34e13]
+                        - generic [ref=f34e18]:
+                          - link:
+                            - /url: https://union.baidu.com
+                            - img [ref=f34e19] [cursor=pointer]
+                          - link:
+                            - /url: javascript:;
+                            - img [ref=f34e21] [cursor=pointer]
+                      - link "大屠龙" [ref=f34e23] [cursor=pointer]:
+                        - /url: https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1YsFh7sT7qGujYsFhPC5H0huAbqrauGTdq9TZ0qnauJp1Y4rj6dPhcLnhnYP1R1njmYFh_qFRcYFRm1FRPDFRnsFRnkFRuKFRPKFRfvFRf1FRP7FRc4FRDdFRnzFRfYFhkdpvbqniuVmLKV5HcvPHbvFMDqnHmsPHm4nW-xnNqWTZchThcqnauzT1YkFMP-UAk-T-qGujYkFMPGujYvPjnsP1NWPjTzPhc3PHb3FMPYpyfqnHDLFMfqIZKWUA-WpvNbndqCmzuYujYLnjDkn1b1FMwV5HcLPHRYrHTYnzuYUgnqnHTLPWcdP1cYnzuYIHddP10knHn4nzud5y9YIZK1FHPKFHFAFHFAuh-8my4WuiRzwgPGUhD-nbNWUvY-nbNWUBuv5HchpHdhnWm3uHcvm6&besl=-1&c=news&cf=1&ctag=6-0&cvrq=0&device_id_v2=C14D97E67490D6ADE5D27EFB2E70EC7C&efc=0&fr=4&fv=0&haacp=201&img_typ=2&itm=0&lu_idc=gzhxy&lukid=1&lus=643075c4726b8598&lust=69df88db&luwtr=13893028379927575233&mscf=0&mtids=3087968687&n=10&nttp=1&p=baidu&rcl=11&sce=7&sig=100&sr=90&ssp2=1&sti=60102&tpl=baiduCustNativeADImageCarousel&tsf=dtp:1&tt_sign=%B4%F3%CD%C0%C1%FA&tt_src=0&tu_type=0&u=%2Fwm%2F2026%2D04%2D12%2Fdoc%2Dinhuetnn3645721%2Eshtml&uicf=lurecv&urlid=0&eot=1
+                      - list [ref=f34e24]:
+                        - listitem [ref=f34e25]
+                        - listitem [ref=f34e26]
+                        - listitem [ref=f34e27]
+                        - listitem [ref=f34e28]
+            - insertion [ref=e1108]:
+              - insertion [ref=e1109]:
+                - iframe [ref=e1110]:
+                  - iframe [ref=f28e3]:
+                    - generic [ref=f33e2]:
+                      - generic [ref=f33e3]:
+                        - list [ref=f33e4] [cursor=pointer]:
+                          - listitem [ref=f33e5]:
+                            - link [ref=f33e6]:
+                              - /url: https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1YsFh7sT7qGujYsFhPC5H0huAbqrauGTdq9TZ0qnauJp1YLnvF9nHfLn16dmWNWnW0LFh_qFRckFRRYFRPjFR7jFRf1FRP7FRPAFRcLFRFKFRfsFRfLFRf1FRfLFRN7FRfsFRnzFRcsFRRvFhkdpvbqPauVmLKV5Hc4P1f4FMDqnHmsPHm4nW-xnNqWTZchThcqnauzT1YkFMP-UAk-T-qGujYkFMPGujYLm1FBPH6dP1nkPAF9P1nhTLwGujYknHThIjdYTAP_pyPouyf1gv9WFMwb5HTsnH04n1nhIAYqnWTdPHf4P1f1FMwVT1YkP1TvnWRLnWf1FMwd5gRLnjDsrHn1FMRqpZwYTZn-nYD-nbm-nbuhpy49UhP-FHF7Tv-8miRzwyPEUiRzwyP8FMmqnBuG5HRdrHPbuHDL&besl=-1&c=news&cf=1&ctag=6-0&cvrq=0&device_id_v2=C14D97E67490D6ADE5D27EFB2E70EC7C&efc=0&eid_list=200044&expid=200044_200078&fr=4&fv=0&haacp=253&img_typ=2&itm=0&lu_idc=gzhxy&lukid=4&lus=07c2b5857314ba73&lust=69df88db&luwtr=2339404761903991272&mscf=0&mtids=3086982451&n=10&nttp=1&p=baidu&rcl=0&sce=7&sig=100&sr=90&ssp2=1&sti=60102&tpl=baiduCustNativeADImageCarousel&tsf=dtp:1&tt_sign=%C0%C1%DF%F7%D3%CE%CF%B7%BA%D0%D7%D3&tt_src=0&tu_type=0&u=%2Fwm%2F2026%2D04%2D12%2Fdoc%2Dinhuetnn3645721%2Eshtml&uicf=lurecv&urlid=0&eot=1
+                              - img [ref=f33e7]
+                          - listitem [ref=f33e8]:
+                            - link [ref=f33e9]:
+                              - /url: https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1YsFh7sT7qGujYsFhPC5H0huAbqrauGTdq9TZ0qnauJp1YLnvF9nHfLn16dmWNWnW0LFh_qFRnkFRR4FRfzFRu7FRPaFRnzFhkdpvbqniuVmLKV5HD3P10sFMDqnHmsPHm4nW-xnNqWTZchThcqnauzT1YkFMP-UAk-T-qGujYkFMPGujYLm1FBPH6dP1nkPAF9P1nhTLwGujYknHThIjdYTAP_pyPouyf1gv9WFMwb5HTsnH04n1nhIAYqnWTdPHf4P1f1FMwVT1YkP1TvnWRLnWf1FMwd5gRLnjDsrHn1FMRqpZwYTZn-nYD-nbm-nbuhpy49UhP-FHF7Tv-8miRzwyPEUiRzwyP8FMmqnBuG5H6Yry7-mWbv&besl=-1&c=news&cf=1&ctag=6-0&cvrq=0&device_id_v2=C14D97E67490D6ADE5D27EFB2E70EC7C&efc=0&eid_list=200044&expid=200044_200078&fr=4&fv=0&haacp=325&img_typ=2&itm=0&lu_idc=gzhxy&lukid=1&lus=07c2b5857314ba73&lust=69df88db&luwtr=768856490254647948&mscf=0&mtids=5344076&n=10&nttp=1&p=baidu&rcl=0&sce=7&sig=100&sr=90&ssp2=1&sti=60102&tpl=baiduCustNativeADImageCarousel&tsf=dtp:1&tt_sign=%C1%E9%D2%FE%CB%C2%D3%CE%CD%E6&tt_src=0&tu_type=0&u=%2Fwm%2F2026%2D04%2D12%2Fdoc%2Dinhuetnn3645721%2Eshtml&uicf=lurecv&urlid=0&eot=1
+                              - img [ref=f33e10]
+                          - listitem [ref=f33e11]:
+                            - link [ref=f33e12]:
+                              - /url: https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1YsFh7sT7qGujYsFhPC5H0huAbqrauGTdq9TZ0qnauJp1YLnvF9nHfLn16dmWNWnW0LFh_qFRPDFRm3FRf1FRP7FRndFRndFRfsFRfsFRcsFRmkFRnLFRcsFRPKFR77FRn1FRuaFRPDFRm3FRnzFRRLFRf1FRP7FRPAFRcLFhkdpvbqnBuVmLKV5H63rjR1FMDqnHmsPHm4nW-xnNqWTZchThcqnauzT1YkFMP-UAk-T-qGujYkFMPGujYLm1FBPH6dP1nkPAF9P1nhTLwGujYknHThIjdYTAP_pyPouyf1gv9WFMwb5HTsnH04n1nhIAYqnWTdPHf4P1f1FMwVT1YkP1TvnWRLnWf1FMwd5gRLnjDsrHn1FMRqpZwYTZn-nYD-nbm-nbuhpy49UhP-FHF7Tv-8miRzwyPEUiRzwyP8FMmqnBuG5yuWPhNhnWPb&besl=-1&c=news&cf=1&ctag=6-0&cvrq=0&device_id_v2=C14D97E67490D6ADE5D27EFB2E70EC7C&efc=0&eid_list=200044&expid=200044_200078&fr=4&fv=0&haacp=404&img_typ=4134&itm=0&lu_idc=gzhxy&lukid=2&lus=07c2b5857314ba73&lust=69df88db&luwtr=7811669593641595160&mscf=0&mtids=2221452762&n=10&nttp=1&p=baidu&rcl=0&sce=7&sig=100&sr=90&ssp2=1&sti=60102&tpl=baiduCustNativeADImageCarousel&tsf=dtp:1&tt_sign=%CD%F8%C2%E7%D3%CE%CF%B7%C5%C5%D0%D0%B0%F1&tt_src=0&tu_type=0&u=%2Fwm%2F2026%2D04%2D12%2Fdoc%2Dinhuetnn3645721%2Eshtml&uicf=lurecv&urlid=0&eot=1
+                              - img [ref=f33e13]
+                        - generic [ref=f33e18]:
+                          - link:
+                            - /url: https://union.baidu.com
+                            - img [ref=f33e19] [cursor=pointer]
+                          - link:
+                            - /url: javascript:;
+                            - img [ref=f33e21] [cursor=pointer]
+                      - link "灵隐寺游玩" [ref=f33e23] [cursor=pointer]:
+                        - /url: https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1YsFh7sT7qGujYsFhPC5H0huAbqrauGTdq9TZ0qnauJp1YLnvF9nHfLn16dmWNWnW0LFh_qFRnkFRR4FRfzFRu7FRPaFRnzFhkdpvbqniuVmLKV5HD3P10sFMDqnHmsPHm4nW-xnNqWTZchThcqnauzT1YkFMP-UAk-T-qGujYkFMPGujYLm1FBPH6dP1nkPAF9P1nhTLwGujYknHThIjdYTAP_pyPouyf1gv9WFMwb5HTsnH04n1nhIAYqnWTdPHf4P1f1FMwVT1YkP1TvnWRLnWf1FMwd5gRLnjDsrHn1FMRqpZwYTZn-nYD-nbm-nbuhpy49UhP-FHF7Tv-8miRzwyPEUiRzwyP8FMmqnBuG5H6Yry7-mWbv&besl=-1&c=news&cf=1&ctag=6-0&cvrq=0&device_id_v2=C14D97E67490D6ADE5D27EFB2E70EC7C&efc=0&eid_list=200044&expid=200044_200078&fr=4&fv=0&haacp=325&img_typ=2&itm=0&lu_idc=gzhxy&lukid=1&lus=07c2b5857314ba73&lust=69df88db&luwtr=768856490254647948&mscf=0&mtids=5344076&n=10&nttp=1&p=baidu&rcl=0&sce=7&sig=100&sr=90&ssp2=1&sti=60102&tpl=baiduCustNativeADImageCarousel&tsf=dtp:1&tt_sign=%C1%E9%D2%FE%CB%C2%D3%CE%CD%E6&tt_src=0&tu_type=0&u=%2Fwm%2F2026%2D04%2D12%2Fdoc%2Dinhuetnn3645721%2Eshtml&uicf=lurecv&urlid=0&eot=1
+                      - list [ref=f33e24]:
+                        - listitem [ref=f33e25]
+                        - listitem [ref=f33e26]
+                        - listitem [ref=f33e27]
+                        - listitem [ref=f33e28]
+          - iframe [ref=e1111]:
+            - generic [ref=f13e2]:
+              - heading "博客看市" [level=2] [ref=f13e3]:
+                - link [ref=f13e4] [cursor=pointer]:
+                  - /url: http://blog.sina.com.cn/lm/stock/
+                - link "博客看市" [ref=f13e5] [cursor=pointer]:
+                  - /url: http://blog.sina.com.cn/lm/stock/
+              - list [ref=f13e6]:
+                - listitem [ref=f13e7]:
+                  - link "塔勒布之眼 ：热议甘蔗百亿布局，量化偏看机构行为" [ref=f13e8] [cursor=pointer]:
+                    - /url: https://weibo.com/ttarticle/x/m/show#/id=2309405288066406809997
+                - listitem [ref=f13e9]:
+                  - link "概念爱好者 ：千亿关税退款启动，最大赢家出乎意料" [ref=f13e10] [cursor=pointer]:
+                    - /url: https://weibo.com/ttarticle/x/m/show#/id=2309405288066163540234
+                - listitem [ref=f13e11]:
+                  - link "逆流而上的浪客 ：产业强链补链，看清机构偏爱就更安心" [ref=f13e12] [cursor=pointer]:
+                    - /url: https://weibo.com/ttarticle/x/m/show#/id=2309405288062380278316
+                - listitem [ref=f13e13]:
+                  - link "守望云图 ：美伊局势转缓，操作上关键数据更重要" [ref=f13e14] [cursor=pointer]:
+                    - /url: https://weibo.com/ttarticle/x/m/show#/id=2309405288061881155606
+                - listitem [ref=f13e15]:
+                  - link "carfield_ball ：AI芯片赛道热炒，但真相藏在数据里" [ref=f13e16] [cursor=pointer]:
+                    - /url: https://weibo.com/ttarticle/x/m/show#/id=2309405288059108721232
+                - listitem [ref=f13e17]:
+                  - link "贾绅士爱财 ：光器件龙头突围，市场丛林藏资金暗潮" [ref=f13e18] [cursor=pointer]:
+                    - /url: https://weibo.com/ttarticle/x/m/show#/id=2309405288058857062928
+                - listitem [ref=f13e19]:
+                  - link "清萍末弈风 ：MLCC掀涨价潮，选对方向才是关键" [ref=f13e20] [cursor=pointer]:
+                    - /url: https://weibo.com/ttarticle/x/m/show#/id=2309405288054838657380
+                - listitem [ref=f13e21]:
+                  - link "是尤里乌呀 ：铝库存仅余9天，定价核心看这里" [ref=f13e22] [cursor=pointer]:
+                    - /url: https://weibo.com/ttarticle/x/m/show#/id=2309405288054582804601
+                - listitem [ref=f13e23]:
+                  - link "信息钱眼 ：AI整改引关注，资金布局藏玄机" [ref=f13e24] [cursor=pointer]:
+                    - /url: https://weibo.com/ttarticle/x/m/show#/id=2309405288051315703983
+                - listitem [ref=f13e25]:
+                  - link "倒骑牛上山 ：卫星赛道迎风口，别被假象乱心神" [ref=f13e26] [cursor=pointer]:
+                    - /url: https://weibo.com/ttarticle/x/m/show#/id=2309405288050803736792
+                - listitem [ref=f13e27]:
+                  - link "露风清扬 ：厂二代破局传承，股票只看机构态度变化" [ref=f13e28] [cursor=pointer]:
+                    - /url: https://weibo.com/ttarticle/x/m/show#/id=2309405288043761500205
+                - listitem [ref=f13e29]:
+                  - link "贾绅士爱财 ：氢能产业加速，怎么炒先看机构行为" [ref=f13e30] [cursor=pointer]:
+                    - /url: https://weibo.com/ttarticle/x/m/show#/id=2309405288043258183752
+                - listitem [ref=f13e31]:
+                  - link "凯恩斯 ：利好扎堆到来，美联储降息预期升温，A股受益行业" [ref=f13e32] [cursor=pointer]:
+                    - /url: https://weibo.com/ttarticle/x/m/show#/id=2309405288040200798323
+                - listitem [ref=f13e33]:
+                  - link "数钱老克勒 ：看懂机构行为，告别牛市困惑" [ref=f13e34] [cursor=pointer]:
+                    - /url: https://weibo.com/ttarticle/x/m/show#/id=2309405288035708436612
+                - listitem [ref=f13e35]:
+                  - link "逆流而上的浪客 ：低碳政策落地，大资金先人一步都这么干" [ref=f13e36] [cursor=pointer]:
+                    - /url: https://weibo.com/ttarticle/x/m/show#/id=2309405288028163145758
+          - iframe [ref=e1112]:
+            - generic [ref=f14e2]:
+              - heading "天下财经" [level=2] [ref=f14e3]:
+                - link [ref=f14e4] [cursor=pointer]:
+                  - /url: http://slide.finance.sina.com.cn/
+                - link "天下财经" [ref=f14e5] [cursor=pointer]:
+                  - /url: http://slide.finance.sina.com.cn/
+              - generic [ref=f14e6]:
+                - link "第三届消博会时装周落幕" [ref=f14e9] [cursor=pointer]:
+                  - /url: http://slide.finance.sina.com.cn/slide_9_86514_621908.html#p=1
+                  - img [ref=f14e10]
+                  - generic [ref=f14e11]: 第三届消博会时装周落幕
+                - generic [ref=f14e12]:
+                  - link [ref=f14e13] [cursor=pointer]:
+                    - /url: javascript:;
+                    - img [ref=f14e14]
+                  - link [ref=f14e15] [cursor=pointer]:
+                    - /url: javascript:;
+                    - img [ref=f14e16]
+                  - link [ref=f14e17] [cursor=pointer]:
+                    - /url: javascript:;
+                    - img [ref=f14e18]
+                  - link [ref=f14e19] [cursor=pointer]:
+                    - /url: javascript:;
+                    - img [ref=f14e20]
+          - iframe [ref=e1113]:
+            - generic [ref=f15e2]:
+              - heading "推荐视频" [level=2] [ref=f15e3]:
+                - link [ref=f15e4] [cursor=pointer]:
+                  - /url: http://video.sina.com.cn/news/
+                - link "推荐视频" [ref=f15e5] [cursor=pointer]:
+                  - /url: http://video.sina.com.cn/news/
+              - generic [ref=f15e6]:
+                - generic:
+                  - generic [ref=f15e7]:
+                    - link "董明珠还能为格力奋战多久？|《至少一个小时》" [ref=f15e8] [cursor=pointer]:
+                      - /url: https://finance.sina.com.cn/onehour/2020-10-20/doc-iivhvpwz1605853.shtml
+                      - img "董明珠还能为格力奋战多久？|《至少一个小时》" [ref=f15e9]
+                      - emphasis [ref=f15e10]
+                    - link "董明珠还能为格力奋战多久？|《至少一个小时》" [ref=f15e11] [cursor=pointer]:
+                      - /url: https://finance.sina.com.cn/onehour/2020-10-20/doc-iivhvpwz1605853.shtml
+                  - generic [ref=f15e12]:
+                    - link "梁建章：中国人口衰竭的速度前所未有" [ref=f15e13] [cursor=pointer]:
+                      - /url: https://finance.sina.com.cn/onehour/2020-06-18/doc-iircuyvi6164573.shtml
+                      - img "梁建章：中国人口衰竭的速度前所未有" [ref=f15e14]
+                      - emphasis [ref=f15e15]
+                    - link "梁建章：中国人口衰竭的速度前所未有" [ref=f15e16] [cursor=pointer]:
+                      - /url: https://finance.sina.com.cn/onehour/2020-06-18/doc-iircuyvi6164573.shtml
+                  - generic [ref=f15e17]:
+                    - link "冷友斌回应网友质疑：说价格高 对飞鹤不公平！" [ref=f15e18] [cursor=pointer]:
+                      - /url: https://finance.sina.com.cn/onehour/2020-05-15/doc-iirczymk1670659.shtml
+                      - img "冷友斌回应网友质疑：说价格高 对飞鹤不公平！" [ref=f15e19]
+                      - emphasis [ref=f15e20]
+                    - link "冷友斌回应网友质疑：说价格高 对飞鹤不公平！" [ref=f15e21] [cursor=pointer]:
+                      - /url: https://finance.sina.com.cn/onehour/2020-05-15/doc-iirczymk1670659.shtml
+                  - generic [ref=f15e22]:
+                    - link "王中军：我喜欢比较“江湖”一点的人" [ref=f15e23] [cursor=pointer]:
+                      - /url: https://finance.sina.com.cn/onehour/2020-04-09/doc-iimxyqwa5514143.shtml
+                      - img "王中军：我喜欢比较“江湖”一点的人" [ref=f15e24]
+                      - emphasis [ref=f15e25]
+                    - link "王中军：我喜欢比较“江湖”一点的人" [ref=f15e26] [cursor=pointer]:
+                      - /url: https://finance.sina.com.cn/onehour/2020-04-09/doc-iimxyqwa5514143.shtml
+          - iframe [ref=e1114]:
+            - generic [ref=f16e2]:
+              - heading "股市汇精选" [level=2] [ref=f16e3]:
+                - link [ref=f16e4] [cursor=pointer]:
+                  - /url: http://guba.sina.com.cn
+                - link "股市汇精选" [ref=f16e5] [cursor=pointer]:
+                  - /url: http://guba.sina.com.cn
+              - list [ref=f16e6]:
+                - listitem [ref=f16e7]:
+                  - link "北京红竹 ：突发利好，创新药将再次爆发" [ref=f16e8] [cursor=pointer]:
+                    - /url: https://live.finance.sina.com.cn/bozhu/2910812187
+                - listitem [ref=f16e9]:
+                  - link "趋势起航 ：放量上攻 周三市场能否延续？" [ref=f16e10] [cursor=pointer]:
+                    - /url: https://live.finance.sina.com.cn/bozhu/5306597815
+                - listitem [ref=f16e11]:
+                  - link "徐小明 ：遵守趋势" [ref=f16e12] [cursor=pointer]:
+                    - /url: https://live.finance.sina.com.cn/bozhu/1300871220
+                - listitem [ref=f16e13]:
+                  - link "冯矿伟 ：无条件坚持趋势。" [ref=f16e14] [cursor=pointer]:
+                    - /url: https://live.finance.sina.com.cn/bozhu/1504965870
+                - listitem [ref=f16e15]:
+                  - link "数字江恩 ：3980支撑强势震荡" [ref=f16e16] [cursor=pointer]:
+                    - /url: https://live.finance.sina.com.cn/bozhu/2342117515
+                - listitem [ref=f16e17]:
+                  - link "东方红老陈 ：美股继续大涨，A股怎么跟进操作？" [ref=f16e18] [cursor=pointer]:
+                    - /url: https://live.finance.sina.com.cn/bozhu/1877471117
+                - listitem [ref=f16e19]:
+                  - link "趋势领涨 ：晚间利好 美股大涨 今天怎么走" [ref=f16e20] [cursor=pointer]:
+                    - /url: https://live.finance.sina.com.cn/bozhu/1658605145
+                - listitem [ref=f16e21]:
+                  - link "冯矿伟 ：无条件坚持规则。" [ref=f16e22] [cursor=pointer]:
+                    - /url: https://live.finance.sina.com.cn/bozhu/1504965870
+          - generic [ref=e1116]:
+            - paragraph [ref=e1117]:
+              - link "新浪财经意见反馈留言板" [ref=e1118] [cursor=pointer]:
+                - /url: http://news.sina.com.cn/feedback/post.html
+            - paragraph [ref=e1119]:
+              - link "新浪简介" [ref=e1120] [cursor=pointer]:
+                - /url: http://ir.sina.com.cn/index.shtml
+              - text: "|"
+              - link "广告服务" [ref=e1121] [cursor=pointer]:
+                - /url: http://emarketing.sina.com.cn/
+              - text: "|"
+              - link "About Sina" [ref=e1122] [cursor=pointer]:
+                - /url: http://corp.sina.com.cn/eng/
+              - link "联系我们" [ref=e1123] [cursor=pointer]:
+                - /url: http://www.sina.com.cn/contactus.html
+              - text: "|"
+              - link "招聘信息" [ref=e1124] [cursor=pointer]:
+                - /url: http://corp.sina.com.cn/chn/sina_job.html
+              - text: "|"
+              - link "通行证注册" [ref=e1125] [cursor=pointer]:
+                - /url: https://login.sina.com.cn/signup/signup.php
+              - link "产品答疑" [ref=e1126] [cursor=pointer]:
+                - /url: http://help.sina.com.cn/
+              - text: "|"
+              - link "网站律师" [ref=e1127] [cursor=pointer]:
+                - /url: http://www.sina.com.cn/intro/lawfirm.shtml
+              - text: "|"
+              - link "SINA English" [ref=e1128] [cursor=pointer]:
+                - /url: http://english.sina.com
+            - paragraph [ref=e1129]: Copyright © 1996-2026 SINA Corporation
+            - paragraph [ref=e1130]:
+              - text: All Rights Reserved 新浪公司
+              - link "版权所有" [ref=e1131] [cursor=pointer]:
+                - /url: http://www.sina.com.cn/intro/copyright.shtml
+          - insertion [ref=e1133]:
+            - insertion [ref=e1134]:
+              - link "广告" [ref=e1135] [cursor=pointer]:
+                - /url: http://saxn.sina.com.cn/click?type=bottom&t=UERQUzAwMDAwMDAwNTQyNQ%3D%3D&url=https%3A%2F%2Ffinance.sina.com.cn%2Fmobile%2Fcomfinanceweb.shtml%3Fsource%3DPDPS000000005425&sign=23c421d86c3940df
+                - img "广告" [ref=e1136]
+              - link:
+                - /url: http://sax.sina.com.cn/click?type=7&t=UERQUzAwMDAwMDA0NjE1NA%3D%3D&url=http%3A%2F%2Fwww.sina.com.cn%2F%23a-register&sign=a70e1db1ea57de4f&id=10&pdps=PDPS000000005425&csits=1776257243073
+    - generic [ref=e1138]:
+      - link "新浪首页" [ref=e1139] [cursor=pointer]:
+        - /url: http://www.sina.com.cn
+        - text: 新浪首页
+      - link "语音播报" [ref=e1141] [cursor=pointer]:
+        - /url: javascript:;
+      - link "相关新闻" [ref=e1142] [cursor=pointer]:
+        - /url: javascript:;
+      - link "返回顶部" [ref=e1143] [cursor=pointer]:
+        - /url: javascript:;
+    - insertion
+    - generic [ref=e1144] [cursor=pointer]:
+      - generic [ref=e1145]:
+        - generic [ref=e1146]: 20:27
+        - link "美官员：美方尚未正式同意延长对伊停火协议" [ref=e1148]:
+          - /url: javascript:;
+      - generic [ref=e1149]: 关闭
+    - generic:
+      - generic [ref=e1150] [cursor=pointer]:
+        - generic [ref=e1151]: 20:27
+        - link "美官员：美方尚未正式同意延长对伊停火协议" [ref=e1152]:
+          - /url: javascript:;
+      - generic [ref=e1153] [cursor=pointer]: 关闭
+  - button "×" [ref=e1155]
+  - iframe
+  - generic [ref=e1157]:
+    - generic [ref=e1158]:
+      - heading "发现新版本" [level=4] [ref=e1159]
+      - generic [ref=e1160]: V9.13.0
+      - generic [ref=e1162]:
+        - generic [ref=e1163]: 1.新增黄金账本功能，实时跟踪您的私人金库收益；
+        - generic [ref=e1164]: 2.新增地缘冲突功能，风险机遇尽在掌握；
+        - generic [ref=e1165]: 3.行情个性化参数云端同步，自有参数不丢失；
+    - generic [ref=e1166]:
+      - img [ref=e1167]
+      - generic [ref=e1168]: 扫码立即体验
+    - link "关闭" [ref=e1169] [cursor=pointer]:
+      - /url: javascript:;

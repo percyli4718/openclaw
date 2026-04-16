@@ -1,0 +1,876 @@
+- generic [ref=e1]:
+  - link "欢迎进入 Hermes Agent vs OpenClaw：下一代自学习 AI 助手深度对比 - 知乎,盲人用户使用操作智能引导，请按快捷键Ctrl+Alt+R；阅读详细操作说明请按快捷键Ctrl+Alt+问号键。":
+    - /url: javascript:void(0)
+    - img [ref=e2] [cursor=pointer]
+  - generic [ref=e4]:
+    - banner [ref=e6]:
+      - generic [ref=e7]:
+        - link "知乎" [ref=e8] [cursor=pointer]:
+          - /url: https://www.zhihu.com
+          - img [ref=e9]
+        - generic [ref=e13]:
+          - generic [ref=e14]:
+            - navigation [ref=e15]:
+              - link "关注" [ref=e16] [cursor=pointer]:
+                - /url: https://www.zhihu.com/signin?next=%2Ffollow
+                - generic [ref=e17]: 关注
+              - link "推荐" [ref=e18] [cursor=pointer]:
+                - /url: https://www.zhihu.com/signin?next=%2F
+                - generic [ref=e19]: 推荐
+              - link "热榜" [ref=e20] [cursor=pointer]:
+                - /url: https://www.zhihu.com/signin?next=%2Fhot
+                - generic [ref=e21]: 热榜
+              - link "专栏" [ref=e22] [cursor=pointer]:
+                - /url: https://www.zhihu.com/signin?next=%2Fcolumn-square
+                - generic [ref=e23]: 专栏
+              - link "圈子 New" [ref=e24] [cursor=pointer]:
+                - /url: https://www.zhihu.com/signin?next=%2Fring-feeds
+                - generic [ref=e25]:
+                  - text: 圈子
+                  - generic [ref=e26]: New
+              - link "付费咨询" [ref=e28] [cursor=pointer]:
+                - /url: https://www.zhihu.com/consult
+                - generic [ref=e29]: 付费咨询
+              - link "知学堂" [ref=e30] [cursor=pointer]:
+                - /url: https://www.zhihu.com/education/learning
+                - generic [ref=e31]: 知学堂
+            - generic [ref=e32]:
+              - search [ref=e33]:
+                - generic [ref=e37]:
+                  - combobox "搜索" [ref=e38]
+                  - button "搜索" [ref=e39] [cursor=pointer]:
+                    - img [ref=e41]
+                - link "直答" [ref=e43] [cursor=pointer]:
+                  - /url: https://zhida.zhihu.com/
+                  - img [ref=e44]
+                  - text: 直答
+              - generic [ref=e47]:
+                - generic [ref=e49] [cursor=pointer]: 切换模式
+                - button "登录/注册" [ref=e51] [cursor=pointer]
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic: Hermes Agent vs OpenClaw：下一代自学习 AI 助手深度对比
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 首发于
+                              - link "安全百晓生":
+                                - /url: //www.zhihu.com/column/c_2017237287285597649
+                          - generic:
+                            - generic:
+                              - generic: 切换模式
+                            - generic:
+                              - button:
+                                - img
+    - main [ref=e53]:
+      - generic [ref=e54]:
+        - generic [ref=e55]:
+          - generic [ref=e57]:
+            - article [ref=e58]:
+              - generic [ref=e59]:
+                - heading "Hermes Agent vs OpenClaw：下一代自学习 AI 助手深度对比" [level=1] [ref=e60]
+                - generic [ref=e63]:
+                  - link "李进锋" [ref=e66] [cursor=pointer]:
+                    - /url: //www.zhihu.com/people/lijinfeng0713
+                    - img "李进锋" [ref=e67]
+                  - generic [ref=e68]:
+                    - generic [ref=e70]:
+                      - link "李进锋" [ref=e72] [cursor=pointer]:
+                        - /url: //www.zhihu.com/people/lijinfeng0713
+                      - link "阿里巴巴 算法专家" [ref=e73] [cursor=pointer]:
+                        - /url: https://www.zhihu.com/question/48510028
+                    - generic [ref=e77]: 阿里巴巴 算法专家
+                - link "收录于 · 安全百晓生" [ref=e80] [cursor=pointer]:
+                  - /url: https://www.zhihu.com/column/c_2017237287285597649
+                  - img [ref=e81]
+                  - generic [ref=e84]: 收录于 · 安全百晓生
+                  - img [ref=e85]
+                - generic [ref=e88] [cursor=pointer]:
+                  - generic [ref=e89]: 15 人赞同了该文章
+                  - img [ref=e90]
+              - generic [ref=e96]:
+                - blockquote [ref=e97]:
+                  - text: GitHub Trending 上冒出来一个新项目叫 Hermes Agent，两周时间冲到 17K Star，207 位贡献者，一个月内连发 4 个大版本。
+                  - text: Agent 赛道再次杀出一个新玩家，社区反应两极分化。有人说这是”2026 最强的 Agent Harness 框架”，有人觉得”又一个 OpenClaw 仿品”。
+                - separator [ref=e98]
+                - heading "一、Hermes Agent 是什么：来头不小" [level=2] [ref=e99]
+                - paragraph [ref=e100]:
+                  - text: 仔细扒了一下，Hermes Agent 是
+                  - link "Nous Research" [ref=e102] [cursor=pointer]:
+                    - /url: https://zhida.zhihu.com/search?content_id=272867728&content_type=Article&match_order=1&q=Nous+Research&zd_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ6aGlkYV9zZXJ2ZXIiLCJleHAiOjE3NzY0MzAwMTAsInEiOiJOb3VzIFJlc2VhcmNoIiwiemhpZGFfc291cmNlIjoiZW50aXR5IiwiY29udGVudF9pZCI6MjcyODY3NzI4LCJjb250ZW50X3R5cGUiOiJBcnRpY2xlIiwibWF0Y2hfb3JkZXIiOjEsInpkX3Rva2VuIjpudWxsfQ.TgONKOw4qxomtmL1b9Cy4ReG0feLRx-0VXn-CYDa3KI&zhida_source=entity
+                    - text: Nous Research
+                    - img [ref=e103]
+                  - text: 开发的开源 AI Agent 框架。
+                - paragraph [ref=e105]: Nous Research 在开源圈子里名气不小，他们做的 Hermes 4 系列模型，很多人用过。这家实验室的起源挺有意思，2023 年从 Discord 社区里长出来的，一群 AI 爱好者草根协作，现在成了美国领先的开源 AI 研究实验室。
+                - paragraph [ref=e106]: 创始人 Teknium 是 Hermes 模型的创造者，团队 18 名核心成员，刚拿了 5000 万美元 A 轮融资，投资方是 Paradigm 和 North Island Ventures。
+                - paragraph [ref=e107]: Hermes Agent 是这个生态里的新成员。它不是第一个 Agent 框架，但可能是第一个把“自我改进”这件事做完整的。
+                - paragraph [ref=e108]: 基本信息速览：
+                - table [ref=e109]:
+                  - rowgroup [ref=e110]:
+                    - row "字段 内容" [ref=e111]:
+                      - columnheader "字段" [ref=e112]
+                      - columnheader "内容" [ref=e113]
+                    - row "项目名称 NousResearch/hermes-agent" [ref=e114]:
+                      - cell "项目名称" [ref=e115]
+                      - cell "NousResearch/hermes-agent" [ref=e116]
+                    - row "Slogan “The agent that grows with you”（与你一起成长的 Agent）" [ref=e117]:
+                      - cell "Slogan" [ref=e118]
+                      - cell "“The agent that grows with you”（与你一起成长的 Agent）" [ref=e119]
+                    - row "Star 数 16,988（截至 2026-03-30）" [ref=e120]:
+                      - cell "Star 数" [ref=e121]
+                      - cell "16,988（截至 2026-03-30）" [ref=e122]
+                    - row "Contributors 207 人" [ref=e123]:
+                      - cell "Contributors" [ref=e124]
+                      - cell "207 人" [ref=e125]
+                    - row "主要语言 Python 92.4%" [ref=e126]:
+                      - cell "主要语言" [ref=e127]
+                      - cell "Python 92.4%" [ref=e128]
+                    - row "License MIT" [ref=e129]:
+                      - cell "License" [ref=e130]
+                      - cell "MIT" [ref=e131]
+                    - row "最新版本 v0.5.0（2026-03-28）" [ref=e132]:
+                      - cell "最新版本" [ref=e133]
+                      - cell "v0.5.0（2026-03-28）" [ref=e134]
+                    - row "官方网站 http://hermes-agent.nousresearch.com" [ref=e135]:
+                      - cell "官方网站" [ref=e136]
+                      - cell "http://hermes-agent.nousresearch.com" [ref=e137]:
+                        - link "http://hermes-agent.nousresearch.com" [ref=e138] [cursor=pointer]:
+                          - /url: https://link.zhihu.com/?target=http%3A//hermes-agent.nousresearch.com
+                          - text: http://hermes-agent.nousresearch.com
+                - paragraph [ref=e139]: 4 个 Release 全在 2026 年 3 月发布，迭代速度极快。v0.5.0 的代号叫“The hardening release”，大白话就是加固版，上了 Nous Portal 400+ 模型、HuggingFace 一等集成、插件生命周期钩子、供应链安全加固。
+                - paragraph [ref=e140]: 一个项目敢在一个月内连发 4 个大版本，要么是团队疯了，要么是真有东西。从 Star 增速和社区讨论热度看，Hermes 妥妥的是后者。不过话又说回来，现在有 ai coding 加持，只要有好的 idea 和方案，迭代速度快也倒是在情理之中。
+                - separator [ref=e141]
+                - heading "二、技术对比：Hermes vs OpenClaw vs 其他玩家" [level=2] [ref=e142]
+                - paragraph [ref=e143]: 现在 Agent 相关的产品，不敢说是多如牛毛，但也称得上是 “比比皆是”。话不多说，表格先上为敬。
+                - paragraph [ref=e144]: 核心竞品一览
+                - table [ref=e145]:
+                  - rowgroup [ref=e146]:
+                    - row "项目 开发者 Stars 开源 核心定位" [ref=e147]:
+                      - columnheader "项目" [ref=e148]
+                      - columnheader "开发者" [ref=e149]
+                      - columnheader "Stars" [ref=e150]
+                      - columnheader "开源" [ref=e151]
+                      - columnheader "核心定位" [ref=e152]
+                    - row "Hermes Agent Nous Research 17K MIT 自我改进型全能 AI Agent" [ref=e153]:
+                      - cell "Hermes Agent" [ref=e154]
+                      - cell "Nous Research" [ref=e155]
+                      - cell "17K" [ref=e156]
+                      - cell "MIT" [ref=e157]
+                      - cell "自我改进型全能 AI Agent" [ref=e158]
+                    - row "Claude Code Anthropic — Apache-2.0 Agentic Coding Harness" [ref=e159]:
+                      - cell "Claude Code" [ref=e160]
+                      - cell "Anthropic" [ref=e161]
+                      - cell "—" [ref=e162]
+                      - cell "Apache-2.0" [ref=e163]
+                      - cell "Agentic Coding Harness" [ref=e164]
+                    - row "DeerFlow 2.0 ByteDance 53K MIT Super Agent Harness" [ref=e165]:
+                      - cell "DeerFlow 2.0" [ref=e166]
+                      - cell "ByteDance" [ref=e167]
+                      - cell "53K" [ref=e168]
+                      - cell "MIT" [ref=e169]
+                      - cell "Super Agent Harness" [ref=e170]
+                    - row "Codex CLI OpenAI 68K Apache-2.0 Terminal Coding Agent" [ref=e171]:
+                      - cell "Codex CLI" [ref=e172]
+                      - cell "OpenAI" [ref=e173]
+                      - cell "68K" [ref=e174]
+                      - cell "Apache-2.0" [ref=e175]
+                      - cell "Terminal Coding Agent" [ref=e176]
+                    - row "Gemini CLI Google 100K Apache-2.0 Terminal AI Agent" [ref=e177]:
+                      - cell "Gemini CLI" [ref=e178]
+                      - cell "Google" [ref=e179]
+                      - cell "100K" [ref=e180]
+                      - cell "Apache-2.0" [ref=e181]
+                      - cell "Terminal AI Agent" [ref=e182]
+                    - row "Goose Block 34K 开源 全能工程 AI Agent" [ref=e183]:
+                      - cell "Goose" [ref=e184]
+                      - cell "Block" [ref=e185]
+                      - cell "34K" [ref=e186]
+                      - cell "开源" [ref=e187]
+                      - cell "全能工程 AI Agent" [ref=e188]
+                    - row "aider 社区 43K Apache-2.0 Terminal AI Pair Programming" [ref=e189]:
+                      - cell "aider" [ref=e190]
+                      - cell "社区" [ref=e191]
+                      - cell "43K" [ref=e192]
+                      - cell "Apache-2.0" [ref=e193]
+                      - cell "Terminal AI Pair Programming" [ref=e194]
+                - paragraph [ref=e195]: Hermes 的 Star 数不算最高，但 17K 在两个月内冲到，增速是第一梯队的。
+                - paragraph [ref=e196]: 全面功能对比：
+                - table [ref=e197]:
+                  - rowgroup [ref=e198]:
+                    - row "维度 Hermes Agent Claude Code DeerFlow 2.0 OpenClaw" [ref=e199]:
+                      - columnheader "维度" [ref=e200]
+                      - columnheader "Hermes Agent" [ref=e201]
+                      - columnheader "Claude Code" [ref=e202]
+                      - columnheader "DeerFlow 2.0" [ref=e203]
+                      - columnheader "OpenClaw" [ref=e204]
+                    - row "Agent 循环 ReAct ReAct (Gather→Act→Verify) LangGraph 状态图 ReAct" [ref=e205]:
+                      - cell "Agent 循环" [ref=e206]
+                      - cell "ReAct" [ref=e207]:
+                        - link "ReAct" [ref=e209] [cursor=pointer]:
+                          - /url: https://zhida.zhihu.com/search?content_id=272867728&content_type=Article&match_order=1&q=ReAct&zd_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ6aGlkYV9zZXJ2ZXIiLCJleHAiOjE3NzY0MzAwMTAsInEiOiJSZUFjdCIsInpoaWRhX3NvdXJjZSI6ImVudGl0eSIsImNvbnRlbnRfaWQiOjI3Mjg2NzcyOCwiY29udGVudF90eXBlIjoiQXJ0aWNsZSIsIm1hdGNoX29yZGVyIjoxLCJ6ZF90b2tlbiI6bnVsbH0.lOeDipw3WwOp7sV9dFp5ImIz2NVrsvT1P6eJ9I0qIHw&zhida_source=entity
+                          - text: ReAct
+                          - img [ref=e210]
+                      - cell "ReAct (Gather→Act→Verify)" [ref=e212]
+                      - cell "LangGraph 状态图" [ref=e213]:
+                        - link "LangGraph" [ref=e215] [cursor=pointer]:
+                          - /url: https://zhida.zhihu.com/search?content_id=272867728&content_type=Article&match_order=1&q=LangGraph&zd_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ6aGlkYV9zZXJ2ZXIiLCJleHAiOjE3NzY0MzAwMTAsInEiOiJMYW5nR3JhcGgiLCJ6aGlkYV9zb3VyY2UiOiJlbnRpdHkiLCJjb250ZW50X2lkIjoyNzI4Njc3MjgsImNvbnRlbnRfdHlwZSI6IkFydGljbGUiLCJtYXRjaF9vcmRlciI6MSwiemRfdG9rZW4iOm51bGx9.WA01pvoHQqULBRjb6bSQMJWypaqeBf2NjFNED-D0Q-E&zhida_source=entity
+                          - text: LangGraph
+                          - img [ref=e216]
+                        - text: 状态图
+                      - cell "ReAct" [ref=e218]
+                    - row "自我改进 闭环学习 + 技能自创建 无Auto Memory 仅被动记忆 x x" [ref=e219]:
+                      - cell "自我改进" [ref=e220]
+                      - cell "闭环学习 + 技能自创建" [ref=e221]
+                      - cell "无Auto Memory 仅被动记忆" [ref=e222]
+                      - cell "x" [ref=e223]
+                      - cell "x" [ref=e224]
+                    - row "记忆系统 五层（FTS5+ 向量+Honcho+ 技能+MEMORY.md） CLAUDE.md + Auto Memory（文件型） Fact-based 长期记忆 + 摘要 MEMORY.md" [ref=e225]:
+                      - cell "记忆系统" [ref=e226]
+                      - cell "五层（FTS5+ 向量+Honcho+ 技能+MEMORY.md）" [ref=e227]:
+                        - text: 五层（FTS5+ 向量+Honcho+ 技能+
+                        - link "MEMORY.md" [ref=e229] [cursor=pointer]:
+                          - /url: https://zhida.zhihu.com/search?content_id=272867728&content_type=Article&match_order=1&q=MEMORY.md&zd_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ6aGlkYV9zZXJ2ZXIiLCJleHAiOjE3NzY0MzAwMTAsInEiOiJNRU1PUlkubWQiLCJ6aGlkYV9zb3VyY2UiOiJlbnRpdHkiLCJjb250ZW50X2lkIjoyNzI4Njc3MjgsImNvbnRlbnRfdHlwZSI6IkFydGljbGUiLCJtYXRjaF9vcmRlciI6MSwiemRfdG9rZW4iOm51bGx9.2XN2V67UFC9uFQQaBRdgmBWzEpAQIDAtZQ0o_HSpiNM&zhida_source=entity
+                          - text: MEMORY.md
+                          - img [ref=e230]
+                        - text: ）
+                      - cell "CLAUDE.md + Auto Memory（文件型）" [ref=e232]
+                      - cell "Fact-based 长期记忆 + 摘要" [ref=e233]
+                      - cell "MEMORY.md" [ref=e234]
+                    - row "模型锁定 无锁定（18+ Provider） 仅 Claude 家族 无锁定（10+ Provider） 无锁定" [ref=e235]:
+                      - cell "模型锁定" [ref=e236]
+                      - cell "无锁定（18+ Provider）" [ref=e237]
+                      - cell "仅 Claude 家族" [ref=e238]
+                      - cell "无锁定（10+ Provider）" [ref=e239]
+                      - cell "无锁定" [ref=e240]
+                    - row "本地推理 Ollama/vLLM/llama.cpp x 通过自定义端点 支持" [ref=e241]:
+                      - cell "本地推理" [ref=e242]
+                      - cell "Ollama/vLLM/llama.cpp" [ref=e243]
+                      - cell "x" [ref=e244]
+                      - cell "通过自定义端点" [ref=e245]
+                      - cell "支持" [ref=e246]
+                    - row "消息平台 12 个（Telegram/Discord/ 钉钉/飞书等） Channels 插件 Telegram/Slack/ 飞书 需插件" [ref=e247]:
+                      - cell "消息平台" [ref=e248]
+                      - cell "12 个（Telegram/Discord/ 钉钉/飞书等）" [ref=e249]
+                      - cell "Channels 插件" [ref=e250]
+                      - cell "Telegram/Slack/ 飞书" [ref=e251]
+                      - cell "需插件" [ref=e252]
+                    - row "MCP 支持 Client + Server Client + Server HTTP/SSE + OAuth 支持" [ref=e253]:
+                      - cell "MCP 支持" [ref=e254]
+                      - cell "Client + Server" [ref=e255]
+                      - cell "Client + Server" [ref=e256]
+                      - cell "HTTP/SSE + OAuth" [ref=e257]
+                      - cell "支持" [ref=e258]
+                    - row "子 Agent/并行 delegate_tool + 隔离上下文 Subagents + Agent Teams Lead + Sub-Agent 支持" [ref=e259]:
+                      - cell "子 Agent/并行" [ref=e260]
+                      - cell "delegate_tool + 隔离上下文" [ref=e261]
+                      - cell "Subagents + Agent Teams" [ref=e262]
+                      - cell "Lead + Sub-Agent" [ref=e263]
+                      - cell "支持" [ref=e264]
+                    - row "Cron 调度 内置 原生 + 云端定时 x 需配置" [ref=e265]:
+                      - cell "Cron 调度" [ref=e266]
+                      - cell "内置" [ref=e267]
+                      - cell "原生 + 云端定时" [ref=e268]
+                      - cell "x" [ref=e269]
+                      - cell "需配置" [ref=e270]
+                    - row "沙箱执行 6 种后端（Local/Docker/SSH/Modal/Daytona/Singularity） Dev Container + Worktree Docker + K8s 三级沙箱 Docker" [ref=e271]:
+                      - cell "沙箱执行" [ref=e272]
+                      - cell "6 种后端（Local/Docker/SSH/Modal/Daytona/Singularity）" [ref=e273]
+                      - cell "Dev Container + Worktree" [ref=e274]
+                      - cell "Docker + K8s 三级沙箱" [ref=e275]
+                      - cell "Docker" [ref=e276]
+                    - row "技能可移植 http://agentskills.io（11+ 工具采纳） http://agentskills.io x x" [ref=e277]:
+                      - cell "技能可移植" [ref=e278]
+                      - cell "http://agentskills.io（11+ 工具采纳）" [ref=e279]:
+                        - link "http://agentskills.io" [ref=e280] [cursor=pointer]:
+                          - /url: https://link.zhihu.com/?target=http%3A//agentskills.io
+                          - text: http://agentskills.io
+                        - text: （11+ 工具采纳）
+                      - cell "http://agentskills.io" [ref=e281]:
+                        - link "http://agentskills.io" [ref=e282] [cursor=pointer]:
+                          - /url: https://link.zhihu.com/?target=http%3A//agentskills.io
+                          - text: http://agentskills.io
+                      - cell "x" [ref=e283]
+                      - cell "x" [ref=e284]
+                    - row "RL 训练 Atropos + 轨迹压缩 x x x" [ref=e285]:
+                      - cell "RL 训练" [ref=e286]
+                      - cell "Atropos + 轨迹压缩" [ref=e287]
+                      - cell "x" [ref=e288]
+                      - cell "x" [ref=e289]
+                      - cell "x" [ref=e290]
+                - paragraph [ref=e291]: 几个关键差异点：
+                - paragraph [ref=e292]: 1. 自我改进能力
+                - paragraph [ref=e293]: 这是 Hermes 最大的护城河。其他 Agent（包括 Claude Code）都是无状态或被动记忆型——你告诉它记住什么，它才记。Hermes 会自己判断什么信息值得记住，自动写入 MEMORY.md；完成复杂任务后，自动把流程提炼成 SKILL.md 文件；下次遇到类似任务，直接调用，还能根据新情况更新技能。
+                - paragraph [ref=e294]: 用社区的话说：”做复杂任务时会自动创建技能，自我改进是真的。”
+                - paragraph [ref=e295]: 2. 消息平台覆盖
+                - paragraph [ref=e296]: Hermes 原生支持 12 个消息平台：Telegram、Discord、Slack、WhatsApp、Signal、钉钉、飞书、Email、Home Assistant、Webhook、API Server、CLI TUI。所有平台通过单一 Gateway 进程统一管理。
+                - paragraph [ref=e297]: Claude Code 通过 Channels 插件支持部分平台，DeerFlow 支持 3 个，其余全部 CLI only。
+                - paragraph [ref=e298]: 这意味着 Hermes 可以真正做到”长在你手机里”——你在 Telegram 上发条消息，它在后台跑任务，完成后把结果发回来。不需要打开终端，不需要守着屏幕。
+                - paragraph [ref=e299]: 3. 模型无关 + 研究就绪
+                - paragraph [ref=e300]: 18+ 提供商支持：Nous Portal（400+ 模型）、OpenRouter（200+ 模型）、Anthropic、OpenAI、HuggingFace、DeepSeek、智谱 AI、Kimi、MiniMax、阿里通义千问、GitHub Copilot 等。
+                - paragraph [ref=e301]: 支持本地推理（Ollama、vLLM、llama.cpp），无需任何付费 API。
+                - paragraph [ref=e302]: 还集成了 RL 训练环境（Atropos）、轨迹压缩用于训练数据生产、WandB 实验追踪——这不仅是用户工具，也是训练下一代工具调用模型的数据飞轮。
+                - paragraph [ref=e303]: Hermes vs DeerFlow 2.0 的取舍：
+                - paragraph [ref=e304]: DeerFlow 2.0 是字节开源的”Super Agent Harness”，53K Stars。两者差异在于架构复杂度和使用门槛：
+                - list [ref=e305]:
+                  - listitem [ref=e306]: • DeerFlow 2.0 是框架级产品，基于 LangGraph 构建，提供从 Agent 编排、记忆、沙箱（Docker/K8s）到 IM 集成的完整企业级基础设施。支持 Guardrails 安全防护、LangSmith 可观测性。但复杂度极高，配置项繁多，学习曲线陡峭。
+                  - listitem [ref=e307]: • Hermes 是产品级工具，开箱即用（curl | bash 一键安装），不需要 LangGraph/LangChain 知识。更像一个”长在你手机里的 AI 助手”，通过 Telegram 等平台随时触达，拥有自我改进能力，适合个人和小团队。
+                - table [ref=e308]:
+                  - rowgroup [ref=e309]:
+                    - row "谁更强 DeerFlow 2.0 Hermes Agent" [ref=e310]:
+                      - columnheader "谁更强" [ref=e311]
+                      - columnheader "DeerFlow 2.0" [ref=e312]
+                      - columnheader "Hermes Agent" [ref=e313]
+                    - row "企业级编排 LangGraph + K8s 沙箱 + Guardrails 够用但非强项" [ref=e314]:
+                      - cell "企业级编排" [ref=e315]
+                      - cell "LangGraph + K8s 沙箱 + Guardrails" [ref=e316]
+                      - cell "够用但非强项" [ref=e317]
+                    - row "上手门槛 高（需配置 YAML、Docker、K8s） 低（一键安装）" [ref=e318]:
+                      - cell "上手门槛" [ref=e319]
+                      - cell "高（需配置 YAML、Docker、K8s）" [ref=e320]
+                      - cell "低（一键安装）" [ref=e321]
+                    - row "自我改进 - 闭环学习" [ref=e322]:
+                      - cell "自我改进" [ref=e323]
+                      - cell "-" [ref=e324]
+                      - cell "闭环学习" [ref=e325]
+                    - row "消息平台 Telegram/Slack/飞书 12 个平台" [ref=e326]:
+                      - cell "消息平台" [ref=e327]
+                      - cell "Telegram/Slack/飞书" [ref=e328]
+                      - cell "12 个平台" [ref=e329]
+                    - row "可观测性 LangSmith 原生集成 基础日志" [ref=e330]:
+                      - cell "可观测性" [ref=e331]
+                      - cell "LangSmith 原生集成" [ref=e332]
+                      - cell "基础日志" [ref=e333]
+                    - row "研究训练 - RL 训练 + 轨迹压缩" [ref=e334]:
+                      - cell "研究训练" [ref=e335]
+                      - cell "-" [ref=e336]
+                      - cell "RL 训练 + 轨迹压缩" [ref=e337]
+                - paragraph [ref=e338]: Hermes vs Goose / Codex CLI / Gemini CLI / aider：
+                - paragraph [ref=e339]: 这四个项目都是编码/终端 Agent，定位与 Hermes 有本质差异：
+                - list [ref=e340]:
+                  - listitem [ref=e341]: • 它们都没有自我改进能力——无法自动创建技能并在使用中改进
+                  - listitem [ref=e342]: • Goose 最接近 Hermes 的模型自由度（30+ Provider），且 MCP 原生设计最彻底
+                  - listitem [ref=e343]: • Gemini CLI Stars 最多（100K），但完全锁定 Google Gemini 模型
+                  - listitem [ref=e344]: • Codex CLI 有最好的沙箱安全（macOS Seatbelt），但偏向 OpenAI 生态
+                  - listitem [ref=e345]: • aider 的 Repo Map（tree-sitter 代码库索引）是独特的竞争力，专精结对编程
+                - separator [ref=e346]
+                - heading "三、学习系统详解：Hermes 的护城河" [level=2] [ref=e347]
+                - paragraph [ref=e348]: Hermes 宣称的”自我改进”能力，核心来自它的多层记忆系统。
+                - heading "3.1 核心记忆：MEMORY.md" [level=3] [ref=e349]
+                - paragraph [ref=e350]:
+                  - text: 记忆工具的存储方案出人意料地简单——纯 Markdown 文件。Agent 的持久化记忆写在
+                  - code [ref=e351]: ~/.hermes/memory/MEMORY.md
+                  - text: 中，每条记忆是一个时间戳标记的 Markdown 段落。
+                - paragraph [ref=e352]:
+                  - text: 记忆工具注册了三个操作：
+                  - code [ref=e353]: save
+                  - text: （保存新记忆）、
+                  - code [ref=e354]: search
+                  - text: （搜索现有记忆）、
+                  - code [ref=e355]: delete
+                  - text: （删除记忆）。在实现上，
+                  - code [ref=e356]: save
+                  - text: 就是向文件追加一段带时间戳的 Markdown；
+                  - code [ref=e357]: search
+                  - text: 是对文件内容做关键词匹配；
+                  - code [ref=e358]: delete
+                  - text: 则移除匹配的段落。
+                - paragraph [ref=e359]: 这个设计的核心优势是可审计性——用户可以直接打开 MEMORY.md 查看 Agent 记住了什么，甚至手动编辑。相比向量数据库的黑箱，这对用户信任至关重要。
+                - heading "3.2 会话搜索：SQLite FTS5" [level=3] [ref=e360]
+                - paragraph [ref=e361]:
+                  - code [ref=e362]: session_search_tool.py
+                  - text: 实现了跨会话的全文检索，让 Agent 能够回忆过去的对话。技术上使用 SQLite 的 FTS5 虚拟表：
+                - code [ref=e365]: CREATE VIRTUAL TABLE IF NOT EXISTS session_fts USING fts5(session_id, role, content, timestamp, tokenize='porter unicode61')
+                - paragraph [ref=e366]:
+                  - code [ref=e367]: porter unicode61
+                  - text: 分词器同时支持英文词干提取和 Unicode（包括中文）。每个会话结束时，对话消息被写入 FTS5 索引。
+                - paragraph [ref=e368]:
+                  - text: 搜索时，工具先通过 FTS5 的
+                  - code [ref=e369]: MATCH
+                  - text: 语法检索相关消息，然后调用辅助 LLM 对检索结果做摘要，提炼出与当前问题最相关的信息。
+                - paragraph [ref=e370]: 这个”检索 + LLM 摘要”的两阶段设计是 RAG 的经典模式。FTS5 的优势在于零外部依赖、毫秒级查询、支持中文，且 SQLite 文件天然具备可移植性。
+                - heading "3.3 Honcho 用户建模：辩证式画像" [level=3] [ref=e371]
+                - paragraph [ref=e372]: Honcho 是 Plastic Labs 开发的用户建模引擎。这里需要重点解释”辩证法建模”到底是什么意思。
+                - paragraph [ref=e373]: 什么是辩证法用户建模？
+                - paragraph [ref=e374]: 传统的用户画像是累积式的：每次观察到一个新事实（”用户喜欢 Python”），就加一条记录。随着时间推移，画像膨胀且可能自相矛盾（”用户喜欢 Python”和一周后的”用户开始转向 Rust”并存）。
+                - paragraph [ref=e375]: Honcho 的辩证法借鉴了黑格尔的”正 - 反 - 合”逻辑：
+                - list [ref=e376]:
+                  - listitem [ref=e377]: • 正题（Thesis）：当前对用户的理解（画像的现状）
+                  - listitem [ref=e378]: • 反题（Antithesis）：新的对话中出现了与当前理解矛盾或补充的信息
+                  - listitem [ref=e379]: • 合题（Synthesis）：用 LLM 将正题和反题融合，生成一个更新的、更准确的用户理解
+                - paragraph [ref=e380]: 这个过程由 Honcho 服务端实现。Hermes Agent 通过 API 将对话数据发送给 Honcho，Honcho 在服务端用自己的 LLM 执行辩证推理，返回更新后的用户画像。
+                - paragraph [ref=e381]: 具体运转流程：
+                - code [ref=e384]: "[Agent 对话] [Honcho 服务端] │ │ 1. 对话结束时，Agent 发送消息历史到 Honcho ├────────────────────────────────────▶│ │ │ 2. Honcho 从消息中提取新的用户观察（反题） │ │ 3. Honcho 取出当前用户画像（正题） │ │ 4. Honcho 用 LLM 将正题 + 反题融合为新画像（合题） │ 5. 下次对话开始时，Agent 请求 Honcho 上下文 ├────────────────────────────────────▶│ │◀────────────────────────────────────┤ 6. 返回融合后的用户画像 │ 注入到系统提示中"
+                - paragraph [ref=e385]: 举个例子：
+                - list [ref=e386]:
+                  - listitem [ref=e387]: • 第 1 天：用户让 Agent 帮忙写 Python 脚本。Honcho 生成正题：”用户是 Python 开发者，偏好脚本化任务”
+                  - listitem [ref=e388]: • 第 5 天：用户开始讨论 Rust 的内存安全。这成为反题，与”纯 Python 开发者”矛盾
+                  - listitem [ref=e389]: • 辩证融合：Honcho 的 LLM 重新推理生成合题：”用户是有 Python 背景的系统程序员，正在向 Rust 转型，关注性能和安全性”
+                - paragraph [ref=e390]: 这个合题比分别罗列事实更有价值——它捕捉了用户的发展趋势和动机。
+                - paragraph [ref=e391]: 用户画像的数据结构：
+                - paragraph [ref=e392]: Honcho 返回的画像用自然语言描述，可以直接注入到 LLM 的系统提示中，无需额外的格式转换。画像内容类似于：
+                - code [ref=e395]: This user is an experienced Python developer transitioning to systems programming with Rust. They value code correctness and performance. They prefer concise explanations with code examples over lengthy theoretical discussions. They work on backend services and have recently started exploring WebAssembly.
+                - paragraph [ref=e396]: Hermes Agent 端的集成实现：
+                - paragraph [ref=e397]: 在 Hermes Agent 这一侧，Honcho 的集成分为两层：
+                - paragraph [ref=e398]:
+                  - text: 工具层（
+                  - code [ref=e399]: tools/honcho_tools.py
+                  - text: ）注册四个操作供 Agent 主动使用：
+                - list [ref=e400]:
+                  - listitem [ref=e401]:
+                    - text: •
+                    - code [ref=e402]: honcho_context
+                    - text: ：获取当前对话的上下文增强信息
+                  - listitem [ref=e403]:
+                    - text: •
+                    - code [ref=e404]: honcho_profile
+                    - text: ：查询用户的完整画像
+                  - listitem [ref=e405]:
+                    - text: •
+                    - code [ref=e406]: honcho_search
+                    - text: ：在用户历史交互中搜索特定信息
+                  - listitem [ref=e407]:
+                    - text: •
+                    - code [ref=e408]: honcho_conclude
+                    - text: ：提交新的观察/结论，触发画像的辩证更新
+                - paragraph [ref=e409]:
+                  - text: 其中
+                  - code [ref=e410]: honcho_conclude
+                  - text: 是触发辩证循环的关键——当 Agent 在对话中观察到有价值的用户信息时，通过这个工具将观察提交给 Honcho 服务，Honcho 在服务端执行正 - 反 - 合的融合。
+                - paragraph [ref=e411]:
+                  - text: 自动注入层（
+                  - code [ref=e412]: prompt_builder.py
+                  - text: +
+                  - code [ref=e413]: run_agent.py
+                  - text: ）实现无感知的上下文增强：
+                - code [ref=e416]: "# run_agent.py 中的 Honcho 上下文注入逻辑 if self._honcho_enabled: # 首轮对话：嵌入到系统提示中 if is_first_turn: system_prompt += f\"\\n\\n[User Context from Honcho]\\n{honcho_context}\" else: # 后续轮次：附加到用户消息中 # 这是为了不破坏 Anthropic 的 prompt cache 前缀命中 user_message_content = f\"{honcho_context}\\n\\n{original_user_message}\""
+                - paragraph [ref=e417]: 首轮对话将 Honcho 上下文嵌入系统提示，让 Agent 从一开始就”认识”这个用户。后续轮次为了不破坏 Anthropic 的 prompt cache 前缀（系统提示变化会导致缓存失效），改为将 Honcho 上下文附加到用户消息中。
+                - paragraph [ref=e418]: 为什么默认不启用？
+                - paragraph [ref=e419]: Honcho 默认未启用，需要用户手动配置（设置 Honcho API key）。这是有意的设计：
+                - list [ref=e420]:
+                  - listitem [ref=e421]: 用户画像涉及隐私敏感数据，显式 opt-in 是负责任的做法
+                  - listitem [ref=e422]: Honcho 是外部服务（由 Plastic Labs 运营），数据会发送到第三方
+                  - listitem [ref=e423]: 辩证融合需要额外的 LLM 调用，有成本和延迟开销
+                  - listitem [ref=e424]: 对于短期/一次性使用场景，用户建模的收益有限
+                - heading "3.4 技能系统：Agent 的程序性知识" [level=3] [ref=e425]
+                - paragraph [ref=e426]: 技能系统是 Hermes Agent”越用越聪明”承诺的核心载体。一个技能本质上是一段结构化的 Markdown 文档，描述了完成某类任务的知识和步骤。
+                - paragraph [ref=e427]: 技能的文件结构：
+                - code [ref=e430]: "skills/ ├── software-development/ │ ├── SKILL.md # 技能定义文档 │ └── templates/ # 可选的模板文件 ├── research/ │ ├── SKILL.md │ └── prompts/ └── creative/ └── SKILL.md"
+                - paragraph [ref=e431]:
+                  - code [ref=e432]: SKILL.md
+                  - text: 遵循一个约定的 Markdown 结构：标题、触发条件（何时使用）、步骤说明、注意事项等。这个格式被设计为人机共读——Agent 能理解并执行，人也能直接阅读和编辑。
+                - paragraph [ref=e433]: 技能的发现与加载：
+                - paragraph [ref=e434]: 技能来源有三个层级：
+                - list [ref=e435]:
+                  - listitem [ref=e436]:
+                    - text: 内置技能（
+                    - code [ref=e437]: skills/
+                    - text: 目录）：随项目发布的预置技能
+                  - listitem [ref=e438]:
+                    - text: 用户技能（
+                    - code [ref=e439]: ~/.hermes/skills/
+                    - text: ）：用户自定义或 Agent 自动创建的技能
+                  - listitem [ref=e440]:
+                    - text: 项目技能（
+                    - code [ref=e441]: .hermes/skills/
+                    - text: ）：项目级别的特定技能
+                - paragraph [ref=e442]:
+                  - text: 发现过程扫描这三个目录，收集所有
+                  - code [ref=e443]: SKILL.md
+                  - text: 文件。然后
+                  - code [ref=e444]: prompt_builder.py
+                  - text: 在构建系统提示时，将所有可用技能的索引（标题和触发条件的简要列表）注入系统提示。注意这里只注入索引而非完整内容——完整的技能文档太长，会浪费上下文窗口。
+                - paragraph [ref=e445]:
+                  - text: 当 Agent 在对话中判断某个技能与当前任务相关时，通过
+                  - code [ref=e446]: skills_list
+                  - text: 或
+                  - code [ref=e447]: skill_view
+                  - text: 工具加载该技能的完整内容。这是一种延迟加载策略，在上下文效率和信息可用性之间取得平衡。
+                - paragraph [ref=e448]: 技能的自动创建：
+                - paragraph [ref=e449]:
+                  - text: 这是最令人兴奋的部分。
+                  - code [ref=e450]: tools/skill_manager_tool.py
+                  - text: 提供了
+                  - code [ref=e451]: skill_manage
+                  - text: 工具，支持
+                  - code [ref=e452]: create
+                  - text: 、
+                  - code [ref=e453]: edit
+                  - text: 、
+                  - code [ref=e454]: delete
+                  - text: 操作。当 Agent 完成一个复杂任务后，系统提示中的指导会提醒 Agent：如果这个任务的解决方案可能在未来被复用，应该将其沉淀为一个技能。
+                - paragraph [ref=e455]:
+                  - text: Agent 通过
+                  - code [ref=e456]: skill_manage
+                  - text: 工具的
+                  - code [ref=e457]: create
+                  - text: 操作，将解决方案写成结构化的
+                  - code [ref=e458]: SKILL.md
+                  - text: 文件，保存到用户技能目录。下次遇到类似任务时，技能索引中会出现这个新技能，Agent 可以加载并参考它。
+                - paragraph [ref=e459]: 技能的自我改进：
+                - paragraph [ref=e460]:
+                  - text: 技能改进发生在使用过程中。当 Agent 加载并使用某个技能完成任务后，如果发现技能文档中的步骤不完整、有错误、或者可以优化，它会通过
+                  - code [ref=e461]: skill_manage
+                  - text: 的
+                  - code [ref=e462]: edit
+                  - text: 操作更新技能内容。
+                - paragraph [ref=e463]: 这形成了一个正反馈循环：创建技能 → 使用技能 → 发现改进点 → 更新技能 → 下次使用更好的版本。这正是”The agent that grows with you”的含义。
+                - paragraph [ref=e464]:
+                  - generic [ref=e465]:
+                    - link "http://agentskills.io" [ref=e466] [cursor=pointer]:
+                      - /url: https://link.zhihu.com/?target=http%3A//agentskills.io
+                      - text: http://agentskills.io
+                    - text: 兼容性：
+                - paragraph [ref=e467]:
+                  - text: Hermes Agent 的技能格式遵循
+                  - code [ref=e468]: agentskills.io
+                  - text: 开放标准。这意味着为 Hermes 编写的技能可以被 Claude Code、Cursor、GitHub Copilot 等 11+ 工具识别和使用——技能真正实现了跨框架可移植。
+                - separator [ref=e469]
+                - heading "四、Hermes vs OpenClaw：怎么选?" [level=2] [ref=e470]
+                - paragraph [ref=e471]: 适合 Hermes Agent 的场景：
+                - list [ref=e472]:
+                  - listitem [ref=e473]: • 需要一个长期使用、越用越聪明的个人 AI 助手
+                  - listitem [ref=e474]: • 需要本地/私有化部署，零 API 成本
+                  - listitem [ref=e475]: • 需要在 Telegram/Discord/Slack 等多平台随时触达 Agent
+                  - listitem [ref=e476]: • 需要 Agent 具有持久记忆和自我改进能力
+                  - listitem [ref=e477]: • 需要 research-ready 的 Agent 框架用于 RL 训练和数据生成
+                - paragraph [ref=e478]: 不太适合的场景：
+                - list [ref=e479]:
+                  - listitem [ref=e480]: • 需要快速搭建多角色 Agent 团队
+                  - listitem [ref=e481]: • 只需要最简单的 API 集成（OpenAI SDK 更轻量）
+                - paragraph [ref=e482]: 总体评价：
+                - paragraph [ref=e483]: Hermes Agent 的最大赌注是：Agent 的价值不仅在于单次任务完成，更在于长期积累的知识和对用户的理解。这是目前其他框架尚未涉足的方向。
+                - paragraph [ref=e484]: 项目处于快速迭代期（一个月内 4 个 Release），17K Stars 和活跃社区表明市场认可度高。作为 Nous Research 这样的顶级开源模型实验室推出的产品，其在模型-Agent 协同优化上的潜力值得关注。
+                - paragraph [ref=e485]: OpenClaw 是一把成熟的瑞士军刀，功能齐全，社区庞大。Hermes 是一个在成长的助手——今天比昨天多懂你一点，下个月比这个月更好用。
+                - paragraph [ref=e486]: 如果你需要稳定开箱即用，选 OpenClaw。如果你愿意花五分钟装一个会学习的 Agent，试试 Hermes。
+                - paragraph [ref=e487]: 反正迁移也就一行命令：
+                - code [ref=e490]: hermes claw migrate
+                - separator [ref=e491]
+                - heading "五、参考资料" [level=2] [ref=e492]
+                - list [ref=e493]:
+                  - listitem [ref=e494]:
+                    - text: • Hermes Agent GitHub：
+                    - link "https://github.com/NousResearch/hermes-agent..." [ref=e495] [cursor=pointer]:
+                      - /url: https://link.zhihu.com/?target=https%3A//github.com/NousResearch/hermes-agent
+                      - text: https://github.com/NousResearch/hermes-agent
+                      - generic [ref=e496]: ...
+                  - listitem [ref=e497]:
+                    - text: • 官方文档：
+                    - link "https://hermes-agent.nousresearch.com/docs/..." [ref=e498] [cursor=pointer]:
+                      - /url: https://link.zhihu.com/?target=https%3A//hermes-agent.nousresearch.com/docs/
+                      - text: https://hermes-agent.nousresearch.com/docs/
+                      - generic [ref=e499]: ...
+                  - listitem [ref=e500]:
+                    - text: •
+                    - link "http://agentskills.io" [ref=e501] [cursor=pointer]:
+                      - /url: https://link.zhihu.com/?target=http%3A//agentskills.io
+                      - text: http://agentskills.io
+                    - text: ：
+                    - link "http://agentskills.io" [ref=e502] [cursor=pointer]:
+                      - /url: https://link.zhihu.com/?target=http%3A//agentskills.io/
+              - button "编辑于 2026-04-11 00:52・浙江" [ref=e503]
+              - generic [ref=e505]:
+                - link "Agent" [ref=e508] [cursor=pointer]:
+                  - /url: //www.zhihu.com/topic/28352669
+                  - generic [ref=e509]: Agent
+                - link "OpenClaw" [ref=e512] [cursor=pointer]:
+                  - /url: //www.zhihu.com/topic/1999063153082913027
+                  - generic [ref=e513]: OpenClaw
+                - link "AI智能体" [ref=e516] [cursor=pointer]:
+                  - /url: //www.zhihu.com/topic/28266286
+                  - generic [ref=e517]: AI智能体
+              - generic [ref=e521]:
+                - generic [ref=e522]:
+                  - button "赞同 15" [ref=e524] [cursor=pointer]:
+                    - img [ref=e526]
+                    - text: 赞同 15
+                  - button "反对" [ref=e528] [cursor=pointer]:
+                    - img [ref=e530]
+                - button "3 条评论" [ref=e532] [cursor=pointer]:
+                  - img [ref=e534]
+                  - text: 3 条评论
+                - button "收藏" [ref=e536] [cursor=pointer]:
+                  - img [ref=e538]
+                  - text: "47"
+                - button "喜欢" [ref=e540] [cursor=pointer]:
+                  - img [ref=e542]
+                  - text: "3"
+                - button "分享" [ref=e546] [cursor=pointer]:
+                  - img [ref=e548]
+                  - text: 分享
+                - button "申请转载" [ref=e550] [cursor=pointer]:
+                  - img [ref=e552]
+                  - text: 申请转载
+                - button [ref=e556] [cursor=pointer]:
+                  - img [ref=e558]
+                - button [ref=e564] [cursor=pointer]:
+                  - img [ref=e566]
+            - generic [ref=e570]:
+              - generic [ref=e572]:
+                - img [ref=e573]
+                - generic [ref=e579]:
+                  - generic:
+                    - generic: 未登录用户
+              - generic [ref=e585]:
+                - generic [ref=e586]:
+                  - generic [ref=e588]: 3 条评论
+                  - generic [ref=e589]:
+                    - generic [ref=e590] [cursor=pointer]: 默认
+                    - generic [ref=e591] [cursor=pointer]: 最新
+                - generic [ref=e593]:
+                  - generic [ref=e595]:
+                    - link "初久" [ref=e598] [cursor=pointer]:
+                      - /url: https://www.zhihu.com/people/751d615f0f2f3dd7d75a412cf4e43c1b
+                      - img "初久" [ref=e599]
+                    - generic [ref=e600]:
+                      - link "初久" [ref=e605] [cursor=pointer]:
+                        - /url: https://www.zhihu.com/people/751d615f0f2f3dd7d75a412cf4e43c1b
+                      - paragraph [ref=e607]: 并没有原生支持微信钉钉和qq，一堆bug。
+                      - generic [ref=e608]:
+                        - generic [ref=e610]: 04-13 · 新加坡
+                        - generic [ref=e611]:
+                          - button "回复" [ref=e612] [cursor=pointer]:
+                            - img [ref=e614]
+                            - text: 回复
+                          - button "喜欢" [ref=e616]:
+                            - img [ref=e618]
+                            - text: 喜欢
+                  - generic [ref=e620]:
+                    - generic [ref=e621]:
+                      - link "飞鱼" [ref=e624] [cursor=pointer]:
+                        - /url: https://www.zhihu.com/people/fd8b48f5421e109e11f73d1339b69a96
+                        - img "飞鱼" [ref=e625]
+                      - generic [ref=e626]:
+                        - link "飞鱼" [ref=e631] [cursor=pointer]:
+                          - /url: https://www.zhihu.com/people/fd8b48f5421e109e11f73d1339b69a96
+                        - paragraph [ref=e633]:
+                          - text: 其实吧 Hermes 和 Openclaw 定位完全不一样：一个是做定制的Agent解决方案，给企业研发使用。 一个是降低非技术人使用Agent的门槛平台，这个 @karpathy 也是这样认为。差异还是蛮大的，难道让普通人理解AI Memory优化，使用 Hermes?
+                          - img [ref=e635]
+                          - link "github.com/laziobird/op ..." [ref=e637] [cursor=pointer]:
+                            - /url: http://link.zhihu.com/?target=https%3A//github.com/laziobird/openclaw-rpa
+                            - text: github.com/laziobird/op
+                            - generic [ref=e638]: ...
+                        - generic [ref=e639]:
+                          - generic [ref=e641]: 04-12 · 重庆
+                          - generic [ref=e642]:
+                            - button "回复" [ref=e643] [cursor=pointer]:
+                              - img [ref=e645]
+                              - text: 回复
+                            - button "喜欢" [ref=e647]:
+                              - img [ref=e649]
+                              - text: 喜欢
+                    - generic [ref=e652]:
+                      - link "李进锋" [ref=e655] [cursor=pointer]:
+                        - /url: https://www.zhihu.com/people/6288935dde338c924b04b978dfe46faf
+                        - img "李进锋" [ref=e656]
+                      - generic [ref=e657]:
+                        - generic [ref=e660]:
+                          - link "李进锋" [ref=e662] [cursor=pointer]:
+                            - /url: https://www.zhihu.com/people/6288935dde338c924b04b978dfe46faf
+                          - generic [ref=e664]: 作者
+                        - img "[感谢]" [ref=e667]
+                        - generic [ref=e668]:
+                          - generic [ref=e670]: 04-12 · 浙江
+                          - generic [ref=e671]:
+                            - button "回复" [ref=e672] [cursor=pointer]:
+                              - img [ref=e674]
+                              - text: 回复
+                            - button "喜欢" [ref=e676]:
+                              - img [ref=e678]
+                              - text: 喜欢
+          - generic [ref=e680]:
+            - generic "边栏锚点"
+            - generic [ref=e681]:
+              - complementary "关于作者" [ref=e682]:
+                - generic [ref=e684]: 关于作者
+                - generic [ref=e686]:
+                  - link "李进锋" [ref=e689] [cursor=pointer]:
+                    - /url: //www.zhihu.com/people/lijinfeng0713
+                    - img "李进锋" [ref=e690]
+                  - generic [ref=e691]:
+                    - link "李进锋" [ref=e694] [cursor=pointer]:
+                      - /url: //www.zhihu.com/people/lijinfeng0713
+                    - generic [ref=e696]: 半壁河山半攻守，半争输赢半参道！
+                - generic [ref=e698]:
+                  - link [ref=e699] [cursor=pointer]:
+                    - /url: https://zhuanlan.zhihu.com/p/96956163
+                    - img [ref=e701]
+                  - generic [ref=e705]: 阿里巴巴 算法专家
+                - generic [ref=e706]:
+                  - generic [ref=e708]:
+                    - link "回答 89" [ref=e709] [cursor=pointer]:
+                      - /url: //www.zhihu.com/people/lijinfeng0713/answers
+                      - generic [ref=e710]:
+                        - generic [ref=e711]: 回答
+                        - strong [ref=e712]: "89"
+                    - link "文章 35" [ref=e713] [cursor=pointer]:
+                      - /url: //www.zhihu.com/people/lijinfeng0713/posts
+                      - generic [ref=e714]:
+                        - generic [ref=e715]: 文章
+                        - strong [ref=e716]: "35"
+                    - link "关注者 3,620" [ref=e717] [cursor=pointer]:
+                      - /url: //www.zhihu.com/people/lijinfeng0713/followers
+                      - generic [ref=e718]:
+                        - generic [ref=e719]: 关注者
+                        - strong [ref=e720]: 3,620
+                  - generic [ref=e721]:
+                    - button "关注他" [ref=e722] [cursor=pointer]:
+                      - img [ref=e724]
+                      - text: 关注他
+                    - button "发私信" [ref=e726] [cursor=pointer]:
+                      - img [ref=e728]
+                      - text: 发私信
+              - generic [ref=e730]:
+                - img
+                - generic [ref=e731]:
+                  - img [ref=e732]
+                  - generic [ref=e734]: 大家都在搜
+                  - button "换一换" [ref=e735] [cursor=pointer]:
+                    - img [ref=e736]
+                    - text: 换一换
+                - generic [ref=e738]:
+                  - generic [ref=e739] [cursor=pointer]:
+                    - link "文章开饭店了 775 万" [ref=e741]:
+                      - /url: https://www.zhihu.com/search?q=%E6%96%87%E7%AB%A0%E5%BC%80%E9%A5%AD%E5%BA%97%E4%BA%86&search_source=Trending&utm_content=search_hot&utm_medium=organic&utm_source=zhihu&type=content
+                      - generic "文章开饭店了" [ref=e742]
+                      - generic [ref=e743]: 775 万
+                    - generic [ref=e744]: 热
+                  - generic [ref=e745] [cursor=pointer]:
+                    - link "法国通过文物归还法案 522 万" [ref=e747]:
+                      - /url: https://www.zhihu.com/search?q=%E6%B3%95%E5%9B%BD%E9%80%9A%E8%BF%87%E6%96%87%E7%89%A9%E5%BD%92%E8%BF%98%E6%B3%95%E6%A1%88&search_source=Trending&utm_content=search_hot&utm_medium=organic&utm_source=zhihu&type=content
+                      - generic "法国通过文物归还法案" [ref=e748]
+                      - generic [ref=e749]: 522 万
+                    - generic [ref=e750]: 新
+                  - generic [ref=e751] [cursor=pointer]:
+                    - link "嫣然医院与房东已调解完成 269 万" [ref=e753]:
+                      - /url: https://www.zhihu.com/search?q=%E5%AB%A3%E7%84%B6%E5%8C%BB%E9%99%A2%E4%B8%8E%E6%88%BF%E4%B8%9C%E5%B7%B2%E8%B0%83%E8%A7%A3%E5%AE%8C%E6%88%90&search_source=Trending&utm_content=search_hot&utm_medium=organic&utm_source=zhihu&type=content
+                      - generic "嫣然医院与房东已调解完成" [ref=e754]
+                      - generic [ref=e755]: 269 万
+                    - generic [ref=e756]: 热
+                  - link "伊朗局势 204 万" [ref=e759] [cursor=pointer]:
+                    - /url: https://www.zhihu.com/search?q=%E4%BC%8A%E6%9C%97%E5%B1%80%E5%8A%BF&search_source=Trending&utm_content=search_hot&utm_medium=organic&utm_source=zhihu&type=content
+                    - generic "伊朗局势" [ref=e760]
+                    - generic [ref=e761]: 204 万
+                  - generic [ref=e762] [cursor=pointer]:
+                    - link "知乎 Morning Call 181 万" [ref=e764]:
+                      - /url: https://www.zhihu.com/podcast/morning-call/-1
+                      - generic "知乎 Morning Call" [ref=e765]
+                      - generic [ref=e766]: 181 万
+                    - generic [ref=e767]: 活动
+                  - link "演员到底有多吃天赋 158 万" [ref=e770] [cursor=pointer]:
+                    - /url: https://www.zhihu.com/search?q=%E6%BC%94%E5%91%98%E5%88%B0%E5%BA%95%E6%9C%89%E5%A4%9A%E5%90%83%E5%A4%A9%E8%B5%8B&search_source=Trending&utm_content=search_hot&utm_medium=organic&utm_source=zhihu&type=content
+                    - generic "演员到底有多吃天赋" [ref=e771]
+                    - generic [ref=e772]: 158 万
+                  - link "女子辅导作业气出心碎综合征 113 万" [ref=e775] [cursor=pointer]:
+                    - /url: https://www.zhihu.com/search?q=%E5%A5%B3%E5%AD%90%E8%BE%85%E5%AF%BC%E4%BD%9C%E4%B8%9A%E6%B0%94%E5%87%BA%E5%BF%83%E7%A2%8E%E7%BB%BC%E5%90%88%E5%BE%81&search_source=Trending&utm_content=search_hot&utm_medium=organic&utm_source=zhihu&type=content
+                    - generic "女子辅导作业气出心碎综合征" [ref=e776]
+                    - generic [ref=e777]: 113 万
+                  - link "深圳大学租八百万小区当宿舍 107 万" [ref=e780] [cursor=pointer]:
+                    - /url: https://www.zhihu.com/search?q=%E6%B7%B1%E5%9C%B3%E5%A4%A7%E5%AD%A6%E7%A7%9F%E5%85%AB%E7%99%BE%E4%B8%87%E5%B0%8F%E5%8C%BA%E5%BD%93%E5%AE%BF%E8%88%8D&search_source=Trending&utm_content=search_hot&utm_medium=organic&utm_source=zhihu&type=content
+                    - generic "深圳大学租八百万小区当宿舍" [ref=e781]
+                    - generic [ref=e782]: 107 万
+                  - link "学生称课上举手想去厕所难以启齿 100 万" [ref=e785] [cursor=pointer]:
+                    - /url: https://www.zhihu.com/search?q=%E5%AD%A6%E7%94%9F%E7%A7%B0%E8%AF%BE%E4%B8%8A%E4%B8%BE%E6%89%8B%E6%83%B3%E5%8E%BB%E5%8E%95%E6%89%80%E9%9A%BE%E4%BB%A5%E5%90%AF%E9%BD%BF&search_source=Trending&utm_content=search_hot&utm_medium=organic&utm_source=zhihu&type=content
+                    - generic "学生称课上举手想去厕所难以启齿" [ref=e786]
+                    - generic [ref=e787]: 100 万
+                  - link "什么样的人算是中了基因彩票 99 万" [ref=e790] [cursor=pointer]:
+                    - /url: https://www.zhihu.com/search?q=%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E4%BA%BA%E7%AE%97%E6%98%AF%E4%B8%AD%E4%BA%86%E5%9F%BA%E5%9B%A0%E5%BD%A9%E7%A5%A8&search_source=Trending&utm_content=search_hot&utm_medium=organic&utm_source=zhihu&type=content
+                    - generic "什么样的人算是中了基因彩票" [ref=e791]
+                    - generic [ref=e792]: 99 万
+        - complementary "推荐阅读" [ref=e794]:
+          - heading "推荐阅读" [level=3] [ref=e795]
+          - list [ref=e796]:
+            - link "OpenClaw 用户集体\"叛逃\" Hermes时代来临！ OpenClaw 用户集体\"叛逃\" Hermes时代来临！ 木可" [ref=e797] [cursor=pointer]:
+              - /url: https://zhuanlan.zhihu.com/p/2025585010783056042
+              - generic [ref=e798]:
+                - img "OpenClaw 用户集体\"叛逃\" Hermes时代来临！" [ref=e799]
+                - heading "OpenClaw 用户集体\"叛逃\" Hermes时代来临！" [level=1] [ref=e800]
+                - generic [ref=e802]: 木可
+            - link "Kronos日增翻三倍，hermes-agent冲到63k，Trending开始垂直化了 hermes-agent 冲到 63k 了，但今天真正让我意外的不是它——而是 Kronos。一个金融市场基础模型，昨天还在13k，今天直接15k。与此同时 Karpathy 那个 CLAUDE.md 文件悄悄爬到了 14.6k，mark… Bhumask" [ref=e803] [cursor=pointer]:
+              - /url: https://zhuanlan.zhihu.com/p/2026759274584384087
+              - generic [ref=e804]:
+                - heading "Kronos日增翻三倍，hermes-agent冲到63k，Trending开始垂直化了" [level=1] [ref=e805]
+                - paragraph [ref=e806]: hermes-agent 冲到 63k 了，但今天真正让我意外的不是它——而是 Kronos。一个金融市场基础模型，昨天还在13k，今天直接15k。与此同时 Karpathy 那个 CLAUDE.md 文件悄悄爬到了 14.6k，mark…
+                - generic [ref=e808]: Bhumask
+            - link "Hermes Agent vs OpenClaw：下一代自学习 AI 助手深度对比（2026） Hermes Agent vs OpenClaw：下一代自学习 AI 助手深度对比（2026） 孤飞" [ref=e809] [cursor=pointer]:
+              - /url: https://zhuanlan.zhihu.com/p/2024917572672402217
+              - generic [ref=e810]:
+                - img "Hermes Agent vs OpenClaw：下一代自学习 AI 助手深度对比（2026）" [ref=e811]
+                - heading "Hermes Agent vs OpenClaw：下一代自学习 AI 助手深度对比（2026）" [level=1] [ref=e812]
+                - generic [ref=e814]: 孤飞
+            - link "狂揽28.4k Star！OpenClaw最新平替Hermes Agent开源，从经验中自主生成skill并持续优化 狂揽28.4k Star！OpenClaw最新平替Hermes Agent开源，从经验中自主生成skill并持续优化 智猩猩" [ref=e815] [cursor=pointer]:
+              - /url: https://zhuanlan.zhihu.com/p/2024913544848623338
+              - generic [ref=e816]:
+                - img "狂揽28.4k Star！OpenClaw最新平替Hermes Agent开源，从经验中自主生成skill并持续优化" [ref=e817]
+                - heading "狂揽28.4k Star！OpenClaw最新平替Hermes Agent开源，从经验中自主生成skill并持续优化" [level=1] [ref=e818]
+                - generic [ref=e820]: 智猩猩
+            - button [ref=e821] [cursor=pointer]:
+              - img [ref=e822]
+    - complementary:
+      - button "回到顶部" [ref=e824] [cursor=pointer]:
+        - img [ref=e825]
+  - generic [ref=e830] [cursor=pointer]:
+    - combobox [ref=e831]
+    - img [ref=e832]
+  - generic [active] [ref=e836]:
+    - generic [ref=e840]:
+      - generic [ref=e841]:
+        - generic [ref=e842]:
+          - generic [ref=e843]:
+            - generic [ref=e844]: 打开知乎App
+            - generic [ref=e845]: 在「我的页」右上角打开扫一扫
+            - generic [ref=e850]: 其他扫码方式：微信
+          - generic [ref=e851]:
+            - button "下载知乎App" [ref=e853] [cursor=pointer]
+            - button "无障碍模式" [ref=e855] [cursor=pointer]
+        - generic [ref=e857]:
+          - generic [ref=e859]:
+            - generic [ref=e860]:
+              - generic [ref=e861]:
+                - button "验证码登录" [ref=e862] [cursor=pointer]
+                - button "密码登录" [ref=e863] [cursor=pointer]
+                - link "开通机构号" [ref=e864] [cursor=pointer]:
+                  - /url: /org/signup
+              - generic [ref=e865]:
+                - combobox [ref=e868] [cursor=pointer]:
+                  - generic [ref=e869]: 中国 +86
+                  - img [ref=e870]
+                - textbox [ref=e875]:
+                  - /placeholder: 手机号
+              - generic [ref=e876]:
+                - textbox [ref=e879]:
+                  - /placeholder: 输入 6 位短信验证码
+                - button "获取短信验证码" [ref=e880] [cursor=pointer]
+              - generic [ref=e881]:
+                - button
+                - button "获取语音验证码" [ref=e882] [cursor=pointer]:
+                  - generic [ref=e883]: 获取语音验证码
+              - button "登录/注册" [ref=e884] [cursor=pointer]
+            - generic:
+              - log
+          - generic [ref=e887]: 其他方式登录
+          - generic [ref=e890]:
+            - button [ref=e891] [cursor=pointer]:
+              - img [ref=e892]
+            - button [ref=e894] [cursor=pointer]:
+              - img [ref=e895]
+            - button [ref=e897] [cursor=pointer]:
+              - img [ref=e898]
+          - generic [ref=e900]:
+            - text: 未注册手机验证后自动登录，注册即代表同意
+            - link "《知乎协议》" [ref=e901] [cursor=pointer]:
+              - /url: https://www.zhihu.com/term/zhihu-terms
+            - link "《隐私保护指引》" [ref=e902] [cursor=pointer]:
+              - /url: https://www.zhihu.com/term/privacy
+      - generic:
+        - paragraph: 扫码下载知乎 App
+        - button "关闭二维码":
+          - img
+          - text: 关闭二维码
+    - button "关闭" [ref=e903] [cursor=pointer]:
+      - img [ref=e904]
