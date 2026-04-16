@@ -4,8 +4,9 @@
 保客通配置模块
 """
 
-from pydantic import BaseSettings
-from typing import Optional
+from pydantic import Field
+from pydantic_settings import BaseSettings
+from typing import Optional, List
 
 
 class Settings(BaseSettings):
@@ -29,8 +30,26 @@ class Settings(BaseSettings):
     # 多租户配置
     TENANT_ID: Optional[str] = None
 
-    class Config:
-        env_file = ".env"
+    # JWT 认证配置
+    JWT_SECRET_KEY: Optional[str] = None
+    JWT_ALGORITHM: str = "HS256"
+    JWT_ACCESS_TOKEN_EXPIRE_MINUTES: int = 60
+
+    # CORS 配置
+    CORS_ORIGINS: str = "http://localhost:3000,http://localhost:8080"
+
+    model_config = {
+        "env_file": ".env",
+        "extra": "ignore"
+    }
 
 
 settings = Settings()
+
+
+def get_cors_origins() -> List[str]:
+    """获取 CORS 源列表"""
+    origins_str = settings.CORS_ORIGINS
+    if not origins_str:
+        return ["*"]
+    return [origin.strip() for origin in origins_str.split(",")]
