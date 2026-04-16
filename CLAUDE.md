@@ -1,16 +1,17 @@
-# OpenClaw 企业级 Agent 编排系统
+# 保客通 (BaokeTong) - AI+ 保险获客系统
 
 ## 项目说明
-企业级 Agent 编排系统 - 基于 LangGraph + Harness/Context Engineering
+基于 Hermes Agent 的保险行业 AI 获客系统 - 采用"智能体 + 培训 + 课程 + 企业深度服务"四位一体模式
 
 ## 项目范围
-1. **OpenClaw 企业级 Agent 编排系统**（一人公司/顾问）- 当前进行中
-2. 5 家中小企业客户定制交付
-3. 50+ 预置工具（消息通知、数据查询、文档处理、审批流程）
+1. **保客通 AI 获客系统**（一人公司 OPC）- 当前进行中
+2. 目标客户：保险代理人/经纪人/agency 团队长/保险公司
+3. 核心功能：智能体获客内容生成、AI 客户画像分析、自动化跟进、数据驱动策略优化
 
 ## 覆盖要求
 - 95% 覆盖核心功能
 - 约束：本地笔记本无多集群环境（与生产环境的主要差异）
+- 部署模式：SaaS 多租户 + 私有化部署双模式
 
 ---
 
@@ -101,4 +102,35 @@
 ---
 
 ## Available Skills
-/office-hours, /plan-ceo-review, /plan-eng-review, /plan-design-review, /design-consultation, /design-shotgun, /design-html, /review, /ship, /land-and-deploy, /canary, /benchmark, /browse, /qa, /qa-only, /design-review, /setup-browser-cookies, /setup-deploy, /retro, /investigate, /document-release, /codex, /cso, /autoplan, /pair-agent, /careful, /freeze, /guard, /unfreeze, /gstack-upgrade, /learn
+/office-hours, /plan-ceo-review, /plan-eng-review, /plan-design-review, /design-consultation, /design-shotgun, /design-html, /review, /ship, /land-and-deploy, /canary, /benchmark, /browse, /qa, /qa-only, /design-review, /setup-browser-cookies, /setup-deploy, /retro, /investigate, /document-release, /codex, /cso, /autoplan, /pair-agent, /careful, /freeze, /guard, /unfreeze, /gstack-upgrade, /learn, **/ai-ui-design**（新增）
+
+---
+
+## UI/UX 设计系统
+
+### 设计规范
+- **DESIGN.md**: 项目根目录 `DESIGN.md` - 保客通专属设计系统
+- **风格来源**: 基于 awesome-design-md (Linear/Stripe/Supabase 融合)
+- **多端适配**: H5、iOS、Android、平板、鸿蒙
+
+### 已生成设计稿
+
+| 页面类型 | HTML 原型 | PNG 截图 | 位置 |
+|---------|----------|---------|------|
+| 内容生成中心 | ✅ | ✅ | `~/.gstack/projects/percyli4718-openclaw/designs/baoke-tong-homepage-20260416/` |
+| 客户画像管理 | ✅ | ✅ | `~/.gstack/projects/percyli4718-openclaw/designs/baoke-tong-homepage-20260416/` |
+| 跟进管理 | ✅ | ✅ | `~/.gstack/projects/percyli4718-openclaw/designs/baoke-tong-homepage-20260416/` |
+| 登录/注册页 | ✅ | ✅ | `~/.gstack/projects/percyli4718-openclaw/designs/baoke-tong-pages-20260416/` |
+| 客户详情页 | ✅ | ✅ | `~/.gstack/projects/percyli4718-openclaw/designs/baoke-tong-pages-20260416/` |
+| 设置页 | ✅ | ✅ | `~/.gstack/projects/percyli4718-openclaw/designs/baoke-tong-pages-20260416/` |
+| 数据分析 | ✅ | ✅ | `~/.gstack/projects/percyli4718-openclaw/designs/baoke-tong-pages-20260416/` |
+
+### 设计指南
+- **深度使用指南**: `docs/guides/ai-ui-design-guide.md`
+- **可复用技能**: `~/.claude/skills/ai-ui-design/SKILL.md`
+
+### 后续项目复用
+任何新项目需要 UI/UX 设计时，使用：
+```
+/ai-ui-design --page <页面类型> --style <风格> --variants <数量>
+```

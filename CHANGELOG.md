@@ -1,43 +1,51 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
+所有重要的项目变更都将记录在此文件中。
 
-## [v0.1.0.0] - 2026-04-15
+## [v0.1.0] - 2026-04-16
 
 ### Added
-- Initial release of OpenClaw Agent Orchestration Platform
-- LangGraph state machine for task orchestration (6 states, strict forward-only flow)
-- 50+ pre-built tools (messaging, data query, document processing, approval workflows)
-- Harness/Context Engineering practices (AGENTS.md, Hooks, layered context, Sub-agent orchestration)
-- Low-code configurator for rapid scenario deployment (2 days → 2 hours)
-- Docker Compose infrastructure (Qdrant, Milvus, PostgreSQL, Redis, etcd, MinIO)
-- FastAPI REST API with CORS and authentication middleware
-- React frontend scaffolding with React Flow for visual workflow编排
-- **Software Lifecycle Artifacts** (copied from EHS project):
-  - `TODOS.md`: Security audit findings (3 CRITICAL, 2 HIGH, 2 MEDIUM) + feature backlog
-  - `docs/interview/openclaw-qna.md`: Interview Q&A corresponding to resume.md claims
-  - `docs/interview/demo-script.md`: 15-20 minute demo script for interviews
-  - `docs/plans/2026-04-15-openclaw-design.md`: Design Spec with technical feasibility analysis
-  - `docs/plans/2026-04-15-openclaw-implementation-plan.md`: 9-phase implementation plan
+- 保客通 AI+ 保险获客系统初始版本
+- 基于 Hermes Agent 的保险行业技能框架
+- 智能体获客内容生成功能 (朋友圈文案、短视频脚本、海报文案)
+- AI 客户画像分析功能 (客户标签、分层分析、需求预测)
+- 自动化跟进功能 (跟进计划、定时消息、跟进记录)
+- 数据驱动策略优化功能 (获客效果分析、A/B 测试)
 
-### Key Metrics (from 5 production customers)
-- New scenario deployment: 2 days → 2 hours (Tool Schema standardization + Agent templating)
-- Customer labor cost reduction: 50%
-- Operational efficiency improvement: 3x
-- Decision accuracy: 96% (customer acceptance testing)
+### 技术架构
+- uni-app + Vue 3 + TypeScript 多端框架 (Web/小程序/iOS/Android/鸿蒙)
+- FastAPI + Hermes Agent 后端服务
+- PostgreSQL (业务数据) + Redis (缓存) + Qdrant (向量检索)
+- SaaS 多租户 + 私有化部署双模式支持
 
-### Security Audit (CSO equivalent)
-- 3 CRITICAL: Hardcoded credentials in docker-compose.yml (Qdrant, Milvus, Postgres)
-- 2 HIGH: Missing API authentication, overly permissive CORS
-- 2 MEDIUM: Redis no password, LangFuse weak keys
+### 安全与合规
+- PostgreSQL RLS (Row-Level Security) 数据隔离
+- 敏感数据 AES-256 加密 (手机号/身份证/地址)
+- Redis Cluster 高可用配置
+- Circuit Breaker 熔断器模式 (AI 调用)
+- 话术合规审核工作流 (敏感词过滤 +AI 语义分析 + 人工抽检)
+- 审计日志记录 (所有 AI 生成操作可追溯)
 
-### Documentation
-- README.md: Project overview, architecture, metrics
-- CLAUDE.md: Superpowers + gstack workflow mapping
-- requirements.txt: Python dependencies (langgraph, langchain, qdrant-client, etc.)
-- VERSION: 4-digit versioning (0.1.0.0)
+### 文档
+- README.md: 项目概述、架构说明、核心指标
+- CLAUDE.md: Superpowers + gstack 工作流程
+- docs/plans/2026-04-15-baoke-tong-design.md: Design Spec (含三视角审查)
+- docs/plans/2026-04-15-baoke-tong-plan.md: 实施计划
+- TODOS.md: 产品待办 + 技术待办清单
+- docs/interview/: 面试文档目录
 
-### Known Issues (see TODOS.md for details)
-- Security vulnerabilities need immediate fixes before production deployment
-- Mock LLM implementation (needs real LLM integration)
-- 30+ tools still in planning (20+ implemented)
+### 商业模式
+- 四位一体：智能体 + 培训 + 课程 + 企业深度服务
+- 三种客户类型：小微 (2999 元/年)、中型 (19999 元/年)、大型 (50000 元/年起)
+
+### 核心指标目标
+- MVP 发布：2 个月
+- 付费客户：10 家 (3 个月内)
+- 客户续费率：> 60%
+- 标杆案例：3 个 (4 个月内)
+
+### Known Issues
+- UI 状态矩阵待实现 (Loading/Empty/Success/Error/Partial)
+- Hermes Agent 技能需完整实现 (7 个核心技能)
+- 多端适配待完成 (小程序/iOS/Android/鸿蒙)
+- 微信小程序资质待申请

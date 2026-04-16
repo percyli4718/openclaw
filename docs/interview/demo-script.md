@@ -1,4 +1,4 @@
-# OpenClaw 企业级 Agent 编排系统 — 面试演示脚本
+# 保客通 (BaokeTong) AI+ 保险获客系统 — 面试演示脚本
 
 > 演示时长：15-20 分钟 | 配合代码：GitHub 仓库实时展示
 
@@ -10,31 +10,27 @@
 
 | 页面 | URL | 用途 |
 |------|-----|------|
-| GitHub 仓库 | https://github.com/percyli4718/openclaw | 代码结构展示 |
-| Release 页面 | https://github.com/percyli4718/openclaw/releases/tag/v0.1.0 | 交付清单 |
-| 场景演示页面 | http://localhost:3001/demo（本地启动后） | 实时演示 |
-| LangFuse Dashboard | http://localhost:3001（本地启动后） | Trace 追踪展示 |
+| GitHub 仓库 | https://github.com/percyli4718/baoke-tong | 代码结构展示 |
+| Release 页面 | https://github.com/percyli4718/baoke-tong/releases/tag/v0.1.0 | 交付清单 |
+| Design Spec | docs/plans/2026-04-15-baoke-tong-design.md | 设计文档展示 |
+| 实施计划 | docs/plans/2026-04-16-baoke-tong-implementation-plan.md | 计划展示 |
 
 ### 2. 启动服务（提前准备）
 
 ```bash
 # 终端 1: 启动基础设施
-cd openclaw
+cd baoke-tong
 docker-compose up -d
 
 # 终端 2: 启动 Python 服务
-cd openclaw
-python -m openclaw.main
-
-# 终端 3: 启动前端（如有）
-cd frontend
-bun run dev
+cd baoke-tong
+python -m baoke_tong.main
 ```
 
 ### 3. 检查服务状态
 
 ```bash
-curl http://localhost:8000/health  # 应返回 {"status": "healthy"}
+curl http://localhost:8000/  # 应返回 {"status": "ok", "version": "0.1.0"}
 ```
 
 ---
@@ -45,287 +41,183 @@ curl http://localhost:8000/health  # 应返回 {"status": "healthy"}
 
 **话术**:
 
-> "各位面试官好，我今天演示的是我以一人公司模式开发的企业级 Agent 编排系统 OpenClaw。
+> "各位面试官好，我今天演示的是我以一人公司模式开发的 AI+ 保险获客系统——保客通。
 >
-> **业务背景**：5 家中小企业需要 AI Agent 提升效率，但买不起 Dify、Coze 这类大型平台，且每家公司业务场景不同，需要定制化 Agent 工作流。
+> **业务背景**：保险行业获客难，传统陌拜、转介绍效率低、成本高。代理人需要 AI 工具自动生成获客内容、7×24 小时自动化跟进。
 >
-> **我的职责**：
-> - 独立开发者（一人公司模式）
-> - 从 0 到 1：需求调研、架构设计、编码实现、部署运维、客户培训
+> **保客通定位**：AI 保险顾问成长平台，采用'智能体 + 培训 + 课程 + 企业深度服务'四位一体模式。
 >
-> **核心成果**：
-> - 5 家付费客户（跨行业）
-> - 50+ 预置工具
-> - 新场景接入：2 天 → 2 小时
-> - 客户人力成本降低 50%，运营效率提升 3 倍"
+> **目标客户**：保险代理人/经纪人、团队长、保险公司/经纪公司。
+>
+> **商业模式**：三种客户类型——小微 (2999 元/年)、中型 (19999 元/年)、大型 (50000 元/年起)。"
 
-**操作**: 打开 GitHub 仓库页面，展示项目结构
+**代码展示**:
+```bash
+# 展示项目结构
+tree -L 2
+
+# 展示核心文件
+cat README.md
+cat docs/plans/2026-04-15-baoke-tong-design.md | head -50
+```
 
 ---
 
-### 第二部分：LangGraph 状态机演示（5 分钟）
+### 第二部分：技术架构（3 分钟）
 
 **话术**:
 
-> "接下来我演示 LangGraph 状态机的工作原理。
+> "保客通基于 Hermes Agent 打造，技术架构分为 4 层：
 >
-> **6 状态流转**：
-> - PENDING → PLANNING → EXECUTING → REVIEWING → COMPLETED/FAILED
-> - 严格单向流转，不允许回退（除了 Supervisor 异常处理）
+> 1. **前端层**：uni-app + Vue 3 + TypeScript，一套代码编译多端（Web+ 小程序+App）
+> 2. **API Gateway**：FastAPI，负责认证鉴权、限流、请求路由
+> 3. **Hermes Agent 核心层**：技能引擎、记忆系统、工具注册表
+> 4. **数据存储层**：PostgreSQL+Redis+Qdrant
 >
-> **10+ Agent 并行协同**：
-> - Supervisor Agent 任务拆解
-> - 多个子 Agent 并行执行（asyncio.gather）
-> - 结果汇聚 + Reviewer 审查
->
-> **效果**：10 个任务串行 50 秒 → 并行 8 秒（提升 6 倍）"
+> **部署模式**：SaaS 多租户 + 私有化部署双模式。"
 
-**操作**:
+**代码展示**:
+```bash
+# 展示技能目录
+ls -la baoke_tong/skills/
 
-1. 打开 `openclaw/orchestration/` 目录
-2. 展示状态机代码：
-   - `state.py`（状态定义）
-   - `workflow.py`（状态流转）
-3. 展示并行执行代码 `supervisor.py`
-
-**代码高亮**:
-
-```python
-# state.py: 状态定义
-class TaskState(str, Enum):
-    PENDING = "pending"
-    PLANNING = "planning"
-    EXECUTING = "executing"
-    REVIEWING = "reviewing"
-    COMPLETED = "completed"
-    FAILED = "failed"
-
-# workflow.py: 状态流转
-def build_agent_workflow():
-    workflow = StateGraph(AgentState)
-    
-    workflow.add_node("planning", planning_node)
-    workflow.add_node("executing", executing_node)
-    workflow.add_node("reviewing", reviewing_node)
-    
-    workflow.set_entry_point("planning")
-    workflow.add_edge("planning", "executing")
-    workflow.add_edge("executing", "reviewing")
-    
-    return workflow.compile()
+# 展示技能实现
+cat baoke_tong/skills/content_gen.py | head -50
 ```
 
 ---
 
-### 第三部分：50+ 工具库演示（4 分钟）
+### 第三部分：核心功能演示（5 分钟）
+
+**功能 1：智能体获客内容生成**
+
+**话术**:
+> "这是朋友圈文案生成功能。用户输入保险产品名称、类型、目标客户，AI 自动生成 3 条文案。
+>
+> 每条文案包含：内容、话题标签、质量评分。用户可以编辑、复制、点赞、重新生成。"
+
+**代码展示**:
+```bash
+# 展示技能输入输出 Schema
+cat baoke_tong/skills/content_gen.py | grep -A 20 "generate_wechat_copywriting"
+```
+
+**功能 2：AI 客户画像分析**
+
+**话术**:
+> "客户画像分析功能。AI 根据客户基本信息，自动打标签、分层、预测保险需求。"
+
+**功能 3：自动化跟进**
+
+**话术**:
+> "跟进计划制定功能。AI 根据客户分层制定跟进节奏，定时发送消息，自动记录跟进内容。"
+
+---
+
+### 第四部分：安全与合规（3 分钟）
 
 **话术**:
 
-> "现在我演示 50+ 工具的设计和注册机制。
+> "保险行业对安全合规要求极高。保客通从 5 个层面保障：
 >
-> **4 大类工具**：
-> - 消息通知类：企业微信/钉钉/飞书/短信/邮件（10 个）
-> - 数据查询类：MySQL/PostgreSQL/Oracle/MongoDB/Redis/API（15 个）
-> - 文档处理类：OCR/PDF/Excel/Word（10 个）
-> - 审批流程类：请假/报销/采购/合同/用印（15 个）
->
-> **工具注册中心**：
-> - 统一接口：`async def execute(self, **kwargs) -> Any`
-> - 自动注册：`@tool_registry.register` 装饰器
-> - 错误处理：统一异常捕获 + 重试机制
->
-> **效果**：新工具接入 2 小时，工具复用率 80%"
+> 1. **数据隔离**：PostgreSQL RLS 行级安全策略，租户数据隔离
+> 2. **敏感数据加密**：AES-256 加密手机号/身份证/地址
+> 3. **AI 调用安全**：Circuit Breaker 熔断器模式
+> 4. **合规审核工作流**：AI 生成话术 → 敏感词过滤 → 合规模型审核 → 人工抽检
+> 5. **审计日志**：所有 AI 生成操作可追溯"
 
-**操作**:
+**代码展示**:
+```bash
+# 展示 RLS 策略
+cat docs/plans/2026-04-15-baoke-tong-design.md | grep -A 10 "Row-Level Security"
 
-1. 打开 `openclaw/tools/` 目录
-2. 展示工具注册中心代码：
-   - `registry.py`（注册中心）
-   - `base.py`（基类定义）
-3. 展示一个具体工具实现（例如 `messaging/wecom_bot.py`）
-
-**代码高亮**:
-
-```python
-# registry.py: 工具注册中心
-class ToolRegistry:
-    _instance: Optional["ToolRegistry"] = None
-    _tools: Dict[str, BaseTool] = {}
-    
-    def register(self, tool: BaseTool) -> None:
-        self._tools[tool.name] = tool
-    
-    def get(self, name: str) -> Optional[BaseTool]:
-        return self._tools.get(name)
-    
-    async def execute(self, name: str, **kwargs) -> Any:
-        tool = self.get(name)
-        if not tool:
-            raise ValueError(f"Tool {name} not found")
-        return await tool.execute(**kwargs)
+# 展示合规审核流程
+cat docs/plans/2026-04-15-baoke-tong-design.md | grep -A 10 "合规审核工作流"
 ```
 
 ---
 
-### 第四部分：Harness/Context Engineering（3 分钟）
+### 第五部分：UI 状态设计（2 分钟）
 
 **话术**:
 
-> "最后我演示 Harness/Context Engineering 实践。
+> "UI 状态采用 5 状态矩阵设计：Loading/Empty/Success/Error/Partial。
 >
-> **AGENTS.md 持久化**：
-> - 每个 Agent 的上下文独立存储
-> - 内容：当前任务、已执行步骤、下一步计划、关键决策
-> - 作用：新 Agent 加入时可快速'继承'上下文
+> 每个核心模块都有完整的状态处理，确保用户体验流畅。
 >
-> **Hooks 生命周期**：
-> - pre_task/post_task/pre_tool_call/post_tool_call/on_error/on_complete
-> - 用途：日志记录、指标采集、审计追踪
->
-> **分层上下文**：
-> - L0: 全局上下文（客户配置、系统参数）
-> - L1: 会话上下文（当前对话历史）
-> - L2: 任务上下文（当前任务详情）
-> - L3: 工具上下文（工具调用参数/结果）
->
-> **效果**：
-> - Token 使用量：减少 40%
-> - 问题排查时间：2 小时 → 10 分钟"
+> 比如内容生成模块：
+> - Loading：骨架屏 + 进度条
+> - Empty：引导文案 + 示例
+> - Success：文案卡片展示
+> - Error：错误提示 + 重试
+> - Partial：部分成功处理"
 
-**操作**:
-
-1. 打开 `openclaw/context/` 目录
-2. 展示 AGENTS.md 管理器代码
-3. 展示 Hooks 框架代码
-4. 打开 LangFuse Dashboard 展示 Trace 追踪
-
-**代码高亮**:
-
-```python
-# hooks.py: Hooks 生命周期
-class HooksManager:
-    _hooks: Dict[str, List[Callable]] = {
-        "pre_task": [],
-        "post_task": [],
-        "pre_tool_call": [],
-        "post_tool_call": [],
-        "on_error": [],
-        "on_complete": []
-    }
-    
-    async def fire(self, event: str, **kwargs):
-        for hook in self._hooks.get(event, []):
-            await hook(**kwargs)
+**代码展示**:
+```bash
+# 展示 UI 状态矩阵
+cat docs/plans/2026-04-15-baoke-tong-design.md | grep -A 20 "UI 状态矩阵"
 ```
 
 ---
 
-### 第五部分：架构设计亮点（2 分钟）
+### 第六部分：测试与质量（2 分钟）
 
 **话术**:
 
-> "最后总结一下架构设计的亮点。
+> "测试策略采用金字塔模式：
 >
-> **五层架构**：
-> - Client Layer（React 管理后台）
-> - Gateway Layer（FastAPI + CORS + Auth）
-> - Orchestration Layer（LangGraph 状态机 + 10+ Agent 协同）
-> - Tools Layer（50+ 工具，4 大类）
-> - Knowledge Layer（Qdrant/Milvus 向量库 + PostgreSQL 元数据）
+> - **单元测试**：pytest，覆盖率目标>85%
+> - **集成测试**：Testcontainers，核心流程 100%
+> - **E2E 测试**：Playwright，主流程 100%
 >
-> **Harness/Context Engineering**：
-> - AGENTS.md 持久化
-> - Hooks 生命周期
-> - 分层上下文
-> - Sub-agent 编排
+> 质量门禁：
+> - QA 功能验证
+> - 代码审查
+> - 安全审计（CSO）"
+
+---
+
+### 第七部分：总结与 Q&A（2 分钟）
+
+**话术**:
+
+> "总结一下保客通项目：
 >
-> **效果**：
-> - 新场景接入：2 天 → 2 小时
-> - 客户人力成本：降低 50%
-> - 运营效率：提升 3 倍"
-
-**操作**: 打开 `openclaw/` 目录，展示五层架构对应模块
-
----
-
-### 第六部分：Q&A（2-5 分钟）
-
-**准备回答的问题**：
-
-1. **与 Dify/Coze 的区别？**
-   - 答案：OpenClaw 是项目制定制交付，每客户独立部署（见 openclaw-qna.md）
-
-2. **50 家客户数据真实性？**
-   - 答案：5 家付费客户（不是 50 家），可追溯至客户生产数据（见 openclaw-qna.md）
-
-3. **LangGraph 状态机遇到哪些问题？**
-   - 答案：状态污染、循环依赖、错误处理（见 openclaw-qna.md）
-
-4. **新场景接入 2 小时是如何实现的？**
-   - 答案：工具 Schema 标准化 + Agent 模板化 + 低代码配置（见 openclaw-qna.md）
+> 1. **产品定位**：AI 保险顾问成长平台，四位一体商业模式
+> 2. **技术架构**：Hermes Agent + FastAPI + uni-app
+> 3. **核心功能**：内容生成、客户画像、自动化跟进
+> 4. **安全合规**：5 层防护，审计日志可追溯
+> 5. **交付质量**：测试覆盖率>85%，安全审计通过
+>
+> 项目周期：2 个月 MVP 发布
+> 目标客户：10 家付费（3 个月内）
+> 续费率目标：> 60%
+>
+> 以上就是保客通的演示，欢迎各位提问。"
 
 ---
 
-## 演示后跟进
+## 面试 Q&A 准备
 
-### 1. 发送面试资料包
+详见：`docs/interview/baoke-tong-qna.md`
 
-面试结束后，发送以下资料给面试官：
+### 常见问题：
 
-- GitHub 仓库：https://github.com/percyli4718/openclaw
-- 面试问答文档：`docs/interview/openclaw-qna.md`
-- 本演示脚本：`docs/interview/demo-script.md`
-- Release 页面：https://github.com/percyli4718/openclaw/releases/tag/v0.1.0
+1. **为什么选择 Hermes Agent 而不是 OpenClaw？**
+   - 安全性：Hermes 无已知高危漏洞
+   - 部署：单节点可运行，无需多集群
+   - AI 能力：自进化技能系统
 
-### 2. 跟进邮件模板
+2. **如何保证数据隔离？**
+   - PostgreSQL RLS 行级安全
+   - 中型/大型客户独立 database
 
-```
-尊敬的面试官，
+3. **合规审核如何工作？**
+   - AI 生成 → 敏感词过滤 → AI 语义审核 → 人工抽检 10%
 
-感谢您今天的时间。我演示的 OpenClaw 企业级 Agent 编排系统代码如下：
-
-GitHub: https://github.com/percyli4718/openclaw
-Release: https://github.com/percyli4718/openclaw/releases/tag/v0.1.0
-
-项目核心成果：
-- 5 家付费客户（跨行业）
-- 50+ 预置工具
-- 新场景接入：2 天 → 2 小时
-- 客户人力成本降低 50%，运营效率提升 3 倍
-- 技术栈：LangGraph + Harness/Context Engineering + 50+ Tools
-
-如有任何问题，欢迎随时联系我。
-
-此致
-敬礼
-李双全
-188-2529-5496
-shuangquan_lee@163.com
-```
+4. **商业模式是什么？**
+   - 四位一体：智能体 + 培训 + 课程 + 企业深度服务
 
 ---
 
-## 常见问题处理
-
-### 演示时服务启动失败
-
-**预案**：
-- 如果 Docker Compose 启动失败，展示 `docker-compose.yml` 配置并说明"这是本地环境兼容问题，生产环境运行正常"
-- 如果 Python 服务启动失败，展示代码并说明"这是依赖版本问题，不影响架构展示"
-
-### 面试官要求看其他功能
-
-**应对**：
-- 如果要求看"前端界面"，说明"前端 React 管理后台在规划中，目前聚焦后端核心能力建设"
-- 如果要求看"具体客户场景"，说明"由于客户保密协议，我只能展示脱敏后的通用功能"
-
-### 面试官质疑数据真实性
-
-**应对**：
-- 展示代码实现细节（可追溯至具体文件）
-- 说明"这些数据来自客户生产监控，有完整的日志和 Trace 可以追溯"
-- 强调"我可以详细解释每个数据的计算方法和来源"
-
----
-
-*本演示脚本配合 `docs/interview/openclaw-qna.md` 使用，建议提前演练 2-3 遍*
+*Last updated: 2026-04-16*
