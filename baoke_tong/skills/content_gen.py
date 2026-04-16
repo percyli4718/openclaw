@@ -61,13 +61,15 @@ class ContentGenerator:
             包含文案列表和审核状态的字典
         """
         # TODO: 调用 Hermes Agent 技能执行
+        count = max(1, min(5, count))
         copies = [
             {
-                "id": "copy_001",
-                "content": f"【{product_name}】为您保驾护航",
+                "id": f"copy_{i+1:03d}",
+                "content": f"【{product_name}】为您保驾护航 (版本 {i+1})",
                 "hashtags": ["保险", "保障"],
-                "score": 0.85
+                "score": round(0.85 - i * 0.05, 2)
             }
+            for i in range(count)
         ]
 
         result = {
