@@ -155,3 +155,55 @@ class TenantContext(BaseModel):
     """租户上下文"""
     tenant_id: str
     tenant_name: Optional[str] = None
+
+
+# ==================== 合规审核相关 Schema ====================
+
+
+class ContentReviewRequest(BaseModel):
+    """内容审核请求"""
+    content: str = Field(..., description="待审核内容")
+    content_type: Literal["copywriting", "script", "poster"] = Field(
+        default="copywriting",
+        description="内容类型",
+    )
+    product_name: Optional[str] = Field(None, description="产品名称")
+
+
+class ContentReviewResponse(BaseModel):
+    """内容审核响应"""
+    status: str
+    data: Optional[Dict[str, Any]] = None
+    error: Optional[str] = None
+    duration_ms: Optional[int] = None
+
+
+class AuditLogQueryRequest(BaseModel):
+    """审计日志查询请求"""
+    user_id: Optional[str] = Field(None, description="用户 ID")
+    action: Optional[str] = Field(None, description="操作类型")
+    review_status: Optional[str] = Field(None, description="审核状态")
+    start_time: Optional[str] = Field(None, description="开始时间 (ISO 格式)")
+    end_time: Optional[str] = Field(None, description="结束时间 (ISO 格式)")
+    limit: int = Field(default=100, ge=1, le=1000, description="返回数量")
+
+
+class AuditLogResponse(BaseModel):
+    """审计日志响应"""
+    status: str
+    data: Optional[Dict[str, Any]] = None
+    error: Optional[str] = None
+    duration_ms: Optional[int] = None
+
+
+class SensitiveWordManageRequest(BaseModel):
+    """敏感词管理请求"""
+    word: str = Field(..., description="敏感词")
+
+
+class SensitiveWordResponse(BaseModel):
+    """敏感词管理响应"""
+    status: str
+    data: Optional[Dict[str, Any]] = None
+    error: Optional[str] = None
+    duration_ms: Optional[int] = None

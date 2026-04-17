@@ -28,11 +28,13 @@ class TestHealthCheck:
         assert "version" in data
 
     def test_health_endpoint(self, client):
-        """测试 /health 端点"""
+        """测试 /health 端点 — 无真实数据库时返回 degraded"""
         response = client.get("/health")
         assert response.status_code == 200
         data = response.json()
-        assert data["status"] == "ok"
+        assert data["status"] in ("ok", "degraded")
+        assert "version" in data
+        assert "services" in data  # 包含数据库连通性信息
 
     def test_api_health(self, client):
         """测试 /api/health 端点"""

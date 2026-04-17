@@ -5,8 +5,10 @@
 """
 
 from pydantic_settings import BaseSettings
-from pydantic import ConfigDict
+from pydantic import ConfigDict, model_validator
 from typing import Optional
+import os
+import secrets
 
 
 class Settings(BaseSettings):
@@ -17,6 +19,7 @@ class Settings(BaseSettings):
     # 应用配置
     APP_NAME: str = "保客通 (BaokeTong)"
     APP_VERSION: str = "0.1.0"
+    APP_ENV: str = "development"
     DEBUG: bool = False
 
     # 数据库配置
@@ -36,9 +39,32 @@ class Settings(BaseSettings):
     TENANT_ID: Optional[str] = None
 
     # 安全配置
-    SECRET_KEY: str = "baoke_tong_secret_key_change_in_production"
-    JWT_SECRET_KEY: Optional[str] = None  # 默认使用 SECRET_KEY
-    ENCRYPTION_KEY: str = "baoke_tong_encryption_key_32bytes!"
+    SECRET_KEY: Optional[str] = None
+    JWT_SECRET_KEY: Optional[str] = None
+    ENCRYPTION_KEY: Optional[str] = None
+
+    # CORS 配置
+    CORS_ORIGINS: list[str] = ["*"]
+
+    @model_validator(mode="after")
+    def validate_security_keys(self):
+        """生产环境必须配置 SECRET_KEY 和 ENCRYPTION_KEY"""
+        if self.APP_ENV != "development":
+            if not self.SECRET_KEY:
+                raise ValueError(
+                    "生产环境必须设置 SECRET_KEY，"
+                    "建议: openssl rand -hex 32"
+                )
+            if not self.ENCRYPTION_KEY:
+                raise ValueError(
+                    "生产环境必须设置 ENCRYPTION_KEY（32 字节）"
+                )
+        # 开发环境自动生成随机 SECRET_KEY
+        if not self.SECRET_KEY:
+            object.__setattr__(self, "SECRET_KEY", secrets.token_hex(32))
+        if not self.ENCRYPTION_KEY:
+            object.__setattr__(self, "ENCRYPTION_KEY", secrets.token_hex(16))
+        return self
 
 
 settings = Settings()

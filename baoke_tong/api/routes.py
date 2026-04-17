@@ -19,10 +19,14 @@ from .schemas import (
     FollowupPlanRequest,
     AutomatedMessageRequest,
     FollowupRecordRequest,
+    ContentReviewRequest,
+    AuditLogQueryRequest,
+    SensitiveWordManageRequest,
 )
 from ..skills.content_gen import ContentGenerator
 from ..skills.customer import CustomerAnalyst
 from ..skills.followup import FollowupManager
+from ..skills.compliance import ComplianceReviewer
 
 logger = logging.getLogger(__name__)
 
@@ -32,6 +36,7 @@ router = APIRouter(prefix="/api")
 _content_generator = ContentGenerator()
 _customer_analyst = CustomerAnalyst()
 _followup_manager = FollowupManager()
+_compliance_reviewer = ComplianceReviewer()
 
 
 # ==================== 健康检查 ====================
@@ -248,3 +253,109 @@ async def followup_log_api(request: FollowupRecordRequest):
     except Exception as e:
         logger.error(f"跟进记录失败：{e}", exc_info=True)
         raise HTTPException(status_code=500, detail=f"跟进记录失败：{str(e)}")
+
+
+# ==================== 合规审核 API ====================
+
+
+@router.post("/compliance/review")
+async def compliance_review_api(request: ContentReviewRequest, req: Request):
+    """
+    内容合规审核 API
+
+    对内容进行敏感词过滤 + AI 语义审核，返回审核结果。
+    """
+    try:
+        user_id = getattr(req.state, "user_id", None) or "anonymous"
+        result = await _compliance_reviewer.review_content(
+            content=request.content,
+            user_id=user_id,
+            content_type=request.content_type,
+            product_name=request.product_name,
+            ip_address=req.client.host if req.client else None,
+        )
+        return {
+            "status": "success",
+            "data": result["data"],
+            "duration_ms": result.get("duration_ms"),
+        }
+    except Exception as e:
+        logger.error(f"合规审核失败：{e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=f"审核失败：{str(e)}")
+
+
+@router.post("/compliance/audit-logs")
+async def compliance_audit_logs_api(request: AuditLogQueryRequest):
+    """
+    审计日志查询 API
+
+    支持按用户、操作类型、审核状态、时间范围过滤。
+    """
+    try:
+        logs = _compliance_reviewer.get_audit_logs(
+            user_id=request.user_id,
+            action=request.action,
+            review_status=request.review_status,
+            start_time=request.start_time,
+            end_time=request.end_time,
+            limit=request.limit,
+        )
+        return {
+            "status": "success",
+            "data": {"logs": logs, "total": len(logs)},
+            "duration_ms": 0,
+        }
+    except Exception as e:
+        logger.error(f"审计日志查询失败：{e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=f"审计日志查询失败：{str(e)}")
+
+
+@router.post("/compliance/sensitive-words/add")
+async def compliance_add_sensitive_word_api(request: SensitiveWordManageRequest):
+    """
+    添加敏感词 API
+    """
+    try:
+        _compliance_reviewer.add_sensitive_word(request.word)
+        return {
+            "status": "success",
+            "data": {"word": request.word, "action": "added"},
+            "duration_ms": 0,
+        }
+    except Exception as e:
+        logger.error(f"添加敏感词失败：{e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=f"添加敏感词失败：{str(e)}")
+
+
+@router.post("/compliance/sensitive-words/remove")
+async def compliance_remove_sensitive_word_api(request: SensitiveWordManageRequest):
+    """
+    移除敏感词 API
+    """
+    try:
+        _compliance_reviewer.remove_sensitive_word(request.word)
+        return {
+            "status": "success",
+            "data": {"word": request.word, "action": "removed"},
+            "duration_ms": 0,
+        }
+    except Exception as e:
+        logger.error(f"移除敏感词失败：{e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=f"移除敏感词失败：{str(e)}")
+
+
+@router.get("/compliance/sensitive-words")
+async def compliance_list_sensitive_words_api():
+    """
+    获取敏感词列表 API
+    """
+    try:
+        words = _compliance_reviewer.sensitive_words
+        return {
+            "status": "success",
+            "data": {"words": words, "total": len(words)},
+            "duration_ms": 0,
+        }
+    except Exception as e:
+        logger.error(f"获取敏感词列表失败：{e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=f"获取敏感词列表失败：{str(e)}")

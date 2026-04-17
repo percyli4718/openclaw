@@ -1,14 +1,20 @@
 // API 服务层 - HTTP 请求封装
-import { RequestConfig } from './request'
+import { RequestConfig } from './types'
 
 // 后端 API 基础 URL
-const BASE_URL = '/api'
+// H5 开发模式使用相对路径（通过 Vite 代理转发）
+// 小程序/APP 需要替换为完整 URL
+const BASE_URL = typeof process !== 'undefined' && process.env?.VITE_API_BASE_URL
+  ? process.env.VITE_API_BASE_URL
+  : '/api'
 
-// 通用响应结构
+// 通用响应结构 — 后端返回格式: { status: "success"|"error", data: {...}, ... }
 export interface ApiResponse<T = any> {
-  code: number
+  status: string
   data: T
-  message: string
+  error?: string
+  error_code?: string
+  duration_ms?: number
 }
 
 // 分页响应
@@ -46,26 +52,21 @@ const requestInterceptor = (config: RequestConfig) => {
 const responseInterceptor = <T>(response: any): ApiResponse<T> => {
   const res = response.data
 
-  // 统一处理错误码
-  if (res.code !== 200) {
-    // 401: 未授权
-    if (res.code === 401) {
+  // 后端返回格式: { status: "success"|"error", data: {...}, error?: string }
+  if (res.status === 'error') {
+    const statusCode = response.statusCode
+    if (statusCode === 401) {
       uni.removeStorageSync('token')
       uni.navigateTo({ url: '/src/pages/login/login' })
-      throw new Error('请先登录')
+      throw new Error(res.error || '请先登录')
     }
-
-    // 403: 无权限
-    if (res.code === 403) {
+    if (statusCode === 403) {
       throw new Error('无访问权限')
     }
-
-    // 500: 服务器错误
-    if (res.code >= 500) {
-      throw new Error('服务器错误，请稍后重试')
+    if (statusCode === 429) {
+      throw new Error('请求过于频繁，请稍后重试')
     }
-
-    throw new Error(res.message || '请求失败')
+    throw new Error(res.error || res.error_code || '请求失败')
   }
 
   return res
@@ -74,9 +75,9 @@ const responseInterceptor = <T>(response: any): ApiResponse<T> => {
 // API 方法封装
 export const api = {
   // ========== 认证相关 ==========
-  login: (data: { email: string; password: string }) => {
-    return request<ApiResponse<{ token: string; user: any }>>({
-      url: `${BASE_URL}/auth/login`,
+  login: (data: { username: string; password: string }) => {
+    return request<ApiResponse<{ access_token: string; token_type: string; expires_in: number }>>({
+      url: `${BASE_URL}/auth/token`,
       method: 'POST',
       data
     })
@@ -89,23 +90,16 @@ export const api = {
     })
   },
 
-  refreshToken: () => {
-    return request<ApiResponse<{ token: string }>>({
-      url: `${BASE_URL}/auth/refresh`,
-      method: 'POST'
-    })
-  },
-
   // ========== 内容生成相关 ==========
   generateWechatCopywriting: (data: {
-    productName: string
-    productType: string
-    targetAudience?: string
+    product_name: string
+    product_type: string
+    target_audience?: string
     tone?: string
     count?: number
   }) => {
-    return request<ApiResponse<{ copies: any[] }>>({
-      url: `${BASE_URL}/content/generate-wechat`,
+    return request<ApiResponse<{ copies: any[]; review_results?: any[] }>>({
+      url: `${BASE_URL}/content/generate`,
       method: 'POST',
       data
     })
@@ -113,202 +107,167 @@ export const api = {
 
   generateVideoScript: (data: {
     topic: string
-    duration?: string
+    duration?: number
     style?: string
   }) => {
-    return request<ApiResponse<{ scripts: any[] }>>({
-      url: `${BASE_URL}/content/generate-video`,
+    return request<ApiResponse<{ script: any }>>({
+      url: `${BASE_URL}/content/video-script`,
       method: 'POST',
       data
     })
   },
 
-  generatePosterCopywriting: (data: {
-    productName: string
-    theme?: string
+  generatePoster: (data: {
+    product_name: string
+    selling_point: string
+    cta?: string
   }) => {
-    return request<ApiResponse<{ copies: any[] }>>({
-      url: `${BASE_URL}/content/generate-poster`,
+    return request<ApiResponse<{ poster: { title: string; subtitle: string; cta: string } }>>({
+      url: `${BASE_URL}/content/poster`,
       method: 'POST',
       data
     })
   },
 
-  getSalesScriptTemplates: (params?: {
-    type?: string
-    page?: number
-    pageSize?: number
+  // ========== 客户分析相关 ==========
+  analyzeCustomer: (data: {
+    customer_id: string
+    basic_info: Record<string, any>
   }) => {
-    return request<ApiResponse<PaginatedResponse<any>>>({
-      url: `${BASE_URL}/content/templates`,
-      method: 'GET',
-      params
-    })
-  },
-
-  // ========== 客户管理相关 ==========
-  getCustomers: (params?: {
-    level?: string
-    source?: string
-    searchText?: string
-    page?: number
-    pageSize?: number
-  }) => {
-    return request<ApiResponse<PaginatedResponse<any>>>({
-      url: `${BASE_URL}/customers`,
-      method: 'GET',
-      params
-    })
-  },
-
-  getCustomerDetail: (id: string) => {
     return request<ApiResponse<any>>({
-      url: `${BASE_URL}/customers/${id}`,
-      method: 'GET'
-    })
-  },
-
-  addCustomer: (data: any) => {
-    return request<ApiResponse<{ id: string }>>({
-      url: `${BASE_URL}/customers`,
+      url: `${BASE_URL}/customer/analyze`,
       method: 'POST',
       data
     })
   },
 
-  updateCustomer: (id: string, data: any) => {
-    return request<ApiResponse>({
-      url: `${BASE_URL}/customers/${id}`,
-      method: 'PUT',
+  segmentCustomers: (data: {
+    customer_ids: string[]
+    profiles?: Record<string, any>
+  }) => {
+    return request<ApiResponse<any>>({
+      url: `${BASE_URL}/customer/segment`,
+      method: 'POST',
       data
     })
   },
 
-  deleteCustomer: (id: string) => {
-    return request<ApiResponse>({
-      url: `${BASE_URL}/customers/${id}`,
-      method: 'DELETE'
+  predictNeeds: (data: {
+    customer_id: string
+    profile: Record<string, any>
+  }) => {
+    return request<ApiResponse<any>>({
+      url: `${BASE_URL}/customer/needs`,
+      method: 'POST',
+      data
     })
   },
 
-  importCustomers: (file: any) => {
-    return request<ApiResponse<{ count: number }>>({
-      url: `${BASE_URL}/customers/import`,
+  searchSimilarCustomers: (data: {
+    customer_id: string
+    limit?: number
+  }) => {
+    return request<ApiResponse<{ similar_customers: any[] }>>({
+      url: `${BASE_URL}/customer/search-similar`,
       method: 'POST',
-      data: file,
-      headers: { 'Content-Type': 'multipart/form-data' }
-    })
-  },
-
-  analyzeCustomers: (ids?: string[]) => {
-    return request<ApiResponse<{ insights: string[] }>>({
-      url: `${BASE_URL}/customers/analyze`,
-      method: 'POST',
-      data: { ids }
+      data
     })
   },
 
   // ========== 跟进管理相关 ==========
-  getFollowupPlans: (params?: {
-    status?: string
-    page?: number
-    pageSize?: number
-  }) => {
-    return request<ApiResponse<PaginatedResponse<any>>>({
-      url: `${BASE_URL}/followup/plans`,
-      method: 'GET',
-      params
-    })
-  },
-
   createFollowupPlan: (data: {
-    customerId: string
-    tasks: Array<{
-      type: string
-      content: string
-      scheduledAt: string
-    }>
+    customer_id: string
+    plan_duration?: number
+    frequency?: string
   }) => {
-    return request<ApiResponse<{ id: string }>>({
-      url: `${BASE_URL}/followup/plans`,
-      method: 'POST',
-      data
-    })
-  },
-
-  generateFollowupPlan: (customerId: string) => {
-    return request<ApiResponse<{ tasks: any[] }>>({
-      url: `${BASE_URL}/followup/generate`,
-      method: 'POST',
-      data: { customerId }
-    })
-  },
-
-  completeTask: (taskId: string, data: { result?: string }) => {
-    return request<ApiResponse>({
-      url: `${BASE_URL}/followup/tasks/${taskId}/complete`,
+    return request<ApiResponse<any>>({
+      url: `${BASE_URL}/followup/create`,
       method: 'POST',
       data
     })
   },
 
   scheduleMessage: (data: {
-    customerId: string
-    content: string
-    scheduledAt: string
+    customer_id: string
+    message_content: string
+    send_time: string
   }) => {
-    return request<ApiResponse>({
+    return request<ApiResponse<any>>({
       url: `${BASE_URL}/followup/schedule`,
       method: 'POST',
       data
     })
   },
 
-  getTodayTasks: () => {
-    return request<ApiResponse<any[]>>({
-      url: `${BASE_URL}/followup/today`,
+  logFollowup: (data: {
+    customer_id: string
+    followup_type: string
+    content: string
+    feedback?: string
+  }) => {
+    return request<ApiResponse<any>>({
+      url: `${BASE_URL}/followup/log`,
+      method: 'POST',
+      data
+    })
+  },
+
+  // ========== 合规审核相关 ==========
+  reviewContent: (data: {
+    content: string
+    content_type?: string
+    product_name?: string
+  }) => {
+    return request<ApiResponse<any>>({
+      url: `${BASE_URL}/compliance/review`,
+      method: 'POST',
+      data
+    })
+  },
+
+  getAuditLogs: (data?: {
+    user_id?: string
+    action?: string
+    review_status?: string
+    start_time?: string
+    end_time?: string
+    limit?: number
+  }) => {
+    return request<ApiResponse<{ logs: any[]; total: number }>>({
+      url: `${BASE_URL}/compliance/audit-logs`,
+      method: 'POST',
+      data: data || {}
+    })
+  },
+
+  listSensitiveWords: () => {
+    return request<ApiResponse<{ words: string[]; total: number }>>({
+      url: `${BASE_URL}/compliance/sensitive-words`,
       method: 'GET'
     })
   },
 
-  // ========== 数据分析相关 ==========
-  getDashboard: () => {
+  addSensitiveWord: (word: string) => {
     return request<ApiResponse<any>>({
-      url: `${BASE_URL}/dashboard`,
+      url: `${BASE_URL}/compliance/sensitive-words/add`,
+      method: 'POST',
+      data: { word }
+    })
+  },
+
+  removeSensitiveWord: (word: string) => {
+    return request<ApiResponse<any>>({
+      url: `${BASE_URL}/compliance/sensitive-words/remove`,
+      method: 'POST',
+      data: { word }
+    })
+  },
+
+  // ========== 健康检查 ==========
+  healthCheck: () => {
+    return request<ApiResponse<any>>({
+      url: `${BASE_URL}/health`,
       method: 'GET'
-    })
-  },
-
-  getContentStats: (params?: {
-    startDate?: string
-    endDate?: string
-  }) => {
-    return request<ApiResponse<any>>({
-      url: `${BASE_URL}/stats/content`,
-      method: 'GET',
-      params
-    })
-  },
-
-  getCustomerStats: (params?: {
-    startDate?: string
-    endDate?: string
-  }) => {
-    return request<ApiResponse<any>>({
-      url: `${BASE_URL}/stats/customer`,
-      method: 'GET',
-      params
-    })
-  },
-
-  getFollowupStats: (params?: {
-    startDate?: string
-    endDate?: string
-  }) => {
-    return request<ApiResponse<any>>({
-      url: `${BASE_URL}/stats/followup`,
-      method: 'GET',
-      params
     })
   }
 }

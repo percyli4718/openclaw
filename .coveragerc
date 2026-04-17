@@ -1,0 +1,3 @@
+[run]
+omit =
+    tests/models/test_rls_integration.py
