@@ -103,7 +103,10 @@ services:
       REDIS_URL: redis://:${REDIS_PASSWORD}@redis:6379/0
       QDRANT_URL: http://qdrant:6333
 
-      # AI 模型配置（私有化模式使用 Ollama）
+      # AI 模型配置（LiteLLM 统一接口，默认 Ollama 本地）
+      LITELLM_MODEL: ${LITELLM_MODEL:-ollama/qwen2.5:7b}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
       OLLAMA_BASE_URL: ${OLLAMA_BASE_URL:-http://host.docker.internal:11434}
 
       # 应用配置

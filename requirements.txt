@@ -3,11 +3,8 @@
 # Hermes Agent 核心依赖
 # nous-hermes-agent>=0.1.0  # 临时注释：该包不在公共 PyPI 上，需要从私有源安装
 
-# AI 模型
-# SaaS 模式：使用云端 Claude API
-anthropic>=0.18.0
-# 私有化模式：使用本地 Ollama
-# ollama>=0.1.0  # 可选，私有化部署时启用
+# AI 模型 — LiteLLM 统一接口（支持 100+ 模型）
+litellm>=1.60.0
 
 # Web 框架
 fastapi>=0.109.0
@@ -26,6 +23,7 @@ qdrant-client>=1.7.0
 
 # 数据加密
 cryptography>=42.0.0
+python-jose[cryptography]>=3.3.0
 
 # 数据处理
 pydantic>=2.5.0

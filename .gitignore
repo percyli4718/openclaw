@@ -75,3 +75,4 @@ worktrees/
 logs/
 *.log
 tmp/
+.gstack/

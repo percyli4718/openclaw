@@ -76,8 +76,10 @@ services:
       REDIS_URL: redis://:${REDIS_PASSWORD:-baoke_tong_redis_password}@redis:6379/0
       QDRANT_URL: http://qdrant:6333
 
-      # AI 模型配置
+      # AI 模型配置（LiteLLM 统一接口）
+      LITELLM_MODEL: ${LITELLM_MODEL:-anthropic/claude-3-5-sonnet-20241022}
       ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
       OLLAMA_BASE_URL: ${OLLAMA_BASE_URL:-http://host.docker.internal:11434}
 
       # 应用配置

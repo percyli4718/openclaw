@@ -7,6 +7,7 @@ import asyncio
 import os
 import json
 from pathlib import Path
+from tests.mock_llm import MockLLMProvider
 
 from baoke_tong.skills.compliance import (
     ComplianceReviewer,
@@ -244,11 +245,13 @@ class TestContentGeneratorIntegration:
             os.remove(self.test_log_path)
 
         self.reviewer = ComplianceReviewer(audit_log_path=self.test_log_path)
+        self.mock_llm = MockLLMProvider()
 
         from baoke_tong.skills.content_gen import ContentGenerator
         self.generator = ContentGenerator(
+            llm=self.mock_llm,
             compliance_reviewer=self.reviewer,
-            auto_review=True
+            auto_review=True,
         )
 
     def teardown_method(self):
@@ -258,11 +261,14 @@ class TestContentGeneratorIntegration:
     @pytest.mark.asyncio
     async def test_generate_with_auto_review(self):
         """测试生成内容并自动审核"""
+        self.mock_llm.set_responses([
+            '[{"content": "保险文案", "hashtags": ["保险"]}]',
+        ])
         result = await self.generator.generate_wechat_copywriting(
             product_name="健康保",
             product_type="重疾险",
             user_id="user_001",
-            ip_address="192.168.1.1"
+            ip_address="192.168.1.1",
         )
 
         assert result["status"] == "success"
@@ -276,12 +282,15 @@ class TestContentGeneratorIntegration:
     @pytest.mark.asyncio
     async def test_generate_without_review(self):
         """测试生成内容但不审核"""
+        self.mock_llm.set_responses([
+            '[{"content": "保险文案", "hashtags": ["保险"]}]',
+        ])
         self.generator.auto_review = False
 
         result = await self.generator.generate_wechat_copywriting(
             product_name="健康保",
             product_type="重疾险",
-            user_id="user_001"
+            user_id="user_001",
         )
 
         assert result["status"] == "success"

@@ -24,13 +24,21 @@ class Settings(BaseSettings):
     REDIS_URL: str = "redis://localhost:6379/0"
     QDRANT_URL: str = "http://localhost:6333"
 
-    # AI 模型配置
-    AI_PROVIDER: str = "anthropic"  # anthropic (云端) 或 ollama (本地)
+    # AI 模型配置（LiteLLM 统一接口）
+    # LITELLM_MODEL 格式: "provider/model_name"
+    # 示例: "anthropic/claude-3-5-sonnet-20241022" 或 "ollama/qwen2.5:7b"
+    LITELLM_MODEL: str = "anthropic/claude-sonnet-4-20250514"
     ANTHROPIC_API_KEY: Optional[str] = None
+    OPENAI_API_KEY: Optional[str] = None
     OLLAMA_BASE_URL: str = "http://localhost:11434"
 
     # 多租户配置
     TENANT_ID: Optional[str] = None
+
+    # 安全配置
+    SECRET_KEY: str = "baoke_tong_secret_key_change_in_production"
+    JWT_SECRET_KEY: Optional[str] = None  # 默认使用 SECRET_KEY
+    ENCRYPTION_KEY: str = "baoke_tong_encryption_key_32bytes!"
 
 
 settings = Settings()
