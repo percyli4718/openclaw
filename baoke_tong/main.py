@@ -21,8 +21,13 @@ async def lifespan(app: FastAPI):
     logger.info("正在初始化数据库连接...")
     try:
         from .db import init_postgres, init_redis, init_qdrant
+        from .db.migrations import create_tables
         await init_postgres()
         logger.info("PostgreSQL 连接池已创建")
+        # 创建数据库表（如果不存在）
+        from .db import engine
+        await create_tables(engine)
+        logger.info("数据库表创建完成")
     except Exception as e:
         logger.warning(f"PostgreSQL 连接失败（MVP 模式可忽略）：{e}")
 

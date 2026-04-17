@@ -1,7 +1,10 @@
 """
 限流中间件
 
-实现 API 限流和熔断机制，遵循 Design Spec Section 10.2 SLA 定义
+实现 API 限流和熔断机制，遵循 Design Spec Section 10.2 SLA 定义。
+使用 Redis 作为主存储，Redis 不可用时自动降级为内存存储。
+
+内部辅助方法保持同步（向后兼容），dispatch 中使用 async Redis 路径。
 """
 
 from fastapi import Request, HTTPException, status
@@ -11,6 +14,9 @@ from typing import Dict, Optional
 from datetime import datetime, timedelta
 import logging
 import time
+import json
+
+from ..db.redis_client import get_redis
 
 logger = logging.getLogger(__name__)
 
@@ -51,10 +57,12 @@ class RateLimitMiddleware(BaseHTTPMiddleware):
 
     def __init__(self, app: ASGIApp):
         super().__init__(app)
-        # 内存存储限流计数 (生产环境应使用 Redis)
+        # 内存存储限流计数 (Redis 不可用时的降级方案)
         self._request_counts: Dict[str, Dict] = {}
-        # 熔断器状态
+        # 熔断器状态 (内存侧，Redis 不可用时使用)
         self._circuit_breakers: Dict[str, Dict] = {}
+        # Redis 健康标记
+        self._redis_available = True
 
     async def dispatch(self, request: Request, call_next):
         # 检查是否需要跳过限流
@@ -66,15 +74,23 @@ class RateLimitMiddleware(BaseHTTPMiddleware):
             client_id = self._get_client_id(request)
             path = request.url.path
 
-            # 检查熔断器状态
-            if self._is_circuit_open(path):
+            # Redis 优先：检查熔断器
+            circuit_open = await self._check_circuit_redis(path)
+            if circuit_open is None:
+                # Redis 不可用，降级内存
+                circuit_open = self._is_circuit_open(path)
+            if circuit_open:
                 raise HTTPException(
                     status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
                     detail="服务暂时不可用，请稍后重试"
                 )
 
-            # 检查限流
-            if not self._check_rate_limit(client_id, path):
+            # Redis 优先：检查限流
+            allowed = await self._check_rate_limit_redis(client_id, path)
+            if allowed is None:
+                # Redis 不可用，降级内存
+                allowed = self._check_rate_limit(client_id, path)
+            if not allowed:
                 raise HTTPException(
                     status_code=status.HTTP_429_TOO_MANY_REQUESTS,
                     detail="请求过于频繁，请稍后再试",
@@ -85,8 +101,11 @@ class RateLimitMiddleware(BaseHTTPMiddleware):
                     }
                 )
 
-            # 记录请求
-            self._record_request(client_id, path)
+            # Redis 优先：记录请求
+            recorded = await self._record_request_redis(client_id, path)
+            if recorded is None:
+                # Redis 不可用，降级内存
+                self._record_request(client_id, path)
 
         except HTTPException as e:
             logger.warning(f"限流检查：{e.detail}")
@@ -96,6 +115,113 @@ class RateLimitMiddleware(BaseHTTPMiddleware):
             # 限流服务异常时不阻断请求
 
         return await call_next(request)
+
+    # ---- Redis 路径（async） ----
+
+    async def _check_rate_limit_redis(self, client_id: str, path: str) -> Optional[bool]:
+        """
+        使用 Redis INCR 做限流检查。
+        返回 None 表示 Redis 不可用，调用方应降级为内存模式。
+        """
+        try:
+            redis = get_redis()
+            key = f"ratelimit:{client_id}:{path}"
+            window = self._get_window(path)
+            limit = self._get_limit(path)
+
+            current = await redis.incr(key)
+            if current == 1:
+                await redis.expire(key, window)
+
+            self._redis_available = True
+            return current <= limit
+        except Exception as e:
+            logger.debug(f"Redis 限流检查失败: {e}")
+            self._redis_available = False
+            return None
+
+    async def _record_request_redis(self, client_id: str, path: str) -> Optional[bool]:
+        """
+        在 Redis 中记录请求（INCR 已在 check 中完成，此处仅用于一致性）。
+        返回 None 表示 Redis 不可用。
+        """
+        # INCR 已在 _check_rate_limit_redis 中完成计数，无需重复操作
+        return True
+
+    async def _check_circuit_redis(self, path: str) -> Optional[bool]:
+        """
+        使用 Redis 检查熔断器状态。
+        返回 None 表示 Redis 不可用，调用方应降级为内存模式。
+        """
+        try:
+            redis = get_redis()
+            key = f"circuitbreaker:{path}"
+
+            state = await redis.get(key)
+            if state is None:
+                self._redis_available = True
+                return False
+
+            data = json.loads(state)
+            if not data.get("open", False):
+                self._redis_available = True
+                return False
+
+            # 检查是否超过恢复时间
+            open_until = data.get("open_until", 0)
+            if time.time() > open_until:
+                # 半开状态
+                data["open"] = False
+                data["state"] = "half-open"
+                await redis.setex(key, 120, json.dumps(data))
+                self._redis_available = True
+                return False
+
+            self._redis_available = True
+            return True
+        except Exception as e:
+            logger.debug(f"Redis 熔断检查失败: {e}")
+            self._redis_available = False
+            return None
+
+    def record_failure(self, path: str):
+        """记录失败，用于熔断器逻辑。同时更新 Redis 和内存。"""
+        # 更新内存
+        self._record_failure_memory(path)
+
+        # 尝试更新 Redis（失败时静默跳过）
+        try:
+            redis = get_redis()
+            key = f"circuitbreaker:{path}"
+            data = {"failures": 0, "open": False, "state": "closed"}
+            raw = redis.get(key)
+            if raw:
+                data = json.loads(raw)
+            data["failures"] += 1
+            if data["failures"] >= 5:
+                data["open"] = True
+                data["open_until"] = time.time() + 30
+                data["state"] = "open"
+                logger.warning(f"熔断器打开：{path}")
+            redis.set(key, json.dumps(data), ex=120)
+        except Exception:
+            pass
+
+    def record_success(self, path: str):
+        """记录成功，重置熔断器。同时更新 Redis 和内存。"""
+        # 更新内存
+        self._record_success_memory(path)
+
+        # 尝试更新 Redis（失败时静默跳过）
+        try:
+            redis = get_redis()
+            key = f"circuitbreaker:{path}"
+            data = {"failures": 0, "open": False, "state": "closed"}
+            redis.set(key, json.dumps(data), ex=120)
+        except Exception:
+            pass
+
+    # ---- 同步路径（向后兼容 + 降级） ----
 
     def _should_skip_rate_limit(self, request: Request) -> bool:
         """检查是否需要跳过限流"""
@@ -136,7 +262,10 @@ class RateLimitMiddleware(BaseHTTPMiddleware):
         return self.DEFAULT_WINDOW_SECONDS
 
     def _check_rate_limit(self, client_id: str, path: str) -> bool:
-        """检查是否超过限流"""
+        """
+        内存降级方案的限流检查。
+        同步方法，向后兼容。
+        """
         now = datetime.now()
         key = f"{client_id}:{path}"
         window = self._get_window(path)
@@ -161,7 +290,7 @@ class RateLimitMiddleware(BaseHTTPMiddleware):
         return current_count < limit
 
     def _record_request(self, client_id: str, path: str):
-        """记录请求"""
+        """内存模式记录请求"""
         now = datetime.now()
         key = f"{client_id}:{path}"
 
@@ -183,7 +312,10 @@ class RateLimitMiddleware(BaseHTTPMiddleware):
                 ]
 
     def _is_circuit_open(self, path: str) -> bool:
-        """检查熔断器是否打开"""
+        """
+        内存降级方案检查熔断器。
+        同步方法，向后兼容。
+        """
         if path not in self._circuit_breakers:
             return False
 
@@ -193,15 +325,14 @@ class RateLimitMiddleware(BaseHTTPMiddleware):
 
         # 检查是否超过熔断恢复时间
         if datetime.now() > breaker.get("open_until", datetime.now()):
-            # 熔断器半开，允许一次探测请求
             breaker["open"] = False
             breaker["state"] = "half-open"
             return False
 
         return True
 
-    def record_failure(self, path: str):
-        """记录失败，用于熔断器逻辑"""
+    def _record_failure_memory(self, path: str):
+        """内存模式记录失败"""
         if path not in self._circuit_breakers:
             self._circuit_breakers[path] = {
                 "failures": 0,
@@ -212,15 +343,14 @@ class RateLimitMiddleware(BaseHTTPMiddleware):
         breaker = self._circuit_breakers[path]
         breaker["failures"] += 1
 
-        # 5 次失败后打开熔断器
         if breaker["failures"] >= 5:
             breaker["open"] = True
             breaker["open_until"] = datetime.now() + timedelta(seconds=30)
             breaker["state"] = "open"
             logger.warning(f"熔断器打开：{path}")
 
-    def record_success(self, path: str):
-        """记录成功，重置熔断器"""
+    def _record_success_memory(self, path: str):
+        """内存模式记录成功"""
         if path in self._circuit_breakers:
             self._circuit_breakers[path]["failures"] = 0
             self._circuit_breakers[path]["open"] = False

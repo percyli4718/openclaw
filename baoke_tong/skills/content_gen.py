@@ -9,11 +9,14 @@
 所有生成的内容会自动经过合规审核流程。
 """
 
+import hashlib
+import json
 import time
 from typing import Dict, Any, Optional
 
 from .compliance import ComplianceReviewer
 from ..llm import LLMProvider, LLMMessage, get_llm_provider
+from ..db.cache import cache_get, cache_set, cache_invalidate
 
 
 class ContentGenerator:
@@ -24,17 +27,21 @@ class ContentGenerator:
         llm: Optional[LLMProvider] = None,
         compliance_reviewer: Optional[ComplianceReviewer] = None,
         auto_review: bool = True,
+        use_cache: bool = True,
     ):
         """
         Args:
             llm: LLM Provider 实例。未传入时延迟初始化（首次调用时通过 get_llm_provider() 获取）。
             compliance_reviewer: 合规审核器实例。
             auto_review: 是否自动触发合规审核（默认 True）。
+            use_cache: 是否启用 LLM 结果缓存（默认 True）。
         """
         self._llm = llm
         self._llm_provided = llm is not None
         self.compliance_reviewer = compliance_reviewer or ComplianceReviewer()
         self.auto_review = auto_review
+        self.use_cache = use_cache
+        self._cache_ttl = 300  # 5 分钟
 
     @property
     def llm(self) -> LLMProvider:
@@ -42,6 +49,32 @@ class ContentGenerator:
             self._llm = get_llm_provider()
             self._llm_provided = True
         return self._llm
+
+    # ---- 缓存 ----
+
+    @staticmethod
+    def _cache_key(method: str, params: dict) -> str:
+        """生成缓存 key：方法名 + 参数哈希"""
+        param_str = json.dumps(params, sort_keys=True, default=str)
+        param_hash = hashlib.md5(param_str.encode()).hexdigest()[:12]
+        return f"content_gen:{method}:{param_hash}"
+
+    async def _cache_lookup(self, key: str) -> Optional[Dict[str, Any]]:
+        """从缓存查找 LLM 结果"""
+        if not self.use_cache:
+            return None
+        return await cache_get(key)
+
+    async def _cache_store(self, key: str, value: Dict[str, Any]) -> None:
+        """将 LLM 结果存入缓存"""
+        if not self.use_cache:
+            return
+        await cache_set(key, value, ttl=self._cache_ttl)
+
+    async def invalidate_cache(self, method: str, params: dict) -> None:
+        """手动使特定参数的缓存失效"""
+        key = self._cache_key(method, params)
+        await cache_invalidate(key)
 
     # ---- 提示词构建 ----
 
@@ -142,22 +175,47 @@ class ContentGenerator:
         start = time.time()
         count = max(1, min(5, count))
 
-        prompt = self._build_copywriting_prompt(
-            product_name, product_type, target_audience, tone, count
-        )
-        response = await self.llm.chat(
-            messages=[LLMMessage(role="user", content=prompt)],
-            temperature=0.7,
-        )
-
-        # 简单解析：尝试从 LLM 返回中提取 JSON
-        copies = self._parse_copies(response.text, product_name, count)
-
-        result = {
-            "status": "success",
-            "data": {"copies": copies},
-            "duration_ms": int((time.time() - start) * 1000),
+        # 缓存 key：基于 prompt 参数
+        cache_params = {
+            "product_name": product_name,
+            "product_type": product_type,
+            "target_audience": target_audience,
+            "tone": tone,
+            "count": count,
         }
+        ckey = self._cache_key("copywriting", cache_params)
+
+        # 检查缓存
+        cached = await self._cache_lookup(ckey)
+        if cached is not None:
+            copies = cached["copies"]
+            result = {
+                "status": "success",
+                "data": {"copies": copies},
+                "duration_ms": int((time.time() - start) * 1000),
+                "from_cache": True,
+            }
+        else:
+            prompt = self._build_copywriting_prompt(
+                product_name, product_type, target_audience, tone, count
+            )
+            response = await self.llm.chat(
+                messages=[LLMMessage(role="user", content=prompt)],
+                temperature=0.7,
+            )
+
+            # 简单解析：尝试从 LLM 返回中提取 JSON
+            copies = self._parse_copies(response.text, product_name, count)
+
+            # 存入缓存
+            await self._cache_store(ckey, {"copies": copies})
+
+            result = {
+                "status": "success",
+                "data": {"copies": copies},
+                "duration_ms": int((time.time() - start) * 1000),
+                "from_cache": False,
+            }
 
         # 自动合规审核
         effective_user_id = user_id or "anonymous"
@@ -207,20 +265,37 @@ class ContentGenerator:
         """
         start = time.time()
 
-        prompt = self._build_video_script_prompt(topic, duration, style)
-        response = await self.llm.chat(
-            messages=[LLMMessage(role="user", content=prompt)],
-            temperature=0.7,
-        )
+        cache_params = {"topic": topic, "duration": duration, "style": style}
+        ckey = self._cache_key("video_script", cache_params)
 
-        # 简单解析
-        script = self._parse_script(response.text, topic)
+        cached = await self._cache_lookup(ckey)
+        if cached is not None:
+            script = cached["script"]
+            result = {
+                "status": "success",
+                "data": {"script": script},
+                "duration_ms": int((time.time() - start) * 1000),
+                "from_cache": True,
+            }
+        else:
+            prompt = self._build_video_script_prompt(topic, duration, style)
+            response = await self.llm.chat(
+                messages=[LLMMessage(role="user", content=prompt)],
+                temperature=0.7,
+            )
 
-        return {
-            "status": "success",
-            "data": {"script": script},
-            "duration_ms": int((time.time() - start) * 1000),
-        }
+            # 简单解析
+            script = self._parse_script(response.text, topic)
+            await self._cache_store(ckey, {"script": script})
+
+            result = {
+                "status": "success",
+                "data": {"script": script},
+                "duration_ms": int((time.time() - start) * 1000),
+                "from_cache": False,
+            }
+
+        return result
 
     async def generate_poster_copywriting(
         self,
@@ -241,19 +316,40 @@ class ContentGenerator:
         """
         start = time.time()
 
-        prompt = self._build_poster_prompt(product_name, selling_point, cta or "立即咨询")
-        response = await self.llm.chat(
-            messages=[LLMMessage(role="user", content=prompt)],
-            temperature=0.7,
-        )
-
-        poster = self._parse_poster(response.text, product_name, selling_point, cta)
-
-        return {
-            "status": "success",
-            "data": {"poster": poster},
-            "duration_ms": int((time.time() - start) * 1000),
+        cache_params = {
+            "product_name": product_name,
+            "selling_point": selling_point,
+            "cta": cta or "立即咨询",
         }
+        ckey = self._cache_key("poster", cache_params)
+
+        cached = await self._cache_lookup(ckey)
+        if cached is not None:
+            poster = cached["poster"]
+            result = {
+                "status": "success",
+                "data": {"poster": poster},
+                "duration_ms": int((time.time() - start) * 1000),
+                "from_cache": True,
+            }
+        else:
+            prompt = self._build_poster_prompt(product_name, selling_point, cta or "立即咨询")
+            response = await self.llm.chat(
+                messages=[LLMMessage(role="user", content=prompt)],
+                temperature=0.7,
+            )
+
+            poster = self._parse_poster(response.text, product_name, selling_point, cta)
+            await self._cache_store(ckey, {"poster": poster})
+
+            result = {
+                "status": "success",
+                "data": {"poster": poster},
+                "duration_ms": int((time.time() - start) * 1000),
+                "from_cache": False,
+            }
+
+        return result
 
     # ---- 解析辅助方法 ----
 

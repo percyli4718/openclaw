@@ -6,14 +6,19 @@
 - segment_customers: 客户分层
 - predict_insurance_needs: 需求预测
 - search_similar_customers: 相似客户检索
+- get_customer_profiles: 从数据库获取客户档案（新增）
 """
 
 import time
 import json
 import re
+import logging
 from typing import List, Dict, Any, Optional
+from uuid import UUID
 
 from ..llm import LLMProvider, LLMMessage, get_llm_provider
+
+logger = logging.getLogger(__name__)
 
 
 class CustomerAnalyst:
@@ -206,4 +211,92 @@ class CustomerAnalyst:
                     return items
             except json.JSONDecodeError:
                 pass
+        return []
+
+    async def get_customer_profiles(
+        self,
+        customer_ids: Optional[List[str]] = None,
+    ) -> Dict[str, Any]:
+        """
+        从数据库获取客户档案
+
+        优先使用 PostgreSQL 数据，如果数据库不可用则回退到内存。
+
+        Args:
+            customer_ids: 客户 ID 列表。None 表示获取所有客户。
+
+        Returns:
+            客户档案列表
+        """
+        start = time.time()
+
+        # 尝试从数据库获取
+        db_customers = await self._get_customers_from_db(customer_ids)
+        if db_customers is not None:
+            return {
+                "status": "success",
+                "data": {"customers": db_customers, "source": "database"},
+                "duration_ms": int((time.time() - start) * 1000),
+            }
+
+        # 回退到内存数据
+        in_memory = self._get_customers_from_memory(customer_ids)
+        return {
+            "status": "success",
+            "data": {"customers": in_memory, "source": "memory"},
+            "duration_ms": int((time.time() - start) * 1000),
+        }
+
+    @staticmethod
+    async def _get_customers_from_db(
+        customer_ids: Optional[List[str]],
+    ) -> Optional[List[Dict[str, Any]]]:
+        """从数据库查询客户，失败时返回 None"""
+        try:
+            from ..db import engine
+            from ..models.orm import Customer
+            from sqlalchemy import select
+
+            if engine is None:
+                return None
+
+            async with engine.connect() as conn:
+                stmt = select(Customer)
+                if customer_ids:
+                    uuids = [UUID(cid) for cid in customer_ids]
+                    stmt = stmt.where(Customer.id.in_(uuids))
+
+                result = await conn.execute(stmt)
+                rows = result.fetchall()
+                return [
+                    {
+                        "id": str(row.Customer.id),
+                        "name": row.Customer.name,
+                        "phone": row.Customer.phone,
+                        "level": row.Customer.level,
+                        "source": row.Customer.source,
+                        "tags": row.Customer.tags or [],
+                        "needs": row.Customer.needs or {},
+                        "last_followup_at": (
+                            row.Customer.last_followup_at.isoformat()
+                            if row.Customer.last_followup_at else None
+                        ),
+                        "next_followup_at": (
+                            row.Customer.next_followup_at.isoformat()
+                            if row.Customer.next_followup_at else None
+                        ),
+                    }
+                    for row in rows
+                ]
+        except Exception as e:
+            logger.debug(f"数据库查询失败，回退到内存模式：{e}")
+            return None
+
+    @staticmethod
+    def _get_customers_from_memory(
+        customer_ids: Optional[List[str]],
+    ) -> List[Dict[str, Any]]:
+        """从内存返回模拟数据"""
+        # 这里可以接入 Redis 缓存或其他内存存储
+        # 当前返回空列表表示内存模式无数据
         return []

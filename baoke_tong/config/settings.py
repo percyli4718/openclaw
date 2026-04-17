@@ -23,7 +23,7 @@ class Settings(BaseSettings):
     DEBUG: bool = False
 
     # 数据库配置
-    DATABASE_URL: str = "postgresql://baoke:password@localhost:5432/baoke_tong"
+    DATABASE_URL: str = "postgresql+asyncpg://baoke:password@localhost:5432/baoke_tong"
     REDIS_URL: str = "redis://localhost:6379/0"
     QDRANT_URL: str = "http://localhost:6333"
 

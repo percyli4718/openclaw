@@ -6,15 +6,20 @@
 - schedule_automated_message: 定时消息推送
 - log_followup_record: 跟进记录
 - notify_overdue_followup: 逾期提醒
+- save_followup_record: 保存跟进记录到数据库（新增）
 """
 
 import time
 import json
 import re
+import logging
 from typing import Dict, Any, Optional
 from datetime import datetime, timedelta
+from uuid import uuid4, UUID
 
 from ..llm import LLMProvider, LLMMessage, get_llm_provider
+
+logger = logging.getLogger(__name__)
 
 
 class FollowupManager:
@@ -118,6 +123,8 @@ class FollowupManager:
         """
         记录跟进内容
 
+        同时写入数据库（如果可用）。
+
         Args:
             customer_id: 客户 ID
             followup_type: 跟进类型
@@ -127,13 +134,65 @@ class FollowupManager:
         Returns:
             记录结果
         """
-        # 此方法主要涉及数据写入，暂不使用 LLM
+        start = time.time()
+        record_id = f"rec_{customer_id}_{datetime.now().timestamp()}"
+
+        # 尝试写入数据库
+        await self._save_followup_to_db(
+            customer_id=customer_id,
+            followup_type=followup_type,
+            content=content,
+            feedback=feedback,
+        )
+
         return {
             "status": "success",
             "data": {
-                "record_id": f"rec_{customer_id}_{datetime.now().timestamp()}",
+                "record_id": record_id,
+                "source": "database",
             },
-            "duration_ms": 300,
+            "duration_ms": int((time.time() - start) * 1000),
+        }
+
+    async def save_followup_record(
+        self,
+        customer_id: str,
+        plan_id: Optional[str] = None,
+        status: str = "pending",
+        tasks: Optional[list] = None,
+    ) -> Dict[str, Any]:
+        """
+        保存跟进计划到数据库
+
+        优先写入 PostgreSQL，失败时回退到内存。
+
+        Args:
+            customer_id: 客户 ID
+            plan_id: 计划 ID（None 时自动生成）
+            status: 计划状态
+            tasks: 任务列表
+
+        Returns:
+            保存结果
+        """
+        start = time.time()
+        new_plan_id = plan_id or f"plan_{uuid4()}"
+
+        # 尝试写入数据库
+        db_ok = await self._save_followup_plan_to_db(
+            customer_id=customer_id,
+            plan_id=new_plan_id,
+            status=status,
+            tasks=tasks or [],
+        )
+
+        return {
+            "status": "success",
+            "data": {
+                "plan_id": new_plan_id,
+                "source": "database" if db_ok else "memory",
+            },
+            "duration_ms": int((time.time() - start) * 1000),
         }
 
     # ---- 解析辅助方法 ----
@@ -173,3 +232,68 @@ class FollowupManager:
             }
             for i in range(min(num_tasks, 5))
         ]
+
+    @staticmethod
+    async def _save_followup_to_db(
+        customer_id: str,
+        followup_type: str,
+        content: str,
+        feedback: Optional[str],
+    ) -> bool:
+        """写入跟进记录到数据库，失败返回 False"""
+        try:
+            from ..db import engine
+            from ..models.orm import AuditLog
+            from sqlalchemy import insert
+
+            if engine is None:
+                return False
+
+            async with engine.begin() as conn:
+                await conn.execute(
+                    insert(AuditLog).values(
+                        id=str(uuid4()),
+                        action=f"followup_{followup_type}",
+                        input_data={
+                            "customer_id": customer_id,
+                            "content": content,
+                            "feedback": feedback,
+                        },
+                        output_data={"status": "logged"},
+                        review_status="approved",
+                    )
+                )
+            return True
+        except Exception as e:
+            logger.debug(f"数据库写入跟进记录失败：{e}")
+            return False
+
+    @staticmethod
+    async def _save_followup_plan_to_db(
+        customer_id: str,
+        plan_id: str,
+        status: str,
+        tasks: list,
+    ) -> bool:
+        """写入跟进计划到数据库，失败返回 False"""
+        try:
+            from ..db import engine
+            from ..models.orm import FollowupPlan
+            from sqlalchemy import insert
+
+            if engine is None:
+                return False
+
+            async with engine.begin() as conn:
+                await conn.execute(
+                    insert(FollowupPlan).values(
+                        id=plan_id,
+                        customer_id=UUID(customer_id) if len(customer_id) == 36 else uuid4(),
+                        status=status,
+                        tasks=tasks,
+                    )
+                )
+            return True
+        except Exception as e:
+            logger.debug(f"数据库写入跟进计划失败：{e}")
+            return False

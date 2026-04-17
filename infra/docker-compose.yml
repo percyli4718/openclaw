@@ -72,7 +72,7 @@ services:
     restart: unless-stopped
     environment:
       # 数据库配置
-      DATABASE_URL: postgresql://baoke:${POSTGRES_PASSWORD:-baoke_tong_dev_password}@postgres:5432/baoke_tong
+      DATABASE_URL: postgresql+asyncpg://baoke:${POSTGRES_PASSWORD:-baoke_tong_dev_password}@postgres:5432/baoke_tong
       REDIS_URL: redis://:${REDIS_PASSWORD:-baoke_tong_redis_password}@redis:6379/0
       QDRANT_URL: http://qdrant:6333
 
